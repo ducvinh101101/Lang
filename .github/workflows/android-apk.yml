@@ -1,0 +1,207 @@
+# Build APK Android cho Lắng (thư mục app/) bằng GitHub Actions.
+#
+# Khi nào chạy:
+#   - push lên main/master/dev/test có thay đổi trong app/  → build APK, tải về ở mục Artifacts của lượt chạy
+#   - pull request vào main/master/dev/test                  → kiểm tra + build (không phát hành)
+#   - đẩy tag dạng v1.2.3                            → build + tạo GitHub Release kèm file APK
+#   - bấm "Run workflow" (tab Actions)               → build tay, có tuỳ chọn nhúng khoá (chỉ để thử nội bộ)
+#
+# KHOÁ API: mặc định APK KHÔNG mang khoá nào. Trợ lý AI và ảnh APOD đi qua máy chủ Vercel của app
+# (APP_SERVER, mặc định https://sense-app-two.vercel.app), khoá nằm trong Vercel → Environment Variables.
+# Xem docs/HUONG_DAN_BUILD_APK_CI.md.
+
+name: Android APK
+
+on:
+  push:
+    branches: [main, master, dev, test]
+    tags: ['v*']
+    paths:
+      - 'app/**'
+      - '.github/workflows/android-apk.yml'
+  pull_request:
+    branches: [main, master, dev, test]
+    paths:
+      - 'app/**'
+      - '.github/workflows/android-apk.yml'
+  workflow_dispatch:
+    inputs:
+      embed_keys:
+        description: 'Nhúng khoá API từ GitHub Secrets vào APK (CHỈ để thử nội bộ — khoá có thể bị trích ra từ APK)'
+        type: boolean
+        default: false
+      run_tests:
+        description: 'Chạy flutter analyze + flutter test'
+        type: boolean
+        default: true
+
+concurrency:
+  group: apk-${{ github.ref }}
+  cancel-in-progress: true
+
+permissions:
+  contents: write # để tạo GitHub Release khi đẩy tag v*
+
+env:
+  FLUTTER_CHANNEL: stable
+  # Ghim đúng bản Flutter mà máy của đội đang dùng (flutter --version) để CI build giống hệt máy.
+  # Bản stable mới nhất có thể đòi Gradle/AGP mới hơn dự án → lỗi build. Nâng cấp Flutter thì sửa số này.
+  FLUTTER_VERSION: '3.44.8'
+  # Máy chủ của app (trợ lý AI, APOD, mô hình tiếng Anh). Đổi bằng Settings → Variables → APP_SERVER.
+  APP_SERVER: ${{ vars.APP_SERVER || 'https://sense-app-two.vercel.app' }}
+
+jobs:
+  # Kiểm tra mã: không chặn việc build APK (job build vẫn chạy kể cả khi job này lỗi)
+  check:
+    name: Kiểm tra (analyze + test)
+    if: github.event_name != 'workflow_dispatch' || inputs.run_tests
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    defaults:
+      run:
+        working-directory: app
+    steps:
+      - uses: actions/checkout@v4
+      - uses: subosito/flutter-action@v2
+        with:
+          channel: ${{ env.FLUTTER_CHANNEL }}
+          flutter-version: ${{ env.FLUTTER_VERSION }}
+          cache: true
+      - run: flutter --version
+      - run: flutter pub get
+      - name: flutter analyze
+        run: flutter analyze --no-fatal-infos --no-fatal-warnings
+      - name: flutter test
+        run: flutter test --reporter expanded
+
+  build-apk:
+    name: Build APK
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    defaults:
+      run:
+        working-directory: app
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '21' # giống JDK 21 trên máy của đội
+          cache: gradle
+
+      - uses: subosito/flutter-action@v2
+        with:
+          channel: ${{ env.FLUTTER_CHANNEL }}
+          flutter-version: ${{ env.FLUTTER_VERSION }}
+          cache: true
+
+      - run: flutter --version
+      - run: flutter pub get
+
+      # Số phiên bản: tag v1.2.3 → 1.2.3; còn lại lấy phần trước dấu + trong pubspec.yaml. Số build = số lượt chạy CI.
+      - name: Đặt số phiên bản
+        id: ver
+        shell: bash
+        run: |
+          if [[ "$GITHUB_REF" == refs/tags/v* ]]; then
+            NAME="${GITHUB_REF_NAME#v}"
+          else
+            NAME="$(grep -m1 '^version:' pubspec.yaml | sed -E 's/version:[[:space:]]*//; s/\+.*//')"
+          fi
+          echo "name=$NAME" >> "$GITHUB_OUTPUT"
+          echo "number=${GITHUB_RUN_NUMBER}" >> "$GITHUB_OUTPUT"
+          echo "Phiên bản: $NAME (build ${GITHUB_RUN_NUMBER})"
+
+      # Ký APK bằng khoá riêng của đội nếu đã cài Secrets; không có thì Gradle ký bằng khoá debug
+      # (khoá debug của máy CI đổi theo từng lượt → không cài đè được lên bản cũ, phải gỡ bản cũ trước).
+      - name: Cài khoá ký APK (nếu có)
+        shell: bash
+        env:
+          KEYSTORE_BASE64: ${{ secrets.ANDROID_KEYSTORE_BASE64 }}
+          KEYSTORE_PASSWORD: ${{ secrets.ANDROID_KEYSTORE_PASSWORD }}
+          KEY_ALIAS: ${{ secrets.ANDROID_KEY_ALIAS }}
+          KEY_PASSWORD: ${{ secrets.ANDROID_KEY_PASSWORD }}
+        run: |
+          if [ -n "$KEYSTORE_BASE64" ]; then
+            echo "$KEYSTORE_BASE64" | base64 -d > "$RUNNER_TEMP/upload-keystore.jks"
+            # android/app/build.gradle.kts đọc các biến này (ANDROID_KEYSTORE_PATH…) để ký bản release
+            {
+              echo "ANDROID_KEYSTORE_PATH=$RUNNER_TEMP/upload-keystore.jks"
+              echo "ANDROID_KEYSTORE_PASSWORD=$KEYSTORE_PASSWORD"
+              echo "ANDROID_KEY_ALIAS=$KEY_ALIAS"
+              echo "ANDROID_KEY_PASSWORD=${KEY_PASSWORD:-$KEYSTORE_PASSWORD}"
+            } >> "$GITHUB_ENV"
+            echo "Ký bằng khoá của đội."
+          else
+            echo "::notice::Chưa có secret ANDROID_KEYSTORE_BASE64 → APK ký bằng khoá debug."
+          fi
+
+      # Chỉ khi bấm Run workflow và tick "embed_keys": ghi keys.json từ Secrets (file này bị xoá ở bước cuối)
+      - name: Ghi keys.json từ Secrets (tuỳ chọn)
+        if: github.event_name == 'workflow_dispatch' && inputs.embed_keys
+        shell: bash
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          NASA_API_KEY: ${{ secrets.NASA_API_KEY }}
+          GOOGLE_WEATHER_KEY: ${{ secrets.GOOGLE_WEATHER_KEY }}
+          FIRMS_MAP_KEY: ${{ secrets.FIRMS_MAP_KEY }}
+          NVIDIA_API_KEY: ${{ secrets.NVIDIA_API_KEY }}
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+        run: |
+          python3 - <<'PY'
+          import json, os
+          names = ["GEMINI_API_KEY", "NASA_API_KEY", "GOOGLE_WEATHER_KEY", "FIRMS_MAP_KEY", "NVIDIA_API_KEY", "GROQ_API_KEY"]
+          keys = {n: os.environ.get(n, "") for n in names if os.environ.get(n)}
+          json.dump(keys, open("keys.json", "w"))
+          print("Nhúng các khoá:", ", ".join(keys) or "(không có secret nào)")
+          PY
+          echo "::warning::APK này có nhúng khoá API. Chỉ dùng thử nội bộ, KHÔNG chia sẻ công khai."
+
+      - name: flutter build apk
+        shell: bash
+        run: |
+          ARGS=(--release --split-per-abi
+                --build-name="${{ steps.ver.outputs.name }}"
+                --build-number="${{ steps.ver.outputs.number }}"
+                --dart-define=APP_SERVER="$APP_SERVER")
+          if [ -f keys.json ]; then ARGS+=(--dart-define-from-file=keys.json); fi
+          flutter build apk "${ARGS[@]}"
+
+      - name: Đổi tên APK
+        id: out
+        shell: bash
+        run: |
+          mkdir -p ../dist
+          SUFFIX=""
+          if [ -f keys.json ]; then SUFFIX="-co-khoa-noi-bo"; fi
+          for f in build/app/outputs/flutter-apk/app-*-release.apk; do
+            abi="$(basename "$f" | sed -E 's/app-(.*)-release.apk/\1/')"
+            cp "$f" "../dist/Lang-${{ steps.ver.outputs.name }}-${abi}${SUFFIX}.apk"
+          done
+          ls -lh ../dist
+          echo "suffix=$SUFFIX" >> "$GITHUB_OUTPUT"
+
+      - name: Xoá khoá khỏi máy CI
+        if: always()
+        shell: bash
+        run: rm -f keys.json "$RUNNER_TEMP/upload-keystore.jks"
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: Lang-apk-${{ steps.ver.outputs.name }}-build${{ steps.ver.outputs.number }}${{ steps.out.outputs.suffix }}
+          path: dist/*.apk
+          retention-days: 30
+
+      # Phát hành chỉ khi đẩy tag v* (lúc này không bao giờ có khoá nhúng trong APK)
+      - name: Tạo GitHub Release
+        if: startsWith(github.ref, 'refs/tags/v')
+        uses: softprops/action-gh-release@v2
+        with:
+          files: dist/*.apk
+          generate_release_notes: true
+          body: |
+            APK Android của Lắng (quả địa cầu biết nói cho người khiếm thị).
+            - Đa số điện thoại: tải file **arm64-v8a**.
+            - Máy rất cũ (32-bit): tải file **armeabi-v7a**.
+            - Cài đặt: mở file APK, cho phép "cài ứng dụng không rõ nguồn" nếu máy hỏi.
