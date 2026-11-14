@@ -1,0 +1,12 @@
+Bộ nhận giọng nói tiếng Việt của app (nút "Nói lệnh")
+
+Mô hình: sherpa-onnx-zipformer-vi-int8-2025-04-20 (Zipformer transducer, int8)
+Tải từ:  https://github.com/k2-fsa/sherpa-onnx/releases/tag/asr-models
+Gốc:     https://huggingface.co/zzasdf/viet_iter3_pseudo_label (huấn luyện trên ~70.000 giờ tiếng Việt)
+Chạy bằng: sherpa-onnx (Apache-2.0)
+
+Đổi tên tệp cho gọn: encoder-epoch-12-avg-8.int8.onnx -> encoder.int8.onnx (chia 3 phần .part0..2, app tự ghép),
+decoder-epoch-12-avg-8.onnx -> decoder.onnx, joiner-epoch-12-avg-8.int8.onnx -> joiner.int8.onnx.
+bpe.vocab sinh từ bpe.model (sentencepiece) để dùng "từ khoá ưu tiên" (hotwords).
+
+Trước khi phát hành công khai: kiểm tra lại giấy phép của mô hình gốc trên trang Hugging Face ở trên.
