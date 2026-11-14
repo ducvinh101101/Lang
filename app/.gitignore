@@ -1,0 +1,25 @@
+.dart_tool/
+.packages
+build/
+.flutter-plugins
+.flutter-plugins-dependencies
+*.iml
+.idea/
+# Dữ liệu trong assets/data/ được commit để cả đội build app có dữ liệu thật (tạo lại: python -m pipeline.update)
+
+# Vercel: Flutter SDK tải về khi build, thư mục liên kết dự án
+.flutter-sdk/
+.vercel/
+
+# Khoá API của riêng bạn — KHÔNG đưa lên git
+keys.json
+.env
+*.env
+
+# thư viện Node cho hàm máy chủ (cài khi deploy)
+node_modules/
+# log của kiem_tra_build.bat (build thử trên máy)
+kiem_tra_build.log
+# log chạy thử trên máy (log.txt ~63 MB)
+log.txt
+*.log

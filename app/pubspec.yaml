@@ -1,0 +1,71 @@
+name: earthsense
+description: "Lắng — quả địa cầu nói và chơi nhạc cụ dân tộc theo thời tiết và khí hậu NASA, cho người khiếm thị."
+publish_to: none
+version: 0.1.0+1
+
+environment:
+  sdk: ">=3.4.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  # Âm thanh độ trễ thấp, đổi cao độ/pan theo thời gian thực (chỉ dùng trong lib/audio/soloud_backend.dart)
+  # 5.x cần Flutter mới hơn (meta ^1.19); 4.1.x có cùng API mà app dùng
+  flutter_soloud: ^4.1.7
+  # Đọc tiếng Việt bằng TTS của hệ điều hành
+  flutter_tts: ^4.2.0
+  shared_preferences: ^2.3.0
+  # Tải gói dữ liệu NASA từ URL (cập nhật dữ liệu không cần phát hành lại app)
+  http: ^1.2.2
+  # Giọng tiếng Việt đóng gói trong app (Piper vi_VN-vais1000, chạy offline) — xem assets/voices/vi/NGUON-GIONG.txt
+  sherpa_onnx: 1.13.8
+  # Thu âm micro cho nút "Nói lệnh" (nhận giọng tiếng Việt chạy trong app bằng sherpa_onnx) — xem assets/asr/vi/NGUON.txt
+  record: ^6.0.0
+  # "Nơi tôi đứng": vị trí GPS (Android/iOS/Windows/web)
+  geolocator: ^13.0.1
+  # Thư mục bền của app để cất mô hình đã giải nén / tải về (thư mục tạm hay bị hệ điều hành dọn)
+  path_provider: ^2.1.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  # Phông chữ đóng gói (OFL): Be Vietnam Pro giống bản web (bỏ Baloo 2 của chế độ bạn nhỏ cũ: web nhẹ hơn ~0,7 MB)
+  fonts:
+    - family: BeVietnamPro
+      fonts:
+        - asset: assets/fonts/BeVietnamPro-Regular.ttf
+        - asset: assets/fonts/BeVietnamPro-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/BeVietnamPro-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/BeVietnamPro-Bold.ttf
+          weight: 700
+  # Output của python -m pipeline.update (frames phẳng: frames/<biến>_<năm>.bin — biến mới không cần sửa file này)
+  assets:
+    # Bản đồ thế giới cho quả địa cầu (Natural Earth 1:50m giản lược — tool/mkworld.py)
+    - assets/world/
+    - assets/data/
+    - assets/data/frames/
+    - assets/sounds/nasa/
+    - assets/touch/vn/
+    # #14 Máy hát Trái Đất: hình NASA SVS đã đổi thành số liệu (python pipeline/build_eic.py)
+    - assets/eic/
+    - assets/eic/nightlights/
+    - assets/eic/lightning/
+    - assets/eic/co2/
+    - assets/eic/ocean/
+    - assets/eic/forest/
+    # Giọng tiếng Việt của app (model.onnx chia 3 phần, app tự ghép khi chạy lần đầu)
+    - assets/voices/vi/
+    - assets/voices/vi/espeak-ng-data/
+    - assets/voices/vi/espeak-ng-data/lang/aav/
+    # Bộ nhận giọng nói tiếng Việt (encoder chia 3 phần, app tự ghép khi chạy lần đầu)
+    - assets/asr/vi/
+    # Nhận giọng tiếng Anh (NVIDIA Parakeet 110M, ~132 MB) KHÔNG đóng gói nữa cho app nhẹ: tải khi chuyển sang tiếng Anh
+    # lần đầu (máy chủ web phát tệp từ assets/asr/en_parakeet — tool/vercel_build.sh)
+    # Phát hiện tiếng nói (Silero VAD, ~0,6 MB): biết lúc bắt đầu / ngừng nói kể cả khi có tiếng quạt, TV — assets/asr/vad/NGUON.txt
+    - assets/asr/vad/
