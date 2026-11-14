@@ -1,0 +1,52 @@
+import os
+import json
+
+OUTPUT_JSON = r"D:\NASA\raw\visual_descriptions_draft.json"
+
+DESCRIPTIONS = {
+    # --------------------------------------------------------------------------
+    # 🪐 NHÓM HÀNH TINH TRONG HỆ MẶT TRỜI (PLANETARY SONIFICATIONS & SOUNDS)
+    # --------------------------------------------------------------------------
+    "moon_radar.mp3": "Dữ liệu phản xạ radar và sóng địa chấn thu được từ các vụ va chạm thiên thạch trên bề mặt Mặt Trăng do các trạm Apollo ghi lại, diễn giải thành chuỗi âm thanh ngân dồn trầm đục, vang vọng giữa không gian chân không tĩnh lặng.",
+    "mercury_sound.mp3": "Dữ liệu tương tác từ trường và gió mặt trời tại Sao Thủy do tàu MESSENGER ghi nhận, được diễn giải thành chuỗi âm thanh dao động tần số cao, tựa như tiếng gió rít dồn dập qua vùng không gian khô khốc.",
+    "venus_atmosphere.mp3": "Sóng vô tuyến hạ âm thu được từ lớp khí quyển dày đặc và các trận bão điện từ trên Sao Kim, dịch chuyển thành chuỗi âm thanh ầm ừ trầm lắng, tạo cảm giác ngột ngạt và bí ẩn.",
+    "earth_chorus.mp3": "Hiện tượng 'Chorus' điện từ phát ra từ vành đai bức xạ Van Allen của Trái Đất, biểu diễn dưới dạng âm thanh tựa như tiếng hót líu lo của đàn chim vào buổi sáng hòa quyện cùng tiếng chim hót vũ trụ.",
+    "mars_wind.mp3": "Âm thanh gió thật do cảm biến địa chấn của tàu InSight thu lại trên bề mặt Sao Hỏa, tạo nên dải âm trầm rền ngân dài, thể hiện sự mênh mông và tĩnh lặng của hành tinh đỏ.",
+    "jupiter_lightning.mp3": "Sóng vô tuyến tần số thấp thu được từ các trận sét khổng lồ trong khí quyển Sao Mộc, phát ra tiếng huýt sáo hạ âm kéo dài qua không gian.",
+    "saturn_radio.mp3": "Sóng vô tuyến biến thiên phát ra từ vùng cực quang của Sao Thổ do tàu Cassini ghi lại, diễn giải thành chuỗi âm thanh rên rỉ trầm bổng đầy huyền bí.",
+    "uranus_waves.mp3": "Tín hiệu sóng vô tuyến phát ra từ từ quyển nghiêng lệch bất thường của Sao Thiên Vương do tàu Voyager 2 thu lại, tạo thành chuỗi âm thanh ngân dài ảo diệu và huyền ảo.",
+    "neptune_plasma.mp3": "Tín hiệu plasma dồn dập từ các cơn bão khí quyển cực mạnh trên Sao Hải Vương, được chuyển đổi thành chuỗi âm thanh rì rào tựa tiếng sóng biển vũ trụ dạt dào.",
+    "pluto_boundary.mp3": "Dữ liệu va chạm giữa gió mặt trời và khí quyển mỏng của Sao Diêm Vương do tàu New Horizons ghi lại, thể hiện dưới dạng các nhịp bíp nhẹ ngắt quãng trên nền âm tĩnh không.",
+    # --------------------------------------------------------------------------
+    # 🔊 NHÓM 1: NASA HISTORICAL SOUNDS (ÂM THANH LỊCH SỬ & TÀU VŨ TRỤ)
+    # --------------------------------------------------------------------------
+    "sputnik_beep.mp3": "Âm thanh gồm các tiếng bíp vô tuyến nhịp nhàng, đều đặn trên nền nhiễu sóng không gian, được vệ tinh nhân tạo đầu tiên Sputnik 1 phát ra và thu lại vào năm 1957.",
+    "apollo11_small_step.mp3": "Đoạn phát thanh vô tuyến lịch sử mang giọng nói của phi công Neil Armstrong từ Mặt Trăng truyền về Trái Đất năm 1969, ghi lại câu nói kinh điển về bước đi nhỏ của một con người.",
+    "apollo13_problem.mp3": "Trích đoạn hội thoại vô tuyến giữa phi đai Apollo 13 và trung tâm điều khiển Houston, báo cáo về sự cố nổ bình dưỡng khí trong không gian năm 1970.",
+    "enceladus_sound.mp3": "Tín hiệu sóng plasma thu được gần mặt trăng Enceladus của Sao Thổ, thể hiện sự tương tác từ trường phức tạp dưới dạng chuỗi tiếng rít và âm rèn dồn dập.",
+    "interstellar_plasma.mp3": "Mật độ sóng plasma trong không gian liên sao do tàu Voyager 1 ghi nhận khi rời khỏi Hệ Mặt Trăng, biểu thị dưới dạng các dải âm tần số cao ngân vang.",
+    "juno_morse_hi.mp3": "Tín hiệu mã Morse chứa thông điệp chào mừng do tàu Juno phát lại khi đi vào từ quyển Sao Mộc, gồm các nhịp bíp ngắn dài ngắt quãng.",
+    "stardust_tempel1.mp3": "Âm thanh va chạm của các hạt bụi và mảng băng nhỏ vào tấm chắn tàu Stardust khi bay qua nhân sao chổi Tempel 1 năm 2005.",
+    "kepler_light_curve.mp3": "Sự thay đổi độ sáng theo chu kỳ của các ngôi sao xa xôi do kính thiên văn Kepler thu thập, được chuyển đổi thành chuỗi âm thanh dao động như nhịp tim.",
+    "voyager_golden_record.mp3": "Trích đoạn tín hiệu âm thanh thu trên Đĩa vàng Voyager mang theo lời chào bằng nhiều ngôn ngữ và âm thanh Trái Đất gửi vào vũ trụ bao la.",
+
+    # --------------------------------------------------------------------------
+    # 🎼 NHÓM 2: CHANDRA SONIFICATION (CHUYỂN DỮ LIỆU THÀNH ÂM THANH)
+    # --------------------------------------------------------------------------
+    "chandra_catseye.mp3": "Hình ảnh thể hiện tinh vân Mắt Mèo với các lớp vỏ khí và bụi đồng tâm rực rỡ, tạo nên cấu trúc tựa như một con mắt vũ trụ phức tạp. Dữ liệu tia X từ kính thiên văn Chandra ở vùng lõi trung tâm được diễn giải bằng các chuỗi âm thanh tần số cao trong trẻo tựa tiếng chuông thủy tinh, hòa quyện cùng dải âm trầm rền ngân dài đại diện cho làn sóng quang học và hồng ngoại ở viền ngoài.",
+    "chandra_m87.mp3": "Bức ảnh siêu lỗ đen khổng lồ tại trung tâm thiên hà M87 đang phóng ra dòng phản lực hạt năng lượng kéo dài hàng nghìn năm ánh sáng. Âm thanh di chuyển theo chiều quay kim đồng hồ từ góc 9 giờ: vùng sóng vô tuyến trầm đục ở khoảng không bao quanh quét dần, tăng tốc và biến đổi thành chuỗi âm thanh tần số cao vút khi chạm vào luồng tia X năng lượng cực lớn tại tâm lỗ đen.",
+    "chandra_galactic_center.mp3": "Hình ảnh thu nhỏ toàn cảnh tâm Thiên hà của chúng ta, nơi tập trung hàng triệu ngôi sao, mây khí nóng và siêu lỗ đen Sagittarius A*. Âm thanh quét từ trái sang phải: độ sáng của các nguồn phát đại diện cho độ to của âm thanh, vị trí từ trên xuống dưới được ánh xạ thành tần số âm thanh từ cao đến thấp, tạo nên một bản hòa tấu vũ trụ dồn dập với tiếng chuông ngân và âm thanh tổng hợp rèn rào.",
+    "chandra_pillars.mp3": "Bức ảnh hiển thị các cột mây bụi và khí hydro khổng lồ nơi các ngôi sao mới đang được sinh ra trong Tinh vân Đại Bàng. Bản sonification quét qua các tháp bụi từ trái sang phải: các ngôi sao trẻ phát ra tia X được biểu diễn bằng các tiếng bíp và tiếng gõ lách cách sắc nét, trong khi các dải khí hydro lạnh xung quanh tỏa ra âm thanh nền ngân dài nhẹ nhàng.",
+    "chandra_cas_a.mp3": "Hình ảnh dải mây tàn tích còn lại sau một vụ nổ sao siêu mới khổng lồ. Âm thanh quét từ tâm ra ngoài theo dạng vòng tròn đồng tâm: các nguyên tố hóa học khác nhau được gán các dải âm riêng biệt — sắt phát ra tiếng trầm, silicon và lưu huỳnh biểu thị bằng dải âm trung, còn dải tia X năng lượng cao nhất của sóng xung kích tạo nên âm thanh tần số cao vút.",
+    "chandra_crab_nebula.mp3": "Bức ảnh tàn tích sao siêu mới với một ngôi sao pulsar xoay cực nhanh ở trung tâm. Âm thanh quét qua các dải dữ liệu từ kính Chandra (tia X), Hubble (quang học) và Spitzer (hồng ngoại): năng lượng tia X từ tâm pulsar tạo nên tiếng huýt sáo dồn dập, kết hợp với âm trầm sâu của dải bụi hồng ngoại xung quanh.",
+    "chandra_jupiter.mp3": "Dữ liệu biểu diễn cực quang tia X rực rỡ ở hai cực của Sao Mộc. Sự va chạm của các hạt mang điện tích vào khí quyển hành tinh được dịch sang chuỗi âm thanh dao động liên tục, tựa như tiếng sóng điện từ nhấp nhổm trên nền âm trầm của từ quyển khổng lồ."
+}
+
+def build_json():
+    os.makedirs(os.path.dirname(OUTPUT_JSON), exist_ok=True)
+    with open(OUTPUT_JSON, "w", encoding="utf-8") as f:
+        json.dump(DESCRIPTIONS, f, ensure_ascii=False, indent=2)
+    print(f"✅ Đã cập nhật thành công {len(DESCRIPTIONS)} mô tả trợ năng đầy đủ vào: {OUTPUT_JSON}")
+
+if __name__ == "__main__":
+    build_json()

@@ -1,0 +1,8 @@
+# Python >= 3.10 (f1/.python-version selects 3.14 for uv).
+# The export scripts and tests use only the Python standard library.
+# Install curl separately and add it to PATH to download source data.
+# F3 (crawl_f3.py, build_f3.py):
+numpy
+pillow
+requests
+earthaccess

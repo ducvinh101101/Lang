@@ -1,0 +1,51 @@
+# Private files and local configuration
+/local-private/
+.env
+.env.*
+!.env.example
+!.env.*.example
+
+# IDE metadata
+.idea/
+.vscode/
+.vs/
+*.iml
+
+# Operating system metadata
+Thumbs.db
+ehthumbs.db
+[Dd]esktop.ini
+.DS_Store
+
+# Python environments, bytecode, and tool caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+
+# Binary / Executables (Chặn file nặng > 100MB tránh lỗi GitHub)
+ffmpeg.exe
+*.exe
+
+# Dữ liệu podcast/audio thô quá nặng (> 1.6GB)
+raw/audio/
+
+# Thư mục lưu trữ code/dữ liệu nháp cũ
+archive/
+
+# F3: file gốc nặng, ai cũng tải lại được bằng crawl_f3.py (giữ raw/manifest.json làm nhật ký nguồn)
+raw/boundaries/
+raw/geojson/
+raw/srtm/
+raw/gpw/
+raw/gpw_water/
+!raw/manifest.json
+exports/cells_p*.csv
+
+# Video NASA SVS cho Máy hát Trái Đất (~720 MB): tải lại bằng svs/tai_svs.bat; app chỉ cần app/assets/eic/
+svs/full/
+svs/*.mp4
