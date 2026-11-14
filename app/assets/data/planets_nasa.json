@@ -1,0 +1,1011 @@
+{
+  "data_card": {
+    "dataset": "NASA NSSDCA Planetary Fact Sheet (Metric) & NASA Science Solar System Exploration",
+    "provider": "NASA Space Science Data Coordinated Archive (NSSDCA) — Goddard Space Flight Center",
+    "url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/",
+    "accessed": "2026-11-08",
+    "spatial": "Hệ Mặt Trời (Mặt Trời, 8 hành tinh và Mặt Trăng)",
+    "temporal": "Cập nhật theo chuẩn NASA tính đến năm 2026 (số lượng vệ tinh theo NASA/IAU cập nhật mới nhất)",
+    "processing": "Chuẩn hóa sang hệ đơn vị mét (km, triệu km, giờ, ngày Trái Đất, °C, m/s²); quy đổi tỷ lệ kích thước theo mô hình 'Trái Đất bằng hạt đậu xanh 8 mm'.",
+    "limitation_vi": "Khoảng cách là trung bình bán trục lớn quỹ đạo; nhiệt độ với các hành tinh khí (Sao Mộc, Sao Thổ, Sao Thiên Vương, Sao Hải Vương) được NASA đo tại tầng mây áp suất 1 bar.",
+    "citation": "Williams, D. R. (2026). NASA Planetary Fact Sheet - Metric. NASA Goddard Space Flight Center.",
+    "audio_kind": "app_sonification"
+  },
+  "bodies": [
+    {
+      "id": "sun",
+      "sound_index": 0,
+      "name_vi": "Mặt Trời",
+      "name_en": "the Sun",
+      "body_type_vi": "Ngôi sao lùn vàng (quả cầu plasma)",
+      "diameter_km": 1392700,
+      "size_vs_earth": 109.2,
+      "pea_model_vi": "Nếu Trái Đất là hạt đậu xanh 8 mm thì Mặt Trời to bằng quả bóng tập thể dục đường kính 87 cm",
+      "pea_model_en": "If Earth is an 8 mm green pea, the Sun is an 87 cm exercise ball",
+      "distance_from_sun_mkm": 0.0,
+      "distance_from_earth_mkm": 149.6,
+      "light_time_minutes": 8.3,
+      "rotation_period_hours": 609.12,
+      "solar_day_hours": 609.12,
+      "orbital_period_days": 0.0,
+      "mean_temp_c": 5500,
+      "core_temp_c": 15000000,
+      "gravity_m_s2": 274.0,
+      "gravity_vs_earth": 27.9,
+      "moons_count": 0,
+      "moons_note_vi": "Không có mặt trăng, nhưng có 8 hành tinh quay quanh (theo NASA, tính đến năm 2026)",
+      "moons_note_en": "0 moons; orbited by 8 planets (per NASA, as of 2026)",
+      "has_rings": false,
+      "audio_kind": "app_sonification",
+      "source_url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/sunfact.html",
+      "fun_facts": [
+        {
+          "vi": "Mặt Trời chiếm khoảng 99,8 phần trăm khối lượng của cả Hệ Mặt Trời.",
+          "en": "The Sun holds about 99.8 percent of all the mass in the Solar System."
+        },
+        {
+          "vi": "Khoảng 1,3 triệu Trái Đất mới lấp đầy được Mặt Trời.",
+          "en": "About 1.3 million Earths could fit inside the Sun."
+        },
+        {
+          "vi": "Ánh sáng rời bề mặt Mặt Trời mất khoảng 8 phút 20 giây mới tới Trái Đất.",
+          "en": "Light leaving the surface of the Sun takes about 8 minutes 20 seconds to reach Earth."
+        },
+        {
+          "vi": "Lõi Mặt Trời nóng khoảng 15 triệu độ C.",
+          "en": "The core of the Sun is about 15 million degrees Celsius."
+        },
+        {
+          "vi": "Mặt Trời đã khoảng 4,6 tỉ năm tuổi và mới đi được nửa đời.",
+          "en": "The Sun is about 4.6 billion years old, roughly halfway through its life."
+        },
+        {
+          "vi": "Lực hấp dẫn của Mặt Trời giữ toàn bộ hệ Mặt Trời của chúng ta lại với nhau. Hệ Mặt Trời của chúng ta thậm chí còn được đặt tên theo Mặt Trời (từ tiếng Latin có nghĩa là Mặt Trời là “sol”).",
+          "en": "",
+          "source": "NASA Space Place",
+          "url": "https://spaceplace.nasa.gov/all-about-the-sun/"
+        },
+        {
+          "vi": "Nhiệt từ Mặt Trời làm cho Trái Đất đủ ấm để sinh sống.",
+          "en": "",
+          "source": "NASA Space Place",
+          "url": "https://spaceplace.nasa.gov/all-about-the-sun/"
+        },
+        {
+          "vi": "Nếu không có ánh sáng từ Mặt Trời, sẽ không có thực vật hay động vật - và do đó, không có thức ăn và chúng ta sẽ không tồn tại.",
+          "en": "",
+          "source": "NASA Space Place",
+          "url": "https://spaceplace.nasa.gov/all-about-the-sun/"
+        },
+        {
+          "vi": "Mặt Trời trải qua những thăng trầm trong hoạt động giống như những ngọn lửa Mặt Trời. Nó hoạt động mạnh hơn với nhiều vết đen Mặt Trời hơn và sau đó ít hoạt động hơn trong khoảng thời gian 11 năm. Đây được gọi là chu kỳ Mặt Trời.",
+          "en": "",
+          "source": "NASA Space Place",
+          "url": "https://spaceplace.nasa.gov/all-about-the-sun/"
+        },
+        {
+          "vi": "Mặt Trời đang dần sáng hơn kể từ khi nó được sinh ra. Vài tỷ năm trước, Mặt Trời mờ hơn bây giờ một chút.",
+          "en": "",
+          "source": "NASA Space Place",
+          "url": "https://spaceplace.nasa.gov/all-about-the-sun/"
+        },
+        {
+          "vi": "Mặt Trời chứa gần như TẤT CẢ vật chất trong hệ Mặt Trời của chúng ta. 99% của nó. Tất cả các hành tinh, tiểu hành tinh và sao chổi cộng lại chỉ chiếm chưa đến 1% tổng số.",
+          "en": "",
+          "source": "NASA Space Place",
+          "url": "https://spaceplace.nasa.gov/all-about-the-sun/"
+        },
+        {
+          "vi": "Mặt Trời ở xa đến mức ánh sáng phải mất khoảng 8 phút 20 giây mới đến được chúng ta – và ánh sáng là thứ nhanh nhất trong vũ trụ.",
+          "en": "",
+          "source": "NASA Space Place",
+          "url": "https://spaceplace.nasa.gov/all-about-the-sun/"
+        }
+      ],
+      "fun_facts_source_url": "https://science.nasa.gov/sun/facts/"
+    },
+    {
+      "id": "mercury",
+      "sound_index": 1,
+      "name_vi": "Sao Thủy",
+      "name_en": "Mercury",
+      "body_type_vi": "Hành tinh đất đá",
+      "diameter_km": 4879,
+      "size_vs_earth": 0.383,
+      "pea_model_vi": "Nếu Trái Đất là hạt đậu xanh 8 mm thì Sao Thủy nhỏ như một hạt vừng (3 mm)",
+      "pea_model_en": "If Earth is an 8 mm pea, Mercury is a 3 mm sesame seed",
+      "distance_from_sun_mkm": 57.9,
+      "light_time_minutes": 3.2,
+      "rotation_period_hours": 1407.6,
+      "solar_day_hours": 4222.6,
+      "orbital_period_days": 88.0,
+      "mean_temp_c": 167,
+      "temp_range_vi": "Ban ngày +430°C, ban đêm -180°C",
+      "gravity_m_s2": 3.7,
+      "gravity_vs_earth": 0.38,
+      "moons_count": 0,
+      "moons_note_vi": "0 vệ tinh tự nhiên (theo NASA, tính đến năm 2026)",
+      "moons_note_en": "0 moons (per NASA, as of 2026)",
+      "has_rings": false,
+      "audio_kind": "app_sonification",
+      "source_url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/mercuryfact.html",
+      "fun_facts": [
+        {
+          "vi": "Sao Thủy là hành tinh nhỏ nhất, chỉ lớn hơn Mặt Trăng một chút.",
+          "en": "Mercury is the smallest planet, only a little bigger than the Moon."
+        },
+        {
+          "vi": "Dù gần Mặt Trời nhất, Sao Thủy không phải hành tinh nóng nhất; Sao Kim mới nóng nhất.",
+          "en": "Although closest to the Sun, Mercury is not the hottest planet; Venus is."
+        },
+        {
+          "vi": "Sao Thủy gần như không có không khí giữ nhiệt: ban ngày 430 độ C, ban đêm âm 180 độ C.",
+          "en": "With almost no air to hold heat, Mercury swings from 430 °C by day to minus 180 °C at night."
+        },
+        {
+          "vi": "Tàu MESSENGER của NASA tìm thấy băng nước trong các hố luôn chìm trong bóng tối ở hai cực Sao Thủy.",
+          "en": "NASA's MESSENGER found water ice in permanently shadowed craters at the poles of Mercury."
+        },
+        {
+          "vi": "Từ lúc mặt trời mọc đến lần mọc sau trên Sao Thủy mất 176 ngày Trái Đất, bằng hai năm của nó.",
+          "en": "From one sunrise to the next on Mercury takes 176 Earth days, two of its years."
+        },
+        {
+          "vi": "Sao Thủy là hành tinh nhỏ nhất trong hệ Mặt Trời của chúng ta.",
+          "en": "",
+          "source": "NASA Space Place",
+          "url": "https://spaceplace.nasa.gov/all-about-mercury/en/"
+        },
+        {
+          "vi": "Sao Thủy là một hành tinh trên mặt đất. Nó nhỏ và nhiều đá.",
+          "en": "",
+          "source": "NASA Space Place",
+          "url": "https://spaceplace.nasa.gov/all-about-mercury/en/"
+        },
+        {
+          "vi": "Sao Thủy có tầng ngoài mỏng.",
+          "en": "",
+          "source": "NASA Space Place",
+          "url": "https://spaceplace.nasa.gov/all-about-mercury/en/"
+        },
+        {
+          "vi": "Cực của Sao Thủy có nước băng.",
+          "en": "",
+          "source": "NASA Space Place",
+          "url": "https://spaceplace.nasa.gov/all-about-mercury/en/"
+        },
+        {
+          "vi": "Một ngày trên Sao Thủy kéo dài 59 ngày trên Trái Đất.",
+          "en": "",
+          "source": "NASA Space Place",
+          "url": "https://spaceplace.nasa.gov/all-about-mercury/en/"
+        },
+        {
+          "vi": "Một năm trên Sao Thủy kéo dài 88 ngày trên Trái Đất.",
+          "en": "",
+          "source": "NASA Space Place",
+          "url": "https://spaceplace.nasa.gov/all-about-mercury/en/"
+        },
+        {
+          "vi": "Sao Thủy không có bất kỳ Mặt Trăng nào.",
+          "en": "",
+          "source": "NASA Space Place",
+          "url": "https://spaceplace.nasa.gov/all-about-mercury/en/"
+        },
+        {
+          "vi": "Sao Thủy là hành tinh gần Mặt Trời nhất.",
+          "en": "",
+          "source": "NASA Space Place",
+          "url": "https://spaceplace.nasa.gov/all-about-mercury/en/"
+        },
+        {
+          "vi": "Sao Kim là hành tinh lân cận của Sao Thủy.",
+          "en": "",
+          "source": "NASA Space Place",
+          "url": "https://spaceplace.nasa.gov/all-about-mercury/en/"
+        },
+        {
+          "vi": "Sao Thủy đã được biết đến từ thời cổ đại vì nó có thể được nhìn thấy mà không cần kính thiên văn tiên tiến.",
+          "en": "",
+          "source": "NASA Space Place",
+          "url": "https://spaceplace.nasa.gov/all-about-mercury/en/"
+        },
+        {
+          "vi": "Vì quá gần Mặt Trời nên Sao Thủy khó có thể nghiên cứu từ Trái Đất. Chưa có người nào từng đến Sao Thủy, nhưng có hai tàu vũ trụ robot đã đến thăm. Tàu vũ trụ được gọi là Mariner 10 và MESSENGER.",
+          "en": "",
+          "source": "NASA Space Place",
+          "url": "https://spaceplace.nasa.gov/all-about-mercury/en/"
+        },
+        {
+          "vi": "MESSENGER đã lập bản đồ Sao Thủy bằng cách chụp ảnh bề mặt hành tinh này, bao gồm một số khu vực chưa từng được nhìn thấy trước đây. Nó cũng thu thập thông tin về cấu tạo bề mặt và bên trong của Sao Thủy.",
+          "en": "",
+          "source": "NASA Space Place",
+          "url": "https://spaceplace.nasa.gov/all-about-mercury/en/"
+        }
+      ],
+      "fun_facts_source_url": "https://science.nasa.gov/mercury/facts/"
+    },
+    {
+      "id": "venus",
+      "sound_index": 2,
+      "name_vi": "Sao Kim",
+      "name_en": "Venus",
+      "body_type_vi": "Hành tinh đất đá",
+      "diameter_km": 12104,
+      "size_vs_earth": 0.949,
+      "pea_model_vi": "Nếu Trái Đất là hạt đậu xanh 8 mm thì Sao Kim là hạt đậu xanh 7,6 mm gần bằng hệt",
+      "pea_model_en": "If Earth is an 8 mm pea, Venus is a 7.6 mm pea",
+      "distance_from_sun_mkm": 108.2,
+      "light_time_minutes": 6.0,
+      "rotation_period_hours": -5832.5,
+      "solar_day_hours": 2802.0,
+      "orbital_period_days": 224.7,
+      "mean_temp_c": 464,
+      "gravity_m_s2": 8.9,
+      "gravity_vs_earth": 0.9,
+      "moons_count": 0,
+      "moons_note_vi": "0 vệ tinh tự nhiên (theo NASA, tính đến năm 2026)",
+      "moons_note_en": "0 moons (per NASA, as of 2026)",
+      "has_rings": false,
+      "audio_kind": "app_sonification",
+      "source_url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/venusfact.html",
+      "fun_facts": [
+        {
+          "vi": "Sao Kim là hành tinh nóng nhất, khoảng 465 độ C, đủ làm chảy chì.",
+          "en": "Venus is the hottest planet, about 465 °C, hot enough to melt lead."
+        },
+        {
+          "vi": "Sao Kim tự quay ngược chiều, nên mặt trời mọc ở hướng tây.",
+          "en": "Venus spins backwards, so the Sun rises in the west."
+        },
+        {
+          "vi": "Sao Kim tự quay một vòng mất 243 ngày, lâu hơn cả một năm của nó là 225 ngày.",
+          "en": "Venus takes 243 days to spin once, longer than its 225-day year."
+        },
+        {
+          "vi": "Áp suất trên mặt Sao Kim gấp khoảng 90 lần Trái Đất, như lặn sâu gần một ki-lô-mét dưới biển.",
+          "en": "Air pressure on Venus is about 90 times that of Earth, like being nearly a kilometre under the sea."
+        },
+        {
+          "vi": "Mây trên Sao Kim chứa a-xít sun-phu-ric.",
+          "en": "The clouds of Venus contain sulfuric acid."
+        },
+        {
+          "vi": "Sao Kim là hành tinh nóng nhất trong hệ Mặt Trời của chúng ta.",
+          "en": "",
+          "source": "NASA Space Place",
+          "url": "https://spaceplace.nasa.gov/all-about-venus/en/"
+        },
+        {
+          "vi": "Sao Kim là một hành tinh trên mặt đất. Nó nhỏ và nhiều đá.",
+          "en": "",
+          "source": "NASA Space Place",
+          "url": "https://spaceplace.nasa.gov/all-about-venus/en/"
+        },
+        {
+          "vi": "Sao Kim có bầu khí quyển dày đặc. Nó giữ nhiệt và khiến Sao Kim rất nóng.",
+          "en": "",
+          "source": "NASA Space Place",
+          "url": "https://spaceplace.nasa.gov/all-about-venus/en/"
+        },
+        {
+          "vi": "Sao Kim có bề mặt hoạt động, bao gồm cả núi lửa!",
+          "en": "",
+          "source": "NASA Space Place",
+          "url": "https://spaceplace.nasa.gov/all-about-venus/en/"
+        },
+        {
+          "vi": "Sao Kim quay theo hướng ngược lại với Trái Đất và hầu hết các hành tinh khác.",
+          "en": "",
+          "source": "NASA Space Place",
+          "url": "https://spaceplace.nasa.gov/all-about-venus/en/"
+        },
+        {
+          "vi": "Một ngày trên Sao Kim kéo dài 243 ngày trên Trái Đất.",
+          "en": "",
+          "source": "NASA Space Place",
+          "url": "https://spaceplace.nasa.gov/all-about-venus/en/"
+        },
+        {
+          "vi": "Một năm trên Sao Kim kéo dài 225 ngày trên Trái Đất.",
+          "en": "",
+          "source": "NASA Space Place",
+          "url": "https://spaceplace.nasa.gov/all-about-venus/en/"
+        },
+        {
+          "vi": "Sao Kim không có bất kỳ Mặt Trăng nào.",
+          "en": "",
+          "source": "NASA Space Place",
+          "url": "https://spaceplace.nasa.gov/all-about-venus/en/"
+        },
+        {
+          "vi": "Sao Kim là hành tinh thứ hai tính từ Mặt Trời. Điều đó có nghĩa là Sao Thủy và Trái Đất là các hành tinh lân cận của Sao Kim.",
+          "en": "",
+          "source": "NASA Space Place",
+          "url": "https://spaceplace.nasa.gov/all-about-venus/en/"
+        },
+        {
+          "vi": "Sao Kim đã được biết đến từ thời cổ đại vì nó có thể được nhìn thấy dễ dàng mà không cần kính viễn vọng.",
+          "en": "",
+          "source": "NASA Space Place",
+          "url": "https://spaceplace.nasa.gov/all-about-venus/en/"
+        },
+        {
+          "vi": "Sao Kim đã được viếng thăm bởi một số tàu vũ trụ: Mariner 2, Mariner 5, Mariner 10, Pioneer Venus 1, Pioneer Venus 2 và một tàu quỹ đạo tên là Magellan.",
+          "en": "",
+          "source": "NASA Space Place",
+          "url": "https://spaceplace.nasa.gov/all-about-venus/en/"
+        }
+      ],
+      "fun_facts_source_url": "https://science.nasa.gov/venus/facts/"
+    },
+    {
+      "id": "earth",
+      "sound_index": 3,
+      "name_vi": "Trái Đất",
+      "name_en": "Earth",
+      "body_type_vi": "Hành tinh đất đá (có đại dương và sự sống)",
+      "diameter_km": 12756,
+      "size_vs_earth": 1.0,
+      "pea_model_vi": "Mốc chuẩn hạt đậu xanh đường kính 8 mm",
+      "pea_model_en": "Reference 8 mm green pea",
+      "distance_from_sun_mkm": 149.6,
+      "light_time_minutes": 8.3,
+      "rotation_period_hours": 23.9,
+      "solar_day_hours": 24.0,
+      "orbital_period_days": 365.2,
+      "mean_temp_c": 15,
+      "gravity_m_s2": 9.8,
+      "gravity_vs_earth": 1.0,
+      "moons_count": 1,
+      "moons_note_vi": "1 vệ tinh tự nhiên là Mặt Trăng (theo NASA, tính đến năm 2026)",
+      "moons_note_en": "1 natural satellite, the Moon (per NASA, as of 2026)",
+      "has_rings": false,
+      "audio_kind": "app_sonification",
+      "source_url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/earthfact.html",
+      "fun_facts": [
+        {
+          "vi": "Khoảng 71 phần trăm bề mặt Trái Đất là nước; đây là hành tinh duy nhất ta biết có nước lỏng trên mặt.",
+          "en": "About 71 percent of Earth is covered by water; it is the only planet known to have liquid water on its surface."
+        },
+        {
+          "vi": "Không khí Trái Đất có khoảng 78 phần trăm khí ni-tơ và 21 phần trăm khí ô-xy.",
+          "en": "The air on Earth is about 78 percent nitrogen and 21 percent oxygen."
+        },
+        {
+          "vi": "Trái Đất là hành tinh đặc nhất trong Hệ Mặt Trời.",
+          "en": "Earth is the densest planet in the Solar System."
+        },
+        {
+          "vi": "Từ trường Trái Đất che chắn gió Mặt Trời và tạo ra cực quang.",
+          "en": "The magnetic field of Earth shields us from the solar wind and creates the auroras."
+        },
+        {
+          "vi": "Trái Đất quay chậm dần rất ít, nên ngày dài thêm khoảng 1,7 phần nghìn giây mỗi thế kỷ.",
+          "en": "The spin of Earth is slowing very slightly, adding about 1.7 milliseconds to the day each century."
+        },
+        {
+          "vi": "Trái Đất là một hành tinh trên mặt đất. Nó nhỏ và nhiều đá.",
+          "en": "",
+          "source": "NASA Space Place",
+          "url": "https://spaceplace.nasa.gov/all-about-earth/en/"
+        },
+        {
+          "vi": "Một ngày trên Trái Đất kéo dài dưới 24 giờ một chút.",
+          "en": "",
+          "source": "NASA Space Place",
+          "url": "https://spaceplace.nasa.gov/all-about-earth/en/"
+        },
+        {
+          "vi": "Một năm trên Trái Đất kéo dài 365,25 ngày. Khoản tăng thêm 0,25 đó có nghĩa là cứ bốn năm một lần chúng ta cần thêm một ngày vào lịch của mình. Chúng ta gọi đó là ngày nhuận (trong năm nhuận).",
+          "en": "",
+          "source": "NASA Space Place",
+          "url": "https://spaceplace.nasa.gov/all-about-earth/en/"
+        },
+        {
+          "vi": "Trái Đất chỉ có một Mặt Trăng. Đây là hành tinh duy nhất chỉ có một Mặt Trăng.",
+          "en": "",
+          "source": "NASA Space Place",
+          "url": "https://spaceplace.nasa.gov/all-about-earth/en/"
+        },
+        {
+          "vi": "Trái Đất có rất nhiều tàu vũ trụ đang theo dõi nó. Vẫn còn rất nhiều điều chúng ta có thể tìm hiểu về hành tinh quê nhà của mình.",
+          "en": "",
+          "source": "NASA Space Place",
+          "url": "https://spaceplace.nasa.gov/all-about-earth/en/"
+        },
+        {
+          "vi": "Trái Đất là hành tinh thứ ba tính từ Mặt Trời trong hệ Mặt Trời của chúng ta. Điều đó có nghĩa là Sao Kim và Sao Hỏa là các hành tinh lân cận của Trái Đất.",
+          "en": "",
+          "source": "NASA Space Place",
+          "url": "https://spaceplace.nasa.gov/all-about-earth/en/"
+        },
+        {
+          "vi": "Tất nhiên, chúng ta đã biết về hành tinh của mình từ thời cổ đại. Nhưng chúng ta đã không biết vị trí của mình trong hệ Mặt Trời trong một thời gian dài.",
+          "en": "",
+          "source": "NASA Space Place",
+          "url": "https://spaceplace.nasa.gov/all-about-earth/en/"
+        }
+      ],
+      "fun_facts_source_url": "https://science.nasa.gov/earth/facts/"
+    },
+    {
+      "id": "moon",
+      "sound_index": 4,
+      "name_vi": "Mặt Trăng",
+      "name_en": "the Moon",
+      "body_type_vi": "Vệ tinh tự nhiên của Trái Đất",
+      "diameter_km": 3475,
+      "size_vs_earth": 0.272,
+      "pea_model_vi": "Nếu Trái Đất là hạt đậu xanh 8 mm thì Mặt Trăng như hạt kê 2,2 mm đặt cách 24 cm (một gang tay)",
+      "pea_model_en": "If Earth is an 8 mm pea, the Moon is a 2.2 mm millet seed 24 cm away",
+      "distance_from_sun_mkm": 149.6,
+      "distance_from_earth_mkm": 0.3844,
+      "light_time_minutes": 0.021,
+      "rotation_period_hours": 655.7,
+      "solar_day_hours": 708.7,
+      "orbital_period_days": 27.3,
+      "mean_temp_c": -20,
+      "temp_range_vi": "Ban ngày +120°C, ban đêm -170°C",
+      "gravity_m_s2": 1.6,
+      "gravity_vs_earth": 0.165,
+      "moons_count": 0,
+      "moons_note_vi": "Chính là vệ tinh tự nhiên của Trái Đất",
+      "moons_note_en": "Earth's natural satellite",
+      "has_rings": false,
+      "audio_kind": "app_sonification",
+      "source_url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/moonfact.html",
+      "fun_facts": [
+        {
+          "vi": "Mặt Trăng đang rời xa Trái Đất khoảng 3,8 xăng-ti-mét mỗi năm.",
+          "en": "The Moon is moving away from Earth by about 3.8 centimetres a year."
+        },
+        {
+          "vi": "Mặt Trăng luôn quay một mặt về phía Trái Đất.",
+          "en": "The Moon always shows the same face to Earth."
+        },
+        {
+          "vi": "Từ năm 1969 đến 1972, 12 người đã đi bộ trên Mặt Trăng.",
+          "en": "Between 1969 and 1972, twelve people walked on the Moon."
+        },
+        {
+          "vi": "Mặt Trăng không có gió, nên dấu chân phi hành gia có thể còn đó hàng triệu năm.",
+          "en": "With no wind on the Moon, the footprints of astronauts could last for millions of years."
+        },
+        {
+          "vi": "Lực hút của Mặt Trăng tạo ra thủy triều lên xuống ở biển Trái Đất.",
+          "en": "The gravity of the Moon raises the tides in the oceans of Earth."
+        }
+      ],
+      "fun_facts_source_url": "https://science.nasa.gov/moon/facts/"
+    },
+    {
+      "id": "mars",
+      "sound_index": 5,
+      "name_vi": "Sao Hỏa",
+      "name_en": "Mars",
+      "body_type_vi": "Hành tinh đất đá (Hành tinh Đỏ)",
+      "diameter_km": 6792,
+      "size_vs_earth": 0.532,
+      "pea_model_vi": "Nếu Trái Đất là hạt đậu xanh 8 mm thì Sao Hỏa cỡ hạt tiêu đen 4,2 mm",
+      "pea_model_en": "If Earth is an 8 mm pea, Mars is a 4.2 mm peppercorn",
+      "distance_from_sun_mkm": 228.0,
+      "light_time_minutes": 12.7,
+      "rotation_period_hours": 24.6,
+      "solar_day_hours": 24.7,
+      "orbital_period_days": 687.0,
+      "mean_temp_c": -65,
+      "gravity_m_s2": 3.7,
+      "gravity_vs_earth": 0.38,
+      "moons_count": 2,
+      "moons_note_vi": "2 vệ tinh nhỏ là Phobos và Deimos (theo NASA, tính đến năm 2026)",
+      "moons_note_en": "2 small moons, Phobos and Deimos (per NASA, as of 2026)",
+      "has_rings": false,
+      "audio_kind": "app_sonification",
+      "source_url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/marsfact.html",
+      "fun_facts": [
+        {
+          "vi": "Núi lửa Olympus trên Sao Hỏa cao khoảng 22 ki-lô-mét, gấp hai lần rưỡi đỉnh Everest.",
+          "en": "Olympus Mons on Mars is about 22 kilometres tall, two and a half times Mount Everest."
+        },
+        {
+          "vi": "Hẻm núi Valles Marineris trên Sao Hỏa dài khoảng 4.000 ki-lô-mét, hơn gấp đôi chiều dài Việt Nam.",
+          "en": "The Valles Marineris canyon on Mars is about 4,000 kilometres long."
+        },
+        {
+          "vi": "Hoàng hôn trên Sao Hỏa có màu xanh lam.",
+          "en": "Sunsets on Mars look blue."
+        },
+        {
+          "vi": "Sao Hỏa có màu đỏ vì đất đá chứa nhiều gỉ sắt.",
+          "en": "Mars looks red because its soil is full of rusty iron."
+        },
+        {
+          "vi": "Năm 2021, trực thăng Ingenuity của NASA bay trên Sao Hỏa, chuyến bay có động cơ đầu tiên trên một hành tinh khác.",
+          "en": "In 2021 the NASA Ingenuity helicopter made the first powered flight on another planet, on Mars."
+        },
+        {
+          "vi": "Sao Hỏa là một hành tinh trên mặt đất. Nó nhỏ và nhiều đá.",
+          "en": "",
+          "source": "NASA Space Place",
+          "url": "https://spaceplace.nasa.gov/all-about-mars/en/"
+        },
+        {
+          "vi": "Sao Hỏa có bầu khí quyển mỏng.",
+          "en": "",
+          "source": "NASA Space Place",
+          "url": "https://spaceplace.nasa.gov/all-about-mars/en/"
+        },
+        {
+          "vi": "Sao Hỏa có bầu khí quyển hoạt động, nhưng bề mặt hành tinh không hoạt động. Núi lửa của nó đã chết.",
+          "en": "",
+          "source": "NASA Space Place",
+          "url": "https://spaceplace.nasa.gov/all-about-mars/en/"
+        },
+        {
+          "vi": "Một ngày trên Sao Hỏa kéo dài 24,6 giờ. Nó chỉ dài hơn một ngày một chút trên Trái Đất.",
+          "en": "",
+          "source": "NASA Space Place",
+          "url": "https://spaceplace.nasa.gov/all-about-mars/en/"
+        },
+        {
+          "vi": "Một năm trên Sao Hỏa là 687 ngày trên Trái Đất. Nó dài gần gấp đôi một năm trên Trái Đất.",
+          "en": "",
+          "source": "NASA Space Place",
+          "url": "https://spaceplace.nasa.gov/all-about-mars/en/"
+        },
+        {
+          "vi": "Sao Hỏa có hai Mặt Trăng. Tên của họ là Phobos và Deimos.",
+          "en": "",
+          "source": "NASA Space Place",
+          "url": "https://spaceplace.nasa.gov/all-about-mars/en/"
+        },
+        {
+          "vi": "Sao Hỏa là hành tinh thứ tư tính từ Mặt Trời. Điều đó có nghĩa là Trái Đất và Sao Mộc là các hành tinh lân cận của Sao Hỏa.",
+          "en": "",
+          "source": "NASA Space Place",
+          "url": "https://spaceplace.nasa.gov/all-about-mars/en/"
+        },
+        {
+          "vi": "Sao Hỏa đã được biết đến từ thời cổ đại vì nó có thể được nhìn thấy mà không cần kính thiên văn tiên tiến.",
+          "en": "",
+          "source": "NASA Space Place",
+          "url": "https://spaceplace.nasa.gov/all-about-mars/en/"
+        }
+      ],
+      "fun_facts_source_url": "https://science.nasa.gov/mars/facts/"
+    },
+    {
+      "id": "jupiter",
+      "sound_index": 6,
+      "name_vi": "Sao Mộc",
+      "name_en": "Jupiter",
+      "body_type_vi": "Hành tinh khí khổng lồ",
+      "diameter_km": 142984,
+      "size_vs_earth": 11.21,
+      "pea_model_vi": "Nếu Trái Đất là hạt đậu xanh 8 mm thì Sao Mộc to bằng quả cam lớn đường kính 9 cm",
+      "pea_model_en": "If Earth is an 8 mm pea, Jupiter is a 9 cm large orange",
+      "distance_from_sun_mkm": 778.5,
+      "light_time_minutes": 43.3,
+      "rotation_period_hours": 9.9,
+      "solar_day_hours": 9.9,
+      "orbital_period_days": 4331.0,
+      "mean_temp_c": -110,
+      "gravity_m_s2": 23.1,
+      "gravity_vs_earth": 2.36,
+      "moons_count": 115,
+      "moons_note_vi": "115 mặt trăng đã được Hiệp hội Thiên văn Quốc tế công nhận, nổi bật là Io, Europa, Ganymede, Callisto (theo NASA, tính đến năm 2026)",
+      "moons_note_en": "115 officially recognized moons including Io, Europa, Ganymede, and Callisto (per NASA, as of 2026)",
+      "has_rings": true,
+      "audio_kind": "app_sonification",
+      "source_url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/jupiterfact.html",
+      "fun_facts": [
+        {
+          "vi": "Vết Đỏ Lớn trên Sao Mộc là một cơn bão to hơn cả Trái Đất, đã thổi hơn 150 năm.",
+          "en": "The Great Red Spot on Jupiter is a storm bigger than Earth that has raged for over 150 years."
+        },
+        {
+          "vi": "Hơn 1.300 Trái Đất mới lấp đầy được Sao Mộc.",
+          "en": "More than 1,300 Earths could fit inside Jupiter."
+        },
+        {
+          "vi": "Sao Mộc có ngày ngắn nhất Hệ Mặt Trời, chỉ khoảng 10 giờ.",
+          "en": "Jupiter has the shortest day in the Solar System, about 10 hours."
+        },
+        {
+          "vi": "Ganymede, mặt trăng của Sao Mộc, là mặt trăng lớn nhất Hệ Mặt Trời, to hơn cả Sao Thủy.",
+          "en": "Ganymede, a moon of Jupiter, is the largest moon in the Solar System, bigger than Mercury."
+        },
+        {
+          "vi": "Sao Mộc cũng có vành đai mờ, được tàu Voyager 1 phát hiện năm 1979.",
+          "en": "Jupiter has faint rings too, discovered by Voyager 1 in 1979."
+        },
+        {
+          "vi": "Sao Mộc là hành tinh lớn nhất trong hệ Mặt Trời của chúng ta. Nó thực sự nặng hơn gấp đôi so với các hành tinh khác trong hệ Mặt Trời của chúng ta cộng lại.",
+          "en": "",
+          "source": "NASA Space Place",
+          "url": "https://spaceplace.nasa.gov/all-about-jupiter/en/"
+        },
+        {
+          "vi": "Sao Mộc là một hành tinh khí khổng lồ. Nó được làm chủ yếu từ hydro và heli.",
+          "en": "",
+          "source": "NASA Space Place",
+          "url": "https://spaceplace.nasa.gov/all-about-jupiter/en/"
+        },
+        {
+          "vi": "Sao Mộc có bầu khí quyển rất dày.",
+          "en": "",
+          "source": "NASA Space Place",
+          "url": "https://spaceplace.nasa.gov/all-about-jupiter/en/"
+        },
+        {
+          "vi": "Sao Mộc có các vành đai nhưng rất khó nhìn thấy.",
+          "en": "",
+          "source": "NASA Space Place",
+          "url": "https://spaceplace.nasa.gov/all-about-jupiter/en/"
+        },
+        {
+          "vi": "Vết Đỏ Lớn của hành tinh khổng lồ này là một cơn bão có tuổi đời hàng thế kỷ, lớn hơn Trái Đất.",
+          "en": "",
+          "source": "NASA Space Place",
+          "url": "https://spaceplace.nasa.gov/all-about-jupiter/en/"
+        },
+        {
+          "vi": "Một ngày trên Sao Mộc trôi qua chỉ trong 10 giờ.",
+          "en": "",
+          "source": "NASA Space Place",
+          "url": "https://spaceplace.nasa.gov/all-about-jupiter/en/"
+        },
+        {
+          "vi": "Một năm trên Sao Mộc bằng 11,8 năm Trái Đất.",
+          "en": "",
+          "source": "NASA Space Place",
+          "url": "https://spaceplace.nasa.gov/all-about-jupiter/en/"
+        },
+        {
+          "vi": "Sao Mộc có 115 Mặt Trăng được công nhận chính thức (theo NASA, tháng 8 năm 2026).",
+          "en": "",
+          "source": "NASA Space Place",
+          "url": "https://spaceplace.nasa.gov/all-about-jupiter/en/"
+        },
+        {
+          "vi": "Sao Mộc là hành tinh thứ năm tính từ Mặt Trời. Điều đó có nghĩa là Sao Hỏa và Sao Thổ là các hành tinh lân cận của Sao Mộc.",
+          "en": "",
+          "source": "NASA Space Place",
+          "url": "https://spaceplace.nasa.gov/all-about-jupiter/en/"
+        },
+        {
+          "vi": "Sao Mộc đã được biết đến từ thời xa xưa vì nó có thể dễ dàng được nhìn thấy chỉ bằng mắt thường của chúng ta. Không cần thiết bị đặc biệt.",
+          "en": "",
+          "source": "NASA Space Place",
+          "url": "https://spaceplace.nasa.gov/all-about-jupiter/en/"
+        },
+        {
+          "vi": "Sao Mộc đã được viếng thăm hoặc đi qua bởi một số tàu vũ trụ, quỹ đạo và tàu thăm dò, chẳng hạn như Pioneer 10 và 11, Voyager 1 và 2, Cassini, New Horizons và Juno.",
+          "en": "",
+          "source": "NASA Space Place",
+          "url": "https://spaceplace.nasa.gov/all-about-jupiter/en/"
+        },
+        {
+          "vi": "Sao Mộc có cực quang giống như Trái Đất! Cực quang không chỉ có kích thước khổng lồ mà còn có năng lượng mạnh gấp hàng trăm lần cực quang trên Trái Đất.",
+          "en": "",
+          "source": "NASA Space Place",
+          "url": "https://spaceplace.nasa.gov/all-about-jupiter/en/"
+        }
+      ],
+      "fun_facts_source_url": "https://science.nasa.gov/jupiter/facts/"
+    },
+    {
+      "id": "saturn",
+      "sound_index": 7,
+      "name_vi": "Sao Thổ",
+      "name_en": "Saturn",
+      "body_type_vi": "Hành tinh khí khổng lồ có hệ vành đai băng",
+      "diameter_km": 120536,
+      "size_vs_earth": 9.45,
+      "pea_model_vi": "Nếu Trái Đất là hạt đậu xanh 8 mm thì Sao Thổ to bằng quả quýt lớn 7,5 cm kèm vành đai rộng bằng miệng bát",
+      "pea_model_en": "If Earth is an 8 mm pea, Saturn is a 7.5 cm tangerine with wide icy rings",
+      "distance_from_sun_mkm": 1432.0,
+      "light_time_minutes": 79.6,
+      "rotation_period_hours": 10.7,
+      "solar_day_hours": 10.7,
+      "orbital_period_days": 10747.0,
+      "mean_temp_c": -140,
+      "gravity_m_s2": 9.0,
+      "gravity_vs_earth": 0.92,
+      "moons_count": 293,
+      "moons_note_vi": "293 mặt trăng được xác nhận (nhiều nhất Hệ Mặt Trời, lớn nhất là Titan, theo NASA tính đến năm 2026)",
+      "moons_note_en": "293 confirmed moons, the most in the Solar System, led by Titan (per NASA, as of 2026)",
+      "has_rings": true,
+      "audio_kind": "app_sonification",
+      "source_url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/saturnfact.html",
+      "fun_facts": [
+        {
+          "vi": "Sao Thổ nhẹ hơn nước; nếu có bồn đủ lớn, nó sẽ nổi.",
+          "en": "Saturn is less dense than water; in a big enough bathtub it would float."
+        },
+        {
+          "vi": "Vành đai Sao Thổ rộng hàng trăm nghìn ki-lô-mét nhưng phần lớn chỉ dày khoảng 10 mét.",
+          "en": "The rings of Saturn stretch hundreds of thousands of kilometres yet are mostly only about 10 metres thick."
+        },
+        {
+          "vi": "Titan, mặt trăng của Sao Thổ, có bầu khí dày và những hồ khí mê-tan lỏng.",
+          "en": "Titan, a moon of Saturn, has a thick atmosphere and lakes of liquid methane."
+        },
+        {
+          "vi": "Ở cực bắc Sao Thổ có một cơn bão hình lục giác khổng lồ.",
+          "en": "A giant six-sided storm swirls over the north pole of Saturn."
+        },
+        {
+          "vi": "Mặt trăng Enceladus của Sao Thổ phun những cột hơi nước từ đại dương ngầm dưới lớp băng.",
+          "en": "Enceladus, a moon of Saturn, sprays jets of water from an ocean under its ice."
+        },
+        {
+          "vi": "Sao Thổ là một khối khí khổng lồ giống như Sao Mộc. Nó được làm chủ yếu từ hydro và heli.",
+          "en": "",
+          "source": "NASA Space Place",
+          "url": "https://spaceplace.nasa.gov/all-about-saturn/en/"
+        },
+        {
+          "vi": "Sao Thổ có bầu khí quyển dày đặc.",
+          "en": "",
+          "source": "NASA Space Place",
+          "url": "https://spaceplace.nasa.gov/all-about-saturn/en/"
+        },
+        {
+          "vi": "Sao Thổ có một bộ bảy vành đai chính đáng yêu với khoảng cách giữa chúng.",
+          "en": "",
+          "source": "NASA Space Place",
+          "url": "https://spaceplace.nasa.gov/all-about-saturn/en/"
+        },
+        {
+          "vi": "Một ngày trên Sao Thổ trôi qua chỉ trong 10,7 giờ.",
+          "en": "",
+          "source": "NASA Space Place",
+          "url": "https://spaceplace.nasa.gov/all-about-saturn/en/"
+        },
+        {
+          "vi": "Một năm trên Sao Thổ bằng 29 năm trên Trái Đất.",
+          "en": "",
+          "source": "NASA Space Place",
+          "url": "https://spaceplace.nasa.gov/all-about-saturn/en/"
+        },
+        {
+          "vi": "Tính đến tháng 3 năm 2025, Sao Thổ có 274 Mặt Trăng.",
+          "en": "",
+          "source": "NASA Space Place",
+          "url": "https://spaceplace.nasa.gov/all-about-saturn/en/"
+        },
+        {
+          "vi": "Sao Thổ là hành tinh thứ sáu tính từ Mặt Trời. Điều đó có nghĩa là Sao Mộc và Sao Thiên Vương là các hành tinh lân cận của Sao Thổ.",
+          "en": "",
+          "source": "NASA Space Place",
+          "url": "https://spaceplace.nasa.gov/all-about-saturn/en/"
+        },
+        {
+          "vi": "Sao Thổ đã được biết đến từ thời cổ đại vì nó có thể được nhìn thấy mà không cần kính thiên văn tiên tiến.",
+          "en": "",
+          "source": "NASA Space Place",
+          "url": "https://spaceplace.nasa.gov/all-about-saturn/en/"
+        },
+        {
+          "vi": "Bốn tàu vũ trụ robot đã ghé thăm Sao Thổ, bao gồm Pioneer 11, Cassini và Voyager 1 và 2.",
+          "en": "",
+          "source": "NASA Space Place",
+          "url": "https://spaceplace.nasa.gov/all-about-saturn/en/"
+        }
+      ],
+      "fun_facts_source_url": "https://science.nasa.gov/saturn/facts/"
+    },
+    {
+      "id": "uranus",
+      "sound_index": 8,
+      "name_vi": "Sao Thiên Vương",
+      "name_en": "Uranus",
+      "body_type_vi": "Hành tinh băng khổng lồ (trục nghiêng 97,8 độ)",
+      "diameter_km": 51118,
+      "size_vs_earth": 4.01,
+      "pea_model_vi": "Nếu Trái Đất là hạt đậu xanh 8 mm thì Sao Thiên Vương cỡ quả mận hoặc viên bi lớn 3,2 cm",
+      "pea_model_en": "If Earth is an 8 mm pea, Uranus is a 3.2 cm plum",
+      "distance_from_sun_mkm": 2867.0,
+      "light_time_minutes": 159.3,
+      "rotation_period_hours": -17.2,
+      "solar_day_hours": 17.2,
+      "orbital_period_days": 30589.0,
+      "mean_temp_c": -195,
+      "gravity_m_s2": 8.7,
+      "gravity_vs_earth": 0.89,
+      "moons_count": 29,
+      "moons_note_vi": "29 mặt trăng đã được công nhận, đặt tên theo nhân vật của Shakespeare và Pope (theo NASA, tính đến năm 2026)",
+      "moons_note_en": "29 recognized moons (per NASA, as of 2026)",
+      "has_rings": true,
+      "audio_kind": "app_sonification",
+      "source_url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/uranusfact.html",
+      "fun_facts": [
+        {
+          "vi": "Sao Thiên Vương nghiêng khoảng 98 độ, như lăn tròn quanh Mặt Trời.",
+          "en": "Uranus is tilted about 98 degrees, so it rolls around the Sun on its side."
+        },
+        {
+          "vi": "Mỗi cực Sao Thiên Vương có khoảng 42 năm liền ban ngày, rồi 42 năm liền đêm tối.",
+          "en": "Each pole of Uranus gets about 42 years of daylight, then 42 years of darkness."
+        },
+        {
+          "vi": "Sao Thiên Vương là hành tinh đầu tiên được tìm ra bằng kính thiên văn, năm 1781.",
+          "en": "Uranus was the first planet found with a telescope, in 1781."
+        },
+        {
+          "vi": "Sao Thiên Vương có bầu khí lạnh nhất trong các hành tinh, tới âm 224 độ C.",
+          "en": "Uranus has the coldest atmosphere of any planet, down to minus 224 °C."
+        },
+        {
+          "vi": "Giống Sao Kim, Sao Thiên Vương tự quay ngược chiều.",
+          "en": "Like Venus, Uranus spins backwards."
+        },
+        {
+          "vi": "Sao Thiên Vương được bao quanh bởi một bộ 13 vòng.",
+          "en": "",
+          "source": "NASA Space Place",
+          "url": "https://spaceplace.nasa.gov/all-about-uranus/en/"
+        },
+        {
+          "vi": "Sao Thiên Vương là một hành tinh băng khổng lồ (thay vì hành tinh khí khổng lồ). Nó chủ yếu được làm bằng vật liệu băng giá chảy phía trên lõi rắn.",
+          "en": "",
+          "source": "NASA Space Place",
+          "url": "https://spaceplace.nasa.gov/all-about-uranus/en/"
+        },
+        {
+          "vi": "Sao Thiên Vương có bầu khí quyển dày đặc được tạo thành từ metan, hydro và heli.",
+          "en": "",
+          "source": "NASA Space Place",
+          "url": "https://spaceplace.nasa.gov/all-about-uranus/en/"
+        },
+        {
+          "vi": "Sao Thiên Vương là hành tinh duy nhất có trục quay gần như nằm ngang.",
+          "en": "",
+          "source": "NASA Space Place",
+          "url": "https://spaceplace.nasa.gov/all-about-uranus/en/"
+        },
+        {
+          "vi": "Sao Thiên Vương quay theo hướng ngược lại với Trái Đất và hầu hết các hành tinh khác.",
+          "en": "",
+          "source": "NASA Space Place",
+          "url": "https://spaceplace.nasa.gov/all-about-uranus/en/"
+        },
+        {
+          "vi": "Một ngày trên Sao Thiên Vương kéo dài hơn 17 giờ một chút (chính xác là 17 giờ 14 phút).",
+          "en": "",
+          "source": "NASA Space Place",
+          "url": "https://spaceplace.nasa.gov/all-about-uranus/en/"
+        },
+        {
+          "vi": "Một năm trên Sao Thiên Vương bằng 84 năm trên Trái Đất. Đó là một thời gian dài để chờ đợi một chiếc bánh sinh nhật.",
+          "en": "",
+          "source": "NASA Space Place",
+          "url": "https://spaceplace.nasa.gov/all-about-uranus/en/"
+        },
+        {
+          "vi": "Sao Thiên Vương có 29 Mặt Trăng được công nhận chính thức (theo NASA, tháng 8 năm 2026).",
+          "en": "",
+          "source": "NASA Space Place",
+          "url": "https://spaceplace.nasa.gov/all-about-uranus/en/"
+        },
+        {
+          "vi": "Sao Thiên Vương là hành tinh thứ bảy tính từ Mặt Trời. Điều đó có nghĩa là Sao Thổ và Sao Hải Vương là các hành tinh lân cận của Sao Thiên Vương.",
+          "en": "",
+          "source": "NASA Space Place",
+          "url": "https://spaceplace.nasa.gov/all-about-uranus/en/"
+        },
+        {
+          "vi": "Sao Thiên Vương được phát hiện vào năm 1781 bởi William Herschel ở Anh.",
+          "en": "",
+          "source": "NASA Space Place",
+          "url": "https://spaceplace.nasa.gov/all-about-uranus/en/"
+        },
+        {
+          "vi": "Sao Thiên Vương chỉ được du hành 2 ghé thăm.",
+          "en": "",
+          "source": "NASA Space Place",
+          "url": "https://spaceplace.nasa.gov/all-about-uranus/en/"
+        }
+      ],
+      "fun_facts_source_url": "https://science.nasa.gov/uranus/facts/"
+    },
+    {
+      "id": "neptune",
+      "sound_index": 9,
+      "name_vi": "Sao Hải Vương",
+      "name_en": "Neptune",
+      "body_type_vi": "Hành tinh băng khổng lồ xa Mặt Trời nhất",
+      "diameter_km": 49528,
+      "size_vs_earth": 3.88,
+      "pea_model_vi": "Nếu Trái Đất là hạt đậu xanh 8 mm thì Sao Hải Vương cỡ quả mận 3,1 cm",
+      "pea_model_en": "If Earth is an 8 mm pea, Neptune is a 3.1 cm plum",
+      "distance_from_sun_mkm": 4515.0,
+      "light_time_minutes": 250.8,
+      "rotation_period_hours": 16.1,
+      "solar_day_hours": 16.1,
+      "orbital_period_days": 59800.0,
+      "mean_temp_c": -200,
+      "gravity_m_s2": 11.0,
+      "gravity_vs_earth": 1.12,
+      "moons_count": 16,
+      "moons_note_vi": "16 mặt trăng đã biết, lớn nhất là Triton quay ngược chiều (theo NASA, tính đến năm 2026)",
+      "moons_note_en": "16 known moons, largest is Triton (per NASA, as of 2026)",
+      "has_rings": true,
+      "audio_kind": "app_sonification",
+      "source_url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/neptunefact.html",
+      "fun_facts": [
+        {
+          "vi": "Gió trên Sao Hải Vương mạnh tới khoảng 2.000 ki-lô-mét một giờ, mạnh nhất Hệ Mặt Trời.",
+          "en": "Winds on Neptune reach about 2,000 kilometres per hour, the fastest in the Solar System."
+        },
+        {
+          "vi": "Sao Hải Vương được tìm ra năm 1846 nhờ tính toán toán học trước khi nhìn thấy.",
+          "en": "Neptune was found in 1846 by mathematics before anyone saw it."
+        },
+        {
+          "vi": "Một năm trên Sao Hải Vương dài 165 năm Trái Đất; năm 2011 nó mới đi hết vòng đầu tiên kể từ khi được tìm ra.",
+          "en": "A year on Neptune lasts 165 Earth years; it finished its first orbit since discovery in 2011."
+        },
+        {
+          "vi": "Triton, mặt trăng lớn nhất của Sao Hải Vương, quay ngược chiều và có mạch phun khí ni-tơ.",
+          "en": "Triton, the largest moon of Neptune, orbits backwards and has nitrogen geysers."
+        },
+        {
+          "vi": "Chỉ một tàu vũ trụ từng ghé Sao Hải Vương: Voyager 2, năm 1989.",
+          "en": "Only one spacecraft has visited Neptune: Voyager 2, in 1989."
+        },
+        {
+          "vi": "Sao Hải Vương được bao quanh bởi sáu vành đai.",
+          "en": "",
+          "source": "NASA Space Place",
+          "url": "https://spaceplace.nasa.gov/all-about-neptune/en/"
+        },
+        {
+          "vi": "Sao Hải Vương có bầu khí quyển dày và nhiều gió.",
+          "en": "",
+          "source": "NASA Space Place",
+          "url": "https://spaceplace.nasa.gov/all-about-neptune/en/"
+        },
+        {
+          "vi": "Một ngày trên Sao Hải Vương trôi qua trong 16 giờ.",
+          "en": "",
+          "source": "NASA Space Place",
+          "url": "https://spaceplace.nasa.gov/all-about-neptune/en/"
+        },
+        {
+          "vi": "Sao Hải Vương có một hành trình dài quanh Mặt Trời, phải mất 165 năm Trái Đất mới quay được một vòng. Đó là một năm dài!",
+          "en": "",
+          "source": "NASA Space Place",
+          "url": "https://spaceplace.nasa.gov/all-about-neptune/en/"
+        },
+        {
+          "vi": "Sao Hải Vương có 16 Mặt Trăng.",
+          "en": "",
+          "source": "NASA Space Place",
+          "url": "https://spaceplace.nasa.gov/all-about-neptune/en/"
+        },
+        {
+          "vi": "Sao Hải Vương là hành tinh thứ tám và xa nhất tính từ Mặt Trời. Điều đó có nghĩa là Sao Thiên Vương là hành tinh lân cận duy nhất của Sao Hải Vương.",
+          "en": "",
+          "source": "NASA Space Place",
+          "url": "https://spaceplace.nasa.gov/all-about-neptune/en/"
+        },
+        {
+          "vi": "Sao Hải Vương được phát hiện vào năm 1846 bởi Urbain Le Verrier, John Couch Adams và Johann Galle.",
+          "en": "",
+          "source": "NASA Space Place",
+          "url": "https://spaceplace.nasa.gov/all-about-neptune/en/"
+        },
+        {
+          "vi": "Chỉ có Voyager 2 đã đến thăm Sao Hải Vương.",
+          "en": "",
+          "source": "NASA Space Place",
+          "url": "https://spaceplace.nasa.gov/all-about-neptune/en/"
+        }
+      ],
+      "fun_facts_source_url": "https://science.nasa.gov/neptune/facts/"
+    }
+  ]
+}

@@ -1,0 +1,4949 @@
+{
+  "version": 1,
+  "updated": "2026-11-07",
+  "city": "Hà Nội",
+  "note": "Dữ liệu tham khảo cho app Lắng. Giá và giờ mở cửa có thể thay đổi; mục không có \"hours\" là chưa rõ giờ mở cửa. Toạ độ gần đúng (sai số vài trăm mét). Mỗi nơi chỉ một địa chỉ ngắn (số nhà + tên phố) để đọc dễ nghe.",
+  "priceBands": {
+    "budget": {
+      "vi": "bình dân, thường dưới khoảng 500 nghìn một đêm",
+      "en": "budget, usually under about 500,000 dong a night",
+      "max": 500000
+    },
+    "mid": {
+      "vi": "tầm trung, thường khoảng 1 đến 2 triệu một đêm",
+      "en": "mid-range, usually about 1 to 2 million dong a night",
+      "max": 2000000
+    },
+    "upper": {
+      "vi": "cao cấp, thường khoảng 2 đến 4 triệu một đêm",
+      "en": "upscale, usually about 2 to 4 million dong a night",
+      "max": 4000000
+    },
+    "luxury": {
+      "vi": "sang trọng, thường từ khoảng 4 triệu một đêm trở lên",
+      "en": "luxury, usually from about 4 million dong a night",
+      "max": 99000000
+    }
+  },
+  "categories": {
+    "pho": "phở",
+    "bun_cha": "bún chả",
+    "cha_ca": "chả cá",
+    "banh_cuon": "bánh cuốn",
+    "banh_mi": "bánh mì",
+    "xoi": "xôi",
+    "bun": "bún",
+    "bun_dau": "bún đậu",
+    "mien": "miến",
+    "pho_cuon": "phở cuốn",
+    "banh_tom": "bánh tôm",
+    "bun_oc": "bún ốc",
+    "ca_phe": "cà phê",
+    "kem_che": "kem, chè",
+    "nha_hang": "nhà hàng",
+    "chay": "quán chay",
+    "pho_am_thuc": "phố ẩm thực",
+    "hotel": "khách sạn",
+    "hostel": "nhà nghỉ tập thể (hostel)",
+    "resort": "khu nghỉ dưỡng",
+    "homestay": "homestay"
+  },
+  "places": [
+    {
+      "id": "pho-bat-dan",
+      "type": "food",
+      "category": "pho",
+      "name": "Phở Bát Đàn",
+      "aliases": [
+        "pho bat dan",
+        "pho gia truyen bat dan"
+      ],
+      "keywords": [
+        "pho",
+        "pho bo"
+      ],
+      "dishes": [
+        "phở bò tái",
+        "phở chín"
+      ],
+      "address": "49 Bát Đàn",
+      "area": "Hoàn Kiếm (phố cổ)",
+      "zone": "hoan_kiem",
+      "lat": 21.0336,
+      "lon": 105.8466,
+      "price": [
+        50000,
+        70000
+      ],
+      "hours": [
+        [
+          "06:00",
+          "10:00"
+        ],
+        [
+          "18:00",
+          "20:30"
+        ]
+      ],
+      "tags": [
+        "gia truyền",
+        "thường xếp hàng"
+      ],
+      "noteVi": "Phở bò gia truyền, nước dùng trong, khách tự xếp hàng lấy bát.",
+      "noteEn": "Classic family-run beef pho; expect to queue."
+    },
+    {
+      "id": "pho-thin-lo-duc",
+      "type": "food",
+      "category": "pho",
+      "name": "Phở Thìn Lò Đúc",
+      "aliases": [
+        "pho thin",
+        "pho thin lo duc"
+      ],
+      "keywords": [
+        "pho",
+        "pho bo"
+      ],
+      "dishes": [
+        "phở bò tái lăn"
+      ],
+      "address": "13 Lò Đúc",
+      "area": "Hai Bà Trưng",
+      "zone": "hai_ba_trung",
+      "lat": 21.0172,
+      "lon": 105.8567,
+      "price": [
+        60000,
+        80000
+      ],
+      "hours": [
+        [
+          "06:00",
+          "20:30"
+        ]
+      ],
+      "tags": [
+        "gia truyền"
+      ],
+      "noteVi": "Nổi tiếng phở bò tái lăn, thịt xào qua lửa to, nhiều hành.",
+      "noteEn": "Famous for stir-seared beef pho."
+    },
+    {
+      "id": "pho-ly-quoc-su",
+      "type": "food",
+      "category": "pho",
+      "name": "Phở gia truyền Lý Quốc Sư",
+      "aliases": [
+        "pho ly quoc su",
+        "pho 10 ly quoc su"
+      ],
+      "keywords": [
+        "pho",
+        "pho bo"
+      ],
+      "dishes": [
+        "phở bò tái chín"
+      ],
+      "address": "10 Lý Quốc Sư",
+      "area": "Hoàn Kiếm (phố cổ)",
+      "zone": "hoan_kiem",
+      "lat": 21.0307,
+      "lon": 105.8489,
+      "price": [
+        50000,
+        80000
+      ],
+      "hours": [
+        [
+          "06:00",
+          "22:00"
+        ]
+      ],
+      "tags": [
+        "gần Nhà thờ Lớn"
+      ],
+      "noteVi": "Quán phở lâu năm gần Nhà thờ Lớn, mở cả ngày.",
+      "noteEn": "Long-running pho shop near St Joseph Cathedral, open all day."
+    },
+    {
+      "id": "pho-suong",
+      "type": "food",
+      "category": "pho",
+      "name": "Phở Sướng",
+      "aliases": [
+        "pho suong",
+        "pho suong trung yen"
+      ],
+      "keywords": [
+        "pho",
+        "pho bo"
+      ],
+      "dishes": [
+        "phở bò tái nạm"
+      ],
+      "address": "24B Trung Yên",
+      "area": "Hoàn Kiếm (phố cổ)",
+      "zone": "hoan_kiem",
+      "lat": 21.0337,
+      "lon": 105.8519,
+      "price": [
+        45000,
+        65000
+      ],
+      "tags": [
+        "trong ngõ nhỏ"
+      ],
+      "noteVi": "Quán phở trong ngõ Trung Yên, gần phố Đinh Liệt.",
+      "noteEn": "Pho in a tiny alley off Dinh Liet street."
+    },
+    {
+      "id": "bun-cha-huong-lien",
+      "type": "food",
+      "category": "bun_cha",
+      "name": "Bún chả Hương Liên",
+      "aliases": [
+        "bun cha huong lien",
+        "bun cha obama"
+      ],
+      "keywords": [
+        "bun cha"
+      ],
+      "dishes": [
+        "bún chả",
+        "nem cua bể"
+      ],
+      "address": "24 Lê Văn Hưu",
+      "area": "Hai Bà Trưng",
+      "zone": "hai_ba_trung",
+      "lat": 21.0178,
+      "lon": 105.8531,
+      "price": [
+        50000,
+        100000
+      ],
+      "hours": [
+        [
+          "08:00",
+          "20:30"
+        ]
+      ],
+      "tags": [
+        "quán Obama từng ăn"
+      ],
+      "noteVi": "Quán bún chả nổi tiếng sau khi Tổng thống Mỹ Obama ghé ăn năm 2016.",
+      "noteEn": "The bun cha shop made famous by Barack Obama in 2016."
+    },
+    {
+      "id": "bun-cha-dac-kim",
+      "type": "food",
+      "category": "bun_cha",
+      "name": "Bún chả Đắc Kim",
+      "aliases": [
+        "bun cha dac kim",
+        "bun cha hang manh"
+      ],
+      "keywords": [
+        "bun cha"
+      ],
+      "dishes": [
+        "bún chả",
+        "nem rán"
+      ],
+      "address": "1 Hàng Mành",
+      "area": "Hoàn Kiếm (phố cổ)",
+      "zone": "hoan_kiem",
+      "lat": 21.0326,
+      "lon": 105.8486,
+      "price": [
+        70000,
+        100000
+      ],
+      "hours": [
+        [
+          "09:00",
+          "21:00"
+        ]
+      ],
+      "tags": [
+        "phố cổ"
+      ],
+      "noteVi": "Bún chả phố Hàng Mành, chả nướng than hoa.",
+      "noteEn": "Charcoal-grilled bun cha on Hang Manh street."
+    },
+    {
+      "id": "cha-ca-la-vong",
+      "type": "food",
+      "category": "cha_ca",
+      "name": "Chả cá Lã Vọng",
+      "aliases": [
+        "cha ca la vong"
+      ],
+      "keywords": [
+        "cha ca"
+      ],
+      "dishes": [
+        "chả cá rán thì là"
+      ],
+      "address": "14 Chả Cá",
+      "area": "Hoàn Kiếm (phố cổ)",
+      "zone": "hoan_kiem",
+      "lat": 21.0362,
+      "lon": 105.8494,
+      "price": [
+        150000,
+        200000
+      ],
+      "tags": [
+        "lâu đời"
+      ],
+      "noteVi": "Quán chả cá lâu đời đã đặt tên cho phố Chả Cá; chỉ có một món.",
+      "noteEn": "The century-old grilled fish house that gave Cha Ca street its name."
+    },
+    {
+      "id": "cha-ca-thang-long",
+      "type": "food",
+      "category": "cha_ca",
+      "name": "Chả cá Thăng Long",
+      "aliases": [
+        "cha ca thang long"
+      ],
+      "keywords": [
+        "cha ca"
+      ],
+      "dishes": [
+        "chả cá lăng"
+      ],
+      "address": "21 Đường Thành",
+      "area": "Hoàn Kiếm (phố cổ)",
+      "zone": "hoan_kiem",
+      "lat": 21.0331,
+      "lon": 105.8463,
+      "price": [
+        120000,
+        180000
+      ],
+      "tags": [
+        "nhóm đông người"
+      ],
+      "noteVi": "Chả cá lăng ăn với bún, thì là, lạc rang; quán rộng hợp đi nhóm.",
+      "noteEn": "Turmeric fish with dill, good for groups."
+    },
+    {
+      "id": "banh-cuon-thanh-van",
+      "type": "food",
+      "category": "banh_cuon",
+      "name": "Bánh cuốn Thanh Vân",
+      "aliases": [
+        "banh cuon thanh van",
+        "banh cuon hang ga"
+      ],
+      "keywords": [
+        "banh cuon"
+      ],
+      "dishes": [
+        "bánh cuốn nhân thịt",
+        "bánh cuốn trứng"
+      ],
+      "address": "14 Hàng Gà",
+      "area": "Hoàn Kiếm (phố cổ)",
+      "zone": "hoan_kiem",
+      "lat": 21.0349,
+      "lon": 105.847,
+      "price": [
+        35000,
+        50000
+      ],
+      "tags": [
+        "ăn sáng"
+      ],
+      "noteVi": "Bánh cuốn tráng tại chỗ, mỏng, ăn kèm chả quế.",
+      "noteEn": "Thin steamed rice rolls made to order."
+    },
+    {
+      "id": "banh-cuon-ba-hoanh",
+      "type": "food",
+      "category": "banh_cuon",
+      "name": "Bánh cuốn Bà Hoành",
+      "aliases": [
+        "banh cuon ba hoanh"
+      ],
+      "keywords": [
+        "banh cuon"
+      ],
+      "dishes": [
+        "bánh cuốn",
+        "bánh cuốn trứng"
+      ],
+      "address": "66 Tô Hiến Thành",
+      "area": "Hai Bà Trưng",
+      "zone": "hai_ba_trung",
+      "lat": 21.0146,
+      "lon": 105.8486,
+      "price": [
+        35000,
+        60000
+      ],
+      "tags": [
+        "ăn sáng",
+        "lâu năm"
+      ],
+      "noteVi": "Quán bánh cuốn lâu năm trên phố Tô Hiến Thành.",
+      "noteEn": "Long-established rice roll shop on To Hien Thanh street."
+    },
+    {
+      "id": "banh-mi-25",
+      "type": "food",
+      "category": "banh_mi",
+      "name": "Bánh mì 25",
+      "aliases": [
+        "banh mi 25",
+        "banh mi hang ca"
+      ],
+      "keywords": [
+        "banh mi"
+      ],
+      "dishes": [
+        "bánh mì pate thịt",
+        "bánh mì xíu mại"
+      ],
+      "address": "25 Hàng Cá",
+      "area": "Hoàn Kiếm (phố cổ)",
+      "zone": "hoan_kiem",
+      "lat": 21.0364,
+      "lon": 105.8483,
+      "price": [
+        25000,
+        50000
+      ],
+      "hours": [
+        [
+          "07:00",
+          "21:00"
+        ]
+      ],
+      "tags": [
+        "khách du lịch đông"
+      ],
+      "noteVi": "Bánh mì giòn, nhiều loại nhân, có thực đơn tiếng Anh.",
+      "noteEn": "Crispy banh mi with many fillings; English menu."
+    },
+    {
+      "id": "xoi-yen",
+      "type": "food",
+      "category": "xoi",
+      "name": "Xôi Yến",
+      "aliases": [
+        "xoi yen"
+      ],
+      "keywords": [
+        "xoi"
+      ],
+      "dishes": [
+        "xôi xéo",
+        "xôi gà",
+        "xôi thập cẩm"
+      ],
+      "address": "35B Nguyễn Hữu Huân",
+      "area": "Hoàn Kiếm (phố cổ)",
+      "zone": "hoan_kiem",
+      "lat": 21.0331,
+      "lon": 105.8547,
+      "price": [
+        25000,
+        60000
+      ],
+      "hours": [
+        [
+          "06:00",
+          "23:00"
+        ]
+      ],
+      "tags": [
+        "mở khuya"
+      ],
+      "noteVi": "Xôi xéo, xôi nhiều loại nhân; mở từ sáng đến khuya.",
+      "noteEn": "Sticky rice with many toppings, open from morning till late."
+    },
+    {
+      "id": "bun-bo-nam-bo",
+      "type": "food",
+      "category": "bun",
+      "name": "Bún bò Nam Bộ Hàng Điếu",
+      "aliases": [
+        "bun bo nam bo",
+        "bun bo hang dieu"
+      ],
+      "keywords": [
+        "bun bo",
+        "bun",
+        "bun tron"
+      ],
+      "dishes": [
+        "bún bò Nam Bộ"
+      ],
+      "address": "67 Hàng Điếu",
+      "area": "Hoàn Kiếm (phố cổ)",
+      "zone": "hoan_kiem",
+      "lat": 21.0329,
+      "lon": 105.8467,
+      "price": [
+        60000,
+        80000
+      ],
+      "hours": [
+        [
+          "07:30",
+          "22:30"
+        ]
+      ],
+      "tags": [],
+      "noteVi": "Bún trộn bò xào, lạc rang, hành phi, nước chấm chua ngọt.",
+      "noteEn": "Dry noodle salad with stir-fried beef and peanuts."
+    },
+    {
+      "id": "bun-rieu-hang-bac",
+      "type": "food",
+      "category": "bun",
+      "name": "Bún riêu Hàng Bạc",
+      "aliases": [
+        "bun rieu hang bac",
+        "bun rieu 11 hang bac"
+      ],
+      "keywords": [
+        "bun rieu",
+        "bun"
+      ],
+      "dishes": [
+        "bún riêu cua",
+        "bún ốc"
+      ],
+      "address": "11 Hàng Bạc",
+      "area": "Hoàn Kiếm (phố cổ)",
+      "zone": "hoan_kiem",
+      "lat": 21.0341,
+      "lon": 105.8531,
+      "price": [
+        30000,
+        50000
+      ],
+      "tags": [
+        "bình dân"
+      ],
+      "noteVi": "Bún riêu cua bình dân giữa phố cổ.",
+      "noteEn": "Cheap crab noodle soup in the Old Quarter."
+    },
+    {
+      "id": "bun-thang-cau-go",
+      "type": "food",
+      "category": "bun",
+      "name": "Bún thang Cầu Gỗ",
+      "aliases": [
+        "bun thang cau go",
+        "bun thang ba duc"
+      ],
+      "keywords": [
+        "bun thang",
+        "bun"
+      ],
+      "dishes": [
+        "bún thang"
+      ],
+      "address": "48 Cầu Gỗ",
+      "area": "Hoàn Kiếm (phố cổ)",
+      "zone": "hoan_kiem",
+      "lat": 21.0336,
+      "lon": 105.8527,
+      "price": [
+        40000,
+        60000
+      ],
+      "tags": [
+        "món Hà Nội cầu kỳ"
+      ],
+      "noteVi": "Bún thang, món bún nhiều loại topping thái chỉ đặc trưng Hà Nội.",
+      "noteEn": "Bun thang, the delicate Hanoi noodle soup with many shredded toppings."
+    },
+    {
+      "id": "bun-dau-phat-loc",
+      "type": "food",
+      "category": "bun_dau",
+      "name": "Bún đậu ngõ Phất Lộc",
+      "aliases": [
+        "bun dau phat loc",
+        "bun dau mam tom phat loc"
+      ],
+      "keywords": [
+        "bun dau",
+        "bun dau mam tom",
+        "mam tom"
+      ],
+      "dishes": [
+        "bún đậu mắm tôm",
+        "chả cốm"
+      ],
+      "address": "ngõ Phất Lộc",
+      "area": "Hoàn Kiếm (phố cổ)",
+      "zone": "hoan_kiem",
+      "lat": 21.0356,
+      "lon": 105.8523,
+      "price": [
+        40000,
+        80000
+      ],
+      "tags": [
+        "ngồi ghế nhựa",
+        "buổi trưa"
+      ],
+      "noteVi": "Mẹt bún đậu mắm tôm trong ngõ nhỏ phố cổ.",
+      "noteEn": "Tofu and noodles with shrimp paste in a tiny Old Quarter alley."
+    },
+    {
+      "id": "mien-luon-dong-thinh",
+      "type": "food",
+      "category": "mien",
+      "name": "Miến lươn Đông Thịnh",
+      "aliases": [
+        "mien luon dong thinh",
+        "mien luon hang dieu"
+      ],
+      "keywords": [
+        "mien luon",
+        "mien tron"
+      ],
+      "dishes": [
+        "miến lươn trộn",
+        "miến lươn nước"
+      ],
+      "address": "87 Hàng Điếu",
+      "area": "Hoàn Kiếm (phố cổ)",
+      "zone": "hoan_kiem",
+      "lat": 21.0336,
+      "lon": 105.8462,
+      "price": [
+        40000,
+        60000
+      ],
+      "tags": [],
+      "noteVi": "Miến lươn giòn, có cả trộn và nước.",
+      "noteEn": "Crispy eel glass noodles, dry or in soup."
+    },
+    {
+      "id": "pho-cuon-hung-ben",
+      "type": "food",
+      "category": "pho_cuon",
+      "name": "Phở cuốn Hưng Bền",
+      "aliases": [
+        "pho cuon hung ben",
+        "pho cuon ngu xa"
+      ],
+      "keywords": [
+        "pho cuon",
+        "pho chien phong",
+        "pho xao"
+      ],
+      "dishes": [
+        "phở cuốn",
+        "phở chiên phồng"
+      ],
+      "address": "31 Ngũ Xã",
+      "area": "Ba Đình (hồ Trúc Bạch)",
+      "zone": "ba_dinh",
+      "lat": 21.0453,
+      "lon": 105.8409,
+      "price": [
+        60000,
+        150000
+      ],
+      "tags": [
+        "gần hồ Trúc Bạch",
+        "nhóm đông người"
+      ],
+      "noteVi": "Phố Ngũ Xã là nơi khai sinh món phở cuốn; quán rộng gần hồ Trúc Bạch.",
+      "noteEn": "Ngu Xa street is the home of fresh pho rolls; near Truc Bach Lake."
+    },
+    {
+      "id": "banh-tom-ho-tay",
+      "type": "food",
+      "category": "banh_tom",
+      "name": "Bánh tôm Hồ Tây",
+      "aliases": [
+        "banh tom ho tay"
+      ],
+      "keywords": [
+        "banh tom"
+      ],
+      "dishes": [
+        "bánh tôm",
+        "nem chua rán"
+      ],
+      "address": "1 Thanh Niên",
+      "area": "Ba Đình (Hồ Tây)",
+      "zone": "tay_ho",
+      "lat": 21.0477,
+      "lon": 105.8378,
+      "price": [
+        60000,
+        150000
+      ],
+      "tags": [
+        "view hồ",
+        "ngắm hoàng hôn"
+      ],
+      "noteVi": "Bánh tôm chiên giòn bên Hồ Tây, ngồi ngắm hồ.",
+      "noteEn": "Crispy shrimp fritters by West Lake."
+    },
+    {
+      "id": "bun-oc-phu-tay-ho",
+      "type": "food",
+      "category": "bun_oc",
+      "name": "Hàng bún ốc quanh Phủ Tây Hồ",
+      "aliases": [
+        "bun oc phu tay ho",
+        "oc phu tay ho"
+      ],
+      "keywords": [
+        "bun oc",
+        "oc luoc",
+        "an oc"
+      ],
+      "dishes": [
+        "bún ốc",
+        "ốc luộc",
+        "bánh tôm"
+      ],
+      "address": "52 Đặng Thai Mai",
+      "area": "Tây Hồ",
+      "zone": "tay_ho",
+      "lat": 21.0597,
+      "lon": 105.8203,
+      "price": [
+        30000,
+        70000
+      ],
+      "tags": [
+        "view hồ",
+        "bình dân"
+      ],
+      "noteVi": "Dãy quán bún ốc, ốc luộc bình dân ven hồ cạnh Phủ Tây Hồ.",
+      "noteEn": "Lakeside stalls of snail noodles next to Tay Ho temple."
+    },
+    {
+      "id": "ca-phe-giang",
+      "type": "food",
+      "category": "ca_phe",
+      "name": "Cà phê Giảng",
+      "aliases": [
+        "ca phe giang",
+        "cafe giang",
+        "giang cafe"
+      ],
+      "keywords": [
+        "ca phe",
+        "cafe",
+        "ca phe trung",
+        "coffee"
+      ],
+      "dishes": [
+        "cà phê trứng"
+      ],
+      "address": "39 Nguyễn Hữu Huân",
+      "area": "Hoàn Kiếm (phố cổ)",
+      "zone": "hoan_kiem",
+      "lat": 21.0337,
+      "lon": 105.8545,
+      "price": [
+        25000,
+        45000
+      ],
+      "hours": [
+        [
+          "07:00",
+          "22:00"
+        ]
+      ],
+      "tags": [
+        "cà phê trứng gốc"
+      ],
+      "noteVi": "Nơi được cho là khai sinh cà phê trứng Hà Nội.",
+      "noteEn": "Said to be the birthplace of Hanoi egg coffee."
+    },
+    {
+      "id": "ca-phe-dinh",
+      "type": "food",
+      "category": "ca_phe",
+      "name": "Cà phê Đinh",
+      "aliases": [
+        "ca phe dinh",
+        "cafe dinh"
+      ],
+      "keywords": [
+        "ca phe",
+        "cafe",
+        "ca phe trung",
+        "coffee"
+      ],
+      "dishes": [
+        "cà phê trứng",
+        "cà phê nâu"
+      ],
+      "address": "13 Đinh Tiên Hoàng",
+      "area": "Hoàn Kiếm (phố cổ)",
+      "zone": "hoan_kiem",
+      "lat": 21.0313,
+      "lon": 105.8527,
+      "price": [
+        25000,
+        45000
+      ],
+      "tags": [
+        "view Hồ Gươm"
+      ],
+      "noteVi": "Quán cà phê nhỏ trên tầng 2, nhìn ra Hồ Gươm.",
+      "noteEn": "Tiny upstairs cafe overlooking Hoan Kiem Lake."
+    },
+    {
+      "id": "kem-trang-tien",
+      "type": "food",
+      "category": "kem_che",
+      "name": "Kem Tràng Tiền",
+      "aliases": [
+        "kem trang tien"
+      ],
+      "keywords": [
+        "kem",
+        "an vat"
+      ],
+      "dishes": [
+        "kem que",
+        "kem ốc quế"
+      ],
+      "address": "35 Tràng Tiền",
+      "area": "Hoàn Kiếm (phố cổ)",
+      "zone": "hoan_kiem",
+      "lat": 21.0247,
+      "lon": 105.8546,
+      "price": [
+        10000,
+        40000
+      ],
+      "hours": [
+        [
+          "08:00",
+          "22:30"
+        ]
+      ],
+      "tags": [
+        "bình dân",
+        "gần Hồ Gươm"
+      ],
+      "noteVi": "Kem que, kem ốc quế lâu đời của Hà Nội.",
+      "noteEn": "Hanoi's classic ice cream shop."
+    },
+    {
+      "id": "che-bon-mua",
+      "type": "food",
+      "category": "kem_che",
+      "name": "Chè Bốn Mùa",
+      "aliases": [
+        "che bon mua",
+        "che hang can"
+      ],
+      "keywords": [
+        "che",
+        "an vat",
+        "do ngot"
+      ],
+      "dishes": [
+        "chè thập cẩm",
+        "chè đỗ đen"
+      ],
+      "address": "4 Hàng Cân",
+      "area": "Hoàn Kiếm (phố cổ)",
+      "zone": "hoan_kiem",
+      "lat": 21.0348,
+      "lon": 105.8492,
+      "price": [
+        20000,
+        40000
+      ],
+      "tags": [
+        "bình dân"
+      ],
+      "noteVi": "Quán chè lâu năm, nhiều loại chè Hà Nội.",
+      "noteEn": "Long-running sweet soup shop."
+    },
+    {
+      "id": "quan-an-ngon",
+      "type": "food",
+      "category": "nha_hang",
+      "name": "Quán Ăn Ngon Phan Bội Châu",
+      "aliases": [
+        "quan an ngon",
+        "quan an ngon phan boi chau"
+      ],
+      "keywords": [
+        "nha hang",
+        "mon viet",
+        "do an"
+      ],
+      "dishes": [
+        "bánh xèo",
+        "nem",
+        "bún chả",
+        "gỏi cuốn"
+      ],
+      "address": "18 Phan Bội Châu",
+      "area": "Hoàn Kiếm (phố cổ)",
+      "zone": "hoan_kiem",
+      "lat": 21.0256,
+      "lon": 105.844,
+      "price": [
+        100000,
+        250000
+      ],
+      "hours": [
+        [
+          "07:00",
+          "22:00"
+        ]
+      ],
+      "tags": [
+        "nhiều món ba miền",
+        "gia đình",
+        "nhóm đông người"
+      ],
+      "noteVi": "Nhà hàng gom nhiều món ăn đường phố ba miền trong một sân vườn.",
+      "noteEn": "Garden restaurant serving street-food dishes from all over Vietnam."
+    },
+    {
+      "id": "nha-hang-cau-go",
+      "type": "food",
+      "category": "nha_hang",
+      "name": "Nhà hàng Cầu Gỗ",
+      "aliases": [
+        "nha hang cau go",
+        "cau go restaurant"
+      ],
+      "keywords": [
+        "nha hang",
+        "mon viet",
+        "do an"
+      ],
+      "dishes": [
+        "món Hà Nội truyền thống"
+      ],
+      "address": "7 Đinh Tiên Hoàng",
+      "area": "Hoàn Kiếm (phố cổ)",
+      "zone": "hoan_kiem",
+      "lat": 21.0322,
+      "lon": 105.8527,
+      "price": [
+        200000,
+        400000
+      ],
+      "tags": [
+        "view Hồ Gươm",
+        "sang trọng"
+      ],
+      "noteVi": "Nhà hàng món Việt trên cao nhìn ra Hồ Gươm.",
+      "noteEn": "Vietnamese restaurant with a view over Hoan Kiem Lake."
+    },
+    {
+      "id": "uu-dam-chay",
+      "type": "food",
+      "category": "chay",
+      "name": "Ưu Đàm Chay",
+      "aliases": [
+        "uu dam chay",
+        "uu dam"
+      ],
+      "keywords": [
+        "an chay",
+        "nha hang chay",
+        "do chay",
+        "mon chay",
+        "nha hang"
+      ],
+      "dishes": [
+        "món chay"
+      ],
+      "address": "34 Hàng Bài",
+      "area": "Hoàn Kiếm (phố cổ)",
+      "zone": "hoan_kiem",
+      "lat": 21.0218,
+      "lon": 105.8517,
+      "price": [
+        200000,
+        400000
+      ],
+      "tags": [
+        "chay",
+        "sang trọng"
+      ],
+      "noteVi": "Nhà hàng chay không gian đẹp, món trình bày cầu kỳ.",
+      "noteEn": "Elegant vegetarian restaurant."
+    },
+    {
+      "id": "pho-ta-hien",
+      "type": "food",
+      "category": "pho_am_thuc",
+      "name": "Phố Tạ Hiện",
+      "aliases": [
+        "ta hien",
+        "pho ta hien",
+        "pho bia ta hien"
+      ],
+      "keywords": [
+        "an dem",
+        "bia hoi",
+        "do nuong",
+        "pho am thuc",
+        "an vat"
+      ],
+      "dishes": [
+        "bia hơi",
+        "đồ nướng",
+        "nem chua rán"
+      ],
+      "address": "phố Tạ Hiện",
+      "area": "Hoàn Kiếm (phố cổ)",
+      "zone": "hoan_kiem",
+      "lat": 21.0349,
+      "lon": 105.8519,
+      "price": [
+        50000,
+        200000
+      ],
+      "hours": [
+        [
+          "17:00",
+          "24:00"
+        ]
+      ],
+      "tags": [
+        "mở khuya",
+        "đông vui",
+        "ăn đêm"
+      ],
+      "noteVi": "Phố bia hơi và đồ nướng sôi động nhất phố cổ về đêm.",
+      "noteEn": "The Old Quarter's busiest street for beer and grilled snacks at night."
+    },
+    {
+      "id": "cho-dem-pho-co",
+      "type": "food",
+      "category": "pho_am_thuc",
+      "name": "Chợ đêm phố cổ Hàng Đào – Đồng Xuân",
+      "aliases": [
+        "cho dem pho co",
+        "cho dem hang dao",
+        "cho dem dong xuan"
+      ],
+      "keywords": [
+        "an vat",
+        "an dem",
+        "pho am thuc"
+      ],
+      "dishes": [
+        "đồ ăn vặt",
+        "nước giải khát"
+      ],
+      "address": "phố Hàng Đào",
+      "area": "Hoàn Kiếm (phố cổ)",
+      "zone": "hoan_kiem",
+      "lat": 21.036,
+      "lon": 105.851,
+      "price": [
+        20000,
+        100000
+      ],
+      "hours": [
+        [
+          "18:00",
+          "23:00"
+        ]
+      ],
+      "tags": [
+        "tối thứ sáu, thứ bảy, chủ nhật",
+        "đông vui"
+      ],
+      "noteVi": "Chợ đêm họp tối cuối tuần, nhiều quầy ăn vặt.",
+      "noteEn": "Weekend night market with snack stalls."
+    },
+    {
+      "id": "pho-am-thuc-tong-duy-tan",
+      "type": "food",
+      "category": "pho_am_thuc",
+      "name": "Phố ẩm thực Tống Duy Tân",
+      "aliases": [
+        "tong duy tan",
+        "pho am thuc tong duy tan"
+      ],
+      "keywords": [
+        "an dem",
+        "pho am thuc",
+        "do an",
+        "an vat"
+      ],
+      "dishes": [
+        "cháo",
+        "lẩu",
+        "đồ nướng"
+      ],
+      "address": "phố Tống Duy Tân",
+      "area": "Hoàn Kiếm (phố cổ)",
+      "zone": "hoan_kiem",
+      "lat": 21.0283,
+      "lon": 105.8443,
+      "price": [
+        50000,
+        200000
+      ],
+      "hours": [
+        [
+          "10:00",
+          "24:00"
+        ]
+      ],
+      "tags": [
+        "mở khuya",
+        "ăn đêm"
+      ],
+      "noteVi": "Phố nhiều quán ăn mở muộn, gần phố Hàng Bông.",
+      "noteEn": "Street lined with late-night eateries near Hang Bong."
+    },
+    {
+      "id": "sofitel-metropole",
+      "type": "stay",
+      "category": "hotel",
+      "name": "Sofitel Legend Metropole Hà Nội",
+      "aliases": [
+        "metropole",
+        "sofitel metropole",
+        "khach san metropole"
+      ],
+      "stars": 5,
+      "priceBand": "luxury",
+      "address": "15 Ngô Quyền",
+      "area": "Hoàn Kiếm (phố cổ)",
+      "zone": "hoan_kiem",
+      "lat": 21.0257,
+      "lon": 105.8563,
+      "tags": [
+        "lịch sử",
+        "gần Nhà hát Lớn",
+        "hồ bơi"
+      ],
+      "noteVi": "Khách sạn lịch sử từ năm 1901, gần Nhà hát Lớn.",
+      "noteEn": "Historic hotel from 1901 near the Opera House.",
+      "keywords": [],
+      "hours": [
+        [
+          "00:00",
+          "23:59"
+        ]
+      ]
+    },
+    {
+      "id": "hilton-hanoi-opera",
+      "type": "stay",
+      "category": "hotel",
+      "name": "Hilton Hà Nội Opera",
+      "aliases": [
+        "hilton",
+        "hilton opera",
+        "hilton ha noi"
+      ],
+      "stars": 5,
+      "priceBand": "luxury",
+      "address": "1 Lê Thánh Tông",
+      "area": "Hoàn Kiếm (phố cổ)",
+      "zone": "hoan_kiem",
+      "lat": 21.0238,
+      "lon": 105.8581,
+      "tags": [
+        "gần Nhà hát Lớn",
+        "hồ bơi"
+      ],
+      "noteVi": "Ngay cạnh Nhà hát Lớn Hà Nội.",
+      "noteEn": "Right next to the Hanoi Opera House.",
+      "keywords": [],
+      "hours": [
+        [
+          "00:00",
+          "23:59"
+        ]
+      ]
+    },
+    {
+      "id": "hotel-de-l-opera",
+      "type": "stay",
+      "category": "hotel",
+      "name": "Hotel de l'Opera Hà Nội (MGallery)",
+      "aliases": [
+        "hotel de l opera",
+        "mgallery",
+        "khach san opera"
+      ],
+      "stars": 5,
+      "priceBand": "luxury",
+      "address": "29 Tràng Tiền",
+      "area": "Hoàn Kiếm (phố cổ)",
+      "zone": "hoan_kiem",
+      "lat": 21.0243,
+      "lon": 105.8557,
+      "tags": [
+        "gần Nhà hát Lớn",
+        "phố Tràng Tiền"
+      ],
+      "noteVi": "Khách sạn boutique trên phố Tràng Tiền.",
+      "noteEn": "Boutique hotel on Trang Tien street.",
+      "keywords": [],
+      "hours": [
+        [
+          "00:00",
+          "23:59"
+        ]
+      ]
+    },
+    {
+      "id": "melia-hanoi",
+      "type": "stay",
+      "category": "hotel",
+      "name": "Meliá Hà Nội",
+      "aliases": [
+        "melia",
+        "melia ha noi"
+      ],
+      "stars": 5,
+      "priceBand": "luxury",
+      "address": "44B Lý Thường Kiệt",
+      "area": "Hoàn Kiếm (phố cổ)",
+      "zone": "hoan_kiem",
+      "lat": 21.0246,
+      "lon": 105.8506,
+      "tags": [
+        "hồ bơi",
+        "trung tâm"
+      ],
+      "noteVi": "Khách sạn lớn ở trung tâm, gần Hồ Gươm.",
+      "noteEn": "Large central hotel near Hoan Kiem Lake.",
+      "keywords": [],
+      "hours": [
+        [
+          "00:00",
+          "23:59"
+        ]
+      ]
+    },
+    {
+      "id": "intercontinental-westlake",
+      "type": "stay",
+      "category": "hotel",
+      "name": "InterContinental Hà Nội Westlake",
+      "aliases": [
+        "intercontinental",
+        "intercontinental westlake",
+        "khach san tren ho tay"
+      ],
+      "stars": 5,
+      "priceBand": "luxury",
+      "address": "5 Từ Hoa",
+      "area": "Tây Hồ",
+      "zone": "tay_ho",
+      "lat": 21.0597,
+      "lon": 105.8277,
+      "tags": [
+        "view hồ",
+        "trên mặt Hồ Tây",
+        "hồ bơi"
+      ],
+      "noteVi": "Khách sạn có các khu phòng nằm trên mặt Hồ Tây.",
+      "noteEn": "Rooms on pavilions over West Lake.",
+      "keywords": [],
+      "hours": [
+        [
+          "00:00",
+          "23:59"
+        ]
+      ]
+    },
+    {
+      "id": "sheraton-hanoi",
+      "type": "stay",
+      "category": "hotel",
+      "name": "Sheraton Hà Nội",
+      "aliases": [
+        "sheraton",
+        "sheraton ha noi"
+      ],
+      "stars": 5,
+      "priceBand": "luxury",
+      "address": "11 Xuân Diệu",
+      "area": "Tây Hồ",
+      "zone": "tay_ho",
+      "lat": 21.0613,
+      "lon": 105.8329,
+      "tags": [
+        "view hồ",
+        "hồ bơi"
+      ],
+      "noteVi": "Bên Hồ Tây, yên tĩnh, xa phố cổ khoảng 4 cây số.",
+      "noteEn": "Quiet West Lake hotel about 4 km from the Old Quarter.",
+      "keywords": [],
+      "hours": [
+        [
+          "00:00",
+          "23:59"
+        ]
+      ]
+    },
+    {
+      "id": "pan-pacific-hanoi",
+      "type": "stay",
+      "category": "hotel",
+      "name": "Pan Pacific Hà Nội",
+      "aliases": [
+        "pan pacific",
+        "pan pacific ha noi"
+      ],
+      "stars": 5,
+      "priceBand": "luxury",
+      "address": "1 Thanh Niên",
+      "area": "Ba Đình (Hồ Tây)",
+      "zone": "ba_dinh",
+      "lat": 21.0482,
+      "lon": 105.8393,
+      "tags": [
+        "view hồ",
+        "hồ bơi"
+      ],
+      "noteVi": "Nằm giữa Hồ Tây và hồ Trúc Bạch.",
+      "noteEn": "Between West Lake and Truc Bach Lake.",
+      "keywords": [],
+      "hours": [
+        [
+          "00:00",
+          "23:59"
+        ]
+      ]
+    },
+    {
+      "id": "lotte-hotel-hanoi",
+      "type": "stay",
+      "category": "hotel",
+      "name": "Lotte Hotel Hà Nội",
+      "aliases": [
+        "lotte",
+        "lotte hotel",
+        "khach san lotte"
+      ],
+      "stars": 5,
+      "priceBand": "luxury",
+      "address": "54 Liễu Giai",
+      "area": "Ba Đình",
+      "zone": "ba_dinh",
+      "lat": 21.0319,
+      "lon": 105.8124,
+      "tags": [
+        "tòa nhà cao",
+        "đài quan sát"
+      ],
+      "noteVi": "Trong tòa Lotte Center, có đài quan sát trên cao.",
+      "noteEn": "In Lotte Center tower with a sky observatory.",
+      "keywords": [],
+      "hours": [
+        [
+          "00:00",
+          "23:59"
+        ]
+      ]
+    },
+    {
+      "id": "hanoi-daewoo",
+      "type": "stay",
+      "category": "hotel",
+      "name": "Khách sạn Hà Nội Daewoo",
+      "aliases": [
+        "daewoo",
+        "khach san daewoo"
+      ],
+      "stars": 5,
+      "priceBand": "upper",
+      "address": "360 Kim Mã",
+      "area": "Ba Đình",
+      "zone": "ba_dinh",
+      "lat": 21.0316,
+      "lon": 105.8166,
+      "tags": [
+        "hồ bơi lớn",
+        "gần công viên Thủ Lệ"
+      ],
+      "noteVi": "Khách sạn 5 sao lâu năm, cạnh công viên Thủ Lệ.",
+      "noteEn": "Long-standing five-star hotel by Thu Le Park.",
+      "keywords": [],
+      "hours": [
+        [
+          "00:00",
+          "23:59"
+        ]
+      ]
+    },
+    {
+      "id": "jw-marriott-hanoi",
+      "type": "stay",
+      "category": "hotel",
+      "name": "JW Marriott Hà Nội",
+      "aliases": [
+        "jw marriott",
+        "marriott"
+      ],
+      "stars": 5,
+      "priceBand": "luxury",
+      "address": "8 Đỗ Đức Dục",
+      "area": "Nam Từ Liêm",
+      "zone": "nam_tu_liem",
+      "lat": 21.0067,
+      "lon": 105.7832,
+      "tags": [
+        "gần Trung tâm Hội nghị Quốc gia",
+        "hồ bơi"
+      ],
+      "noteVi": "Gần Trung tâm Hội nghị Quốc gia, xa phố cổ khoảng 10 cây số.",
+      "noteEn": "Near the National Convention Center, about 10 km from the Old Quarter.",
+      "keywords": [],
+      "hours": [
+        [
+          "00:00",
+          "23:59"
+        ]
+      ]
+    },
+    {
+      "id": "pullman-hanoi",
+      "type": "stay",
+      "category": "hotel",
+      "name": "Pullman Hà Nội",
+      "aliases": [
+        "pullman",
+        "pullman ha noi"
+      ],
+      "stars": 5,
+      "priceBand": "upper",
+      "address": "40 Cát Linh",
+      "area": "Đống Đa",
+      "zone": "dong_da",
+      "lat": 21.0287,
+      "lon": 105.8298,
+      "tags": [
+        "hồ bơi",
+        "gần ga Cát Linh"
+      ],
+      "noteVi": "Gần ga tàu điện Cát Linh, cách Văn Miếu khoảng 1 cây số.",
+      "noteEn": "Near Cat Linh metro station.",
+      "keywords": [],
+      "hours": [
+        [
+          "00:00",
+          "23:59"
+        ]
+      ]
+    },
+    {
+      "id": "la-siesta-hang-be",
+      "type": "stay",
+      "category": "hotel",
+      "name": "La Siesta Premium Hàng Bè",
+      "aliases": [
+        "la siesta",
+        "la siesta hang be"
+      ],
+      "stars": 4,
+      "priceBand": "upper",
+      "address": "27 Hàng Bè",
+      "area": "Hoàn Kiếm (phố cổ)",
+      "zone": "hoan_kiem",
+      "lat": 21.0337,
+      "lon": 105.8536,
+      "tags": [
+        "giữa phố cổ",
+        "quầy bar trên tầng thượng"
+      ],
+      "noteVi": "Khách sạn boutique giữa phố cổ, gần Hồ Gươm.",
+      "noteEn": "Boutique hotel in the heart of the Old Quarter.",
+      "keywords": [],
+      "hours": [
+        [
+          "00:00",
+          "23:59"
+        ]
+      ]
+    },
+    {
+      "id": "silk-path-hanoi",
+      "type": "stay",
+      "category": "hotel",
+      "name": "Silk Path Hà Nội",
+      "aliases": [
+        "silk path",
+        "khach san silk path"
+      ],
+      "stars": 4,
+      "priceBand": "upper",
+      "address": "195 Hàng Bông",
+      "area": "Hoàn Kiếm (phố cổ)",
+      "zone": "hoan_kiem",
+      "lat": 21.0294,
+      "lon": 105.8448,
+      "tags": [
+        "gần phố cổ"
+      ],
+      "noteVi": "Trên phố Hàng Bông, đi bộ ra phố cổ.",
+      "noteEn": "On Hang Bong street, walkable to the Old Quarter.",
+      "keywords": [],
+      "hours": [
+        [
+          "00:00",
+          "23:59"
+        ]
+      ]
+    },
+    {
+      "id": "mercure-la-gare",
+      "type": "stay",
+      "category": "hotel",
+      "name": "Mercure Hà Nội La Gare",
+      "aliases": [
+        "mercure",
+        "mercure la gare"
+      ],
+      "stars": 4,
+      "priceBand": "mid",
+      "address": "94 Lý Thường Kiệt",
+      "area": "Hoàn Kiếm (phố cổ)",
+      "zone": "hoan_kiem",
+      "lat": 21.0251,
+      "lon": 105.8432,
+      "tags": [
+        "gần ga Hà Nội"
+      ],
+      "noteVi": "Gần ga Hà Nội, tiện đi tàu.",
+      "noteEn": "Near Hanoi railway station.",
+      "keywords": [],
+      "hours": [
+        [
+          "00:00",
+          "23:59"
+        ]
+      ]
+    },
+    {
+      "id": "peridot-grand",
+      "type": "stay",
+      "category": "hotel",
+      "name": "Peridot Grand Luxury Boutique",
+      "aliases": [
+        "peridot",
+        "peridot grand"
+      ],
+      "stars": 4,
+      "priceBand": "upper",
+      "address": "33 Đường Thành",
+      "area": "Hoàn Kiếm (phố cổ)",
+      "zone": "hoan_kiem",
+      "lat": 21.0335,
+      "lon": 105.8462,
+      "tags": [
+        "giữa phố cổ",
+        "hồ bơi trên tầng thượng"
+      ],
+      "noteVi": "Khách sạn boutique có hồ bơi trên tầng thượng.",
+      "noteEn": "Boutique hotel with a rooftop pool.",
+      "keywords": [],
+      "hours": [
+        [
+          "00:00",
+          "23:59"
+        ]
+      ]
+    },
+    {
+      "id": "hanoi-backpackers",
+      "type": "stay",
+      "category": "hostel",
+      "name": "Hanoi Backpackers Hostel",
+      "aliases": [
+        "hanoi backpackers",
+        "backpackers hostel"
+      ],
+      "stars": 0,
+      "priceBand": "budget",
+      "address": "9 Mã Mây",
+      "area": "Hoàn Kiếm (phố cổ)",
+      "zone": "hoan_kiem",
+      "lat": 21.035,
+      "lon": 105.853,
+      "tags": [
+        "phòng tập thể",
+        "khách du lịch trẻ"
+      ],
+      "noteVi": "Nhà nghỉ tập thể cho khách du lịch bụi, giữa phố cổ.",
+      "noteEn": "Backpacker hostel in the Old Quarter.",
+      "keywords": [],
+      "hours": [
+        [
+          "00:00",
+          "23:59"
+        ]
+      ]
+    },
+    {
+      "id": "little-charm-hostel",
+      "type": "stay",
+      "category": "hostel",
+      "name": "Little Charm Hanoi Hostel",
+      "aliases": [
+        "little charm",
+        "little charm hostel"
+      ],
+      "stars": 0,
+      "priceBand": "budget",
+      "address": "44 Hàng Bồ",
+      "area": "Hoàn Kiếm (phố cổ)",
+      "zone": "hoan_kiem",
+      "lat": 21.0344,
+      "lon": 105.8482,
+      "tags": [
+        "phòng tập thể",
+        "hồ bơi"
+      ],
+      "noteVi": "Hostel giá rẻ có hồ bơi, giữa phố cổ.",
+      "noteEn": "Budget hostel with a pool in the Old Quarter.",
+      "keywords": [],
+      "hours": [
+        [
+          "00:00",
+          "23:59"
+        ]
+      ]
+    },
+    {
+      "id": "melia-ba-vi-mountain-retreat",
+      "type": "stay",
+      "category": "resort",
+      "name": "Meliá Ba Vì Mountain Retreat",
+      "aliases": [
+        "melia ba vi",
+        "resort ba vi"
+      ],
+      "stars": 5,
+      "priceBand": "luxury",
+      "address": "Vườn quốc gia Ba Vì",
+      "area": "Ba Vì",
+      "zone": "ba_vi",
+      "lat": 21.07,
+      "lon": 105.37,
+      "tags": [
+        "nghỉ dưỡng núi",
+        "thiên nhiên",
+        "xa trung tâm"
+      ],
+      "noteVi": "Khu nghỉ dưỡng trên núi Ba Vì, cách trung tâm Hà Nội khoảng 60 cây số.",
+      "noteEn": "Mountain retreat in Ba Vi National Park, about 60 km from central Hanoi.",
+      "keywords": [],
+      "hours": [
+        [
+          "00:00",
+          "23:59"
+        ]
+      ]
+    },
+    {
+      "id": "bun-cha-sinh-tu-cau-giay",
+      "type": "food",
+      "category": "bun_cha",
+      "name": "Bún chả Sinh Từ Cầu Giấy",
+      "aliases": [
+        "bun cha sinh tu",
+        "sinh tu cau giay",
+        "bun cha sinh tu nguyen phong sac"
+      ],
+      "keywords": [
+        "bun cha",
+        "bun cha sinh tu",
+        "cha nuong"
+      ],
+      "dishes": [
+        "bún chả nướng than hoa",
+        "nem hải sản",
+        "nem cua bể"
+      ],
+      "address": "48 Nguyễn Phong Sắc",
+      "area": "Cầu Giấy",
+      "zone": "cau_giay",
+      "lat": 21.0372,
+      "lon": 105.7891,
+      "price": [
+        50000,
+        75000
+      ],
+      "hours": [
+        [
+          "07:00",
+          "21:30"
+        ]
+      ],
+      "tags": [
+        "bún chả truyền thống",
+        "chả nướng thơm",
+        "không gian sạch sẽ"
+      ],
+      "noteVi": "Thương hiệu bún chả Sinh Từ lâu đời, thịt nướng than hoa đậm đà thơm ngậy.",
+      "noteEn": "Famous traditional bun cha brand with charcoal-grilled pork patties."
+    },
+    {
+      "id": "pho-cuon-huong-mai-to-hieu",
+      "type": "food",
+      "category": "pho_cuon",
+      "name": "Phở cuốn Hương Mai Tô Hiệu",
+      "aliases": [
+        "pho cuon huong mai",
+        "huong mai to hieu",
+        "pho cuon cau giay"
+      ],
+      "keywords": [
+        "pho cuon",
+        "pho chien phong",
+        "pho chien trung"
+      ],
+      "dishes": [
+        "phở cuốn bò",
+        "phở chiên phồng",
+        "phở chiên trứng",
+        "chả mực"
+      ],
+      "address": "101 Tô Hiệu",
+      "area": "Cầu Giấy (Nghĩa Tân)",
+      "zone": "cau_giay",
+      "lat": 21.0425,
+      "lon": 105.7942,
+      "price": [
+        45000,
+        80000
+      ],
+      "hours": [
+        [
+          "09:30",
+          "22:00"
+        ]
+      ],
+      "tags": [
+        "phở cuốn",
+        "món ăn Hà Nội",
+        "nước chấm chua ngọt"
+      ],
+      "noteVi": "Quán phở cuốn nổi tiếng với bánh phở mềm dẻo, bò xào đậm vị và phở chiên phồng giòn tan.",
+      "noteEn": "Popular rolled pho spot known for tender beef and crispy deep-fried pho pillows."
+    },
+    {
+      "id": "am-thuc-nghia-tan",
+      "type": "food",
+      "category": "pho_am_thuc",
+      "name": "Khu ẩm thực chợ Nghĩa Tân",
+      "aliases": [
+        "cho nghia tan",
+        "am thuc nghia tan",
+        "banh goi nghia tan",
+        "tao pho nghia tan"
+      ],
+      "keywords": [
+        "an vat",
+        "banh goi",
+        "tao pho",
+        "banh mi chao",
+        "do an vat"
+      ],
+      "dishes": [
+        "bánh gối giòn",
+        "tào phớ nước đường gừng hoa nhài",
+        "bánh mì chảo",
+        "nộm bò khô"
+      ],
+      "address": "Khu tập thể Nghĩa Tân Tô Hiệu",
+      "area": "Cầu Giấy (Nghĩa Tân)",
+      "zone": "cau_giay",
+      "lat": 21.0418,
+      "lon": 105.7925,
+      "price": [
+        15000,
+        45000
+      ],
+      "hours": [
+        [
+          "10:00",
+          "22:00"
+        ]
+      ],
+      "tags": [
+        "thiên đường ăn vặt",
+        "giá sinh viên",
+        "bánh gối tào phớ"
+      ],
+      "noteVi": "Thiên đường ăn vặt nức tiếng Cầu Giấy với bánh gối nhân đầy đặn và tào phớ thơm mát.",
+      "noteEn": "Famous street food hub in Cau Giay known for crispy fried pastries and sweet silken tofu."
+    },
+    {
+      "id": "novotel-suites-hanoi",
+      "type": "stay",
+      "category": "hotel",
+      "name": "Novotel Suites Hanoi",
+      "aliases": [
+        "novotel suites",
+        "novotel duy tan",
+        "khach san novotel cau giay"
+      ],
+      "stars": 4,
+      "priceBand": "upper",
+      "address": "5 Duy Tân",
+      "area": "Cầu Giấy",
+      "zone": "cau_giay",
+      "lat": 21.0315,
+      "lon": 105.782,
+      "tags": [
+        "4 sao",
+        "hồ bơi ngoài trời",
+        "căn hộ khách sạn",
+        "khu công nghệ Duy Tân"
+      ],
+      "noteVi": "Khách sạn 4 sao phong cách căn hộ tiện nghi của tập đoàn Accor tại khu phố văn phòng Duy Tân.",
+      "noteEn": "Modern 4-star suite hotel by Accor featuring outdoor pool and kitchenette suites in Cau Giay.",
+      "keywords": [],
+      "hours": [
+        [
+          "00:00",
+          "23:59"
+        ]
+      ]
+    },
+    {
+      "id": "grand-plaza-hanoi",
+      "type": "stay",
+      "category": "hotel",
+      "name": "Khách sạn Grand Plaza Hanoi",
+      "aliases": [
+        "grand plaza",
+        "khach san grand plaza",
+        "grand plaza tran duy hung"
+      ],
+      "stars": 5,
+      "priceBand": "luxury",
+      "address": "117 Trần Duy Hưng",
+      "area": "Cầu Giấy (Trung Hòa)",
+      "zone": "cau_giay",
+      "lat": 21.0082,
+      "lon": 105.7955,
+      "tags": [
+        "5 sao",
+        "dát vàng",
+        "bể bơi 4 mùa",
+        "gần Big C Thăng Long"
+      ],
+      "noteVi": "Khách sạn 5 sao nguy nga với nội thất dát vàng sang trọng và dịch vụ đẳng cấp quốc tế.",
+      "noteEn": "Palatial 5-star hotel with gold-plated decor, indoor swimming pool, and spa on Tran Duy Hung.",
+      "keywords": [],
+      "hours": [
+        [
+          "00:00",
+          "23:59"
+        ]
+      ]
+    },
+    {
+      "id": "sen-grand-hotel",
+      "type": "stay",
+      "category": "hotel",
+      "name": "Sen Grand Hotel & Spa",
+      "aliases": [
+        "sen grand hotel",
+        "sen hotel cau giay",
+        "khach san sen tran thai tong"
+      ],
+      "stars": 4,
+      "priceBand": "mid",
+      "address": "118 Trần Thái Tông",
+      "area": "Cầu Giấy",
+      "zone": "cau_giay",
+      "lat": 21.0345,
+      "lon": 105.787,
+      "tags": [
+        "4 sao",
+        "spa",
+        "giá hợp lý",
+        "tiện đi lại"
+      ],
+      "noteVi": "Khách sạn boutique sang trọng, vị trí thuận tiện gần các trường đại học và khu ẩm thực Cầu Giấy.",
+      "noteEn": "Comfortable 4-star boutique hotel with spa facilities in the heart of Cau Giay.",
+      "keywords": [],
+      "hours": [
+        [
+          "00:00",
+          "23:59"
+        ]
+      ]
+    },
+    {
+      "id": "somerset-west-lake-hanoi",
+      "type": "stay",
+      "category": "hotel",
+      "name": "Căn hộ Somerset West Lake Hà Nội",
+      "aliases": [
+        "sheraton hanoi",
+        "sheraton nghi tam",
+        "khach san sheraton"
+      ],
+      "stars": 5,
+      "priceBand": "luxury",
+      "address": "254 Thụy Khuê",
+      "area": "Thụy Khuê Tây Hồ",
+      "zone": "tay_ho",
+      "lat": 21.0565,
+      "lon": 105.834,
+      "tags": [
+        "5 sao",
+        "hồ bơi ngoài trời",
+        "view Hồ Tây",
+        "nhà hàng cao cấp"
+      ],
+      "noteVi": "Căn hộ dịch vụ cao cấp ven hồ Tây với đầy đủ tiện ích gia đình và hồ bơi xanh mát.",
+      "noteEn": "Luxury serviced apartments overlooking West Lake on Thuy Khue street.",
+      "keywords": [],
+      "hours": [
+        [
+          "00:00",
+          "23:59"
+        ]
+      ]
+    },
+    {
+      "id": "pho-ga-ban-nguyen-trai",
+      "type": "food",
+      "category": "pho",
+      "name": "Phở gà Bản Nguyễn Trãi",
+      "aliases": [
+        "pho ga ban",
+        "pho ga nguyen trai",
+        "pho ga thanh xuan"
+      ],
+      "keywords": [
+        "pho ga",
+        "pho ga ta",
+        "ga chat"
+      ],
+      "dishes": [
+        "phở gà ta chặt",
+        "phở gà xé đùi",
+        "lòng mề trứng non"
+      ],
+      "address": "172 Nguyễn Trãi",
+      "area": "Thanh Xuân",
+      "zone": "thanh_xuan",
+      "lat": 20.9995,
+      "lon": 105.8155,
+      "price": [
+        45000,
+        75000
+      ],
+      "hours": [
+        [
+          "06:00",
+          "23:00"
+        ]
+      ],
+      "tags": [
+        "phở gà ta",
+        "thịt gà dai giòn",
+        "nước dùng ngọt thanh"
+      ],
+      "noteVi": "Quán phở gà ta thịt vàng ươm, da giòn sần sật, nước dùng thanh ngọt thơm nức mũi lá chanh.",
+      "noteEn": "Famous free-range chicken pho restaurant in Thanh Xuan with flavorful broth and crispy skin."
+    },
+    {
+      "id": "am-thuc-nguyen-quy-duc",
+      "type": "food",
+      "category": "pho_am_thuc",
+      "name": "Phố ăn vặt Nguyễn Quý Đức",
+      "aliases": [
+        "pho nguyen quy duc",
+        "an vat nguyen quy duc",
+        "cho nguyen quy duc"
+      ],
+      "keywords": [
+        "an vat",
+        "che sau",
+        "nem chua ran",
+        "banh trang tron"
+      ],
+      "dishes": [
+        "chè sầu riêng",
+        "nem chua rán",
+        "bánh mì cay Hải Phòng",
+        "ốc luộc"
+      ],
+      "address": "Đường Nguyễn Quý Đức",
+      "area": "Thanh Xuân (Thanh Xuân Bắc)",
+      "zone": "thanh_xuan",
+      "lat": 20.995,
+      "lon": 105.7985,
+      "price": [
+        15000,
+        40000
+      ],
+      "hours": [
+        [
+          "11:00",
+          "22:30"
+        ]
+      ],
+      "tags": [
+        "phố ẩm thực sinh viên",
+        "ăn vặt rẻ ngon",
+        "chè sầu thơm nức"
+      ],
+      "noteVi": "Khu phố ăn vặt tập trung nhiều trường học với đủ món ngon bình dân, đặc biệt là chè sầu và ốc luộc.",
+      "noteEn": "Vibrant student street food haven with inexpensive local snacks, fried spring rolls, and desserts."
+    },
+    {
+      "id": "royal-city-homestay",
+      "type": "stay",
+      "category": "homestay",
+      "name": "Căn hộ & Homestay Vinhomes Royal City",
+      "aliases": [
+        "homestay royal city",
+        "can ho royal city",
+        "khach san royal city"
+      ],
+      "stars": 4,
+      "priceBand": "mid",
+      "address": "72A Nguyễn Trãi",
+      "area": "Thanh Xuân",
+      "zone": "thanh_xuan",
+      "lat": 21.0028,
+      "lon": 105.816,
+      "tags": [
+        "căn hộ cao cấp",
+        "tiện ích TTTM",
+        "bể bơi",
+        "gần tuyến metro"
+      ],
+      "noteVi": "Chuỗi căn hộ dịch vụ cao cấp trong quần thể thành phố Hoàng Gia Royal City với đầy đủ khu vui chơi, trượt băng và mua sắm.",
+      "noteEn": "Upscale serviced apartments inside Royal City mega-complex with shopping mall, ice rink, and pools.",
+      "keywords": [],
+      "hours": [
+        [
+          "00:00",
+          "23:59"
+        ]
+      ]
+    },
+    {
+      "id": "wyndham-garden-hanoi",
+      "type": "stay",
+      "category": "hotel",
+      "name": "Wyndham Garden Hanoi Hotel",
+      "aliases": [
+        "wyndham garden",
+        "khach san wyndham",
+        "wyndham hanoi"
+      ],
+      "stars": 4,
+      "priceBand": "mid",
+      "address": "Khu đô thị Mỗ Lao / Tố Hữu",
+      "area": "Hà Đông / Thanh Xuân",
+      "zone": "thanh_xuan",
+      "lat": 20.9855,
+      "lon": 105.776,
+      "tags": [
+        "4 sao quốc tế",
+        "hồ bơi nước ấm",
+        "spa thư giãn",
+        "phòng gym"
+      ],
+      "noteVi": "Khách sạn 4 sao quốc tế hiện đại thuộc tập đoàn Wyndham với tiện ích cao cấp và dịch vụ chuyên nghiệp.",
+      "noteEn": "Contemporary 4-star international hotel by Wyndham with indoor heated pool and spa.",
+      "keywords": [],
+      "hours": [
+        [
+          "00:00",
+          "23:59"
+        ]
+      ]
+    },
+    {
+      "id": "cha-ca-ha-dong",
+      "type": "food",
+      "category": "cha_ca",
+      "name": "Chả cá Hà Đông",
+      "aliases": [
+        "cha ca ha dong",
+        "cha ca lang ha dong",
+        "cha ca nguyen khuyen"
+      ],
+      "keywords": [
+        "cha ca",
+        "cha ca lang",
+        "mam tom"
+      ],
+      "dishes": [
+        "chả cá lăng nướng chảo",
+        "lòng cá xào thì là",
+        "canh đầu cá nấu măng chua"
+      ],
+      "address": "BT12 Khu đô thị Văn Quán Nguyễn Khuyến",
+      "area": "Hà Đông (Văn Quán)",
+      "zone": "ha_dong",
+      "lat": 20.9785,
+      "lon": 105.789,
+      "price": [
+        120000,
+        200000
+      ],
+      "hours": [
+        [
+          "10:00",
+          "14:00"
+        ],
+        [
+          "17:00",
+          "22:00"
+        ]
+      ],
+      "tags": [
+        "chả cá lăng",
+        "mắm tôm thơm ngậy",
+        "không gian ven hồ"
+      ],
+      "noteVi": "Chả cá lăng tươi giòn ngậy, ăn kèm thì là hành hoa xào trên chảo nóng hổi và mắm tôm đánh sủi bọt.",
+      "noteEn": "Savory turmeric grilled catfish cooked tableside with fresh dill, spring onions, and shrimp paste."
+    },
+    {
+      "id": "pho-am-thuc-ao-sen",
+      "type": "food",
+      "category": "pho_am_thuc",
+      "name": "Phố ẩm thực Ao Sen Hà Đông",
+      "aliases": [
+        "pho ao sen",
+        "am thuc ao sen",
+        "an vat ao sen"
+      ],
+      "keywords": [
+        "an vat",
+        "nem nuong",
+        "bun dau",
+        "tra sua",
+        "com tam"
+      ],
+      "dishes": [
+        "nem nướng Nha Trang",
+        "bún đậu mắm tôm",
+        "mì cay 7 cấp độ",
+        "bánh mì chảo"
+      ],
+      "address": "Phố Ao Sen Mộ Lao",
+      "area": "Hà Đông (Mộ Lao)",
+      "zone": "ha_dong",
+      "lat": 20.982,
+      "lon": 105.7845,
+      "price": [
+        25000,
+        60000
+      ],
+      "hours": [
+        [
+          "08:00",
+          "23:00"
+        ]
+      ],
+      "tags": [
+        "phố ẩm thực sinh viên",
+        "hàng trăm món ngon",
+        "nhộn nhịp về đêm"
+      ],
+      "noteVi": "Con phố ẩm thực sầm uất bậc nhất quận Hà Đông với hàng chục quán ăn trẻ trung giá cả phải chăng.",
+      "noteEn": "Famous student culinary street in Ha Dong packed with trendy Vietnamese and Asian street delicacies."
+    },
+    {
+      "id": "muong-thanh-grand-ha-dong",
+      "type": "stay",
+      "category": "hotel",
+      "name": "Khách sạn Mường Thanh Grand Hà Đông",
+      "aliases": [
+        "muong thanh ha dong",
+        "muong thanh xa la",
+        "khach san muong thanh ha dong"
+      ],
+      "stars": 4,
+      "priceBand": "mid",
+      "address": "Khu đô thị Xa La Phúc La",
+      "area": "Hà Đông (Xa La)",
+      "zone": "ha_dong",
+      "lat": 20.966,
+      "lon": 105.7955,
+      "tags": [
+        "4 sao",
+        "hồ bơi",
+        "tiệc cưới hội nghị",
+        "giá tốt"
+      ],
+      "noteVi": "Khách sạn 4 sao quy mô lớn tại khu đô thị Xa La, đầy đủ phòng ốc tiện nghi và hồ bơi ngoài trời.",
+      "noteEn": "Large 4-star hotel in Xa La Urban Area with outdoor pool, fitness center, and banqueting.",
+      "keywords": [],
+      "hours": [
+        [
+          "00:00",
+          "23:59"
+        ]
+      ]
+    },
+    {
+      "id": "seasons-avenue-homestay",
+      "type": "stay",
+      "category": "homestay",
+      "name": "Homestay Seasons Avenue & Mulberry Lane",
+      "aliases": [
+        "homestay seasons avenue",
+        "can ho seasons avenue",
+        "homestay ha dong"
+      ],
+      "stars": 4,
+      "priceBand": "mid",
+      "address": "Khu đô thị Mỗ Lao",
+      "area": "Hà Đông (Mỗ Lao)",
+      "zone": "ha_dong",
+      "lat": 20.9875,
+      "lon": 105.779,
+      "tags": [
+        "căn hộ phong cách Singapore",
+        "hồ bơi vô cực",
+        "view thành phố",
+        "yên tĩnh"
+      ],
+      "noteVi": "Căn hộ nghỉ dưỡng cao cấp phong cách Singapore với bể bơi vô cực trên cao và không gian xanh thoáng đãng.",
+      "noteEn": "Modern Singapore-style resort apartments in Mo Lao with an infinity pool and scenic skyline views.",
+      "keywords": [],
+      "hours": [
+        [
+          "00:00",
+          "23:59"
+        ]
+      ]
+    },
+    {
+      "id": "intercontinental-landmark72",
+      "type": "stay",
+      "category": "hotel",
+      "name": "InterContinental Hanoi Landmark72",
+      "aliases": [
+        "intercontinental landmark",
+        "landmark 72",
+        "khach san keangnam"
+      ],
+      "stars": 5,
+      "priceBand": "luxury",
+      "address": "Tòa tháp Keangnam Landmark72 Phạm Hùng",
+      "area": "Nam Từ Liêm (Mễ Trì)",
+      "zone": "nam_tu_liem",
+      "lat": 21.0175,
+      "lon": 105.7839,
+      "tags": [
+        "5 sao",
+        "khách sạn cao nhất Hà Nội",
+        "view toàn cảnh thành phố",
+        "lounge sang trọng"
+      ],
+      "noteVi": "Khách sạn cao nhất Hà Nội từ tầng 62 đến 71 của Keangnam Landmark, ngắm trọn vẹn toàn cảnh Thủ đô từ trên mây.",
+      "noteEn": "Hanoi's highest luxury hotel from floor 62 to 71 with breathtaking panoramic city views.",
+      "keywords": [],
+      "hours": [
+        [
+          "00:00",
+          "23:59"
+        ]
+      ]
+    },
+    {
+      "id": "am-thuc-k-town-dinh-thon",
+      "type": "food",
+      "category": "pho_am_thuc",
+      "name": "Phố ẩm thực Hàn Quốc Đình Thôn (K-Town)",
+      "aliases": [
+        "pho han quoc dinh thon",
+        "k town dinh thon",
+        "am thuc dinh thon"
+      ],
+      "keywords": [
+        "do han",
+        "thit nuong han quoc",
+        "mi lanh",
+        "tokbokki",
+        "ga ran han quoc"
+      ],
+      "dishes": [
+        "thịt ba chỉ nướng than hoa",
+        "canh kim chi bò",
+        "mì lạnh Naengmyeon",
+        "gà sốt cay"
+      ],
+      "address": "Phố Đình Thôn Mỹ Đình 1",
+      "area": "Nam Từ Liêm (Mỹ Đình)",
+      "zone": "nam_tu_liem",
+      "lat": 21.018,
+      "lon": 105.776,
+      "price": [
+        80000,
+        250000
+      ],
+      "hours": [
+        [
+          "10:00",
+          "23:30"
+        ]
+      ],
+      "tags": [
+        "phố Hàn Quốc",
+        "thịt nướng chuẩn vị",
+        "nhộn nhịp"
+      ],
+      "noteVi": "Thủ phủ ẩm thực Hàn Quốc tại Hà Nội với hàng trăm nhà hàng thịt nướng, quán nhậu nướng củi chuẩn vị xứ kim chi.",
+      "noteEn": "Vibrant Korean food town in My Dinh featuring authentic barbecue restaurants and street bars."
+    },
+    {
+      "id": "fraser-residence-hanoi",
+      "type": "stay",
+      "category": "hotel",
+      "name": "Fraser Residence Hanoi",
+      "aliases": [
+        "fraser residence",
+        "fraser ngoai giao doan",
+        "khach san fraser"
+      ],
+      "stars": 5,
+      "priceBand": "upper",
+      "address": "C5 Đỗ Nhuận KĐT Tây Hồ Tây",
+      "area": "Bắc Từ Liêm (Xuân Đỉnh)",
+      "zone": "bac_tu_liem",
+      "lat": 21.062,
+      "lon": 105.7925,
+      "tags": [
+        "5 sao",
+        "căn hộ khách sạn",
+        "công viên Hòa Bình",
+        "hồ bơi ngoài trời"
+      ],
+      "noteVi": "Khu căn hộ khách sạn 5 sao đẳng cấp quốc tế cạnh công viên Hòa Bình và khu đô thị Ngoại Giao Đoàn.",
+      "noteEn": "Luxury 5-star serviced residence near Peace Park with outdoor pool, sauna, and modern suites.",
+      "keywords": [],
+      "hours": [
+        [
+          "00:00",
+          "23:59"
+        ]
+      ]
+    },
+    {
+      "id": "am-thuc-ngoc-lam",
+      "type": "food",
+      "category": "pho_am_thuc",
+      "name": "Phố ẩm thực Ngọc Lâm",
+      "aliases": [
+        "pho ngoc lam",
+        "am thuc ngoc lam",
+        "an vat ngoc lam",
+        "mien luon ngoc lam"
+      ],
+      "keywords": [
+        "mien luon",
+        "banh mi cay",
+        "che thach",
+        "oc nong"
+      ],
+      "dishes": [
+        "miến lươn giòn xào",
+        "bánh mì cay pate Hải Phòng",
+        "chè thạch lá nếp",
+        "ốc luộc mắm gừng"
+      ],
+      "address": "Đường Ngọc Lâm",
+      "area": "Long Biên (Ngọc Lâm)",
+      "zone": "long_bien",
+      "lat": 21.048,
+      "lon": 105.869,
+      "price": [
+        20000,
+        60000
+      ],
+      "hours": [
+        [
+          "06:30",
+          "23:00"
+        ]
+      ],
+      "tags": [
+        "phố ẩm thực Long Biên",
+        "miến lươn nức tiếng",
+        "bánh mì cay"
+      ],
+      "noteVi": "Khu phố ăn uống sầm uất bậc nhất Long Biên với miến lươn trứ danh, bánh mì que cay xé lưỡi và chè tráng miệng.",
+      "noteEn": "Famous Long Bien dining street packed with crispy eel glass noodles, spicy baguettes, and sweet desserts."
+    },
+    {
+      "id": "homestay-ocean-park-gia-lam",
+      "type": "stay",
+      "category": "homestay",
+      "name": "Homestay Biển hồ Vinhomes Ocean Park 1",
+      "aliases": [
+        "homestay ocean park",
+        "homestay gia lam",
+        "ocean park homestay"
+      ],
+      "stars": 4,
+      "priceBand": "mid",
+      "address": "Đại đô thị Vinhomes Ocean Park Đa Tốn",
+      "area": "Gia Lâm (Đa Tốn)",
+      "zone": "gia_lam",
+      "lat": 20.9925,
+      "lon": 105.945,
+      "tags": [
+        "biển hồ nước mặn nhân tạo",
+        "nghỉ dưỡng cuối tuần",
+        "BBQ bãi cát",
+        "view hồ"
+      ],
+      "noteVi": "Tổ hợp homestay và căn hộ nghỉ dưỡng ven bãi biển nhân tạo nước mặn lớn nhất Việt Nam, lý tưởng cho kỳ nghỉ ngắn ngày.",
+      "noteEn": "Vibrant beachside vacation homestays around Southeast Asia's largest saltwater artificial lagoon.",
+      "keywords": [],
+      "hours": [
+        [
+          "00:00",
+          "23:59"
+        ]
+      ]
+    },
+    {
+      "id": "am-thuc-lang-gom-bat-trang",
+      "type": "food",
+      "category": "nha_hang",
+      "name": "Ẩm thực cỗ truyền thống Bát Tràng",
+      "aliases": [
+        "am thuc bat trang",
+        "co bat trang",
+        "canh mang muc bat trang",
+        "nha hang bat trang"
+      ],
+      "keywords": [
+        "co truyen thong",
+        "mang muc",
+        "ga nuong",
+        "am thuc lang nghe"
+      ],
+      "dishes": [
+        "canh măng mực Bát Tràng",
+        "gà nướng mật ong",
+        "chả tôm Bát Tràng",
+        "chè kho hoa cau"
+      ],
+      "address": "Làng cổ Bát Tràng",
+      "area": "Gia Lâm (Bát Tràng)",
+      "zone": "gia_lam",
+      "lat": 20.976,
+      "lon": 105.912,
+      "price": [
+        80000,
+        200000
+      ],
+      "hours": [
+        [
+          "09:00",
+          "21:00"
+        ]
+      ],
+      "tags": [
+        "cỗ truyền thống tinh tế",
+        "măng mực đặc sản",
+        "không gian làng gốm"
+      ],
+      "noteVi": "Mâm cỗ truyền thống trứ danh làng gốm Bát Tràng với món canh măng mực cầu kỳ bổ dưỡng không nơi nào có.",
+      "noteEn": "Traditional pottery village feast highlighted by the exquisite dried squid and bamboo shoot soup."
+    },
+    {
+      "id": "gom-homestay-bat-trang",
+      "type": "stay",
+      "category": "homestay",
+      "name": "Gốm Homestay & Trải nghiệm Bát Tràng",
+      "aliases": [
+        "gom homestay",
+        "homestay bat trang",
+        "bat trang homestay"
+      ],
+      "stars": 3,
+      "priceBand": "budget",
+      "address": "Xóm 2 làng cổ Bát Tràng",
+      "area": "Gia Lâm (Bát Tràng)",
+      "zone": "gia_lam",
+      "lat": 20.978,
+      "lon": 105.9135,
+      "tags": [
+        "homestay làng nghề",
+        "tự tay vuốt gốm",
+        "ngõ cổ gạch đỏ",
+        "yên bình"
+      ],
+      "noteVi": "Homestay mộc mạc nép mình trong ngõ cổ Bát Tràng, cho du khách trải nghiệm tự tay vuốt gốm và nung sản phẩm kỷ niệm.",
+      "noteEn": "Charming pottery craft village homestay where guests can make their own handcrafted ceramic souvenirs.",
+      "keywords": [],
+      "hours": [
+        [
+          "00:00",
+          "23:59"
+        ]
+      ]
+    },
+    {
+      "id": "banh-cuon-thanh-tri-chinh-goc",
+      "type": "food",
+      "category": "banh_cuon",
+      "name": "Bánh cuốn Thanh Trì truyền thống",
+      "aliases": [
+        "banh cuon thanh tri",
+        "banh cuon thanh tri truyen thong"
+      ],
+      "keywords": [
+        "banh cuon",
+        "banh cuon thanh tri",
+        "banh cuon nong"
+      ],
+      "dishes": [
+        "bánh cuốn tráng mỏng rắc hành phi",
+        "chả quế nướng",
+        "nước mắm cà cuống"
+      ],
+      "address": "Phố Thanh Trì phường Thanh Trì",
+      "area": "Hoàng Mai (Thanh Trì)",
+      "zone": "hoang_mai",
+      "lat": 20.985,
+      "lon": 105.885,
+      "price": [
+        30000,
+        50000
+      ],
+      "hours": [
+        [
+          "06:00",
+          "14:00"
+        ]
+      ],
+      "tags": [
+        "đặc sản lâu đời",
+        "lá bánh mỏng như lụa",
+        "hành phi giòn thơm"
+      ],
+      "noteVi": "Bánh cuốn mỏng tang mướt mát xoa mỡ hành thơm nức, ăn kèm chả quế và giọt tinh dầu cà cuống thơm lừng.",
+      "noteEn": "Famous Thanh Tri delicate steamed rice rolls brushed with shallot oil and served with cinnamon pork pie."
+    },
+    {
+      "id": "muong-thanh-grand-hanoi",
+      "type": "stay",
+      "category": "hotel",
+      "name": "Khách sạn Mường Thanh Grand Hà Nội",
+      "aliases": [
+        "muong thanh grand hanoi",
+        "muong thanh linh dam",
+        "khach san linh dam"
+      ],
+      "stars": 4,
+      "priceBand": "mid",
+      "address": "Lô CC2 Bán đảo Linh Đàm",
+      "area": "Hoàng Mai (Linh Đàm)",
+      "zone": "hoang_mai",
+      "lat": 20.9705,
+      "lon": 105.83,
+      "tags": [
+        "4 sao",
+        "bán đảo Linh Đàm",
+        "hồ bơi",
+        "gần đường vành đai 3"
+      ],
+      "noteVi": "Khách sạn 4 sao với không gian thoáng đãng giữa bán đảo Linh Đàm xanh mát, giao thông thuận tiện.",
+      "noteEn": "Comfortable 4-star lakeside hotel on Linh Dam peninsula with pool and fitness center.",
+      "keywords": [],
+      "hours": [
+        [
+          "00:00",
+          "23:59"
+        ]
+      ]
+    },
+    {
+      "id": "ba-vi-resort-vuon-quoc-gia",
+      "type": "stay",
+      "category": "resort",
+      "name": "Khu nghỉ dưỡng Ba Vì Resort",
+      "aliases": [
+        "melia ba vi",
+        "resort melia ba vi",
+        "khu nghi duong ba vi melia"
+      ],
+      "stars": 5,
+      "priceBand": "luxury",
+      "address": "Cốt 400 Vườn Quốc gia Ba Vì",
+      "area": "Tản Lĩnh Ba Vì",
+      "zone": "ba_vi",
+      "lat": 21.0665,
+      "lon": 105.365,
+      "tags": [
+        "5 sao",
+        "giữa rừng nguyên sinh",
+        "hồ bơi nước ấm",
+        "kiến trúc Pháp cổ"
+      ],
+      "noteVi": "Khu nghỉ dưỡng cốt 400 trong rừng thông Vườn Quốc gia Ba Vì với không khí mát lành sảng khoái.",
+      "noteEn": "Resort located at altitude 400m inside Ba Vi National Park.",
+      "keywords": [],
+      "hours": [
+        [
+          "00:00",
+          "23:59"
+        ]
+      ]
+    },
+    {
+      "id": "tan-da-spa-resort-ba-vi",
+      "type": "stay",
+      "category": "resort",
+      "name": "Tản Đà Spa Resort Ba Vì",
+      "aliases": [
+        "tan da resort",
+        "tan da spa resort",
+        "khoang nong tan da"
+      ],
+      "stars": 4,
+      "priceBand": "mid",
+      "address": "Vân Hòa Ba Vì",
+      "area": "Ba Vì (Vân Hòa)",
+      "zone": "ba_vi",
+      "lat": 21.085,
+      "lon": 105.412,
+      "tags": [
+        "tắm khoáng nóng thiên nhiên",
+        "bùn khoáng",
+        "nhà cổ Bắc Bộ",
+        "hồ Suối Bơn"
+      ],
+      "noteVi": "Khu nghỉ dưỡng khoáng nóng tự nhiên bên hồ Suối Bơn với bể bơi nước khoáng ấm và không gian nhà cổ đồng bằng Bắc Bộ.",
+      "noteEn": "Hot mineral spring spa resort overlooking Suoi Bon Lake featuring mud baths and traditional village architecture.",
+      "keywords": [],
+      "hours": [
+        [
+          "00:00",
+          "23:59"
+        ]
+      ]
+    },
+    {
+      "id": "bo-to-tay-hung-ba-vi",
+      "type": "food",
+      "category": "nha_hang",
+      "name": "Đặc sản Bò tơ Tây Hưng Ba Vì",
+      "aliases": [
+        "bo to tay hung",
+        "bo to ba vi",
+        "ga doi ba vi"
+      ],
+      "keywords": [
+        "bo to",
+        "ga doi",
+        "be non",
+        "sua ba vi"
+      ],
+      "dishes": [
+        "bò tơ cuốn bánh tráng rau rừng",
+        "bò tái chanh",
+        "gà đồi Ba Vì nướng than hoa",
+        "bê non xào sả ớt"
+      ],
+      "address": "Cầu Làng Mới Yên Bài",
+      "area": "Ba Vì (Yên Bài)",
+      "zone": "ba_vi",
+      "lat": 21.058,
+      "lon": 105.435,
+      "price": [
+        100000,
+        250000
+      ],
+      "hours": [
+        [
+          "08:00",
+          "22:00"
+        ]
+      ],
+      "tags": [
+        "bò tơ Ba Vì",
+        "thịt mềm ngọt",
+        "rau rừng bánh tráng"
+      ],
+      "noteVi": "Nhà hàng đặc sản bò tơ Ba Vì thịt mềm ngọt thơm ngậy, ăn kèm đĩa rau rừng tươi mơn mởn và mắm nêm đậm đà.",
+      "noteEn": "Popular Ba Vi mountain restaurant renowned for tender veal rolls with forest herbs and grilled mountain chicken."
+    },
+    {
+      "id": "tomodachi-retreat-lang-mit",
+      "type": "stay",
+      "category": "resort",
+      "name": "Tomodachi Retreat Làng Mít Sơn Tây",
+      "aliases": [
+        "tomodachi retreat",
+        "lang mit son tay",
+        "tomodachi lang mit"
+      ],
+      "stars": 4,
+      "priceBand": "upper",
+      "address": "Thôn Trại Láng Cổ Đông",
+      "area": "Sơn Tây (Cổ Đông)",
+      "zone": "son_tay",
+      "lat": 21.035,
+      "lon": 105.518,
+      "tags": [
+        "resort xanh đạt giải kiến trúc quốc tế",
+        "hồ Láng Hầu",
+        "spa thảo dược",
+        "trái cây quanh nhà"
+      ],
+      "noteVi": "Khu nghỉ dưỡng đạt giải thưởng kiến trúc thế giới với những ngôi nhà mái lá uốn lượn ven hồ nước ngập tràn cây trái.",
+      "noteEn": "Award-winning eco-retreat near Duong Lam ancient village with thatch-roofed villas set in a lakeside orchard.",
+      "keywords": [],
+      "hours": [
+        [
+          "00:00",
+          "23:59"
+        ]
+      ]
+    },
+    {
+      "id": "am-thuc-lang-co-duong-lam",
+      "type": "food",
+      "category": "nha_hang",
+      "name": "Ẩm thực truyền thống Làng cổ Đường Lâm",
+      "aliases": [
+        "am thuc duong lam",
+        "com que duong lam",
+        "thit quay don duong lam",
+        "ga mia son tay"
+      ],
+      "keywords": [
+        "thit quay don",
+        "ga mia",
+        "keo lac",
+        "che lam",
+        "tuong duong lam"
+      ],
+      "dishes": [
+        "thịt quay đòn gánh giòn bì",
+        "gà Mía hấp lá chanh",
+        "canh rau sắn cua đồng",
+        "kẹo lạc chè lam"
+      ],
+      "address": "Làng cổ Đường Lâm",
+      "area": "Sơn Tây (Đường Lâm)",
+      "zone": "son_tay",
+      "lat": 21.144,
+      "lon": 105.487,
+      "price": [
+        80000,
+        180000
+      ],
+      "hours": [
+        [
+          "08:30",
+          "20:00"
+        ]
+      ],
+      "tags": [
+        "thịt quay đòn trứ danh",
+        "gà Mía tiến vua",
+        "nhà cổ trăm năm"
+      ],
+      "noteVi": "Mâm cơm quê đặc sắc trong sân nhà cổ với thịt quay đòn gánh ướp lá ổi giòn bì thơm lừng và gà Mía tiến vua.",
+      "noteEn": "Traditional rustic meal in a heritage stone courtyard with wood-roasted pork and famous Duong Lam Mia chicken."
+    },
+    {
+      "id": "amaya-home-lodge-soc-son",
+      "type": "stay",
+      "category": "resort",
+      "name": "Amaya Home Lodge & Spa Sóc Sơn",
+      "aliases": [
+        "amaya home",
+        "resort amaya soc son",
+        "amaya lodge"
+      ],
+      "stars": 4,
+      "priceBand": "upper",
+      "address": "Ngã ba Dốc Dây Diều Minh Phú",
+      "area": "Sóc Sơn (Minh Phú)",
+      "zone": "soc_son",
+      "lat": 21.285,
+      "lon": 105.772,
+      "tags": [
+        "resort phong cách Bắc Âu",
+        "rừng thông",
+        "hồ bơi nước ấm",
+        "spa xông hơi"
+      ],
+      "noteVi": "Lodge nghỉ dưỡng ấm cúng phong cách châu Âu giữa rừng thông Sóc Sơn với bể bơi nước ấm và spa thảo mộc.",
+      "noteEn": "Nordic-inspired mountain boutique lodge nestled in Sóc Sơn pine forest with a heated swimming pool and spa.",
+      "keywords": [],
+      "hours": [
+        [
+          "00:00",
+          "23:59"
+        ]
+      ]
+    },
+    {
+      "id": "u-lesa-nha-ben-rung-soc-son",
+      "type": "stay",
+      "category": "homestay",
+      "name": "Nhà Bên Rừng U Lesa Retreat Sóc Sơn",
+      "aliases": [
+        "u lesa",
+        "nha ben rung",
+        "u lesa soc son",
+        "homestay u lesa"
+      ],
+      "stars": 4,
+      "priceBand": "mid",
+      "address": "Thôn Lâm Trường Minh Phú",
+      "area": "Sóc Sơn (Minh Phú)",
+      "zone": "soc_son",
+      "lat": 21.298,
+      "lon": 105.783,
+      "tags": [
+        "homestay nhà gỗ",
+        "view thung lũng thông",
+        "bồn tắm gỗ lộ thiên",
+        "BBQ ngoài trời"
+      ],
+      "noteVi": "Khu homestay nhà gỗ nổi tiếng ven sườn đồi thông, có bồn ngâm gỗ ngoài trời và không gian tiệc nướng BBQ lãng mạn.",
+      "noteEn": "Iconic forest wooden cabin retreat perched on pine hills with open-air soaking tubs and starry BBQ decks.",
+      "keywords": [],
+      "hours": [
+        [
+          "00:00",
+          "23:59"
+        ]
+      ]
+    },
+    {
+      "id": "ga-doi-nuong-soc-son",
+      "type": "food",
+      "category": "nha_hang",
+      "name": "Gà đồi nướng than hoa Sóc Sơn",
+      "aliases": [
+        "ga doi soc son",
+        "ga nuong soc son",
+        "dac san soc son"
+      ],
+      "keywords": [
+        "ga doi",
+        "ga nuong",
+        "lon man",
+        "ca suoi"
+      ],
+      "dishes": [
+        "gà đồi nướng mắc khén",
+        "lợn mán nướng xiên",
+        "cơm lam nướng ống tre",
+        "canh măng rừng"
+      ],
+      "address": "Đường Đền Gióng Phù Linh",
+      "area": "Sóc Sơn (Phù Linh)",
+      "zone": "soc_son",
+      "lat": 21.312,
+      "lon": 105.815,
+      "price": [
+        80000,
+        200000
+      ],
+      "hours": [
+        [
+          "09:00",
+          "22:00"
+        ]
+      ],
+      "tags": [
+        "gà đồi thả vườn",
+        "gia vị Tây Bắc thơm nồng",
+        "cơm lam ống tre"
+      ],
+      "noteVi": "Thịt gà đồi thả tự nhiên săn chắc tẩm hạt mắc khén nướng trên than hoa đỏ rực, ăn cùng cơm lam dẻo thơm.",
+      "noteEn": "Flavorful free-range hill chicken marinated in wild mac khen pepper and grilled crispy over charcoal."
+    },
+    {
+      "id": "dragon-airport-hotel-noi-bai",
+      "type": "stay",
+      "category": "hotel",
+      "name": "Dragon Airport Hotel Nội Bài",
+      "aliases": [
+        "dragon airport hotel",
+        "khach san noi bai",
+        "khach san san bay noi bai"
+      ],
+      "stars": 3,
+      "priceBand": "budget",
+      "address": "Đường Võ Văn Kiệt gần sân bay Nội Bài",
+      "area": "Sóc Sơn / Đông Anh",
+      "zone": "soc_son",
+      "lat": 21.218,
+      "lon": 105.795,
+      "tags": [
+        "gần sân bay",
+        "xe đưa đón miễn phí",
+        "tiện bay sớm bay muộn",
+        "sạch sẽ"
+      ],
+      "noteVi": "Khách sạn tiện nghi cách nhà ga sân bay Nội Bài chỉ 3 phút, có dịch vụ xe đưa đón khách 24/7.",
+      "noteEn": "Convenient transit airport hotel located 3 minutes from Noi Bai terminals with free airport shuttle.",
+      "keywords": [],
+      "hours": [
+        [
+          "00:00",
+          "23:59"
+        ]
+      ]
+    },
+    {
+      "id": "bun-mach-trang-co-loa",
+      "type": "food",
+      "category": "bun",
+      "name": "Bún Mạch Tràng Cổ Loa",
+      "aliases": [
+        "bun mach trang",
+        "bun co loa",
+        "dac san co loa"
+      ],
+      "keywords": [
+        "bun mach trang",
+        "bun soi to",
+        "canh ca"
+      ],
+      "dishes": [
+        "bún Mạch Tràng xào cần tỏi",
+        "canh bún cá rô",
+        "bún chấm mắm ớt"
+      ],
+      "address": "Thôn Mạch Tràng xã Cổ Loa",
+      "area": "Đông Anh (Cổ Loa)",
+      "zone": "dong_anh",
+      "lat": 21.112,
+      "lon": 105.875,
+      "price": [
+        30000,
+        50000
+      ],
+      "hours": [
+        [
+          "06:00",
+          "18:00"
+        ]
+      ],
+      "tags": [
+        "bún tiến vua",
+        "sợi bún màu ngà đục tự nhiên",
+        "truyền thuyết thành Cổ Loa"
+      ],
+      "noteVi": "Sợi bún Mạch Tràng màu ngà tự nhiên gắn liền với truyền thuyết vua An Dương Vương, xào cần tỏi giòn dai đậm đà.",
+      "noteEn": "Historic artisanal thick rice noodles of Co Loa village stir-fried with celery and garlic."
+    },
+    {
+      "id": "vit-co-van-dinh-chinh-goc",
+      "type": "food",
+      "category": "nha_hang",
+      "name": "Đặc sản Vịt cỏ Vân Đình chính gốc",
+      "aliases": [
+        "vit co van dinh",
+        "vit van dinh",
+        "vit nuong van dinh"
+      ],
+      "keywords": [
+        "vit co",
+        "vit nuong",
+        "tiet canh vit",
+        "chao vit"
+      ],
+      "dishes": [
+        "vịt nướng lu than hoa",
+        "vịt luộc chấm mắm tỏi",
+        "cháo vịt đậu xanh",
+        "tiết canh vịt"
+      ],
+      "address": "Thị trấn Vân Đình",
+      "area": "Ứng Hòa (Vân Đình)",
+      "zone": "ung_hoa_my_duc",
+      "lat": 20.735,
+      "lon": 105.762,
+      "price": [
+        80000,
+        160000
+      ],
+      "hours": [
+        [
+          "09:00",
+          "22:00"
+        ]
+      ],
+      "tags": [
+        "vịt cỏ thả đồng",
+        "thịt nạc thơm ngọt",
+        "nướng lu vàng rộm"
+      ],
+      "noteVi": "Đặc sản nức tiếng cả nước với giống vịt cỏ thả đồng thịt nạc mềm, nướng trên lu than da giòn rụm chấm nước sốt tỏi ớt đặc sánh.",
+      "noteEn": "Famous Van Dinh grass duck roasted in clay ovens with crispy skin, tender sweet meat, and garlic dipping sauce."
+    },
+    {
+      "id": "khach-san-cong-doan-chua-huong",
+      "type": "stay",
+      "category": "hotel",
+      "name": "Khách sạn Công Đoàn Chùa Hương",
+      "aliases": [
+        "cong doan chua huong",
+        "khach san chua huong",
+        "nha nghi chua huong"
+      ],
+      "stars": 3,
+      "priceBand": "budget",
+      "address": "Bến đò Đục xã Hương Sơn",
+      "area": "Mỹ Đức (Hương Sơn)",
+      "zone": "ung_hoa_my_duc",
+      "lat": 20.618,
+      "lon": 105.753,
+      "tags": [
+        "ngay bến đò Yến",
+        "tiện đi lễ Chùa Hương",
+        "phòng sạch sẽ"
+      ],
+      "noteVi": "Khách sạn nằm ngay sát bến đò suối Yến, thuận tiện lưu trú nghỉ ngơi khi đi trẩy hội tham quan Chùa Hương.",
+      "noteEn": "Convenient hotel located right by the Yen Stream boat dock, perfect for pilgrims visiting Perfume Pagoda.",
+      "keywords": [],
+      "hours": [
+        [
+          "00:00",
+          "23:59"
+        ]
+      ]
+    },
+    {
+      "id": "asean-resort-shisa",
+      "type": "stay",
+      "category": "resort",
+      "name": "Asean Resort & Spa Thạch Thất",
+      "aliases": [
+        "asean resort",
+        "resort asean",
+        "asean resort thach that"
+      ],
+      "stars": 4,
+      "priceBand": "upper",
+      "address": "21A Hòa Lạc Bình Yên",
+      "area": "Thạch Thất (Hòa Lạc)",
+      "zone": "quoc_oai_thach_that_chuong_my",
+      "lat": 21.015,
+      "lon": 105.518,
+      "tags": [
+        "4 sao",
+        "trượt cỏ",
+        "bể bơi khoáng nóng thảo dược",
+        "sân golf"
+      ],
+      "noteVi": "Khu nghỉ dưỡng 4 sao sinh thái nổi tiếng với đồi trượt cỏ xanh mướt, tổ hợp bể sục khoáng nóng thảo dược và spa thư giãn.",
+      "noteEn": "4-star eco-resort in Thach That featuring grass sliding hills, herbal mineral jacuzzis, and golf.",
+      "keywords": [],
+      "hours": [
+        [
+          "00:00",
+          "23:59"
+        ]
+      ]
+    },
+    {
+      "id": "che-lam-thach-xa",
+      "type": "food",
+      "category": "kem_che",
+      "name": "Chè lam Thạch Xá & Bánh gai",
+      "aliases": [
+        "che lam thach xa",
+        "che lam chua tay",
+        "dac san thach that"
+      ],
+      "keywords": [
+        "che lam",
+        "banh gai",
+        "keo lac",
+        "chua tay"
+      ],
+      "dishes": [
+        "chè lam dẻo cay vị gừng",
+        "bánh gai làng Giá",
+        "kẹo vừng lạc"
+      ],
+      "address": "Chân núi Chùa Tây Phương Thạch Xá",
+      "area": "Thạch Thất (Thạch Xá)",
+      "zone": "quoc_oai_thach_that_chuong_my",
+      "lat": 21.028,
+      "lon": 105.589,
+      "price": [
+        20000,
+        50000
+      ],
+      "hours": [
+        [
+          "07:00",
+          "19:00"
+        ]
+      ],
+      "tags": [
+        "đặc sản tiến vua",
+        "dẻo thơm nếp cái",
+        "cay cay gừng già"
+      ],
+      "noteVi": "Đặc sản bánh chè lam dẻo quánh thơm nức hương nếp cái hoa vàng, thoảng vị bùi của lạc rang và cay ấm của gừng già.",
+      "noteEn": "Traditional ginger sticky rice cake (che lam) handmade at the foot of Tay Phuong Pagoda."
+    },
+    {
+      "id": "banh-chung-tranh-khuc",
+      "type": "food",
+      "category": "banh_mi",
+      "name": "Bánh chưng truyền thống Tranh Khúc",
+      "aliases": [
+        "banh chung tranh khuc",
+        "banh chung thanh tri",
+        "dac san tranh khuc"
+      ],
+      "keywords": [
+        "banh chung",
+        "banh chung xanh"
+      ],
+      "dishes": [
+        "bánh chưng nếp cái hoa vàng",
+        "bánh giò nóng",
+        "bánh chưng gấc"
+      ],
+      "address": "Làng Tranh Khúc xã Duyên Hà",
+      "area": "Thanh Trì (Duyên Hà)",
+      "zone": "thanh_tri",
+      "lat": 20.932,
+      "lon": 105.892,
+      "price": [
+        40000,
+        80000
+      ],
+      "hours": [
+        [
+          "06:00",
+          "20:00"
+        ]
+      ],
+      "tags": [
+        "làng nghề bánh chưng",
+        "nếp cái hoa vàng",
+        "đặc sản Tết"
+      ],
+      "noteVi": "Làng nghề làm bánh chưng truyền thống nức tiếng miền Bắc, bánh dền xanh mướt thơm ngậy đậu xanh thịt mỡ.",
+      "noteEn": "Famous traditional Chung cake craft village made with fragrant sticky rice and mung bean pork filling."
+    },
+    {
+      "id": "khach-san-thanh-tri",
+      "type": "stay",
+      "category": "hotel",
+      "name": "Khách sạn Hồng Kông Ngọc Hồi Thanh Trì",
+      "aliases": [
+        "khach san hong kong",
+        "khach san ngoc hoi",
+        "khach san thanh tri"
+      ],
+      "stars": 3,
+      "priceBand": "budget",
+      "address": "Km 12 Quốc lộ 1A Ngọc Hồi",
+      "area": "Thanh Trì (Ngọc Hồi)",
+      "zone": "thanh_tri",
+      "lat": 20.925,
+      "lon": 105.856,
+      "tags": [
+        "gần quốc lộ 1A",
+        "thuận tiện đi lại",
+        "giá bình dân"
+      ],
+      "noteVi": "Khách sạn sạch sẽ tiện nghi trên trục quốc lộ 1A phía Nam Hà Nội, thuận tiện cho khách công tác và nghỉ ngơi.",
+      "noteEn": "Convenient budget hotel on National Highway 1A south of Hanoi, ideal for business and transit travelers.",
+      "keywords": [],
+      "hours": [
+        [
+          "00:00",
+          "23:59"
+        ]
+      ]
+    },
+    {
+      "id": "nem-phung-dan-phuong",
+      "type": "food",
+      "category": "nha_hang",
+      "name": "Đặc sản Nem Phùng Đan Phượng chính gốc",
+      "aliases": [
+        "nem phung",
+        "nem phung dan phuong",
+        "nem phung ba gia"
+      ],
+      "keywords": [
+        "nem phung",
+        "thinh gao",
+        "la sung"
+      ],
+      "dishes": [
+        "nem Phùng gói lá chuối",
+        "nem chạo thính gạo",
+        "nước chấm tỏi ớt lá sung"
+      ],
+      "address": "Thị trấn Phùng",
+      "area": "Đan Phượng (thị trấn Phùng)",
+      "zone": "hoai_duc_dan_phuong",
+      "lat": 21.085,
+      "lon": 105.672,
+      "price": [
+        35000,
+        60000
+      ],
+      "hours": [
+        [
+          "07:00",
+          "21:00"
+        ]
+      ],
+      "tags": [
+        "nem thính gia truyền",
+        "thơm nức lá sung",
+        "đặc sản Hà Tây cũ"
+      ],
+      "noteVi": "Đặc sản nức tiếng với thịt nạc bì lợn trộn thính gạo thơm vàng, cuốn lá sung non chấm tương ớt ngọt ngào.",
+      "noteEn": "Famous Dan Phuong specialty: seasoned shredded pork and pork skin mixed with roasted rice powder, eaten with fig leaves."
+    },
+    {
+      "id": "sunny-hotel-hoai-duc",
+      "type": "stay",
+      "category": "hotel",
+      "name": "Khách sạn Sunny Hotel & Apartment Hoài Đức",
+      "aliases": [
+        "sunny hotel hoai duc",
+        "khach san hoai duc",
+        "nha nghi hoai duc"
+      ],
+      "stars": 3,
+      "priceBand": "budget",
+      "address": "Khu đô thị Kim Chung Di Trạch Quốc lộ 32",
+      "area": "Hoài Đức (Kim Chung)",
+      "zone": "hoai_duc_dan_phuong",
+      "lat": 21.062,
+      "lon": 105.718,
+      "tags": [
+        "gần Đại học Công Nghiệp",
+        "khu đô thị mới",
+        "phòng rộng rãi"
+      ],
+      "noteVi": "Khách sạn hiện đại nằm trên trục đường Quốc lộ 32 và tuyến tàu điện trên cao Nhổn, phòng sạch sẽ và yên tĩnh.",
+      "noteEn": "Modern budget hotel along Highway 32 near the Nhon metro station with quiet, spacious rooms.",
+      "keywords": [],
+      "hours": [
+        [
+          "00:00",
+          "23:59"
+        ]
+      ]
+    },
+    {
+      "id": "gio-cha-uoc-le-thanh-oai",
+      "type": "food",
+      "category": "nha_hang",
+      "name": "Giò chả Ước Lễ truyền thống Thanh Oai",
+      "aliases": [
+        "gio cha uoc le",
+        "gio uoc le",
+        "cha uoc le"
+      ],
+      "keywords": [
+        "gio cha",
+        "gio lua",
+        "cha que",
+        "gio bo",
+        "uoc le"
+      ],
+      "dishes": [
+        "giò lụa truyền thống",
+        "chả quế nướng mật ong",
+        "giò bò tiêu sọ",
+        "chả cốm"
+      ],
+      "address": "Làng cổ Ước Lễ xã Tân Ước",
+      "area": "Thanh Oai (Tân Ước)",
+      "zone": "thanh_oai_thuong_tin_phu_xuyen",
+      "lat": 20.845,
+      "lon": 105.782,
+      "price": [
+        150000,
+        250000
+      ],
+      "hours": [
+        [
+          "06:30",
+          "19:00"
+        ]
+      ],
+      "tags": [
+        "đệ nhất giò chả Việt Nam",
+        "nghìn năm tuổi",
+        "giòn dai tự nhiên"
+      ],
+      "noteVi": "Đệ nhất thương hiệu giò chả của cả nước, miếng giò lụa giòn sần sật mơn mởn nước thịt và chả quế nướng than thơm nức.",
+      "noteEn": "Vietnam's most celebrated pork roll village craft, creating crispy-textured silk ham and cinnamon pork patties."
+    },
+    {
+      "id": "banh-day-quan-ganh-thuong-tin",
+      "type": "food",
+      "category": "kem_che",
+      "name": "Bánh dày Quán Gánh Thường Tín",
+      "aliases": [
+        "banh day quan ganh",
+        "banh day thuong tin",
+        "banh day"
+      ],
+      "keywords": [
+        "banh day",
+        "banh day ngot",
+        "banh day man"
+      ],
+      "dishes": [
+        "bánh dày nhân đậu xanh ngọt",
+        "bánh dày nhân mặn thịt mỡ",
+        "bánh dày chay kẹp giò"
+      ],
+      "address": "Phố Quán Gánh xã Nhị Khê",
+      "area": "Thường Tín (Nhị Khê)",
+      "zone": "thanh_oai_thuong_tin_phu_xuyen",
+      "lat": 20.892,
+      "lon": 105.855,
+      "price": [
+        25000,
+        40000
+      ],
+      "hours": [
+        [
+          "06:00",
+          "21:00"
+        ]
+      ],
+      "tags": [
+        "bánh dày dẻo thơm",
+        "lá chuối xanh",
+        "đặc sản Quốc lộ 1A"
+      ],
+      "noteVi": "Gói bánh dày 6 chiếc bọc lá dong xanh mướt, vỏ bánh dẻo mịn từ gạo nếp cái hoa vàng quện nhân đậu xanh tiêu thơm bùi.",
+      "noteEn": "Famous Quan Ganh soft round sticky rice cakes filled with seasoned mung beans and wrapped in fresh leaves."
+    },
+    {
+      "id": "khach-san-thuong-tin-central",
+      "type": "stay",
+      "category": "hotel",
+      "name": "Khách sạn Thường Tín Central",
+      "aliases": [
+        "khach san thuong tin",
+        "nha nghi thuong tin",
+        "thuong tin hotel"
+      ],
+      "stars": 3,
+      "priceBand": "budget",
+      "address": "Thị trấn Thường Tín",
+      "area": "Thường Tín",
+      "zone": "thanh_oai_thuong_tin_phu_xuyen",
+      "lat": 20.871,
+      "lon": 105.858,
+      "tags": [
+        "trung tâm thị trấn",
+        "sạch sẽ",
+        "thuận tiện di chuyển"
+      ],
+      "noteVi": "Khách sạn trung tâm thị trấn Thường Tín, gần ga xe lửa và các làng nghề mộc, sơn mài cổ truyền.",
+      "noteEn": "Central hotel in Thuong Tin town, convenient for visiting traditional carpentry and lacquer craft villages.",
+      "keywords": [],
+      "hours": [
+        [
+          "00:00",
+          "23:59"
+        ]
+      ]
+    },
+    {
+      "id": "pho-khoi-hoi-quan-thanh",
+      "type": "food",
+      "category": "pho",
+      "name": "Phở Khôi Hói Quán Thánh",
+      "aliases": [
+        "Phở Khôi Hói",
+        "Phở bò Khôi Hói Quán Thánh"
+      ],
+      "keywords": [
+        "phở bò",
+        "phở bò lõi",
+        "phở tái lăn"
+      ],
+      "dishes": [
+        "Phở bò lõi rùa",
+        "Phở tái lăn",
+        "Phở bắp bò gầu giòn",
+        "Quẩy giòn"
+      ],
+      "address": "50C Quán Thánh",
+      "area": "Quán Thánh Ba Đình",
+      "zone": "ba_dinh",
+      "lat": 21.0425,
+      "lon": 105.8421,
+      "price": [
+        60000,
+        110000
+      ],
+      "hours": [
+        [
+          "06:00",
+          "22:00"
+        ]
+      ],
+      "tags": [
+        "pho",
+        "bo",
+        "quan_thanh",
+        "ba_dinh",
+        "an_sang",
+        "an_toi"
+      ],
+      "noteVi": "Quán phở bò nổi tiếng đất Ba Đình với món lõi rùa và bắp giòn thơm ngậy, nước dùng thanh ngọt đậm đà gia truyền.",
+      "noteEn": "Famous beef noodle soup shop in Ba Dinh known for crispy shank and flavorful broth."
+    },
+    {
+      "id": "cha-ca-lao-ngu-doi-can",
+      "type": "food",
+      "category": "cha_ca",
+      "name": "Chả cá Lão Ngư Đội Cấn",
+      "aliases": [
+        "Chả cá Lão Ngư",
+        "Chả cá Đội Cấn"
+      ],
+      "keywords": [
+        "chả cá",
+        "lão ngư",
+        "đội cấn"
+      ],
+      "dishes": [
+        "Chả cá lăng nướng than",
+        "Lòng cá xào thì là",
+        "Cháo cá lăng"
+      ],
+      "address": "171 Thái Hà Đội Cấn",
+      "area": "Đội Cấn Ba Đình",
+      "zone": "ba_dinh",
+      "lat": 21.036,
+      "lon": 105.821,
+      "price": [
+        140000,
+        250000
+      ],
+      "hours": [
+        [
+          "10:00",
+          "21:30"
+        ]
+      ],
+      "tags": [
+        "cha_ca",
+        "ca_lang",
+        "doi_can",
+        "ba_dinh",
+        "an_trua",
+        "an_toi"
+      ],
+      "noteVi": "Chả cá lăng tươi ướp gia vị đậm đà xào thơm cùng thì là hành hoa ăn kèm bún và mắm tôm chuẩn vị Hà Nội.",
+      "noteEn": "Classic turmeric fish sauteed with fresh dill and scallions in Ba Dinh."
+    },
+    {
+      "id": "vit-nuong-217-de-la-thanh",
+      "type": "food",
+      "category": "nha_hang",
+      "name": "Vịt nướng 217 Đê La Thành",
+      "aliases": [
+        "Vịt Đê La Thành",
+        "Vịt nướng than hoa Đê La Thành"
+      ],
+      "keywords": [
+        "vịt nướng",
+        "vịt luộc",
+        "lẩu vịt"
+      ],
+      "dishes": [
+        "Vịt nướng than hoa",
+        "Lẩu vịt om sấu",
+        "Vịt rang muối",
+        "Tiết canh vịt"
+      ],
+      "address": "217 Đê La Thành",
+      "area": "Đê La Thành Đống Đa",
+      "zone": "dong_da",
+      "lat": 21.0232,
+      "lon": 105.8235,
+      "price": [
+        120000,
+        250000
+      ],
+      "hours": [
+        [
+          "10:30",
+          "23:00"
+        ]
+      ],
+      "tags": [
+        "vit_nuong",
+        "lau_vit",
+        "de_la_thanh",
+        "dong_da",
+        "an_toi",
+        "nhau_dem"
+      ],
+      "noteVi": "Phố vịt nướng trứ danh Đê La Thành với hương vị vịt tẩm ướp đậm đà nướng than hoa da giòn thịt mềm ngọt.",
+      "noteEn": "Renowned grilled duck restaurant on De La Thanh in Dong Da district."
+    },
+    {
+      "id": "oc-dang-van-ngu",
+      "type": "food",
+      "category": "pho_am_thuc",
+      "name": "Ốc luộc phố Đặng Văn Ngữ",
+      "aliases": [
+        "Ốc Đặng Văn Ngữ",
+        "Quán ốc ngon Đặng Văn Ngữ"
+      ],
+      "keywords": [
+        "ốc luộc",
+        "ốc mít",
+        "ốc hương",
+        "nem chua rán"
+      ],
+      "dishes": [
+        "Ốc luộc lá bưởi lá chanh",
+        "Ốc xào me dừa",
+        "Nem chua rán",
+        "Trứng cút lộn xào me"
+      ],
+      "address": "4B ngõ 4 Đặng Văn Ngữ",
+      "area": "Đặng Văn Ngữ Trung Tự Đống Đa",
+      "zone": "dong_da",
+      "lat": 21.0112,
+      "lon": 105.834,
+      "price": [
+        40000,
+        120000
+      ],
+      "hours": [
+        [
+          "15:00",
+          "22:30"
+        ]
+      ],
+      "tags": [
+        "oc",
+        "an_vat",
+        "dang_van_ngu",
+        "dong_da",
+        "sinh_vien"
+      ],
+      "noteVi": "Địa chỉ ăn vặt quen thuộc của giới trẻ Đống Đa với ốc luộc tươi giòn thơm nồng lá chanh chấm mắm gừng ớt cay nồng.",
+      "noteEn": "Popular snail and street food spot on Dang Van Ngu street in Dong Da."
+    },
+    {
+      "id": "khach-san-bao-son-international-nguyen-chi-thanh",
+      "type": "stay",
+      "category": "hotel",
+      "name": "Khách sạn Quốc tế Bảo Sơn",
+      "aliases": [
+        "Bao Son International Hotel",
+        "Khách sạn Bảo Sơn Nguyễn Chí Thanh"
+      ],
+      "keywords": [
+        "khách sạn 4 sao",
+        "bảo sơn",
+        "nguyễn chí thanh"
+      ],
+      "dishes": [
+        "Phòng nghỉ 4 sao cao cấp",
+        "Bể bơi bốn mùa",
+        "Nhà hàng buffet Á Âu",
+        "Phòng họp hội nghị"
+      ],
+      "address": "50 Nguyễn Chí Thanh",
+      "area": "Nguyễn Chí Thanh Láng Hạ Đống Đa",
+      "zone": "dong_da",
+      "lat": 21.0252,
+      "lon": 105.8115,
+      "price": {
+        "min": 1100000,
+        "max": 2600000,
+        "currency": "VND",
+        "band": "luxury"
+      },
+      "hours": [
+        [
+          "00:00",
+          "23:59"
+        ]
+      ],
+      "tags": [
+        "hotel",
+        "4_sao",
+        "nguyen_chi_thanh",
+        "dong_da",
+        "be_boi"
+      ],
+      "noteVi": "Khách sạn 4 sao lâu năm uy tín trên đường Nguyễn Chí Thanh quận Đống Đa, đầy đủ tiện ích bể bơi và nhà hàng sang trọng.",
+      "noteEn": "Well-established 4-star hotel on Nguyen Chi Thanh street in Dong Da.",
+      "priceBand": "luxury",
+      "stars": 4
+    },
+    {
+      "id": "hotel-du-parc-hanoi-nguyen-du",
+      "type": "stay",
+      "category": "hotel",
+      "name": "Khách sạn Hôtel du Parc Hanoï",
+      "aliases": [
+        "Hotel Du Parc Hanoi",
+        "Khách sạn Du Parc Nguyễn Du",
+        "Nikko Hanoi cũ"
+      ],
+      "keywords": [
+        "khách sạn 5 sao",
+        "hotel du parc"
+      ],
+      "dishes": [
+        "Phòng nghỉ 5 sao tiêu chuẩn Nhật Bản",
+        "Bể bơi ngoài trời",
+        "Nhà hàng Nhật Bản Azabu",
+        "Spa thư giãn"
+      ],
+      "address": "84 Trần Nhân Tông",
+      "area": "Nguyễn Du Hai Bà Trưng",
+      "zone": "hai_ba_trung",
+      "lat": 21.0182,
+      "lon": 105.8458,
+      "price": {
+        "min": 2200000,
+        "max": 4800000,
+        "currency": "VND",
+        "band": "luxury"
+      },
+      "hours": [
+        [
+          "00:00",
+          "23:59"
+        ]
+      ],
+      "tags": [
+        "hotel",
+        "5_sao",
+        "hai_ba_trung",
+        "nguyen_du",
+        "sang_trong"
+      ],
+      "noteVi": "Khách sạn 5 sao mang phong cách Nhật Bản tinh tế nhìn ra công viên Thống Nhất quận Hai Bà Trưng.",
+      "noteEn": "5-star luxury Japanese-style hotel overlooking Thong Nhat Park in Hai Ba Trung.",
+      "priceBand": "luxury",
+      "stars": 4
+    },
+    {
+      "id": "the-ann-hanoi-hotel-hai-ba-trung",
+      "type": "stay",
+      "category": "hotel",
+      "name": "Khách sạn The Ann Hanoi",
+      "aliases": [
+        "The Ann Hanoi Hotel",
+        "The Ann Hotel Hai Bà Trưng"
+      ],
+      "keywords": [
+        "khách sạn 4 sao",
+        "the ann"
+      ],
+      "dishes": [
+        "Phòng deluxe cao cấp",
+        "Bể bơi tầng thượng",
+        "Phòng gym hiện đại",
+        "Bữa sáng buffet"
+      ],
+      "address": "38A Hàng Chuối",
+      "area": "Phạm Đình Hổ Hai Bà Trưng",
+      "zone": "hai_ba_trung",
+      "lat": 21.0162,
+      "lon": 105.8582,
+      "price": {
+        "min": 1200000,
+        "max": 2500000,
+        "currency": "VND",
+        "band": "luxury"
+      },
+      "hours": [
+        [
+          "00:00",
+          "23:59"
+        ]
+      ],
+      "tags": [
+        "hotel",
+        "4_sao",
+        "hai_ba_trung",
+        "hang_chuoi",
+        "rooftop_pool"
+      ],
+      "noteVi": "Khách sạn 4 sao hiện đại với bể bơi trên tầng thượng và phong cách phục vụ chu đáo tại quận Hai Bà Trưng.",
+      "noteEn": "Contemporary 4-star hotel featuring a rooftop swimming pool in Hai Ba Trung.",
+      "priceBand": "luxury",
+      "stars": 4
+    },
+    {
+      "id": "bun-cha-co-nhue-bac-tu-liem",
+      "type": "food",
+      "category": "bun_cha",
+      "name": "Bún chả gia truyền Cổ Nhuế",
+      "aliases": [
+        "Bún chả Cổ Nhuế",
+        "Bún chả nướng than hoa Bắc Từ Liêm"
+      ],
+      "keywords": [
+        "bún chả",
+        "chả nướng than"
+      ],
+      "dishes": [
+        "Bún chả nướng vỉ than hoa",
+        "Nem rán giòn rụm",
+        "Nước chấm đu đủ cà rốt"
+      ],
+      "address": "152 Cổ Nhuế",
+      "area": "Cổ Nhuế 2 Bắc Từ Liêm",
+      "zone": "bac_tu_liem",
+      "lat": 21.0682,
+      "lon": 105.7785,
+      "price": [
+        35000,
+        60000
+      ],
+      "hours": [
+        [
+          "09:30",
+          "14:30"
+        ]
+      ],
+      "tags": [
+        "bun_cha",
+        "co_nhue",
+        "bac_tu_liem",
+        "an_trua",
+        "binh_dan"
+      ],
+      "noteVi": "Quán bún chả nướng than hoa truyền thống thơm nức mũi với nem rán vàng giòn tại khu Cổ Nhuế quận Bắc Từ Liêm.",
+      "noteEn": "Authentic charcoal grilled pork and noodle shop in Co Nhue North Tu Liem."
+    },
+    {
+      "id": "pho-am-thuc-sinh-vien-nhon",
+      "type": "food",
+      "category": "pho_am_thuc",
+      "name": "Khu ẩm thực sinh viên phố Nhổn",
+      "aliases": [
+        "Ẩm thực Nhổn",
+        "Phố ăn vặt Đại học Công Nghiệp"
+      ],
+      "keywords": [
+        "ẩm thực nhổn",
+        "ăn vặt sinh viên",
+        "đại học công nghiệp"
+      ],
+      "dishes": [
+        "Bánh tráng nướng",
+        "Nem nướng Nha Trang",
+        "Chè sầu Đà Nẵng",
+        "Lẩu sinh viên"
+      ],
+      "address": "298 Cầu Diễn",
+      "area": "Minh Khai Nhổn Bắc Từ Liêm",
+      "zone": "bac_tu_liem",
+      "lat": 21.055,
+      "lon": 105.736,
+      "price": [
+        25000,
+        90000
+      ],
+      "hours": [
+        [
+          "11:00",
+          "23:00"
+        ]
+      ],
+      "tags": [
+        "an_vat",
+        "sinh_vien",
+        "nhon",
+        "bac_tu_liem",
+        "lau"
+      ],
+      "noteVi": "Khu ăn uống nhộn nhịp quanh trường Đại học Công nghiệp Hà Nội với vô vàn món ăn vặt ngon giá rẻ cho giới trẻ.",
+      "noteEn": "Vibrant student food street hub near Hanoi University of Industry in Bac Tu Liem."
+    },
+    {
+      "id": "hanvet-hotel-xuan-dinh-bac-tu-liem",
+      "type": "stay",
+      "category": "hotel",
+      "name": "Khách sạn Hanvet Xuân Đỉnh",
+      "aliases": [
+        "Hanvet Hotel Xuan Dinh",
+        "Khách sạn Hanvet Bắc Từ Liêm"
+      ],
+      "keywords": [
+        "khách sạn",
+        "hanvet"
+      ],
+      "dishes": [
+        "Phòng nghỉ tiêu chuẩn sạch sẽ",
+        "Bãi đỗ xe rộng rãi",
+        "Lễ tân 24/7",
+        "Dịch vụ giặt ủi"
+      ],
+      "address": "120 Đỗ Nhuận Xuân Đỉnh",
+      "area": "Xuân Đỉnh Bắc Từ Liêm",
+      "zone": "bac_tu_liem",
+      "lat": 21.0665,
+      "lon": 105.789,
+      "price": {
+        "min": 450000,
+        "max": 850000,
+        "currency": "VND",
+        "band": "budget"
+      },
+      "hours": [
+        [
+          "00:00",
+          "23:59"
+        ]
+      ],
+      "tags": [
+        "hotel",
+        "gia_re",
+        "xuan_dinh",
+        "bac_tu_liem"
+      ],
+      "noteVi": "Khách sạn tiện nghi giá hợp lý gần công viên Hòa Bình và khu đô thị Ngoại Giao Đoàn quận Bắc Từ Liêm.",
+      "noteEn": "Comfortable and affordable hotel near Peace Park in Bac Tu Liem.",
+      "priceBand": "budget",
+      "stars": 3
+    },
+    {
+      "id": "lau-ga-la-e-dong-anh",
+      "type": "food",
+      "category": "nha_hang",
+      "name": "Lẩu gà lá é Đông Anh",
+      "aliases": [
+        "Lẩu gà Đông Anh",
+        "Lẩu gà lá é Cao Lỗ"
+      ],
+      "keywords": [
+        "lẩu gà",
+        "gà đồi",
+        "lá é"
+      ],
+      "dishes": [
+        "Lẩu gà lá é cay the",
+        "Gà đồi hấp lá chanh",
+        "Xôi nếp nương"
+      ],
+      "address": "88 Cao Lỗ",
+      "area": "Uy Nỗ Đông Anh",
+      "zone": "dong_anh",
+      "lat": 21.139,
+      "lon": 105.848,
+      "price": [
+        150000,
+        300000
+      ],
+      "hours": [
+        [
+          "10:00",
+          "22:30"
+        ]
+      ],
+      "tags": [
+        "lau_ga",
+        "ga_doi",
+        "dong_anh",
+        "cao_lo",
+        "an_toi"
+      ],
+      "noteVi": "Món lẩu gà đồi ngọt thịt nấu cùng lá é thơm the độc đáo là địa chỉ ẩm thực hấp dẫn tại trung tâm thị trấn Đông Anh.",
+      "noteEn": "Signature aromatic chicken hotpot cooked with lemon basil in Dong Anh."
+    },
+    {
+      "id": "khach-san-dong-anh-diamond-hotel",
+      "type": "stay",
+      "category": "hotel",
+      "name": "Khách sạn Diamond Hotel Đông Anh",
+      "aliases": [
+        "Diamond Hotel Dong Anh",
+        "Khách sạn Kim Cương Đông Anh"
+      ],
+      "keywords": [
+        "khách sạn 3 sao",
+        "diamond hotel"
+      ],
+      "dishes": [
+        "Phòng nghỉ hiện đại view phố",
+        "Bữa sáng gọi món",
+        "Xe đưa đón sân bay",
+        "Thang máy"
+      ],
+      "address": "158 Cao Lỗ",
+      "area": "Thị trấn Đông Anh",
+      "zone": "dong_anh",
+      "lat": 21.1415,
+      "lon": 105.8505,
+      "price": {
+        "min": 500000,
+        "max": 1100000,
+        "currency": "VND",
+        "band": "budget"
+      },
+      "hours": [
+        [
+          "00:00",
+          "23:59"
+        ]
+      ],
+      "tags": [
+        "hotel",
+        "dong_anh",
+        "cao_lo",
+        "gia_re"
+      ],
+      "noteVi": "Khách sạn 3 sao tiện nghi đầy đủ nằm ngay mặt phố Cao Lỗ trung tâm huyện Đông Anh, thuận tiện đi Cổ Loa và sân bay Nội Bài.",
+      "noteEn": "Convenient 3-star hotel on Cao Lo street in central Dong Anh.",
+      "priceBand": "budget",
+      "stars": 3
+    },
+    {
+      "id": "co-loa-heritage-homestay-dong-anh",
+      "type": "stay",
+      "category": "homestay",
+      "name": "Homestay Cổ Loa Heritage",
+      "aliases": [
+        "Co Loa Homestay",
+        "Cổ Loa Eco Stay"
+      ],
+      "keywords": [
+        "homestay",
+        "thành cổ"
+      ],
+      "dishes": [
+        "Phòng homestay sân vườn thoáng mát",
+        "Trải nghiệm văn hóa thành cổ",
+        "Bữa ăn gia đình làng quê"
+      ],
+      "address": "Khu di tích Thành Cổ Loa",
+      "area": "Cổ Loa Đông Anh",
+      "zone": "dong_anh",
+      "lat": 21.115,
+      "lon": 105.871,
+      "price": {
+        "min": 400000,
+        "max": 900000,
+        "currency": "VND",
+        "band": "budget"
+      },
+      "hours": [
+        [
+          "00:00",
+          "23:59"
+        ]
+      ],
+      "tags": [
+        "homestay",
+        "co_loa",
+        "dong_anh",
+        "san_vuon",
+        "di_tich"
+      ],
+      "noteVi": "Homestay nhà vườn yên bình nép mình bên thành cổ Cổ Loa ngàn năm lịch sử, lý tưởng cho kỳ nghỉ cuối tuần gần gũi thiên nhiên.",
+      "noteEn": "Peaceful garden homestay nestled inside ancient Co Loa Citadel in Dong Anh.",
+      "priceBand": "budget"
+    },
+    {
+      "id": "bun-dau-met-pho-lam-ha-long-bien",
+      "type": "food",
+      "category": "bun_dau",
+      "name": "Bún đậu Mẹt phố Lâm Hạ",
+      "aliases": [
+        "Bún đậu Lâm Hạ",
+        "Bún đậu Long Biên"
+      ],
+      "keywords": [
+        "bún đậu mắm tôm",
+        "chả cốm",
+        "nem rán",
+        "thịt chân giò"
+      ],
+      "dishes": [
+        "Mẹt bún đậu đầy đủ",
+        "Chả cốm giòn thơm",
+        "Nem rán vỏ rế",
+        "Dồi chiên"
+      ],
+      "address": "36 Lâm Hạ",
+      "area": "Bồ Đề Long Biên",
+      "zone": "long_bien",
+      "lat": 21.0345,
+      "lon": 105.874,
+      "price": [
+        35000,
+        75000
+      ],
+      "hours": [
+        [
+          "10:00",
+          "21:00"
+        ]
+      ],
+      "tags": [
+        "bun_dau",
+        "lam_ha",
+        "long_bien",
+        "an_trua",
+        "an_toi"
+      ],
+      "noteVi": "Quán bún đậu mẹt đầy ắp đậu mơ chiên vàng giòn rụm cùng chả cốm và mắm tôm đánh sủi bọt thơm lừng tại quận Long Biên.",
+      "noteEn": "Crispy fried tofu and noodles platter with savory shrimp paste in Long Bien."
+    },
+    {
+      "id": "new-era-hotel-villa-long-bien",
+      "type": "stay",
+      "category": "hotel",
+      "name": "Khách sạn New Era Hotel & Villa Long Biên",
+      "aliases": [
+        "New Era Hotel Long Bien",
+        "Khách sạn Kỷ Nguyên Mới"
+      ],
+      "keywords": [
+        "khách sạn 4 sao",
+        "new era",
+        "nguyễn sơn"
+      ],
+      "dishes": [
+        "Phòng suite sang trọng view thành phố",
+        "Nhà hàng ẩm thực",
+        "Phòng hội thảo",
+        "Dịch vụ phòng 24h"
+      ],
+      "address": "17 Nguyễn Sơn",
+      "area": "Ngọc Lâm Long Biên",
+      "zone": "long_bien",
+      "lat": 21.041,
+      "lon": 105.8725,
+      "price": {
+        "min": 900000,
+        "max": 2200000,
+        "currency": "VND",
+        "band": "luxury"
+      },
+      "hours": [
+        [
+          "00:00",
+          "23:59"
+        ]
+      ],
+      "tags": [
+        "hotel",
+        "4_sao",
+        "long_bien",
+        "nguyen_son",
+        "sang_trong"
+      ],
+      "noteVi": "Khách sạn 4 sao trang nhã nằm trên phố hàng không Nguyễn Sơn quận Long Biên, cách cầu Chương Dương chỉ 5 phút đi xe.",
+      "noteEn": "Elegant 4-star hotel on Nguyen Son street in Long Bien district.",
+      "priceBand": "luxury",
+      "stars": 4
+    },
+    {
+      "id": "mipec-riverside-homestay-apartment-long-bien",
+      "type": "stay",
+      "category": "homestay",
+      "name": "Căn hộ Homestay Mipec Riverside Long Biên",
+      "aliases": [
+        "Mipec Riverside Homestay",
+        "Căn hộ view sông Hồng Long Biên"
+      ],
+      "keywords": [
+        "căn hộ homestay",
+        "mipec riverside",
+        "view sông hồng"
+      ],
+      "dishes": [
+        "Căn hộ 2 phòng ngủ view cầu Long Biên",
+        "Bếp nấu gia đình đầy đủ",
+        "Bể bơi và rạp chiếu phim trong tòa nhà"
+      ],
+      "address": "2 Long Biên 2",
+      "area": "Ngọc Lâm Long Biên",
+      "zone": "long_bien",
+      "lat": 21.045,
+      "lon": 105.865,
+      "price": {
+        "min": 850000,
+        "max": 1900000,
+        "currency": "VND",
+        "band": "mid"
+      },
+      "hours": [
+        [
+          "00:00",
+          "23:59"
+        ]
+      ],
+      "tags": [
+        "homestay",
+        "apartment",
+        "mipec",
+        "long_bien",
+        "view_song_hong"
+      ],
+      "noteVi": "Căn hộ homestay cao cấp sát chân cầu Long Biên với tầm nhìn panorama trọn vẹn sông Hồng và hoàng hôn tuyệt đẹp.",
+      "noteEn": "Riverside serviced apartment with stunning panoramic Red River views in Long Bien.",
+      "priceBand": "mid"
+    },
+    {
+      "id": "bun-oc-nguoi-dinh-cong-hoang-mai",
+      "type": "food",
+      "category": "bun_oc",
+      "name": "Bún ốc nguội truyền thống Định Công",
+      "aliases": [
+        "Bún ốc Định Công",
+        "Bún ốc giấm bỗng Hoàng Mai"
+      ],
+      "keywords": [
+        "bún ốc nguội",
+        "bún ốc giấm bỗng"
+      ],
+      "dishes": [
+        "Bún ốc nguội giấm bỗng",
+        "Ốc mít luộc giòn",
+        "Ớt chưng gia truyền"
+      ],
+      "address": "82 ngõ 218 Định Công",
+      "area": "Định Công Hoàng Mai",
+      "zone": "hoang_mai",
+      "lat": 20.988,
+      "lon": 105.836,
+      "price": [
+        40000,
+        70000
+      ],
+      "hours": [
+        [
+          "07:00",
+          "15:00"
+        ]
+      ],
+      "tags": [
+        "bun_oc",
+        "dinh_cong",
+        "hoang_mai",
+        "truyen_thong",
+        "an_sang"
+      ],
+      "noteVi": "Bún ốc nguội chấm nước dùng giấm bỗng thanh thanh chua dịu cùng những con ốc béo giòn sần sật tại Định Công Hoàng Mai.",
+      "noteEn": "Traditional cold snail noodle soup with fermented rice broth in Hoang Mai."
+    },
+    {
+      "id": "khach-san-lakeside-linh-dam-hoang-mai",
+      "type": "stay",
+      "category": "hotel",
+      "name": "Khách sạn Lakeside Linh Đàm",
+      "aliases": [
+        "Lakeside Hotel Linh Dam",
+        "Khách sạn ven hồ Linh Đàm"
+      ],
+      "keywords": [
+        "khách sạn",
+        "hồ linh đàm"
+      ],
+      "dishes": [
+        "Phòng view bán đảo Linh Đàm",
+        "Phục vụ phòng tận tình",
+        "Wifi tốc độ cao"
+      ],
+      "address": "Bán đảo Linh Đàm Hoàng Liệt",
+      "area": "Hoàng Liệt Hoàng Mai",
+      "zone": "hoang_mai",
+      "lat": 20.969,
+      "lon": 105.8315,
+      "price": {
+        "min": 450000,
+        "max": 950000,
+        "currency": "VND",
+        "band": "budget"
+      },
+      "hours": [
+        [
+          "00:00",
+          "23:59"
+        ]
+      ],
+      "tags": [
+        "hotel",
+        "linh_dam",
+        "hoang_mai",
+        "view_ho"
+      ],
+      "noteVi": "Khách sạn yên tĩnh mát mẻ nhìn ra hồ nước xanh mát trên bán đảo Linh Đàm quận Hoàng Mai.",
+      "noteEn": "Peaceful lakeside hotel located on Linh Dam peninsula in Hoang Mai district.",
+      "priceBand": "budget",
+      "stars": 3
+    },
+    {
+      "id": "bun-oc-chuoi-dau-tu-hiep-thanh-tri",
+      "type": "food",
+      "category": "bun",
+      "name": "Bún ốc chuối đậu Tứ Hiệp",
+      "aliases": [
+        "Bún ốc Tứ Hiệp",
+        "Bún ốc Thanh Trì"
+      ],
+      "keywords": [
+        "bún ốc chuối đậu",
+        "tía tô"
+      ],
+      "dishes": [
+        "Bún ốc chuối đậu sánh vàng",
+        "Ốc nhồi xào nghệ",
+        "Đậu rán phồng"
+      ],
+      "address": "45 Tứ Hiệp",
+      "area": "Tứ Hiệp Thanh Trì",
+      "zone": "thanh_tri",
+      "lat": 20.952,
+      "lon": 105.854,
+      "price": [
+        35000,
+        65000
+      ],
+      "hours": [
+        [
+          "06:30",
+          "20:30"
+        ]
+      ],
+      "tags": [
+        "bun_oc",
+        "tu_hiep",
+        "thanh_tri",
+        "an_sang",
+        "an_trua"
+      ],
+      "noteVi": "Bát bún ốc chuối đậu vàng óng nước sốt sánh mịn đậm vị tía tô lá lốt quen thuộc của vùng quê ven đô Thanh Trì.",
+      "noteEn": "Rich and savory snail soup with green bananas and fried tofu in Thanh Tri."
+    },
+    {
+      "id": "khach-san-ngoc-hoi-plaza-thanh-tri",
+      "type": "stay",
+      "category": "hotel",
+      "name": "Khách sạn Ngọc Hồi Plaza",
+      "aliases": [
+        "Ngoc Hoi Plaza Hotel",
+        "Khách sạn Thanh Trì Ngọc Hồi"
+      ],
+      "keywords": [
+        "khách sạn",
+        "quốc lộ 1a"
+      ],
+      "dishes": [
+        "Phòng nghỉ rộng rãi tiện nghi",
+        "Bãi xe ô tô lớn",
+        "Lễ tân phục vụ cả ngày lẫn đêm"
+      ],
+      "address": "388 Ngọc Hồi",
+      "area": "Văn Điển Thanh Trì",
+      "zone": "thanh_tri",
+      "lat": 20.941,
+      "lon": 105.852,
+      "price": {
+        "min": 40000,
+        "max": 800000,
+        "currency": "VND",
+        "band": "budget"
+      },
+      "hours": [
+        [
+          "00:00",
+          "23:59"
+        ]
+      ],
+      "tags": [
+        "hotel",
+        "ngoc_hoi",
+        "thanh_tri",
+        "gia_re"
+      ],
+      "noteVi": "Khách sạn thuận tiện ngay trục Quốc lộ 1A Ngọc Hồi Thanh Trì, thích hợp cho khách công tác và du lịch cửa ngõ phía Nam.",
+      "noteEn": "Convenient transit hotel on National Highway 1A in Thanh Tri district.",
+      "priceBand": "budget",
+      "stars": 3
+    },
+    {
+      "id": "banh-te-phu-nhi-son-tay-chinh-goc",
+      "type": "food",
+      "category": "banh_cuon",
+      "name": "Bánh tẻ Phú Nhi Sơn Tây chính gốc",
+      "aliases": [
+        "Bánh tẻ Phú Nhi",
+        "Bánh tẻ Sơn Tây"
+      ],
+      "keywords": [
+        "bánh tẻ",
+        "bánh răng bừa"
+      ],
+      "dishes": [
+        "Bánh tẻ lá dong nóng hổi",
+        "Bánh gai tiến vua",
+        "Bánh giò Sơn Tây"
+      ],
+      "address": "Làng nghề Phú Nhi phường Phú Thịnh",
+      "area": "Phú Thịnh Sơn Tây",
+      "zone": "son_tay",
+      "lat": 21.145,
+      "lon": 105.502,
+      "price": [
+        10000,
+        50000
+      ],
+      "hours": [
+        [
+          "06:00",
+          "20:00"
+        ]
+      ],
+      "tags": [
+        "banh_te",
+        "dac_san",
+        "phu_nhi",
+        "son_tay",
+        "qua_que"
+      ],
+      "noteVi": "Đặc sản bánh tẻ nức tiếng xứ Đoài gói lá dong xanh mướt với nhân thịt nạc mộc nhĩ giòn sần sật chấm tương ớt cay ngọt.",
+      "noteEn": "Renowned traditional steamed rice cake wrapped in dong leaves in Son Tay."
+    },
+    {
+      "id": "thao-vien-resort-son-tay",
+      "type": "stay",
+      "category": "resort",
+      "name": "Thảo Viên Resort Sơn Tây",
+      "aliases": [
+        "Thao Vien Resort",
+        "Khu nghỉ dưỡng Thảo Viên Sơn Tây"
+      ],
+      "keywords": [
+        "resort 4 sao",
+        "nghỉ dưỡng",
+        "bể bơi khoáng",
+        "thảo viên"
+      ],
+      "dishes": [
+        "Khu biệt thự nhà vườn cao cấp",
+        "Bể bơi khoáng nóng bốn mùa",
+        "Sân golf mini và trượt cỏ",
+        "Khu spa tắm thảo dược"
+      ],
+      "address": "Trung Sơn Trầm Sơn Tây",
+      "area": "Trung Sơn Trầm Sơn Tây",
+      "zone": "son_tay",
+      "lat": 21.118,
+      "lon": 105.485,
+      "price": {
+        "min": 1500000,
+        "max": 4500000,
+        "currency": "VND",
+        "band": "luxury"
+      },
+      "hours": [
+        [
+          "00:00",
+          "23:59"
+        ]
+      ],
+      "tags": [
+        "resort",
+        "nghi_duong",
+        "thao_vien",
+        "son_tay",
+        "khoang_nong",
+        "gia_dinh"
+      ],
+      "noteVi": "Khu nghỉ dưỡng sinh thái xanh mát bốn mùa với bể bơi nước khoáng và các trò chơi dã ngoại thú vị tại thị xã Sơn Tây.",
+      "noteEn": "4-star eco-resort with natural hot mineral pools in Son Tay town.",
+      "priceBand": "luxury"
+    },
+    {
+      "id": "ga-doi-dam-long-ba-vi",
+      "type": "food",
+      "category": "nha_hang",
+      "name": "Gà đồi Đầm Long Ba Vì",
+      "aliases": [
+        "Gà đồi Ba Vì",
+        "Gà chạy bộ Ba Vì"
+      ],
+      "keywords": [
+        "gà đồi",
+        "gà nướng than",
+        "xôi nếp nương"
+      ],
+      "dishes": [
+        "Gà đồi nướng mật ong",
+        "Gà hấp lá chanh",
+        "Xôi nếp nương",
+        "Canh măng rừng"
+      ],
+      "address": "Khu du lịch Đầm Long Bằng Tạ",
+      "area": "Cẩm Lĩnh Ba Vì",
+      "zone": "ba_vi",
+      "lat": 21.192,
+      "lon": 105.342,
+      "price": [
+        150000,
+        350000
+      ],
+      "hours": [
+        [
+          "09:00",
+          "21:30"
+        ]
+      ],
+      "tags": [
+        "ga_doi",
+        "ba_vi",
+        "dam_long",
+        "dac_san",
+        "an_trua",
+        "an_toi"
+      ],
+      "noteVi": "Đặc sản gà đồi Ba Vì thịt săn chắc thơm ngọt tự nhiên được nướng than hoa vàng rộm chấm muối tiêu ớt chanh chuẩn vị núi rừng.",
+      "noteEn": "Famous free-range hill chicken roasted with honey in Ba Vi."
+    },
+    {
+      "id": "paragon-hill-resort-ba-vi",
+      "type": "stay",
+      "category": "resort",
+      "name": "Hanoi Paragon Hill Resort Ba Vì",
+      "aliases": [
+        "Paragon Hill Ba Vì",
+        "Khu nghỉ dưỡng Paragon Ba Vì"
+      ],
+      "keywords": [
+        "resort",
+        "paragon hill",
+        "sinh thái",
+        "vườn hồng"
+      ],
+      "dishes": [
+        "Nhà sàn vùng cao và villa tiện nghi",
+        "Vườn hồng lớn nhất miền Bắc",
+        "Hồ bơi vô cực ngắm núi Ba Vì"
+      ],
+      "address": "Thôn Muồng Cháu Vân Hòa",
+      "area": "Vân Hòa Ba Vì",
+      "zone": "ba_vi",
+      "lat": 21.085,
+      "lon": 105.385,
+      "price": {
+        "min": 1100000,
+        "max": 2800000,
+        "currency": "VND",
+        "band": "luxury"
+      },
+      "hours": [
+        [
+          "00:00",
+          "23:59"
+        ]
+      ],
+      "tags": [
+        "resort",
+        "ba_vi",
+        "van_hoa",
+        "paragon",
+        "nghi_duong"
+      ],
+      "noteVi": "Khu nghỉ dưỡng sinh thái giữa thiên nhiên hoang sơ chân núi Ba Vì nổi tiếng với vườn hoa hồng ngút ngàn và khí hậu trong lành.",
+      "noteEn": "Scenic nature retreat with the largest rose garden in Northern Vietnam in Ba Vi.",
+      "priceBand": "luxury"
+    },
+    {
+      "id": "chao-se-ha-mo-dan-phuong",
+      "type": "food",
+      "category": "bun",
+      "name": "Cháo se Hạ Mỗ Đan Phượng",
+      "aliases": [
+        "Cháo se Đan Phượng",
+        "Cháo se làng Hạ Mỗ"
+      ],
+      "keywords": [
+        "cháo se",
+        "đặc sản hà nội"
+      ],
+      "dishes": [
+        "Cháo se bột gạo tẻ nấu nước xương",
+        "Thịt băm xào hành",
+        "Tiêu ớt thơm cay"
+      ],
+      "address": "Làng cổ Hạ Mỗ",
+      "area": "Hạ Mỗ Đan Phượng",
+      "zone": "hoai_duc_dan_phuong",
+      "lat": 21.112,
+      "lon": 105.698,
+      "price": [
+        25000,
+        45000
+      ],
+      "hours": [
+        [
+          "06:00",
+          "18:00"
+        ]
+      ],
+      "tags": [
+        "chao_se",
+        "ha_mo",
+        "dan_phuong",
+        "dac_san",
+        "an_sang"
+      ],
+      "noteVi": "Món cháo độc đáo của vùng đất cổ Ô Diên xưa với sợi bột se tay dẻo quánh nấu trong nước hầm xương ngọt lịm.",
+      "noteEn": "Historic handmade rice dough porridge from ancient Ha Mo village in Dan Phuong."
+    },
+    {
+      "id": "khach-san-van-canh-hoai-duc",
+      "type": "stay",
+      "category": "hotel",
+      "name": "Khách sạn Vân Canh Central Hotel",
+      "aliases": [
+        "Van Canh Hotel",
+        "Khách sạn Hoài Đức"
+      ],
+      "keywords": [
+        "khách sạn",
+        "đại lộ thăng long"
+      ],
+      "dishes": [
+        "Phòng nghỉ hiện đại sạch sẽ",
+        "Bãi xe ô tô",
+        "Lễ tân phục vụ chu đáo"
+      ],
+      "address": "Khu đô thị Vân Canh Hoài Đức",
+      "area": "Vân Canh Hoài Đức",
+      "zone": "hoai_duc_dan_phuong",
+      "lat": 21.018,
+      "lon": 105.732,
+      "price": {
+        "min": 450000,
+        "max": 900000,
+        "currency": "VND",
+        "band": "budget"
+      },
+      "hours": [
+        [
+          "00:00",
+          "23:59"
+        ]
+      ],
+      "tags": [
+        "hotel",
+        "van_canh",
+        "hoai_duc",
+        "gia_re"
+      ],
+      "noteVi": "Khách sạn tiện nghi mới xây nằm trong khu đô thị Vân Canh huyện Hoài Đức, giáp ranh Nam Từ Liêm.",
+      "noteEn": "Modern comfortable hotel in Van Canh urban area Hoai Duc district.",
+      "priceBand": "budget",
+      "stars": 3
+    },
+    {
+      "id": "che-kho-dai-dong-thach-that",
+      "type": "food",
+      "category": "kem_che",
+      "name": "Chè kho Đại Đồng Thạch Thất",
+      "aliases": [
+        "Chè kho Thạch Thất",
+        "Chè kho tiến vua Đại Đồng"
+      ],
+      "keywords": [
+        "chè kho",
+        "đậu xanh"
+      ],
+      "dishes": [
+        "Chè kho đậu xanh hạt sen",
+        "Chè lam",
+        "Kẹo chè lam dẻo"
+      ],
+      "address": "Làng Đại Đồng",
+      "area": "Đại Đồng Thạch Thất",
+      "zone": "quoc_oai_thach_that_chuong_my",
+      "lat": 21.031,
+      "lon": 105.545,
+      "price": [
+        30000,
+        80000
+      ],
+      "hours": [
+        [
+          "07:00",
+          "20:00"
+        ]
+      ],
+      "tags": [
+        "che_kho",
+        "thach_that",
+        "dai_dong",
+        "dac_san",
+        "qua_que"
+      ],
+      "noteVi": "Đặc sản chè kho đậu xanh thơm nức hương hoa bưởi béo bùi mịn màng từng là sản vật tiến vua nổi tiếng của Thạch Thất.",
+      "noteEn": "Royal traditional mung bean sweet treat from Dai Dong Thach That."
+    },
+    {
+      "id": "hoang-long-resort-thach-that",
+      "type": "stay",
+      "category": "resort",
+      "name": "Hoàng Long Resort Thạch Thất",
+      "aliases": [
+        "Hoang Long Resort",
+        "Khu nghỉ dưỡng Hoàng Long"
+      ],
+      "keywords": [
+        "resort sinh thái",
+        "hoàng long",
+        "chùa thầy"
+      ],
+      "dishes": [
+        "Khu biệt thự ven hồ sinh thái",
+        "Bể bơi ngoài trời",
+        "Sân tennis và khu vui chơi trẻ em",
+        "Nhà hàng ẩm thực đồng quê"
+      ],
+      "address": "Đường Chùa Thầy Thạch Xá",
+      "area": "Thạch Xá Thạch Thất",
+      "zone": "quoc_oai_thach_that_chuong_my",
+      "lat": 21.002,
+      "lon": 105.588,
+      "price": {
+        "min": 1200000,
+        "max": 2900000,
+        "currency": "VND",
+        "band": "luxury"
+      },
+      "hours": [
+        [
+          "00:00",
+          "23:59"
+        ]
+      ],
+      "tags": [
+        "resort",
+        "thach_that",
+        "hoang_long",
+        "nghi_duong",
+        "chua_thay"
+      ],
+      "noteVi": "Khu nghỉ dưỡng sinh thái xanh mát gần Chùa Thầy và Chùa Tây Phương, nơi nghỉ dưỡng lý tưởng cho gia đình vào dịp cuối tuần.",
+      "noteEn": "Peaceful eco-resort near ancient Thay and Tay Phuong pagodas in Thach That.",
+      "priceBand": "luxury"
+    },
+    {
+      "id": "homestay-lang-chuong-thanh-oai",
+      "type": "stay",
+      "category": "homestay",
+      "name": "Homestay Làng nón Chuông Thanh Oai",
+      "aliases": [
+        "Lang Chuong Homestay",
+        "Chuong Village Stay"
+      ],
+      "keywords": [
+        "homestay",
+        "làng nón"
+      ],
+      "dishes": [
+        "Phòng nghỉ phong cách nhà cổ Bắc Bộ",
+        "Trải nghiệm tự tay làm nón lá",
+        "Bữa cơm nhà quê dân dã"
+      ],
+      "address": "Làng Chuông Phương Trung",
+      "area": "Phương Trung Thanh Oai",
+      "zone": "thanh_oai_thuong_tin_phu_xuyen",
+      "lat": 20.852,
+      "lon": 105.782,
+      "price": {
+        "min": 400000,
+        "max": 850000,
+        "currency": "VND",
+        "band": "budget"
+      },
+      "hours": [
+        [
+          "00:00",
+          "23:59"
+        ]
+      ],
+      "tags": [
+        "homestay",
+        "lang_chuong",
+        "thanh_oai",
+        "lang_nghe",
+        "trai_nghiem"
+      ],
+      "noteVi": "Homestay văn hóa làng nghề làm nón lá truyền thống hàng trăm năm tuổi tại làng Chuông huyện Thanh Oai.",
+      "noteEn": "Cultural handicraft conical hat village homestay in Thanh Oai.",
+      "priceBand": "budget"
+    },
+    {
+      "id": "rau-sang-chua-huong-my-duc",
+      "type": "food",
+      "category": "nha_hang",
+      "name": "Đặc sản Rau sắng & Dê núi Chùa Hương",
+      "aliases": [
+        "Rau sắng Chùa Hương",
+        "Đặc sản Chùa Hương Mỹ Đức"
+      ],
+      "keywords": [
+        "rau sắng",
+        "dê núi",
+        "mơ chùa hương"
+      ],
+      "dishes": [
+        "Canh rau sắng nấu thịt nạc",
+        "Dê núi tái chanh",
+        "Mơ ngâm đường Chùa Hương"
+      ],
+      "address": "Bến đò Đục Suối Yến",
+      "area": "Hương Sơn Mỹ Đức",
+      "zone": "ung_hoa_my_duc",
+      "lat": 20.618,
+      "lon": 105.755,
+      "price": [
+        100000,
+        250000
+      ],
+      "hours": [
+        [
+          "06:00",
+          "21:00"
+        ]
+      ],
+      "tags": [
+        "rau_sang",
+        "de_nui",
+        "chua_huong",
+        "my_duc",
+        "dac_san"
+      ],
+      "noteVi": "Sản vật quý hiếm vùng núi đá vôi Hương Sơn với lá rau sắng ngọt bùi tự nhiên cùng thịt dê núi săn chắc nức tiếng trẩy hội Chùa Hương.",
+      "noteEn": "Famous wild sweet leaves and mountain goat specialty in Huong Son My Duc."
+    },
+    {
+      "id": "mai-lam-homestay-chua-huong-my-duc",
+      "type": "stay",
+      "category": "homestay",
+      "name": "Mai Lâm Riverside Homestay Chùa Hương",
+      "aliases": [
+        "Mai Lam Homestay",
+        "Homestay Suối Yến Chùa Hương"
+      ],
+      "keywords": [
+        "homestay"
+      ],
+      "dishes": [
+        "Phòng view suối Yến ngắm hoa súng",
+        "Chèo thuyền kayak ngắm cảnh",
+        "Cơm chay và đặc sản địa phương"
+      ],
+      "address": "Bến Yến Hương Sơn",
+      "area": "Hương Sơn Mỹ Đức",
+      "zone": "ung_hoa_my_duc",
+      "lat": 20.621,
+      "lon": 105.761,
+      "price": {
+        "min": 450000,
+        "max": 950000,
+        "currency": "VND",
+        "band": "budget"
+      },
+      "hours": [
+        [
+          "00:00",
+          "23:59"
+        ]
+      ],
+      "tags": [
+        "homestay",
+        "suoi_yen",
+        "chua_huong",
+        "my_duc",
+        "view_song"
+      ],
+      "noteVi": "Homestay thanh bình thơ mộng soi bóng bên dòng suối Yến Chùa Hương, lý tưởng ngắm mùa hoa súng nở rộ rực rỡ.",
+      "noteEn": "Scenic riverside homestay along peaceful Yen Stream in Huong Son My Duc.",
+      "priceBand": "budget"
+    },
+    {
+      "id": "pho-am-thuc-dem-san-ho-ocean-park-gia-lam",
+      "type": "food",
+      "category": "pho_am_thuc",
+      "name": "Phố ẩm thực đêm San Hô Vinhomes Ocean Park",
+      "aliases": [
+        "Phố ẩm thực San Hô",
+        "Chợ đêm San Hô Ocean Park"
+      ],
+      "keywords": [
+        "phố ẩm thực",
+        "chợ đêm",
+        "hải sản nướng"
+      ],
+      "dishes": [
+        "Hải sản nướng mỡ hành",
+        "Thịt xiên nướng than hoa",
+        "Bánh tráng nướng Đà Lạt",
+        "Bia thủ công"
+      ],
+      "address": "Đường San Hô Vinhomes Ocean Park 1",
+      "area": "Đa Tốn Gia Lâm",
+      "zone": "gia_lam",
+      "lat": 20.992,
+      "lon": 105.945,
+      "price": [
+        50000,
+        200000
+      ],
+      "hours": [
+        [
+          "16:00",
+          "23:30"
+        ]
+      ],
+      "tags": [
+        "pho_am_thuc",
+        "cho_dem",
+        "ocean_park",
+        "gia_lam",
+        "an_toi",
+        "an_dem"
+      ],
+      "noteVi": "Khu phố ẩm thực đêm nhộn nhịp bên bờ cát trắng biển hồ Ocean Park với hàng chục gian hàng nướng lẩu và đồ uống.",
+      "noteEn": "Vibrant night food street along the artificial lagoon beach at Vinhomes Ocean Park in Gia Lam."
+    },
+    {
+      "id": "bun-cha-com-lang-me-tri-nam-tu-liem",
+      "type": "food",
+      "category": "bun_cha",
+      "name": "Bún chả & Cốm truyền thống Làng Mễ Trì",
+      "aliases": [
+        "Bún chả Mễ Trì",
+        "Cốm Mễ Trì",
+        "Chả cốm Mễ Trì"
+      ],
+      "keywords": [
+        "bún chả",
+        "cốm mễ trì",
+        "chả cốm",
+        "chả nem"
+      ],
+      "dishes": [
+        "Bún chả nướng than hoa",
+        "Chả cốm Mễ Trì dẻo thơm",
+        "Xôi cốm hạt sen dừa tươi"
+      ],
+      "address": "Đường Mễ Trì Hạ",
+      "area": "Mễ Trì Nam Từ Liêm",
+      "zone": "nam_tu_liem",
+      "lat": 21.0125,
+      "lon": 105.779,
+      "price": [
+        35000,
+        70000
+      ],
+      "hours": [
+        [
+          "06:30",
+          "21:00"
+        ]
+      ],
+      "tags": [
+        "bun_cha",
+        "com",
+        "me_tri",
+        "nam_tu_liem",
+        "dac_san"
+      ],
+      "noteVi": "Làng cốm Mễ Trì nổi danh đất Hà thành với món chả cốm dẻo bùi thơm ngậy ăn cùng bún chả nướng than hoa đậm đà.",
+      "noteEn": "Famous young green sticky rice flake specialty and grilled pork noodles in Me Tri South Tu Liem."
+    },
+    {
+      "id": "ca-nuong-than-hoa-dong-do-soc-son",
+      "type": "food",
+      "category": "nha_hang",
+      "name": "Cá nướng than hoa Hồ Đồng Đò Sóc Sơn",
+      "aliases": [
+        "Cá nướng Đồng Đò",
+        "Ẩm thực Hồ Đồng Đò"
+      ],
+      "keywords": [
+        "cá nướng",
+        "cá lăng nướng",
+        "gà nướng cắm trại",
+        "hồ đồng đò"
+      ],
+      "dishes": [
+        "Cá lăng nướng muối ớt",
+        "Gà đồi nướng mọi",
+        "Rau rừng luộc kho quẹt"
+      ],
+      "address": "Khu sinh thái Hồ Đồng Đò",
+      "area": "Minh Trí Sóc Sơn",
+      "zone": "soc_son",
+      "lat": 21.312,
+      "lon": 105.815,
+      "price": [
+        150000,
+        350000
+      ],
+      "hours": [
+        [
+          "08:00",
+          "22:00"
+        ]
+      ],
+      "tags": [
+        "ca_nuong",
+        "dong_do",
+        "soc_son",
+        "cam_trai",
+        "an_toi"
+      ],
+      "noteVi": "Nhà hàng ven hồ Đồng Đò thơ mộng chuyên phục vụ cá nướng than hoa và gà đồi thơm phức trong không gian cắm trại ngắm cảnh.",
+      "noteEn": "Scenic lakeside dining at Dong Do Lake serving charcoal grilled fish and BBQ in Soc Son."
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "data_card": {
+    "dataset": "NASA Space Audio & Section 508 Accessible Media Catalog (Chandra, Perseverance, Voyager, NASA Images API)",
+    "provider": "NASA Chandra X-ray Center, NASA JPL, NASA Goddard & NASA Images and Video Library",
+    "url": "https://images-api.nasa.gov/",
+    "accessed": "2026-11-08",
+    "spatial": "Hệ Mặt Trời & Vũ trụ sâu (Deep Space)",
+    "temporal": "1977–2026",
+    "processing": "Phân loại bắt buộc theo 3 nhãn audio_kind (recording / nasa_sonification / app_sonification); biên dịch trường description_508 sang tiếng Việt theo 4 quy tắc mô tả không gian cho người khiếm thị.",
+    "limitation_vi": "Các bản thu sóng điện từ/plasma hoặc sonification tia X không phải âm thanh truyền qua chân không mà là sự chuyển đổi tần số sóng vật lý sang dải nghe của tai người (20 Hz – 20 kHz).",
+    "citation": "NASA Chandra X-ray Observatory 'A Universe of Sound' & NASA Images API (2026).",
+    "audio_kind": "nasa_sonification"
+  },
+  "audio_kind_rules": {
+    "recording": {
+      "vi": "Sóng âm hoặc sóng radio/plasma do thiết bị trên tàu vũ trụ của NASA thu trực tiếp.",
+      "en": "Acoustic or radio/plasma waves directly captured by instruments aboard NASA spacecraft."
+    },
+    "nasa_sonification": {
+      "vi": "Nhóm khoa học của NASA đã chuyển dữ liệu quan trắc vũ trụ thành âm thanh.",
+      "en": "NASA scientists translated astronomical observation data into sound."
+    },
+    "app_sonification": {
+      "vi": "Âm thanh này do ứng dụng tạo trực tiếp từ bảng số liệu của NASA.",
+      "en": "This sound is synthesized by the app directly from NASA data tables."
+    }
+  },
+  "items": [
+    {
+      "id": "perseus_black_hole",
+      "nasa_id": "chandra_perseus_sonification",
+      "title_vi": "Âm thanh lỗ đen cụm thiên hà Perseus (Chandra)",
+      "title_en": "Perseus Galaxy Cluster Black Hole Sonification",
+      "audio_kind": "nasa_sonification",
+      "audio_intro_vi": "Nhóm Đài quan sát tia X Chandra của NASA đã chuyển sóng áp suất quanh lỗ đen cụm thiên hà Perseus thành âm thanh nghe được.",
+      "audio_intro_en": "NASA's Chandra X-ray Observatory team translated real pressure waves around the Perseus cluster black hole into audible sound.",
+      "description_508_en": "Circular X-ray image of hot gas in the Perseus galaxy cluster glowing in purple and blue, with concentric ripples radiating outward from the central supermassive black hole.",
+      "accessible_description_vi": "Ở chính giữa khung hình (vị trí trung tâm) là điểm sáng trắng rực nơi lỗ đen siêu khối lượng ngự trị, xung quanh tỏa ra các vòng gợn sóng khí nóng hàng chục triệu độ như sóng nước lan tròn từ tâm ra mép. Toàn bộ đám khí trải rộng tương đương hàng chục dải Ngân Hà xếp cạnh nhau. Sóng áp suất trầm hơn tai người 57 quãng tám đã được NASA nâng cao độ lên thành tiếng rền trầm uốn lượn.",
+      "media_url": "https://chandra.harvard.edu/sound/perseus.mp3",
+      "source_name": "NASA Chandra X-ray Observatory — A Universe of Sound",
+      "source_url": "https://chandra.harvard.edu/sound/perseus.html"
+    },
+    {
+      "id": "perseverance_mars_wind",
+      "nasa_id": "PIA24429_mars_microphone",
+      "title_vi": "Tiếng gió thật trên bề mặt Sao Hỏa (Tàu Perseverance)",
+      "title_en": "First Acoustic Recording of Wind on Mars (Perseverance Rover)",
+      "audio_kind": "recording",
+      "audio_intro_vi": "Âm thanh thật do micro trên xe tự hành Perseverance của NASA thu trực tiếp tại hố va chạm Jezero trên Sao Hỏa.",
+      "audio_intro_en": "Real acoustic waves recorded directly by NASA's Perseverance rover microphone in Jezero Crater on Mars.",
+      "description_508_en": "Panorama of Jezero Crater floor on Mars showing rusty red boulders and sandy ripples stretching toward distant crater rims under a butterscotch sky.",
+      "accessible_description_vi": "Từ tiền cảnh dưới thấp đến chân trời hướng 10 giờ–2 giờ là mặt đất đá bazan phủ bụi gỉ sắt đỏ cam của hố Jezero. Không khí CO2 mỏng bằng 1 phần trăm Trái Đất làm tiếng gió rít qua thân xe nghe trầm, ấm và tắt nhanh ở các âm cao.",
+      "media_url": "https://mars.nasa.gov/system/downloadable_items/45698_PIA24429-Mars_Perseverance_rover_sound.mp3",
+      "source_name": "NASA Mars 2020 Perseverance Mission",
+      "source_url": "https://science.nasa.gov/mission/mars-2020-perseverance/"
+    },
+    {
+      "id": "voyager_interstellar_plasma",
+      "nasa_id": "voyager1_interstellar_plasma",
+      "title_vi": "Sóng plasma không gian liên sao (Tàu Voyager 1)",
+      "title_en": "Interstellar Plasma Waves (Voyager 1)",
+      "audio_kind": "recording",
+      "audio_intro_vi": "Sóng điện từ và dao động plasma do thiết bị PWS trên tàu Voyager 1 của NASA thu được ở khoảng cách hơn 18 tỷ ki-lô-mét.",
+      "audio_intro_en": "Plasma wave oscillations captured by the Plasma Wave Science instrument aboard NASA's Voyager 1 in interstellar space.",
+      "description_508_en": "Spectrogram showing frequency versus time of dense interstellar plasma oscillations rising from 2 kHz to 3 kHz after solar coronal mass ejections.",
+      "accessible_description_vi": "Biểu đồ tần số chạy từ trái sang phải (theo thời gian), với vệt sáng vàng cam nằm ở dải tần 2 đến 3 ki-lô-héc — đúng trong ngưỡng tai người nghe được. Âm thanh vang lên như tiếng ngân huýt sáo tăng dần cao độ khi sóng xung kích Mặt Trời làm rung chuyển đám plasma giữa các vì sao.",
+      "media_url": "https://science.nasa.gov/mission/voyager/",
+      "source_name": "NASA Jet Propulsion Laboratory & University of Iowa (Voyager PWS)",
+      "source_url": "https://science.nasa.gov/mission/voyager/"
+    },
+    {
+      "id": "pillars_of_creation_sonification",
+      "nasa_id": "chandra_jwst_pillars",
+      "title_vi": "Cột trụ Sáng tạo — Tinh vân Đại Bàng (Chandra & James Webb)",
+      "title_en": "Pillars of Creation Sonification (Chandra & JWST)",
+      "audio_kind": "nasa_sonification",
+      "audio_intro_vi": "Nhóm A Universe of Sound của NASA đã chuyển ảnh hồng ngoại James Webb và tia X Chandra của Cột trụ Sáng tạo thành âm thanh.",
+      "audio_intro_en": "NASA's Universe of Sound team converted James Webb infrared and Chandra X-ray images of the Pillars of Creation into sound.",
+      "description_508_en": "Three towering columns of cosmic dust and gas rising from the bottom right toward the top center, studded with bright newborn stars.",
+      "accessible_description_vi": "Ba cột bụi và khí khổng lồ vươn chéo từ góc dưới bên phải (hướng 5 giờ) lên đỉnh giữa (hướng 12 giờ), cột lớn nhất cao khoảng 4 năm ánh sáng. Khi đường quét âm thanh đi từ trái sang phải, đám mây bụi tạo tiếng gió ngân trầm bổng còn mỗi ngôi sao trẻ lóe lên bằng một tiếng chuông trong trẻo.",
+      "media_url": "https://chandra.harvard.edu/sound/pillars.html",
+      "source_name": "NASA Chandra / JWST — A Universe of Sound",
+      "source_url": "https://chandra.harvard.edu/sound/"
+    },
+    {
+      "id": "crab_nebula_sonification",
+      "nasa_id": "chandra_crab_nebula",
+      "title_vi": "Tinh vân Con Cua & Sao xung trung tâm (Chandra, Hubble, Spitzer)",
+      "title_en": "Crab Nebula Multi-Wavelength Sonification",
+      "audio_kind": "nasa_sonification",
+      "audio_intro_vi": "Nhóm NASA Chandra đã chuyển dữ liệu ba dải bước sóng của tàn dư siêu tân tinh Tinh vân Con Cua thành dàn nhạc.",
+      "audio_intro_en": "NASA Chandra translated X-ray, optical, and infrared observations of the Crab Nebula supernova remnant into orchestral instruments.",
+      "description_508_en": "Lacy oval filament structure of the Crab Nebula surrounding a rapidly spinning neutron star with twin jets at the center.",
+      "accessible_description_vi": "Ở chính giữa đám mây hình bầu dục là ngôi sao neutron rộng chỉ khoảng 20 km (bằng nội thành Hà Nội) nhưng nặng hơn Mặt Trời, quay 30 vòng mỗi giây. Dữ liệu tia X ánh xạ thành tiếng kèn đồng, ánh sáng khả kiến thành đàn dây, và hồng ngoại thành tiếng nhạc cụ gỗ.",
+      "media_url": "https://chandra.harvard.edu/sound/crab.html",
+      "source_name": "NASA Chandra X-ray Observatory — A Universe of Sound",
+      "source_url": "https://chandra.harvard.edu/sound/"
+    },
+    {
+      "id": "solar_system_app_sonification",
+      "nasa_id": "lang_app_planetary_synth",
+      "title_vi": "Bộ 10 âm sắc đặc trưng Hệ Mặt Trời (Lắng App Sonification)",
+      "title_en": "10 Planetary Acoustic Signatures (Lắng App Sonification)",
+      "audio_kind": "app_sonification",
+      "audio_intro_vi": "Âm thanh này do ứng dụng Lắng tổng hợp từ bảng thông số vật lý của NASA NSSDCA.",
+      "audio_intro_en": "This sound is synthesized by the Lắng app from NASA NSSDCA physical planetary parameters.",
+      "description_508_en": "Ten distinct synthesized soundscapes mapping orbital speed, atmospheric density, temperature, rings, and wind speed of the Sun, eight planets, and the Moon.",
+      "accessible_description_vi": "Mỗi thiên thể có một âm thanh vật lý riêng: Mặt Trời ầm cuộn trầm (55 Hz), Sao Thủy ping cao dồn dập vì chạy nhanh nhất (88 ngày/năm), Sao Kim xì xì đặc quánh vì khí CO2 dày, Trái Đất có gió nước và đàn bầu ngũ cung, Mặt Trăng tĩnh lặng với một nốt ngân xa, Sao Hỏa gió mỏng rít khô, Sao Mộc trầm sâu cuộn bão, Sao Thổ ngân chuông băng, Sao Thiên Vương lắc lư lạnh, Sao Hải Vương gió vù vù nhanh nhất.",
+      "media_url": "builtin://planet_0..9",
+      "source_name": "Lắng Synth Engine trên nền NASA NSSDCA Planetary Fact Sheet",
+      "source_url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/"
+    }
+  ]
+}

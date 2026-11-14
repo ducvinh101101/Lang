@@ -1,0 +1,609 @@
+{
+  "data_card": {
+    "dataset": "Kho hỏi – đáp chuẩn hóa Vũ trụ, Khí hậu & Địa hình NASA (Lắng QA Bank)",
+    "provider": "NASA NSSDCA, NASA Science, NASA GISTEMP, NASA POWER, NASA Chandra & NASA FIRMS",
+    "url": "https://science.nasa.gov/solar-system/",
+    "accessed": "2026-11-08",
+    "spatial": "Hệ Mặt Trời & Trái Đất (Việt Nam + Toàn cầu)",
+    "temporal": "Kiểm chứng theo dữ liệu NASA cập nhật đến năm 2026",
+    "processing": "Biên soạn 35 cặp hỏi – đáp song ngữ Việt – Anh kèm từ khóa không dấu và phân loại rõ nhóm đính chính nhận thức sai (misconception), hành tinh, sứ mệnh, âm thanh vũ trụ và khí hậu.",
+    "limitation_vi": "Ngân hàng hỏi – đáp offline bao phủ các câu hỏi cốt lõi và nhận thức sai phổ biến; với câu hỏi mở ngoài danh mục, ứng dụng kết hợp RAG nội bộ cùng trợ lý AI.",
+    "citation": "NASA Science Editorial Team & NSSDCA (2026). Solar System & Earth Science Reference.",
+    "audio_kind": "app_sonification"
+  },
+  "items": [
+    {
+      "id": "qa_01",
+      "category": "misconception",
+      "question_vi": "Trái Đất phẳng hay hình cầu?",
+      "question_en": "Is the Earth flat or round?",
+      "keywords": [
+        "trai dat phang",
+        "trai dat co phang",
+        "trai dat tron hay phang",
+        "hinh cau",
+        "hinh tron",
+        "flat earth",
+        "trai dat hinh gi"
+      ],
+      "answer_vi": "Trái Đất không phẳng mà có dạng hình cầu hơi dẹt ở hai cực (hình phỏng cầu), đường kính xích đạo khoảng 12.756 ki-lô-mét. Hàng nghìn ảnh chụp từ vệ tinh NASA, tàu Apollo và Trạm Vũ trụ Quốc tế ISS đều chứng minh điều này.",
+      "answer_en": "Earth is an oblate spheroid (roughly spherical, slightly flattened at the poles) with an equatorial diameter of 12,756 km, confirmed by NASA satellites, Apollo missions, and the ISS.",
+      "source_name": "NASA Science — Earth Overview & NSSDCA",
+      "source_url": "https://science.nasa.gov/earth/facts/",
+      "audio_kind": "app_sonification"
+    },
+    {
+      "id": "qa_02",
+      "category": "misconception",
+      "question_vi": "Vũ trụ có hoàn toàn im lặng tuyệt đối không?",
+      "question_en": "Is space completely silent?",
+      "keywords": [
+        "vu tru co im lang",
+        "am thanh trong vu tru",
+        "vu tru co tieng dong",
+        "sound in space",
+        "silent"
+      ],
+      "answer_vi": "Trong khoảng chân không giữa các hành tinh, sóng âm thông thường không truyền qua được. Tuy nhiên vũ trụ không hoàn toàn im lặng: trong khí quyển Sao Hỏa có âm thanh gió thật được micro tàu Perseverance ghi lại, trong đám khí nóng cụm thiên hà Perseus có sóng áp suất trầm, và các tàu Voyager thu được sóng điện từ/plasma rồi chuyển sang dải nghe được.",
+      "answer_en": "While sound waves cannot travel through empty vacuum, space has real acoustic waves in Mars's atmosphere (recorded by Perseverance), pressure waves in galaxy cluster gas (Chandra), and plasma radio waves captured by spacecraft.",
+      "source_name": "NASA Chandra 'A Universe of Sound' & NASA Mars Perseverance",
+      "source_url": "https://chandra.harvard.edu/sound/",
+      "audio_kind": "nasa_sonification"
+    },
+    {
+      "id": "qa_03",
+      "category": "misconception",
+      "question_vi": "Mặt Trời quay quanh Trái Đất hay Trái Đất quay quanh Mặt Trời?",
+      "question_en": "Does the Sun orbit the Earth or does the Earth orbit the Sun?",
+      "keywords": [
+        "mat troi quay quanh trai dat",
+        "trai dat quay quanh mat troi",
+        "ai quay quanh ai",
+        "orbit the sun"
+      ],
+      "answer_vi": "Trái Đất và 7 hành tinh khác quay quanh Mặt Trời vì Mặt Trời chiếm tới 99,8 phần trăm khối lượng của cả Hệ Mặt Trời. Một vòng Trái Đất đi quanh Mặt Trời mất khoảng 365 ngày 6 giờ. Ta thấy Mặt Trời mọc và lặn mỗi ngày là do Trái Đất tự quay quanh trục của mình từ tây sang đông.",
+      "answer_en": "Earth orbits the Sun once every 365.25 days because the Sun holds 99.8% of the Solar System's mass. Daily sunrise and sunset happen because Earth spins on its axis.",
+      "source_name": "NASA Science — Solar System Exploration",
+      "source_url": "https://science.nasa.gov/solar-system/",
+      "audio_kind": "app_sonification"
+    },
+    {
+      "id": "qa_04",
+      "category": "misconception",
+      "question_vi": "Các mùa xuân hạ thu đông trên Trái Đất là do Trái Đất ở gần hay xa Mặt Trời?",
+      "question_en": "Are Earth's seasons caused by Earth's distance from the Sun?",
+      "keywords": [
+        "cac mua do dau",
+        "vi sao co mua",
+        "nguyen nhan cac mua",
+        "mua he gan mat troi",
+        "seasons caused by"
+      ],
+      "answer_vi": "Không phải do khoảng cách gần hay xa Mặt Trời! Các mùa sinh ra vì trục tự quay của Trái Đất nghiêng một góc 23,5 độ. Khi bán cầu Bắc nghiêng về phía Mặt Trời, ánh nắng chiếu thẳng và ngày dài hơn nên Việt Nam có mùa hè; khi nghiêng ra xa thì thành mùa đông.",
+      "answer_en": "Seasons are NOT caused by Earth's distance to the Sun, but by Earth's 23.5-degree axial tilt, which changes how directly sunlight hits each hemisphere throughout the year.",
+      "source_name": "NASA Space Place — What Causes the Seasons?",
+      "source_url": "https://spaceplace.nasa.gov/seasons/en/",
+      "audio_kind": "app_sonification"
+    },
+    {
+      "id": "qa_05",
+      "category": "misconception",
+      "question_vi": "Lỗ đen vũ trụ có phải là máy hút bụi hút sạch mọi thứ không?",
+      "question_en": "Do black holes suck in everything like a cosmic vacuum cleaner?",
+      "keywords": [
+        "lo den",
+        "ho den",
+        "hut moi thu",
+        "black hole",
+        "chan troi su kien"
+      ],
+      "answer_vi": "Không. Lỗ đen không đi lang thang hút mọi thứ như máy hút bụi. Ở khoảng cách đủ xa, lực hấp dẫn của nó giống hệt một ngôi sao có cùng khối lượng. Nếu thay Mặt Trời bằng một lỗ đen có cùng khối lượng, Trái Đất vẫn quay trên quỹ đạo cũ mà không bị hút vào (chỉ bị tối và lạnh đi).",
+      "answer_en": "No. Black holes are not cosmic vacuum cleaners. Far outside the event horizon, a black hole's gravity acts just like any star of the same mass.",
+      "source_name": "NASA Universe Exploration — Black Holes",
+      "source_url": "https://science.nasa.gov/universe/black-holes/",
+      "audio_kind": "nasa_sonification"
+    },
+    {
+      "id": "qa_06",
+      "category": "misconception",
+      "question_vi": "Vì sao Sao Kim nóng hơn Sao Thủy dù Sao Thủy ở gần Mặt Trời hơn?",
+      "question_en": "Why is Venus hotter than Mercury even though Mercury is closer to the Sun?",
+      "keywords": [
+        "sao kim nong hon sao thuy",
+        "hanh tinh nao nong nhat",
+        "hieu ung nha kinh sao kim",
+        "hottest planet"
+      ],
+      "answer_vi": "Sao Thủy gần Mặt Trời nhất nhưng gần như không có khí quyển để giữ nhiệt (trung bình khoảng 167 độ C). Còn Sao Kim có bầu khí quyển cực dày gồm 96 phần trăm khí CO2 gây hiệu ứng nhà kính dữ dội, nhốt nhiệt làm bề mặt nóng tới 464 độ C — nóng nhất Hệ Mặt Trời.",
+      "answer_en": "Venus is the hottest planet (464°C) because its dense carbon dioxide atmosphere creates a runaway greenhouse effect, trapping heat much more effectively than airless Mercury.",
+      "source_name": "NASA NSSDCA Planetary Fact Sheet — Venus & Mercury",
+      "source_url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/venusfact.html",
+      "audio_kind": "app_sonification"
+    },
+    {
+      "id": "qa_07",
+      "category": "misconception",
+      "question_vi": "Mặt Trăng có tự phát ra ánh sáng không?",
+      "question_en": "Does the Moon produce its own light?",
+      "keywords": [
+        "mat trang co tu phat sang",
+        "anh trang tu dau",
+        "vi sao trang tron trang khuyet",
+        "moon light"
+      ],
+      "answer_vi": "Không. Mặt Trăng là thiên thể đá tối màu, không tự phát sáng. Ánh trăng ta thấy là ánh nắng Mặt Trời chiếu vào Mặt Trăng rồi phản xạ về Trái Đất. Khi Mặt Trăng đi quanh Trái Đất, phần được nắng chiếu nhìn từ Trái Đất thay đổi tạo nên trăng non, trăng khuyết và trăng rằm.",
+      "answer_en": "No, the Moon does not make its own light. Moonlight is sunlight reflected off the lunar surface.",
+      "source_name": "NASA Science — Earth's Moon",
+      "source_url": "https://science.nasa.gov/moon/",
+      "audio_kind": "app_sonification"
+    },
+    {
+      "id": "qa_08",
+      "category": "misconception",
+      "question_vi": "Năm ánh sáng là đơn vị đo thời gian hay khoảng cách?",
+      "question_en": "Is a light-year a measure of time or distance?",
+      "keywords": [
+        "nam anh sang la gi",
+        "don vi thoi gian hay khoang cach",
+        "light year"
+      ],
+      "answer_vi": "Năm ánh sáng là đơn vị đo KHOẢNG CÁCH, không phải thời gian. Đó là quãng đường ánh sáng đi được trong một năm ở chân không — tương đương khoảng 9.460 tỷ ki-lô-mét.",
+      "answer_en": "A light-year is a unit of DISTANCE, not time: the distance light travels in one Earth year, about 9.46 trillion kilometres.",
+      "source_name": "NASA Exoplanet Exploration — What is a light-year?",
+      "source_url": "https://science.nasa.gov/exoplanets/what-is-a-light-year/",
+      "audio_kind": "app_sonification"
+    },
+    {
+      "id": "qa_09",
+      "category": "misconception",
+      "question_vi": "Tàu vũ trụ có thể đáp xuống bề mặt Sao Mộc hay Sao Thổ không?",
+      "question_en": "Can a spacecraft land on the surface of Jupiter or Saturn?",
+      "keywords": [
+        "dap xuong sao moc",
+        "be mat sao moc",
+        "be mat sao tho",
+        "land on jupiter"
+      ],
+      "answer_vi": "Không thể. Sao Mộc và Sao Thổ là các hành tinh khí khổng lồ, chủ yếu gồm khí hy-đrô và hê-li, không có mặt đất rắn để đáp xuống. Nếu tàu bay sâu vào trong, áp suất và nhiệt độ cực lớn sẽ ép vỡ tàu trước khi tới lõi.",
+      "answer_en": "No. Jupiter and Saturn are gas giants made mostly of hydrogen and helium with no solid surface to land on.",
+      "source_name": "NASA Science — Jupiter Facts",
+      "source_url": "https://science.nasa.gov/jupiter/facts/",
+      "audio_kind": "app_sonification"
+    },
+    {
+      "id": "qa_10",
+      "category": "misconception",
+      "question_vi": "Vì sao Sao Diêm Vương không còn được xếp là hành tinh thứ 9?",
+      "question_en": "Why is Pluto no longer classified as the ninth planet?",
+      "keywords": [
+        "sao diem vuong",
+        "pluto",
+        "hanh tinh lun",
+        "hanh tinh thu 9"
+      ],
+      "answer_vi": "Từ năm 2006, Hiệp hội Thiên văn Quốc tế (IAU) và NASA xếp Sao Diêm Vương là 'hành tinh lùn' (dwarf planet) vì nó nằm trong vành đai Kuiper và chưa đủ lực hấp dẫn để dọn sạch các thiên thể lân cận trên quỹ đạo của mình. Hệ Mặt Trời hiện có 8 hành tinh chính thức.",
+      "answer_en": "Since 2006, the IAU and NASA classify Pluto as a dwarf planet because it has not cleared its neighboring region of other Kuiper Belt objects.",
+      "source_name": "NASA Science — Pluto Overview",
+      "source_url": "https://science.nasa.gov/dwarf-planets/pluto/",
+      "audio_kind": "app_sonification"
+    },
+    {
+      "id": "qa_11",
+      "category": "misconception",
+      "question_vi": "Có phải chỉ riêng Sao Thổ mới có vành đai không?",
+      "question_en": "Is Saturn the only planet with rings?",
+      "keywords": [
+        "vanh dai sao tho",
+        "hanh tinh nao co vanh dai",
+        "only planet with rings"
+      ],
+      "answer_vi": "Không. Cả 4 hành tinh khổng lồ trong Hệ Mặt Trời gồm Sao Mộc, Sao Thổ, Sao Thiên Vương và Sao Hải Vương đều có hệ vành đai. Tuy nhiên vành đai của Sao Thổ làm từ băng sạch phản xạ ánh sáng mạnh nên rộng và sáng rõ nhất.",
+      "answer_en": "No. All four giant planets—Jupiter, Saturn, Uranus, and Neptune—have ring systems, though Saturn's icy rings are by far the largest and brightest.",
+      "source_name": "NASA Science — Saturn & Giant Planets",
+      "source_url": "https://science.nasa.gov/saturn/",
+      "audio_kind": "app_sonification"
+    },
+    {
+      "id": "qa_12",
+      "category": "misconception",
+      "question_vi": "Bóng tối phía bên kia Mặt Trăng có phải lúc nào cũng tối đen không?",
+      "question_en": "Is the 'dark side of the Moon' always dark?",
+      "keywords": [
+        "mat toi cua mat trang",
+        "mat trang co mat toi",
+        "phia ben kia mat trang",
+        "dark side of the moon"
+      ],
+      "answer_vi": "Không. Phía xa của Mặt Trăng (mặt không hướng về Trái Đất) vẫn nhận được ánh nắng Mặt Trời nhiều ngang bằng mặt hướng về chúng ta. Khi ở Trái Đất thấy trăng non (tối), thì phía bên kia của Mặt Trăng đang là giữa ban ngày rực nắng. Các nhà khoa học gọi đó là 'mặt xa' (far side) chứ không phải mặt tối.",
+      "answer_en": "No. The Moon's far side receives just as much sunlight as the near side; it is only 'hidden' from Earth's view due to tidal locking.",
+      "source_name": "NASA Science — Moon Phases & Tidal Locking",
+      "source_url": "https://science.nasa.gov/moon/",
+      "audio_kind": "app_sonification"
+    },
+    {
+      "id": "qa_13",
+      "category": "planets",
+      "question_vi": "Hành tinh nào có nhiều mặt trăng nhất Hệ Mặt Trời?",
+      "question_en": "Which planet has the most moons in the Solar System?",
+      "keywords": [
+        "nhieu mat trang nhat",
+        "nhieu ve tinh nhat",
+        "most moons"
+      ],
+      "answer_vi": "Theo số liệu NASA cập nhật tính đến năm 2026, Sao Thổ dẫn đầu với 293 mặt trăng đã được xác nhận, xếp thứ hai là Sao Mộc với 115 mặt trăng.",
+      "answer_en": "According to NASA (as of 2026), Saturn leads with 293 confirmed moons, followed by Jupiter with 115 moons.",
+      "source_name": "NASA Solar System Exploration — Moons",
+      "source_url": "https://science.nasa.gov/solar-system/moons/",
+      "audio_kind": "app_sonification"
+    },
+    {
+      "id": "qa_14",
+      "category": "planets",
+      "question_vi": "Ngọn núi cao nhất Hệ Mặt Trời tên là gì và ở đâu?",
+      "question_en": "What is the tallest mountain in the Solar System and where is it?",
+      "keywords": [
+        "nui cao nhat he mat troi",
+        "nui lua olympus",
+        "olympus mons",
+        "tallest volcano"
+      ],
+      "answer_vi": "Đó là núi lửa khiên Olympus Mons trên Sao Hỏa, cao khoảng 21,9 ki-lô-mét — cao gấp khoảng hai lần rưỡi đỉnh Everest trên Trái Đất và chân núi rộng gần bằng cả miền Bắc Việt Nam.",
+      "answer_en": "Olympus Mons on Mars is the tallest volcano and mountain in the Solar System at about 21.9 km high—nearly 2.5 times Mount Everest's height above sea level.",
+      "source_name": "NASA Mars Exploration Program",
+      "source_url": "https://science.nasa.gov/mars/facts/",
+      "audio_kind": "app_sonification"
+    },
+    {
+      "id": "qa_15",
+      "category": "planets",
+      "question_vi": "Vết Đỏ Lớn trên Sao Mộc là gì?",
+      "question_en": "What is Jupiter's Great Red Spot?",
+      "keywords": [
+        "vet do lon",
+        "great red spot",
+        "con bao tren sao moc"
+      ],
+      "answer_vi": "Vết Đỏ Lớn là một cơn bão xoáy nghịch khổng lồ trên Sao Mộc đã cuộn xoáy suốt hơn 300 năm. Đường kính của cơn bão này khoảng 16.000 ki-lô-mét, tức là lớn hơn cả Trái Đất của chúng ta.",
+      "answer_en": "The Great Red Spot is a giant anticyclonic storm on Jupiter wider than Earth (about 16,000 km across) that has raged for at least 300 years.",
+      "source_name": "NASA Juno Mission & Jupiter Facts",
+      "source_url": "https://science.nasa.gov/mission/juno/",
+      "audio_kind": "app_sonification"
+    },
+    {
+      "id": "qa_16",
+      "category": "planets",
+      "question_vi": "Trên hành tinh nào Mặt Trời mọc ở hướng tây và lặn ở hướng đông?",
+      "question_en": "On which planet does the Sun rise in the west and set in the east?",
+      "keywords": [
+        "mat troi moc huong tay",
+        "quay nguoc chieu",
+        "sun rises in the west"
+      ],
+      "answer_vi": "Trên Sao Kim (và cả Sao Thiên Vương), hành tinh tự quay ngược chiều kim đồng hồ so với hầu hết các hành tinh khác. Vì vậy trên Sao Kim, Mặt Trời mọc ở đằng tây và lặn ở đằng đông, và một ngày tự quay của nó dài tới 243 ngày Trái Đất.",
+      "answer_en": "On Venus, retrograde rotation makes the Sun rise in the west and set in the east.",
+      "source_name": "NASA NSSDCA — Venus Fact Sheet",
+      "source_url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/venusfact.html",
+      "audio_kind": "app_sonification"
+    },
+    {
+      "id": "qa_17",
+      "category": "planets",
+      "question_vi": "Hành tinh nào nhẹ tới mức có khối lượng riêng nhỏ hơn nước?",
+      "question_en": "Which planet is less dense than water?",
+      "keywords": [
+        "noi tren nuoc",
+        "nhe hon nuoc",
+        "khoi luong rieng nho hon nuoc",
+        "float on water"
+      ],
+      "answer_vi": "Sao Thổ có khối lượng riêng trung bình chỉ khoảng 687 kg/m³, nhỏ hơn nước lỏng (1.000 kg/m³). Nếu có một đại dương đủ lớn, Sao Thổ sẽ nổi được trên mặt nước.",
+      "answer_en": "Saturn has a mean density of 687 kg/m³, less than liquid water (1,000 kg/m³).",
+      "source_name": "NASA NSSDCA — Saturn Fact Sheet",
+      "source_url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/saturnfact.html",
+      "audio_kind": "app_sonification"
+    },
+    {
+      "id": "qa_18",
+      "category": "planets",
+      "question_vi": "Hành tinh nào có gió mạnh nhất Hệ Mặt Trời?",
+      "question_en": "Which planet has the strongest winds in the Solar System?",
+      "keywords": [
+        "gio manh nhat",
+        "gio nhanh nhat",
+        "strongest winds",
+        "sao hai vuong gio"
+      ],
+      "answer_vi": "Sao Hải Vương có những luồng gió siêu thanh mạnh nhất Hệ Mặt Trời, đạt tốc độ lên tới gần 2.000 ki-lô-mét một giờ.",
+      "answer_en": "Neptune has the strongest winds in the Solar System, reaching supersonic speeds of nearly 2,000 km/h.",
+      "source_name": "NASA Science — Neptune Facts",
+      "source_url": "https://science.nasa.gov/neptune/facts/",
+      "audio_kind": "app_sonification"
+    },
+    {
+      "id": "qa_19",
+      "category": "planets",
+      "question_vi": "Vì sao bầu trời và mặt đất Sao Hỏa có màu đỏ?",
+      "question_en": "Why is Mars called the Red Planet?",
+      "keywords": [
+        "vi sao sao hoa mau do",
+        "hanh tinh do",
+        "red planet",
+        "gi sat"
+      ],
+      "answer_vi": "Bề mặt Sao Hỏa giàu sắt ô-xít — tức là gỉ sắt. Các cơn bão bụi cuốn lớp bụi gỉ sắt mịn này lên bầu khí quyển mỏng làm cả mặt đất lẫn bầu trời Sao Hỏa có màu đỏ cam đặc trưng.",
+      "answer_en": "Iron oxide (rust) in Martian soil and airborne dust gives Mars its reddish-orange color.",
+      "source_name": "NASA Mars Exploration",
+      "source_url": "https://science.nasa.gov/mars/",
+      "audio_kind": "app_sonification"
+    },
+    {
+      "id": "qa_20",
+      "category": "missions",
+      "question_vi": "Tàu vũ trụ nào của con người đã bay xa Trái Đất nhất?",
+      "question_en": "Which spacecraft has traveled the farthest from Earth?",
+      "keywords": [
+        "tau bay xa nhat",
+        "voyager 1",
+        "khong gian lien sao",
+        "farthest spacecraft"
+      ],
+      "answer_vi": "Tàu Voyager 1 của NASA phóng năm 1977 là vật thể nhân tạo bay xa Trái Đất nhất: hiện cách chúng ta hơn 24 tỷ ki-lô-mét, đã vượt qua nhật mãn để tiến vào không gian liên sao và gửi về bản thu sóng plasma liên sao nổi tiếng.",
+      "answer_en": "NASA's Voyager 1, launched in 1977, is over 24 billion km away in interstellar space and recorded real interstellar plasma waves.",
+      "source_name": "NASA Voyager Interstellar Mission",
+      "source_url": "https://science.nasa.gov/mission/voyager/",
+      "audio_kind": "recording"
+    },
+    {
+      "id": "qa_21",
+      "category": "missions",
+      "question_vi": "Tàu vũ trụ nào bay gần Mặt Trời nhất?",
+      "question_en": "Which spacecraft has flown closest to the Sun?",
+      "keywords": [
+        "bay gan mat troi nhat",
+        "parker solar probe",
+        "cham vao mat troi",
+        "closest to the sun"
+      ],
+      "answer_vi": "Tàu Parker Solar Probe của NASA là tàu bay gần Mặt Trời nhất lịch sử: bay xuyên qua vành nhật hoa ở khoảng cách chỉ hơn 6 triệu ki-lô-mét tính từ bề mặt Mặt Trời với vận tốc gần 700.000 km/h.",
+      "answer_en": "NASA's Parker Solar Probe flew within ~6.1 million km of the Sun's surface at nearly 700,000 km/h.",
+      "source_name": "NASA Parker Solar Probe Mission",
+      "source_url": "https://science.nasa.gov/mission/parker-solar-probe/",
+      "audio_kind": "recording"
+    },
+    {
+      "id": "qa_22",
+      "category": "missions",
+      "question_vi": "Chiếc máy bay đầu tiên bay trên một hành tinh khác là gì?",
+      "question_en": "What was the first aircraft to fly on another planet?",
+      "keywords": [
+        "truc thang tren sao hoa",
+        "may bay tren hanh tinh khac",
+        "ingenuity",
+        "perseverance"
+      ],
+      "answer_vi": "Đó là trực thăng mini Ingenuity nặng 1,8 kg của NASA, đi cùng xe tự hành Perseverance. Tháng 4 năm 2021, Ingenuity thực hiện chuyến bay có động cơ đầu tiên trên Sao Hỏa và đã hoàn thành 72 chuyến bay.",
+      "answer_en": "NASA's Ingenuity Mars Helicopter made the first powered, controlled flight on another planet in April 2021, completing 72 flights.",
+      "source_name": "NASA Mars Helicopter Ingenuity",
+      "source_url": "https://science.nasa.gov/mission/mars-2020-perseverance/ingenuity-mars-helicopter/",
+      "audio_kind": "recording"
+    },
+    {
+      "id": "qa_23",
+      "category": "missions",
+      "question_vi": "Con người lần đầu đặt chân lên Mặt Trăng khi nào và chương trình nào sẽ đưa người quay lại?",
+      "question_en": "When did humans first walk on the Moon and what program will return them?",
+      "keywords": [
+        "apollo 11",
+        "neil armstrong",
+        "artemis",
+        "dat chan len mat trang"
+      ],
+      "answer_vi": "Ngày 20 tháng 7 năm 1969, phi hành gia Neil Armstrong và Buzz Aldrin trong sứ mệnh Apollo 11 của NASA đã đặt chân lên Mặt Trăng. Hiện nay chương trình Artemis của NASA đang chuẩn bị đưa con người, gồm cả phụ nữ và người da màu đầu tiên, quay trở lại vùng cực Nam Mặt Trăng.",
+      "answer_en": "Apollo 11 landed on the Moon on July 20, 1969. NASA's Artemis program is preparing to return astronauts to the lunar South Pole.",
+      "source_name": "NASA Apollo & Artemis Programs",
+      "source_url": "https://www.nasa.gov/humans-in-space/artemis/",
+      "audio_kind": "recording"
+    },
+    {
+      "id": "qa_24",
+      "category": "planets",
+      "question_vi": "Mặt trăng nào trong Hệ Mặt Trời có bầu khí quyển dày và sông hồ mê-tan lỏng?",
+      "question_en": "Which moon in the Solar System has a thick atmosphere and liquid methane lakes?",
+      "keywords": [
+        "mat trang titan",
+        "ho me tan",
+        "ve tinh co khi quyen day",
+        "titan saturn"
+      ],
+      "answer_vi": "Đó là Titan — mặt trăng lớn nhất của Sao Thổ. Tàu Cassini–Huygens xác nhận Titan có khí quyển ni-tơ dày hơn cả Trái Đất, có mưa, sông và biển bằng mê-tan và ê-tan lỏng ở nhiệt độ âm 179 độ C.",
+      "answer_en": "Titan, Saturn's largest moon, has a dense nitrogen atmosphere and liquid methane/ethane rivers and lakes.",
+      "source_name": "NASA Cassini Mission — Titan",
+      "source_url": "https://science.nasa.gov/saturn/moons/titan/",
+      "audio_kind": "recording"
+    },
+    {
+      "id": "qa_25",
+      "category": "planets",
+      "question_vi": "Mặt trăng Europa của Sao Mộc có gì đặc biệt khiến các nhà khoa học tìm kiếm sự sống?",
+      "question_en": "Why is Jupiter's moon Europa a top candidate in the search for life?",
+      "keywords": [
+        "europa",
+        "dai duong ngam",
+        "su song tren sao moc",
+        "europa clipper"
+      ],
+      "answer_vi": "Dưới lớp vỏ băng dày của mặt trăng Europa là một đại dương nước mặn toàn cầu chứa lượng nước lỏng nhiều gấp đôi tất cả đại dương trên Trái Đất cộng lại. Sứ mệnh Europa Clipper của NASA đang trên đường tới đó để khảo sát khả năng tồn tại sự sống.",
+      "answer_en": "Beneath Europa's icy crust lies a global saltwater ocean holding twice as much water as all of Earth's oceans combined, explored by NASA's Europa Clipper.",
+      "source_name": "NASA Europa Clipper Mission",
+      "source_url": "https://science.nasa.gov/mission/europa-clipper/",
+      "audio_kind": "app_sonification"
+    },
+    {
+      "id": "qa_26",
+      "category": "space_audio",
+      "question_vi": "Âm thanh lỗ đen cụm thiên hà Perseus của NASA được tạo ra như thế nào?",
+      "question_en": "How did NASA create the black hole sound from the Perseus galaxy cluster?",
+      "keywords": [
+        "am thanh lo den",
+        "perseus",
+        "chandra sonification",
+        "tieng lo den"
+      ],
+      "answer_vi": "Đài quan sát tia X Chandra của NASA phát hiện các gợn sóng áp suất thật trong đám khí nóng bao quanh lỗ đen trung tâm cụm thiên hà Perseus, có tần số thấp hơn khả năng nghe của tai người 57 quãng tám. Các nhà khoa học NASA đã nâng tần số sóng âm đó lên hàng triệu tỷ lần (nasa_sonification) để tai người nghe được tiếng trầm rền rĩ kỳ bí.",
+      "answer_en": "NASA's Chandra X-ray Observatory detected real pressure waves in hot gas around the Perseus cluster black hole (57 octaves below middle C) and scaled them up into the human hearing range.",
+      "source_name": "NASA Chandra X-ray Observatory — A Universe of Sound",
+      "source_url": "https://chandra.harvard.edu/sound/perseus.html",
+      "audio_kind": "nasa_sonification"
+    },
+    {
+      "id": "qa_27",
+      "category": "space_audio",
+      "question_vi": "Trên Sao Hỏa tiếng động nghe khác trên Trái Đất như thế nào?",
+      "question_en": "How do sounds on Mars differ from sounds on Earth?",
+      "keywords": [
+        "am thanh tren sao hoa",
+        "tieng gio sao hoa",
+        "micro perseverance",
+        "sound on mars"
+      ],
+      "answer_vi": "Micro trên xe tự hành Perseverance của NASA đã thu âm trực tiếp tiếng gió và tiếng tia laser bắn đá trên Sao Hỏa. Vì khí quyển Sao Hỏa mỏng bằng 1 phần trăm Trái Đất và chủ yếu là CO2, âm thanh truyền chậm hơn (khoảng 240 m/s so với 340 m/s ở Trái Đất) và các âm cao bị tắt rất nhanh, khiến mọi tiếng động nghe trầm và nhỏ hơn.",
+      "answer_en": "Recorded directly by NASA's Perseverance rover microphones, sounds on Mars travel slower (~240 m/s) and high pitches attenuate rapidly due to the thin CO2 atmosphere.",
+      "source_name": "NASA Mars 2020 Perseverance — Sounds of Mars",
+      "source_url": "https://science.nasa.gov/mission/mars-2020-perseverance/mars-rock-samples/",
+      "audio_kind": "recording"
+    },
+    {
+      "id": "qa_28",
+      "category": "space_audio",
+      "question_vi": "Phân biệt giữa bản thu thật (recording), bản chuyển âm của NASA (nasa_sonification) và âm thanh do ứng dụng tạo (app_sonification)?",
+      "question_en": "What is the difference between a space recording, a NASA sonification, and an app sonification?",
+      "keywords": [
+        "phan biet am thanh",
+        "recording",
+        "sonification",
+        "am thanh that hay tao"
+      ],
+      "answer_vi": "Ứng dụng Lắng phân định rõ 3 loại: (1) Bản thu thật (recording) là sóng âm hoặc sóng radio/plasma do thiết bị trên tàu NASA thu trực tiếp như tiếng gió Sao Hỏa của Perseverance hay sóng plasma Voyager; (2) Bản chuyển âm của NASA (nasa_sonification) là dữ liệu tia X, hồng ngoại từ kính thiên văn Chandra, Webb được nhóm chuyên gia NASA chuyển thành âm nhạc; (3) Âm thanh ứng dụng (app_sonification) là tiếng đàn bầu, t'rưng, tiếng lửa khô do Lắng tổng hợp trực tiếp từ bảng số liệu NASA.",
+      "answer_en": "Lắng distinguishes: (1) spacecraft recordings (Perseverance acoustic / Voyager plasma waves), (2) official NASA data sonifications (Chandra/Webb), and (3) real-time app sonifications using Vietnamese instruments.",
+      "source_name": "Tài liệu chuẩn hóa dữ liệu Lắng & NASA Sound Archives",
+      "source_url": "https://chandra.harvard.edu/sound/",
+      "audio_kind": "app_sonification"
+    },
+    {
+      "id": "qa_29",
+      "category": "climate",
+      "question_vi": "Theo dữ liệu NASA GISTEMP, Trái Đất đã ấm lên bao nhiêu độ kể từ cuối thế kỷ 19?",
+      "question_en": "According to NASA GISTEMP, how much has Earth warmed since the late 19th century?",
+      "keywords": [
+        "trai dat am len bao nhieu",
+        "gistemp",
+        "nong len toan cau",
+        "global warming nasa"
+      ],
+      "answer_vi": "Theo bộ dữ liệu nhiệt độ bề mặt toàn cầu NASA GISTEMP v4 (1880–2025), nhiệt độ trung bình toàn cầu thập niên gần đây (2016–2025) đã tăng khoảng 1,2 đến 1,4 độ C so với thời kỳ tiền công nghiệp 1880–1900, trong đó các năm 2023 và 2024 nằm trong nhóm năm nóng nhất lịch sử quan trắc.",
+      "answer_en": "According to NASA GISTEMP v4 (1880–2025), global mean surface temperature in the last decade has risen by ~1.2–1.4°C above the 1880–1900 average.",
+      "source_name": "NASA Goddard Institute for Space Studies (GISTEMP v4)",
+      "source_url": "https://data.giss.nasa.gov/gistemp/",
+      "audio_kind": "app_sonification"
+    },
+    {
+      "id": "qa_30",
+      "category": "climate",
+      "question_vi": "Dữ liệu NASA POWER cho biết xu hướng khí hậu và số ngày nắng nóng ở Hà Nội thay đổi ra sao?",
+      "question_en": "What does NASA POWER data show about climate and hot days in Hanoi?",
+      "keywords": [
+        "khi hau ha noi thay doi",
+        "so ngay nang nong ha noi",
+        "xua va nay ha noi"
+      ],
+      "answer_vi": "Theo chuỗi dữ liệu NASA POWER từ năm 1981 đến năm 2025, nhiệt độ trung bình thập niên gần đây ở khu vực Hà Nội và đồng bằng Bắc Bộ tăng rõ rệt so với thập niên 1980, đặc biệt số ngày nắng nóng gay gắt từ 35 độ và 37 độ C trở lên mỗi năm đều gia tăng.",
+      "answer_en": "NASA POWER records (1981–2025) show rising mean temperatures and a clear increase in hot days (>=35°C and >=37°C) per year in Hanoi compared to the 1980s.",
+      "source_name": "NASA POWER Agroclimatology Archive (LaRC)",
+      "source_url": "https://power.larc.nasa.gov/",
+      "audio_kind": "app_sonification"
+    },
+    {
+      "id": "qa_31",
+      "category": "climate",
+      "question_vi": "Siêu bão Yagi tháng 9 năm 2024 được ghi nhận trong dữ liệu NASA POWER như thế nào?",
+      "question_en": "How is Super Typhoon Yagi (September 2024) recorded in NASA POWER daily data?",
+      "keywords": [
+        "bao yagi",
+        "bao so 3 nam 2024",
+        "thang 9 nam 2024",
+        "typhoon yagi"
+      ],
+      "answer_vi": "Trong chuỗi dữ liệu ngày của NASA POWER tháng 9 năm 2024 tại miền Bắc (Hà Nội – Quảng Ninh), đợt mưa lớn kỷ lục xuất hiện liên tiếp từ ngày 7 đến ngày 11/9/2024 với tổng lượng mưa cả đợt vượt 250–350 mm. Lưu ý: tốc độ gió WS10M trong NASA POWER là gió trung bình cả ngày trên ô lưới ~50 km nên chỉ phản ánh xu thế gió tăng vọt chứ không phải gió giật cực đại tại tâm bão.",
+      "answer_en": "NASA POWER daily data for September 2024 captures extreme multi-day rainfall during Typhoon Yagi (Sept 7–11, 2024) alongside a surge in daily grid-averaged 10m wind speed (WS10M).",
+      "source_name": "NASA POWER Daily API (PRECTOTCORR & WS10M)",
+      "source_url": "https://power.larc.nasa.gov/",
+      "audio_kind": "app_sonification"
+    },
+    {
+      "id": "qa_32",
+      "category": "climate",
+      "question_vi": "Vệ tinh NASA FIRMS phát hiện cháy rừng bằng cách nào và mùa nào ở Việt Nam hay có điểm cháy nhất?",
+      "question_en": "How does NASA FIRMS detect fires and when do fire hotspots peak in Vietnam?",
+      "keywords": [
+        "chay rung",
+        "diem chay",
+        "nasa firms",
+        "mua chay rung o viet nam"
+      ],
+      "answer_vi": "Hệ thống NASA FIRMS sử dụng cảm biến hồng ngoại nhiệt trên vệ tinh MODIS và VIIRS để phát hiện các điểm dị thường nhiệt trên mặt đất. Tại Việt Nam, điểm cháy tập trung cao nhất vào mùa khô tháng 2 đến tháng 4 ở Tây Nguyên, Tây Bắc và Nam Bộ, và tháng 6 đến tháng 8 ở Bắc và Nam Trung Bộ.",
+      "answer_en": "NASA FIRMS uses MODIS and VIIRS thermal infrared sensors to detect active fire hotspots, peaking in Feb–Apr in the Central Highlands/Northwest and Jun–Aug along the Central Coast.",
+      "source_name": "NASA FIRMS (MODIS Collection 6.1 MCD14ML)",
+      "source_url": "https://firms.modaps.eosdis.nasa.gov/",
+      "audio_kind": "app_sonification"
+    },
+    {
+      "id": "qa_33",
+      "category": "terrain",
+      "question_vi": "Ứng dụng lấy dữ liệu độ cao, rừng cây và sông hồ từ những nguồn vệ tinh nào?",
+      "question_en": "Which satellite datasets provide elevation, forest cover, and water data in the app?",
+      "keywords": [
+        "nguon du lieu dia hinh",
+        "srtm",
+        "modis ndvi",
+        "nguon du lieu song ho"
+      ],
+      "answer_vi": "Chức năng khám phá địa hình kết hợp 4 nguồn chuẩn: (1) Cao độ và độ dốc từ radar tàu con thoi NASA SRTM 30m; (2) Loại phủ đất và chỉ số cây xanh NDVI từ vệ tinh NASA MODIS (MCD12Q1, MOD13Q1) cùng nhiệt độ bề mặt MOD11A2; (3) Tần suất mặt nước từ bộ JRC Global Surface Water 30m của Ủy ban châu Âu; và (4) Mạng lưới sông hồ từ HydroRIVERS / HydroLAKES của WWF và OpenStreetMap.",
+      "answer_en": "Terrain exploration combines NASA SRTM 30m elevation, NASA MODIS land cover (MCD12Q1), vegetation index (MOD13Q1 NDVI), and land surface temperature (MOD11A2), plus non-NASA JRC Global Surface Water and WWF HydroRIVERS/OpenStreetMap.",
+      "source_name": "NASA LP DAAC (SRTM, MODIS) + EC JRC + WWF HydroSHEDS",
+      "source_url": "https://lpdaac.usgs.gov/",
+      "audio_kind": "app_sonification"
+    },
+    {
+      "id": "qa_34",
+      "category": "planets",
+      "question_vi": "Một người nặng 50 ki-lô-gam trên Trái Đất thì khi lên Mặt Trăng, Sao Hỏa và Sao Mộc sẽ nặng bao nhiêu?",
+      "question_en": "How much would a 50 kg person weigh on the Moon, Mars, and Jupiter?",
+      "keywords": [
+        "nang bao nhieu tren sao hoa",
+        "trong luc tren mat trang",
+        "can nang tren cac hanh tinh"
+      ],
+      "answer_vi": "Theo bảng trọng lực bề mặt của NASA NSSDCA: một người nặng 50 kg ở Trái Đất khi lên Mặt Trăng chỉ nặng khoảng 8 kg (nhảy cao gấp 6 lần); lên Sao Hỏa hoặc Sao Thủy nặng khoảng 19 kg; còn ở tầng mây Sao Mộc sẽ nặng tới khoảng 118 kg.",
+      "answer_en": "Per NASA NSSDCA surface gravity ratios, a 50 kg person would weigh ~8.3 kg on the Moon, ~19 kg on Mars or Mercury, and ~118 kg at Jupiter's cloud tops.",
+      "source_name": "NASA NSSDCA Planetary Fact Sheet",
+      "source_url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/",
+      "audio_kind": "app_sonification"
+    },
+    {
+      "id": "qa_35",
+      "category": "planets",
+      "question_vi": "Vì sao Sao Thiên Vương lại như nằm nghiêng lăn quanh Mặt Trời?",
+      "question_en": "Why does Uranus roll around the Sun on its side?",
+      "keywords": [
+        "sao thien vuong nam nghieng",
+        "truc nghieng 98 do",
+        "lan quanh mat troi"
+      ],
+      "answer_vi": "Trục tự quay của Sao Thiên Vương nghiêng tới 97,8 độ — gần như nằm ngang trên mặt phẳng quỹ đạo. Các nhà khoa học NASA cho rằng hàng tỷ năm trước, một thiên thể lớn cỡ Trái Đất đã va chạm mạnh làm Sao Thiên Vương bị lật nghiêng, khiến mỗi cực của nó có 42 năm nắng liên tục rồi 42 năm đêm tối.",
+      "answer_en": "Uranus has an axial tilt of 97.8 degrees, likely caused by a giant collision early in the Solar System's history, giving its poles 42-year-long summers and winters.",
+      "source_name": "NASA Science — Uranus Facts",
+      "source_url": "https://science.nasa.gov/uranus/facts/",
+      "audio_kind": "app_sonification"
+    }
+  ]
+}
