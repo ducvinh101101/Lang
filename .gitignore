@@ -1,0 +1,25 @@
+/data/
+__pycache__/
+.pytest_cache/
+# web/data/ được commit để GitHub Pages phục vụ gói dữ liệu cho app (Cài đặt → Dữ liệu NASA từ URL)
+
+# Dữ liệu đóng gói của app (danh bạ xã, phường…) PHẢI có trên git để Vercel build bản web đủ dữ liệu
+!app/assets/data/
+!app/lib/data/
+
+.env
+*.env
+keys.json
+
+# Môi trường, bộ nhớ đệm và cấu hình riêng của từng máy — không đưa lên git
+.venv/
+venv/
+.deepeval/
+.idea/
+*.iml
+node_modules/
+.dart_tool/
+*.log
+local.properties
+Thumbs.db
+.DS_Store
