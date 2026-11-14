@@ -1,0 +1,46 @@
+{
+ "level": "vn",
+ "grid": {
+  "lon0": 104.0,
+  "lat_top": 23.0,
+  "step": 1.0,
+  "cols": 4,
+  "rows": 3
+ },
+ "layers": [
+  {
+   "name": "elev",
+   "file": "elev.png",
+   "scale": 12.5,
+   "offset": 0,
+   "log": false
+  },
+  {
+   "name": "slope",
+   "file": "slope.png",
+   "scale": 0.25,
+   "offset": 0,
+   "log": false
+  },
+  {
+   "name": "water",
+   "file": "water.png",
+   "scale": 0.004,
+   "offset": 0,
+   "log": false,
+   "on_threshold": 0.5
+  },
+  {
+   "name": "pop",
+   "file": "pop.png",
+   "scale": 0.025,
+   "offset": 0,
+   "log": true
+  }
+ ],
+ "data_cards": {
+  "elev": {
+   "dataset": "NASA SRTMGL30 (mẫu kiểm thử)"
+  }
+ }
+}

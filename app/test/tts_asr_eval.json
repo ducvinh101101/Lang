@@ -1,0 +1,240 @@
+[
+  {
+    "original": "Bay tới Hà Nội",
+    "transcribed": "Bay tới Hà Nội",
+    "expected_kind": "go",
+    "expected_place": "Hà Nội",
+    "is_match": true
+  },
+  {
+    "original": "Thời tiết ở Thành phố Hồ Chí Minh hôm nay thế nào",
+    "transcribed": "Thời tiết ở thành phố Hồ Chí Minh hôm nay thế nào?",
+    "expected_kind": "weather",
+    "expected_place": "Thành phố Hồ Chí Minh",
+    "is_match": true
+  },
+  {
+    "original": "Cho tôi xem thời tiết ở Đà Nẵng",
+    "transcribed": "Cho tôi xem thời tiết ở Đà Nẵng.",
+    "expected_kind": "weather",
+    "expected_place": "Đà Nẵng",
+    "is_match": true
+  },
+  {
+    "original": "Đến Huế nghe nhạc cụ",
+    "transcribed": "Đến Huế nghe nhạc cũ.",
+    "expected_kind": "music",
+    "expected_place": "Huế",
+    "is_match": false
+  },
+  {
+    "original": "Thời tiết ở Sa Pa có lạnh không",
+    "transcribed": "Thời tiết ở Sapa có lạnh không?",
+    "expected_kind": "weather",
+    "expected_place": "Sa Pa",
+    "is_match": false
+  },
+  {
+    "original": "Bay tới Cà Mau",
+    "transcribed": "Bay tới Cà Mau",
+    "expected_kind": "go",
+    "expected_place": "Cà Mau",
+    "is_match": true
+  },
+  {
+    "original": "Quảng Ninh hôm nay có mưa không",
+    "transcribed": "Quảng Ninh hôm nay có mưa không?",
+    "expected_kind": "weather",
+    "expected_place": "Quảng Ninh",
+    "is_match": true
+  },
+  {
+    "original": "Thời tiết ở Cần Thơ",
+    "transcribed": "Thời tiết ở Cần Thơ",
+    "expected_kind": "weather",
+    "expected_place": "Cần Thơ",
+    "is_match": true
+  },
+  {
+    "original": "Đến Hải Phòng",
+    "transcribed": "Đến Hải Phòng",
+    "expected_kind": "go",
+    "expected_place": "Hải Phòng",
+    "is_match": true
+  },
+  {
+    "original": "Nha Trang bây giờ bao nhiêu độ",
+    "transcribed": "Nhà Trang bây giờ bao nhiêu độ?",
+    "expected_kind": "weather",
+    "expected_place": "Nha Trang",
+    "is_match": false
+  },
+  {
+    "original": "Thời tiết ở xã Tân Triều",
+    "transcribed": "Thời tiết ở xã Tân Chiều",
+    "expected_kind": "weather",
+    "expected_place": "Tân Triều",
+    "is_match": false
+  },
+  {
+    "original": "Bay tới quận Ba Đình",
+    "transcribed": "bay tới quận Ba Đình.",
+    "expected_kind": "go",
+    "expected_place": "Ba Đình",
+    "is_match": true
+  },
+  {
+    "original": "Thời tiết huyện Cần Giờ",
+    "transcribed": "Thời tiết huyện Cần Giơ",
+    "expected_kind": "weather",
+    "expected_place": "Cần Giờ",
+    "is_match": false
+  },
+  {
+    "original": "Thời tiết ở Côn Đảo",
+    "transcribed": "Thời tiết ở Côn Đào",
+    "expected_kind": "weather",
+    "expected_place": "Côn Đảo",
+    "is_match": false
+  },
+  {
+    "original": "Đến quần đảo Hoàng Sa",
+    "transcribed": "Đến quần đảo Hoàng Sa",
+    "expected_kind": "go",
+    "expected_place": "Hoàng Sa",
+    "is_match": true
+  },
+  {
+    "original": "Chiều nay đi làm có cần mang áo mưa không",
+    "transcribed": "Chiều nay đi làm có cần mang áo mưa không?",
+    "expected_kind": "weather",
+    "expected_place": null,
+    "is_match": true
+  },
+  {
+    "original": "Ngày mai trời nóng bao nhiêu độ",
+    "transcribed": "Ngày mai trời nóng bao nhiêu độ?",
+    "expected_kind": "weather",
+    "expected_place": null,
+    "is_match": true
+  },
+  {
+    "original": "Sáng mai có sương mù không",
+    "transcribed": "Sáng mai có sương mù không?",
+    "expected_kind": "weather",
+    "expected_place": null,
+    "is_match": true
+  },
+  {
+    "original": "Ở đây thời tiết thế nào",
+    "transcribed": "Ở đây thời tiết thế nào?",
+    "expected_kind": "weather",
+    "expected_place": null,
+    "is_match": true
+  },
+  {
+    "original": "Đọc bản tin thời tiết hôm nay",
+    "transcribed": "Đọc bản tin thời tiết hôm nay.",
+    "expected_kind": "bulletin",
+    "expected_place": null,
+    "is_match": true
+  },
+  {
+    "original": "Phóng to lên một chút",
+    "transcribed": "Phóng to lên một chút.",
+    "expected_kind": "zoomIn",
+    "expected_place": null,
+    "is_match": true
+  },
+  {
+    "original": "Thu nhỏ quả địa cầu",
+    "transcribed": "Thu nhỏ quả địa cầu",
+    "expected_kind": "zoomOut",
+    "expected_place": null,
+    "is_match": true
+  },
+  {
+    "original": "Dừng mọi âm thanh",
+    "transcribed": "Dừng mọi âm thanh.",
+    "expected_kind": "stop",
+    "expected_place": null,
+    "is_match": true
+  },
+  {
+    "original": "Đọc lại thông tin vừa rồi",
+    "transcribed": "Đọc lại thông tin vừa rồi.",
+    "expected_kind": "repeat",
+    "expected_place": null,
+    "is_match": true
+  },
+  {
+    "original": "Đây là đâu",
+    "transcribed": "Đây là đâu?",
+    "expected_kind": "where",
+    "expected_place": null,
+    "is_match": true
+  },
+  {
+    "original": "Mở phần cài đặt",
+    "transcribed": "Mở phần Cài đặt.",
+    "expected_kind": "settings",
+    "expected_place": null,
+    "is_match": true
+  },
+  {
+    "original": "Ảnh thiên văn hôm nay của NASA",
+    "transcribed": "Ảnh thiên văn hôm nay của NASA",
+    "expected_kind": "apod",
+    "expected_place": null,
+    "is_match": true
+  },
+  {
+    "original": "Kể chuyện về Sao Hỏa",
+    "transcribed": "Kể chuyện về sao hòa",
+    "expected_kind": "planet",
+    "expected_place": null,
+    "is_match": false
+  },
+  {
+    "original": "Giới thiệu các hành tinh trong Hệ Mặt Trời",
+    "transcribed": null,
+    "expected_kind": "planets",
+    "expected_place": null,
+    "is_match": false
+  },
+  {
+    "original": "Lượng mưa tháng 10 năm 2020",
+    "transcribed": "Lượng mưa tháng 10 năm 2020",
+    "expected_kind": "climate",
+    "expected_place": null,
+    "is_match": true
+  },
+  {
+    "original": "Xem các điểm cháy hôm nay",
+    "transcribed": "Xem các điểm cháy hôm nay.",
+    "expected_kind": "disasters",
+    "expected_place": null,
+    "is_match": true
+  },
+  {
+    "original": "Thiên tai trên thế giới",
+    "transcribed": null,
+    "expected_kind": "disasters",
+    "expected_place": null,
+    "is_match": false
+  },
+  {
+    "original": "Bay tới Tokyo",
+    "transcribed": null,
+    "expected_kind": "go",
+    "expected_place": "Tokyo",
+    "is_match": false
+  },
+  {
+    "original": "Thời tiết ở Paris",
+    "transcribed": "Thời tiết ở Paris",
+    "expected_kind": "weather",
+    "expected_place": "Paris",
+    "is_match": true
+  }
+]
