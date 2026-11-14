@@ -1,0 +1,12 @@
+English speech recognizer for Lắng (English mode on Windows / Android / iOS).
+
+Model:   sherpa-onnx-nemo-parakeet_tdt_ctc_110m-en-36000-int8 (NVIDIA NeMo FastConformer, CTC head, int8)
+From:    https://github.com/k2-fsa/sherpa-onnx/releases/tag/asr-models
+Origin:  https://huggingface.co/nvidia/parakeet-tdt_ctc-110m  (trained on ~36,000 h of varied English speech)
+License: CC-BY-4.0 (NVIDIA)
+
+model.int8.onnx (~132 MB) is split into 5 parts (under 30 MB each); the app joins them on first use.
+Why this model: on 100 noisy test commands (5 voices) it made half the word errors of the old
+zipformer-small LibriSpeech model (20.3% vs 31.1%; 10.5% after lib/features/globe/asr_fix_en.dart),
+does not invent text on silence/noise (Whisper did), and decodes a command in about 0.1 s.
+The old folder assets/asr/en/ is no longer used and can be deleted.

@@ -1,0 +1,8 @@
+English speech recognizer for Lắng (English mode on Windows / Android / iOS).
+
+Model:  sherpa-onnx-zipformer-small-en-2023-06-26 (Zipformer transducer small, int8 encoder/joiner), Apache-2.0
+From:   https://github.com/k2-fsa/sherpa-onnx/releases/tag/asr-models
+Origin: https://huggingface.co/Zengwei/icefall-asr-librispeech-zipformer-small-2023-05-16 (LibriSpeech)
+
+Renamed: encoder-epoch-99-avg-1.int8.onnx -> encoder.int8.onnx, decoder-epoch-99-avg-1.onnx -> decoder.onnx,
+joiner-epoch-99-avg-1.int8.onnx -> joiner.int8.onnx.
