@@ -1,0 +1,75 @@
+{
+ "boundaries": {
+  "source": "GitHub thanglequoc/vietnamese-provinces-database",
+  "release": "v5.2.0",
+  "release_date": "2026-09-21T16:26:19Z",
+  "release_url": "https://github.com/thanglequoc/vietnamese-provinces-database/releases/tag/v5.2.0",
+  "license": "MIT",
+  "url": "https://raw.githubusercontent.com/thanglequoc/vietnamese-provinces-database/v5.2.0/json/vn_provinces_wards_geojson.zip",
+  "files": [
+   {
+    "path": "raw/boundaries/vn_provinces_wards_geojson.zip",
+    "sha256": "3e44d87ec775fea9159b2d8625add8d81aa7ea1dc8fe0d89b772b34d488353ee",
+    "bytes": 49943442
+   }
+  ],
+  "counts": {
+   "provinces": 34,
+   "wards": 3321
+  },
+  "downloaded_at": "2026-11-10T17:26:03+00:00"
+ },
+ "srtm": {
+  "source": "NASA SRTMGL30 v002, LP DAAC",
+  "short_name": "SRTMGL30",
+  "version": "002",
+  "url": "https://www.earthdata.nasa.gov/data/catalog/lpcloud-srtmgl30-002",
+  "links": [
+   "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/SRTMGL30.002/e100n40.SRTMGL30.dem/e100n40.SRTMGL30.dem.zip"
+  ],
+  "doi": "10.5067/MEaSUREs/SRTM/SRTMGL30.002",
+  "files": [
+   {
+    "path": "raw\\srtm\\e100n40.SRTMGL30.dem.zip",
+    "sha256": "bac2d2ac2fa777bf1732cbc10a54da91299accd1e03bc69598d1838d622c3de1",
+    "bytes": 14655891
+   }
+  ],
+  "downloaded_at": "2026-11-10T17:36:46+00:00"
+ },
+ "gpw": {
+  "source": "NASA SEDAC GPWv4 Population Density rev11",
+  "year": 2020,
+  "resolution": "2.5 arc-minute",
+  "url": "https://doi.org/10.7927/H49C6VHW",
+  "links": [
+   "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/gpw-v4/gpw-v4-population-density-rev11/gpw-v4-population-density-rev11_2020_2pt5_min_tif.zip"
+  ],
+  "doi": "10.7927/H49C6VHW",
+  "files": [
+   {
+    "path": "raw\\gpw\\gpw-v4-population-density-rev11_2020_2pt5_min_tif.zip",
+    "sha256": "705a0546c2d7fbc54dfba13f8e9db5c145139d6c3c81a89c3e469dc984ca5fa6",
+    "bytes": 22299118
+   }
+  ],
+  "downloaded_at": "2026-11-10T17:37:02+00:00"
+ },
+ "water": {
+  "source": "NASA SEDAC GPWv4 Land and Water Area rev11 (water area)",
+  "resolution": "2.5 arc-minute",
+  "url": "https://doi.org/10.7927/H4Z60M4Z",
+  "links": [
+   "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/gpw-v4/gpw-v4-land-water-area-rev11/gpw-v4-land-water-area-rev11_waterareakm_2pt5_min_tif.zip"
+  ],
+  "doi": "10.7927/H4Z60M4Z",
+  "files": [
+   {
+    "path": "raw\\gpw_water\\gpw-v4-land-water-area-rev11_waterareakm_2pt5_min_tif.zip",
+    "sha256": "5d8f39bdadd3845e2a8362df74b3f8a9b9664c4cd31828278bbfb9d71136796a",
+    "bytes": 11472639
+   }
+  ],
+  "downloaded_at": "2026-11-10T17:37:17+00:00"
+ }
+}
