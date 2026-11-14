@@ -1,0 +1,7 @@
+numpy>=1.24
+scipy>=1.10
+Pillow>=10
+requests>=2.31
+pytest>=8
+# Đọc file NASA gửi (NetCDF/HDF5/GeoTIFF) qua data/inbox — cài khi cần:
+#   pip install xarray netCDF4 h5netcdf h5py tifffile
