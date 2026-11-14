@@ -1,0 +1,27 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Lắng (Windows)",
+      "cwd": "app",
+      "request": "launch",
+      "type": "dart",
+      "args": [
+        "-d",
+        "windows",
+        "--dart-define-from-file=.env"
+      ]
+    },
+    {
+      "name": "Lắng (Web)",
+      "cwd": "app",
+      "request": "launch",
+      "type": "dart",
+      "args": [
+        "-d",
+        "chrome",
+        "--dart-define-from-file=.env"
+      ]
+    }
+  ]
+}

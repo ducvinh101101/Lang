@@ -8,3 +8,11 @@ ios/
 *.iml
 keys.json
 node_modules/
+# khong dua len khi deploy bang Vercel CLI
+.env
+.env.*
+!.env.example
+*.log
+log.txt
+.venv/
+.deepeval/

@@ -4368,8 +4368,9 @@ class _GlobePageState extends State<GlobePage> with TickerProviderStateMixin {
       return;
     }
     final pr = GlobeProjection(cam, size);
-    var ll = pr.unproject(d.localPosition);
-    if (ll == null) return;
+    final hit = pr.unproject(d.localPosition);
+    if (hit == null) return;
+    var ll = hit;
     if (!_terrainTouch && _world != null && _world!.countryAt(ll.$1, ll.$2) == null) {
       ll = _labelNear(pr, d.localPosition) ?? ll;
     }

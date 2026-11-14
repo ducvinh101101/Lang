@@ -65,7 +65,8 @@ flutter:
     - assets/voices/vi/espeak-ng-data/lang/aav/
     # Bộ nhận giọng nói tiếng Việt (encoder chia 3 phần, app tự ghép khi chạy lần đầu)
     - assets/asr/vi/
-    # Nhận giọng tiếng Anh (NVIDIA Parakeet 110M, ~132 MB) KHÔNG đóng gói nữa cho app nhẹ: tải khi chuyển sang tiếng Anh
-    # lần đầu (máy chủ web phát tệp từ assets/asr/en_parakeet — tool/vercel_build.sh)
+    # Nhận giọng tiếng Anh (NVIDIA Parakeet 110M, ~132 MB, chia 5 phần) ĐÓNG GÓI SẴN: chuyển sang tiếng Anh là nghe được ngay,
+    # không phải tải về, chạy cả khi không có mạng. Bản web bỏ thư mục này khi deploy (tool/vercel_build.sh).
+    - assets/asr/en_parakeet/
     # Phát hiện tiếng nói (Silero VAD, ~0,6 MB): biết lúc bắt đầu / ngừng nói kể cả khi có tiếng quạt, TV — assets/asr/vad/NGUON.txt
     - assets/asr/vad/
