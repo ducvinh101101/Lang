@@ -1,0 +1,10 @@
+build/
+.dart_tool/
+.flutter-sdk/
+.idea/
+windows/
+android/
+ios/
+*.iml
+keys.json
+node_modules/
