@@ -1,0 +1,9 @@
+Bộ phát hiện tiếng nói (VAD) của app — biết lúc người dùng bắt đầu và ngừng nói.
+
+Mô hình: Silero VAD (silero_vad.onnx, ~0,6 MB)
+Tải từ:  https://github.com/k2-fsa/sherpa-onnx/releases/tag/asr-models
+Gốc:     https://github.com/snakers4/silero-vad  (giấy phép MIT)
+Chạy bằng: sherpa-onnx (VoiceActivityDetector), ngay trên luồng thu âm, mỗi khung 32 ms.
+
+Vì sao: trước đây app đoán "đang nói" bằng độ to âm thanh → phòng có quạt, TV, xe cộ dễ bị cắt ngang hoặc
+nghe mãi không dừng. VAD phân biệt giọng người với tiếng ồn. Thiếu tệp này app tự quay về cách đo độ to cũ.
