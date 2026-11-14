@@ -1,0 +1,106 @@
+{
+  "id": "apollo11_story",
+  "title_vi": "Bước chân lịch sử Apollo 11",
+  "title_en": "Apollo 11 Historical Step",
+  "commands_vi": [
+    "bước chân mặt trăng",
+    "chuyện apollo 11"
+  ],
+  "commands_en": [
+    "apollo 11",
+    "one small step"
+  ],
+  "scenes": [
+    {
+      "id": "s1",
+      "next": "s2",
+      "cues": [
+        {
+          "type": "narration",
+          "file": "s1.mp3",
+          "_todo": "Thu âm: Tháng 7 năm 1969, tàu Apollo 11 mang theo ba phi hành gia bay thẳng về phía Mặt Trăng."
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "next": "s3",
+      "cues": [
+        {
+          "type": "narration",
+          "file": "s2.mp3",
+          "_todo": "Thu âm: Khi Neil Armstrong đặt bước chân đầu tiên xuống bụi cát, câu nói của ông đã truyền cảm hứng cho hàng tỷ người."
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "next": "s4",
+      "cues": [
+        {
+          "type": "haptic",
+          "ms": 300
+        },
+        {
+          "type": "nasa_audio",
+          "file": "nasa/apollo11_step.mp3",
+          "credit": "NASA"
+        },
+        {
+          "type": "narration",
+          "file": "s3.mp3",
+          "_todo": "Thu âm: Lắng nghe khoảnh khắc thiêng liêng khi giọng nói từ bề mặt Trái Đất khác vang lên."
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "cues": [
+        {
+          "type": "choice",
+          "prompt": "s4.mp3",
+          "timeout_s": 8,
+          "default": "s5c",
+          "options": {
+            "một": "s5a",
+            "không bao giờ": "s5a",
+            "hai": "s5b",
+            "bị gió thổi bay": "s5b"
+          },
+          "_todo": "Thu âm câu đố: Dấu chân của phi hành gia để lại trên Mặt Trăng sẽ ra sao sau hàng triệu năm? Một: Không bao giờ biến mất do không có gió. Hai: Bị gió bão cuốn đi."
+        }
+      ]
+    },
+    {
+      "id": "s5a",
+      "cues": [
+        {
+          "type": "narration",
+          "file": "s5a.mp3",
+          "_todo": "Thu âm đúng: Chính xác tuyệt đối! Vì Mặt Trăng không có khí quyển và gió, dấu chân lịch sử đó sẽ tồn tại vĩnh cửu."
+        }
+      ]
+    },
+    {
+      "id": "s5b",
+      "cues": [
+        {
+          "type": "narration",
+          "file": "s5b.mp3",
+          "_todo": "Thu âm sai: Chưa đúng. Mặt Trăng không có bầu khí quyển và gió, nên dấu chân sẽ ở lại đó mãi mãi."
+        }
+      ]
+    },
+    {
+      "id": "s5c",
+      "cues": [
+        {
+          "type": "narration",
+          "file": "s5c.mp3",
+          "_todo": "Thu âm hết giờ: Hết giờ rồi. Do không có gió hay nước xói mòn, dấu chân trên Mặt Trăng tồn tại vĩnh cửu."
+        }
+      ]
+    }
+  ],
+  "_note_tong_quat": "Kịch bản kể chuyện có chiều sâu. File âm thanh để trống chờ thu âm thực tế."
+}

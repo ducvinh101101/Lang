@@ -1,0 +1,17 @@
+# Thêm vào pubspec.yaml của app (giữ phần đã có của đội).
+# Đã kiểm tra với Flutter 3.44: flutter analyze không lỗi, flutter test test/touch_rules_test.dart qua.
+dependencies:
+  image: ^4.12.0         # đọc điểm ảnh PNG (đội đã dùng ở F7)
+  flutter_tts: ^4.2.5    # đọc tiếng Việt
+  audioplayers: ^6.8.1   # nốt sáo, tiếng tíc, sóng biển, nước sông hồ, tiếng xe
+  vibration: ^3.2.1      # rung theo độ dốc (có cường độ trên Android) và 150 ms khi vượt biên giới
+                         # bản 3.x: hasVibrator() trả bool, không còn bool?
+
+flutter:
+  assets:
+    # Flutter KHÔNG tự lấy thư mục con: phải liệt kê từng thư mục.
+    # Danh sách đầy đủ in ra bằng: python print_assets.py
+    - assets/touch/
+    - assets/touch/vn/
+    - assets/touch/p01/
+    # … đến p34

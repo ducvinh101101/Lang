@@ -1,0 +1,52 @@
+[
+  {
+    "audio_id": "apollo11_step",
+    "filename": "nasa/apollo11_step.mp3",
+    "visual_description_vi": "Âm thanh vũ trụ ghi nhận từ sứ mệnh NASA."
+  },
+  {
+    "audio_id": "apollo13_problem",
+    "filename": "nasa/apollo13_problem.mp3",
+    "visual_description_vi": "Trích đoạn hội thoại vô tuyến giữa phi đai Apollo 13 và trung tâm điều khiển Houston, báo cáo về sự cố nổ bình dưỡng khí trong không gian năm 1970."
+  },
+  {
+    "audio_id": "enceladus_sound",
+    "filename": "nasa/enceladus_sound.mp3",
+    "visual_description_vi": "Tín hiệu sóng plasma thu được gần mặt trăng Enceladus của Sao Thổ, thể hiện sự tương tác từ trường phức tạp dưới dạng chuỗi tiếng rít và âm rèn dồn dập."
+  },
+  {
+    "audio_id": "interstellar_plasma",
+    "filename": "nasa/interstellar_plasma.mp3",
+    "visual_description_vi": "Mật độ sóng plasma trong không gian liên sao do tàu Voyager 1 ghi nhận khi rời khỏi Hệ Mặt Trăng, biểu thị dưới dạng các dải âm tần số cao ngân vang."
+  },
+  {
+    "audio_id": "juno_morse",
+    "filename": "nasa/juno_morse.mp3",
+    "visual_description_vi": "Âm thanh vũ trụ ghi nhận từ sứ mệnh NASA."
+  },
+  {
+    "audio_id": "jupiter_lightning",
+    "filename": "nasa/jupiter_lightning.mp3",
+    "visual_description_vi": "Sóng vô tuyến tần số thấp thu được từ các trận sét khổng lồ trong khí quyển Sao Mộc, phát ra tiếng huýt sáo hạ âm kéo dài qua không gian."
+  },
+  {
+    "audio_id": "kepler_light_curve",
+    "filename": "nasa/kepler_light_curve.mp3",
+    "visual_description_vi": "Sự thay đổi độ sáng theo chu kỳ của các ngôi sao xa xôi do kính thiên văn Kepler thu thập, được chuyển đổi thành chuỗi âm thanh dao động như nhịp tim."
+  },
+  {
+    "audio_id": "saturn_radio",
+    "filename": "nasa/saturn_radio.mp3",
+    "visual_description_vi": "Sóng vô tuyến biến thiên phát ra từ vùng cực quang của Sao Thổ do tàu Cassini ghi lại, diễn giải thành chuỗi âm thanh rên rỉ trầm bổng đầy huyền bí."
+  },
+  {
+    "audio_id": "sputnik_beep",
+    "filename": "nasa/sputnik_beep.mp3",
+    "visual_description_vi": "Âm thanh gồm các tiếng bíp vô tuyến nhịp nhàng, đều đặn trên nền nhiễu sóng không gian, được vệ tinh nhân tạo đầu tiên Sputnik 1 phát ra và thu lại vào năm 1957."
+  },
+  {
+    "audio_id": "stardust_tempel1",
+    "filename": "nasa/stardust_tempel1.mp3",
+    "visual_description_vi": "Âm thanh va chạm của các hạt bụi và mảng băng nhỏ vào tấm chắn tàu Stardust khi bay qua nhân sao chổi Tempel 1 năm 2005."
+  }
+]

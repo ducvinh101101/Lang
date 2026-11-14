@@ -1,0 +1,1713 @@
+{
+ "schema_version": 1,
+ "data_card": {
+  "dataset": "Sự thật về các thiên thể từ NASA Space Place (bản dịch tiếng Việt)",
+  "provider": "NASA Space Place, NASA/Caltech-JPL",
+  "url": "https://spaceplace.nasa.gov/",
+  "accessed": "2026-11-10",
+  "processing": "Tách từ fact.md bằng build_facts.py: mỗi gạch đầu dòng hoặc đoạn văn là một sự thật; bỏ chú thích ảnh, câu điều hướng web; gộp nội dung trùng giữa hai lần cào.",
+  "limitation_vi": "Bản dịch máy từ tiếng Anh; một số đơn vị vẫn là độ F như bản gốc.",
+  "citation": "NASA Space Place. https://spaceplace.nasa.gov/",
+  "usage_vi": "Khẩu lệnh 'sự thật thú vị về <hành tinh>': chọn ngẫu nhiên một phần tử facts; ưu tiên kind = bullet vì ngắn, hợp để đọc."
+ },
+ "aliases_vi": {
+  "mercury": [
+   "Sao Thủy"
+  ],
+  "venus": [
+   "Sao Kim"
+  ],
+  "earth": [
+   "Trái Đất"
+  ],
+  "mars": [
+   "Sao Hỏa"
+  ],
+  "jupiter": [
+   "Sao Mộc"
+  ],
+  "saturn": [
+   "Sao Thổ"
+  ],
+  "uranus": [
+   "Sao Thiên Vương"
+  ],
+  "neptune": [
+   "Sao Hải Vương"
+  ],
+  "pluto": [
+   "Sao Diêm Vương"
+  ],
+  "moon": [
+   "Mặt Trăng"
+  ],
+  "solar_system": [
+   "Các hành tinh"
+  ],
+  "sun": [
+   "Mặt Trời"
+  ]
+ },
+ "planets": {
+  "mercury": {
+   "name_vi": "Sao Thủy",
+   "source_urls": [
+    "https://spaceplace.nasa.gov/all-about-mercury/en/",
+    "https://spaceplace.nasa.gov/all-about-mercury/"
+   ],
+   "facts": [
+    {
+     "id": "mercury-729e8900",
+     "text": "Sao Thủy là hành tinh nhỏ nhất trong hệ Mặt Trời của chúng ta.",
+     "kind": "bullet",
+     "topic_vi": "Cấu tạo và bề mặt",
+     "source_urls": [
+      "https://spaceplace.nasa.gov/all-about-mercury/en/",
+      "https://spaceplace.nasa.gov/all-about-mercury/"
+     ]
+    },
+    {
+     "id": "mercury-ad1f90fb",
+     "text": "Sao Thủy là một hành tinh trên mặt đất. Nó nhỏ và nhiều đá.",
+     "kind": "bullet",
+     "topic_vi": "Cấu tạo và bề mặt",
+     "source_urls": [
+      "https://spaceplace.nasa.gov/all-about-mercury/en/",
+      "https://spaceplace.nasa.gov/all-about-mercury/"
+     ]
+    },
+    {
+     "id": "mercury-85e82811",
+     "text": "Sao Thủy có tầng ngoài mỏng.",
+     "kind": "bullet",
+     "topic_vi": "Cấu tạo và bề mặt",
+     "source_urls": [
+      "https://spaceplace.nasa.gov/all-about-mercury/en/",
+      "https://spaceplace.nasa.gov/all-about-mercury/"
+     ]
+    },
+    {
+     "id": "mercury-392c5f64",
+     "text": "Bề mặt của Sao Thủy có thể nóng tới 800 độ F vào ban ngày và lạnh tới -300 độ F vào ban đêm. (Nhưng Sao Thủy không phải là hành tinh nóng nhất trong hệ Mặt Trời. Hành tinh nóng nhất là Sao Kim.)",
+     "kind": "bullet",
+     "topic_vi": "Cấu tạo và bề mặt",
+     "source_urls": [
+      "https://spaceplace.nasa.gov/all-about-mercury/en/",
+      "https://spaceplace.nasa.gov/all-about-mercury/"
+     ]
+    },
+    {
+     "id": "mercury-2063bffb",
+     "text": "Cực của Sao Thủy có nước băng.",
+     "kind": "bullet",
+     "topic_vi": "Cấu tạo và bề mặt",
+     "source_urls": [
+      "https://spaceplace.nasa.gov/all-about-mercury/en/",
+      "https://spaceplace.nasa.gov/all-about-mercury/"
+     ]
+    },
+    {
+     "id": "mercury-f4ee3fb1",
+     "text": "Một ngày trên Sao Thủy kéo dài 59 ngày trên Trái Đất.",
+     "kind": "bullet",
+     "topic_vi": "Thời gian trên Sao Thủy",
+     "source_urls": [
+      "https://spaceplace.nasa.gov/all-about-mercury/en/",
+      "https://spaceplace.nasa.gov/all-about-mercury/"
+     ]
+    },
+    {
+     "id": "mercury-c9f00490",
+     "text": "Một năm trên Sao Thủy kéo dài 88 ngày trên Trái Đất.",
+     "kind": "bullet",
+     "topic_vi": "Thời gian trên Sao Thủy",
+     "source_urls": [
+      "https://spaceplace.nasa.gov/all-about-mercury/en/",
+      "https://spaceplace.nasa.gov/all-about-mercury/"
+     ]
+    },
+    {
+     "id": "mercury-c64fe8e3",
+     "text": "Sao Thủy không có bất kỳ Mặt Trăng nào.",
+     "kind": "bullet",
+     "topic_vi": "Các hành tinh lân cận của Sao Thủy",
+     "source_urls": [
+      "https://spaceplace.nasa.gov/all-about-mercury/en/",
+      "https://spaceplace.nasa.gov/all-about-mercury/"
+     ]
+    },
+    {
+     "id": "mercury-ecaa9f9a",
+     "text": "Sao Thủy là hành tinh gần Mặt Trời nhất.",
+     "kind": "bullet",
+     "topic_vi": "Các hành tinh lân cận của Sao Thủy",
+     "source_urls": [
+      "https://spaceplace.nasa.gov/all-about-mercury/en/",
+      "https://spaceplace.nasa.gov/all-about-mercury/"
+     ]
+    },
+    {
+     "id": "mercury-d59c3293",
+     "text": "Sao Kim là hành tinh lân cận của Sao Thủy.",
+     "kind": "bullet",
+     "topic_vi": "Các hành tinh lân cận của Sao Thủy",
+     "source_urls": [
+      "https://spaceplace.nasa.gov/all-about-mercury/en/",
+      "https://spaceplace.nasa.gov/all-about-mercury/"
+     ]
+    },
+    {
+     "id": "mercury-a099fba2",
+     "text": "Sao Thủy đã được biết đến từ thời cổ đại vì nó có thể được nhìn thấy mà không cần kính thiên văn tiên tiến.",
+     "kind": "bullet",
+     "topic_vi": "Các hành tinh lân cận của Sao Thủy",
+     "source_urls": [
+      "https://spaceplace.nasa.gov/all-about-mercury/en/",
+      "https://spaceplace.nasa.gov/all-about-mercury/"
+     ]
+    },
+    {
+     "id": "mercury-0cd87329",
+     "text": "Vì quá gần Mặt Trời nên Sao Thủy khó có thể nghiên cứu từ Trái Đất. Chưa có người nào từng đến Sao Thủy, nhưng có hai tàu vũ trụ robot đã đến thăm. Tàu vũ trụ được gọi là Mariner 10 và MESSENGER.",
+     "kind": "bullet",
+     "topic_vi": "Các hành tinh lân cận của Sao Thủy",
+     "source_urls": [
+      "https://spaceplace.nasa.gov/all-about-mercury/en/",
+      "https://spaceplace.nasa.gov/all-about-mercury/"
+     ]
+    },
+    {
+     "id": "mercury-e31c18ba",
+     "text": "MESSENGER đã lập bản đồ Sao Thủy bằng cách chụp ảnh bề mặt hành tinh này, bao gồm một số khu vực chưa từng được nhìn thấy trước đây. Nó cũng thu thập thông tin về cấu tạo bề mặt và bên trong của Sao Thủy.",
+     "kind": "bullet",
+     "topic_vi": "Các hành tinh lân cận của Sao Thủy",
+     "source_urls": [
+      "https://spaceplace.nasa.gov/all-about-mercury/en/",
+      "https://spaceplace.nasa.gov/all-about-mercury/"
+     ]
+    },
+    {
+     "id": "mercury-75445496",
+     "text": "Bất kỳ kỳ nghỉ nào trên Sao Thủy sẽ bị hủy hoại bởi nhiệt độ khắc nghiệt. Vào ban ngày, Mặt Trời sẽ lớn gấp ba lần và sáng hơn khoảng bảy lần so với trên Trái Đất. Vào ban ngày, nhiệt độ có thể lên tới 800 độ F và vào ban đêm nhiệt độ có thể giảm xuống -300 độ F. Lạnh quá!",
+     "kind": "paragraph",
+     "topic_vi": null,
+     "source_urls": [
+      "https://spaceplace.nasa.gov/all-about-mercury/en/",
+      "https://spaceplace.nasa.gov/all-about-mercury/"
+     ]
+    },
+    {
+     "id": "mercury-b6fbf492",
+     "text": "Sao Thủy là hành tinh nhỏ nhất trong hệ Mặt Trời của chúng ta. Nó chỉ lớn hơn Mặt Trăng của Trái Đất một chút. Tuy nhiên, bản thân Sao Thủy không có bất kỳ Mặt Trăng nào. Đây là hành tinh gần Mặt Trời nhất nhưng thực tế lại không phải là hành tinh nóng nhất. Sao Kim nóng hơn.",
+     "kind": "paragraph",
+     "topic_vi": null,
+     "source_urls": [
+      "https://spaceplace.nasa.gov/all-about-mercury/en/",
+      "https://spaceplace.nasa.gov/all-about-mercury/"
+     ]
+    },
+    {
+     "id": "mercury-54407315",
+     "text": "Cùng với Sao Kim, Trái Đất và Sao Hỏa, Sao Thủy là một trong những hành tinh đá. Nó có bề mặt rắn được bao phủ bởi các miệng hố. Thay vì bầu khí quyển, Sao Thủy sở hữu một tầng ngoài mỏng được tạo thành từ các nguyên tử bị gió Mặt Trời thổi bay khỏi bề mặt và các thiên thạch va chạm. Tầng ngoài của Sao Thủy chứa natri, kali, canxi, magie, hydro, heli và các nguyên tố khác.",
+     "kind": "paragraph",
+     "topic_vi": null,
+     "source_urls": [
+      "https://spaceplace.nasa.gov/all-about-mercury/en/",
+      "https://spaceplace.nasa.gov/all-about-mercury/"
+     ]
+    },
+    {
+     "id": "mercury-30b74e85",
+     "text": "Sao Thủy quay chậm hơn nhiều so với Trái Đất. Phải mất 59 ngày Trái Đất để Sao Thủy quay một vòng. Nhưng vì Sao Thủy là hành tinh gần Mặt Trời nhất nên không mất nhiều thời gian để đi hết một vòng quanh nó. Một năm trên Sao Thủy chỉ dài 88 ngày trên Trái Đất. Nếu bạn sống trên Sao Thủy, bạn sẽ có sinh nhật khoảng ba tháng một lần.",
+     "kind": "paragraph",
+     "topic_vi": null,
+     "source_urls": [
+      "https://spaceplace.nasa.gov/all-about-mercury/en/",
+      "https://spaceplace.nasa.gov/all-about-mercury/"
+     ]
+    }
+   ]
+  },
+  "venus": {
+   "name_vi": "Sao Kim",
+   "source_urls": [
+    "https://spaceplace.nasa.gov/all-about-venus/en/",
+    "https://spaceplace.nasa.gov/all-about-venus/"
+   ],
+   "facts": [
+    {
+     "id": "venus-049c3277",
+     "text": "Sao Kim là hành tinh nóng nhất trong hệ Mặt Trời của chúng ta.",
+     "kind": "bullet",
+     "topic_vi": "Cấu tạo và bề mặt",
+     "source_urls": [
+      "https://spaceplace.nasa.gov/all-about-venus/en/",
+      "https://spaceplace.nasa.gov/all-about-venus/"
+     ]
+    },
+    {
+     "id": "venus-fec8e690",
+     "text": "Sao Kim là một hành tinh trên mặt đất. Nó nhỏ và nhiều đá.",
+     "kind": "bullet",
+     "topic_vi": "Cấu tạo và bề mặt",
+     "source_urls": [
+      "https://spaceplace.nasa.gov/all-about-venus/en/",
+      "https://spaceplace.nasa.gov/all-about-venus/"
+     ]
+    },
+    {
+     "id": "venus-8f196343",
+     "text": "Sao Kim có bầu khí quyển dày đặc. Nó giữ nhiệt và khiến Sao Kim rất nóng.",
+     "kind": "bullet",
+     "topic_vi": "Cấu tạo và bề mặt",
+     "source_urls": [
+      "https://spaceplace.nasa.gov/all-about-venus/en/",
+      "https://spaceplace.nasa.gov/all-about-venus/"
+     ]
+    },
+    {
+     "id": "venus-5b4cac1d",
+     "text": "Sao Kim có bề mặt hoạt động, bao gồm cả núi lửa!",
+     "kind": "bullet",
+     "topic_vi": "Cấu tạo và bề mặt",
+     "source_urls": [
+      "https://spaceplace.nasa.gov/all-about-venus/en/",
+      "https://spaceplace.nasa.gov/all-about-venus/"
+     ]
+    },
+    {
+     "id": "venus-623ea3a4",
+     "text": "Sao Kim quay theo hướng ngược lại với Trái Đất và hầu hết các hành tinh khác.",
+     "kind": "bullet",
+     "topic_vi": "Cấu tạo và bề mặt",
+     "source_urls": [
+      "https://spaceplace.nasa.gov/all-about-venus/en/",
+      "https://spaceplace.nasa.gov/all-about-venus/"
+     ]
+    },
+    {
+     "id": "venus-0e9f4cd5",
+     "text": "Một ngày trên Sao Kim kéo dài 243 ngày trên Trái Đất.",
+     "kind": "bullet",
+     "topic_vi": "Cấu tạo và bề mặt",
+     "source_urls": [
+      "https://spaceplace.nasa.gov/all-about-venus/en/",
+      "https://spaceplace.nasa.gov/all-about-venus/"
+     ]
+    },
+    {
+     "id": "venus-b27a0de3",
+     "text": "Một năm trên Sao Kim kéo dài 225 ngày trên Trái Đất.",
+     "kind": "bullet",
+     "topic_vi": "Cấu tạo và bề mặt",
+     "source_urls": [
+      "https://spaceplace.nasa.gov/all-about-venus/en/",
+      "https://spaceplace.nasa.gov/all-about-venus/"
+     ]
+    },
+    {
+     "id": "venus-e06dc94c",
+     "text": "Sao Kim không có bất kỳ Mặt Trăng nào.",
+     "kind": "bullet",
+     "topic_vi": "Các hành tinh lân cận của Sao Kim",
+     "source_urls": [
+      "https://spaceplace.nasa.gov/all-about-venus/en/",
+      "https://spaceplace.nasa.gov/all-about-venus/"
+     ]
+    },
+    {
+     "id": "venus-1088d6b3",
+     "text": "Sao Kim là hành tinh thứ hai tính từ Mặt Trời. Điều đó có nghĩa là Sao Thủy và Trái Đất là các hành tinh lân cận của Sao Kim.",
+     "kind": "bullet",
+     "topic_vi": "Các hành tinh lân cận của Sao Kim",
+     "source_urls": [
+      "https://spaceplace.nasa.gov/all-about-venus/en/",
+      "https://spaceplace.nasa.gov/all-about-venus/"
+     ]
+    },
+    {
+     "id": "venus-90d333a1",
+     "text": "Sao Kim đã được biết đến từ thời cổ đại vì nó có thể được nhìn thấy dễ dàng mà không cần kính viễn vọng.",
+     "kind": "bullet",
+     "topic_vi": "Các hành tinh lân cận của Sao Kim",
+     "source_urls": [
+      "https://spaceplace.nasa.gov/all-about-venus/en/",
+      "https://spaceplace.nasa.gov/all-about-venus/"
+     ]
+    },
+    {
+     "id": "venus-b112dbb5",
+     "text": "Sao Kim đã được viếng thăm bởi một số tàu vũ trụ: Mariner 2, Mariner 5, Mariner 10, Pioneer Venus 1, Pioneer Venus 2 và một tàu quỹ đạo tên là Magellan.",
+     "kind": "bullet",
+     "topic_vi": "Các hành tinh lân cận của Sao Kim",
+     "source_urls": [
+      "https://spaceplace.nasa.gov/all-about-venus/en/",
+      "https://spaceplace.nasa.gov/all-about-venus/"
+     ]
+    },
+    {
+     "id": "venus-7f633750",
+     "text": "Mặc dù Sao Kim không phải là hành tinh gần Mặt Trời nhất nhưng nó vẫn là hành tinh nóng nhất. Nó có bầu không khí dày đặc chứa đầy khí nhà kính carbon dioxide và những đám mây làm từ axit sulfuric. Khí bẫy nhiệt và giữ cho Sao Kim ấm áp. Trên thực tế, trên Sao Kim rất nóng, các kim loại như chì sẽ là những vũng chất lỏng tan chảy.",
+     "kind": "paragraph",
+     "topic_vi": null,
+     "source_urls": [
+      "https://spaceplace.nasa.gov/all-about-venus/en/",
+      "https://spaceplace.nasa.gov/all-about-venus/"
+     ]
+    },
+    {
+     "id": "venus-0e32854b",
+     "text": "Sao Kim trông giống như một hành tinh rất năng động. Nó có núi và núi lửa. Sao Kim có kích thước tương tự Trái Đất. Trái Đất chỉ lớn hơn một chút thôi.",
+     "kind": "paragraph",
+     "topic_vi": null,
+     "source_urls": [
+      "https://spaceplace.nasa.gov/all-about-venus/en/",
+      "https://spaceplace.nasa.gov/all-about-venus/"
+     ]
+    },
+    {
+     "id": "venus-f5d25ebe",
+     "text": "Sao Kim khác thường vì nó quay ngược hướng với Trái Đất và hầu hết các hành tinh khác. Và vòng quay của nó rất chậm. Phải mất khoảng 243 ngày Trái Đất để quay một vòng chỉ một lần. Vì nó rất gần Mặt Trời nên một năm trôi qua rất nhanh. Phải mất 225 ngày Trái Đất để Sao Kim đi hết một vòng quanh Mặt Trời. Điều đó có nghĩa là một ngày trên Sao Kim dài hơn một năm trên Sao Kim một chút.",
+     "kind": "paragraph",
+     "topic_vi": null,
+     "source_urls": [
+      "https://spaceplace.nasa.gov/all-about-venus/en/",
+      "https://spaceplace.nasa.gov/all-about-venus/"
+     ]
+    },
+    {
+     "id": "venus-da0a531f",
+     "text": "Vì độ dài ngày và năm tương tự nhau nên một ngày trên Sao Kim không giống một ngày trên Trái Đất. Ở đây, Mặt Trời mọc và lặn mỗi ngày một lần. Nhưng trên Sao Kim, Mặt Trời mọc cứ sau 117 ngày Trái Đất. Điều đó có nghĩa là Mặt Trời mọc hai lần mỗi năm trên Sao Kim, mặc dù đó vẫn là cùng một ngày trên Sao Kim! Và do Sao Kim quay ngược nên Mặt Trời mọc ở hướng Tây và lặn ở hướng Đông.",
+     "kind": "paragraph",
+     "topic_vi": null,
+     "source_urls": [
+      "https://spaceplace.nasa.gov/all-about-venus/en/",
+      "https://spaceplace.nasa.gov/all-about-venus/"
+     ]
+    },
+    {
+     "id": "venus-302ef0ea",
+     "text": "Giống như Sao Thủy, Sao Kim không có Mặt Trăng.",
+     "kind": "paragraph",
+     "topic_vi": null,
+     "source_urls": [
+      "https://spaceplace.nasa.gov/all-about-venus/en/",
+      "https://spaceplace.nasa.gov/all-about-venus/"
+     ]
+    }
+   ]
+  },
+  "earth": {
+   "name_vi": "Trái Đất",
+   "source_urls": [
+    "https://spaceplace.nasa.gov/all-about-earth/en/",
+    "https://spaceplace.nasa.gov/all-about-earth/"
+   ],
+   "facts": [
+    {
+     "id": "earth-19cdd88f",
+     "text": "Trái Đất là một hành tinh trên mặt đất. Nó nhỏ và nhiều đá.",
+     "kind": "bullet",
+     "topic_vi": "Cấu tạo và bề mặt",
+     "source_urls": [
+      "https://spaceplace.nasa.gov/all-about-earth/en/",
+      "https://spaceplace.nasa.gov/all-about-earth/"
+     ]
+    },
+    {
+     "id": "earth-81d8804c",
+     "text": "Bầu khí quyển của Trái Đất có độ dày phù hợp để giữ ấm cho hành tinh để những sinh vật sống như chúng ta có thể ở đó. Đó là hành tinh duy nhất trong hệ Mặt Trời mà chúng ta biết có hỗ trợ sự sống. Nó chủ yếu là nitơ và có nhiều oxy để chúng ta thở.",
+     "kind": "bullet",
+     "topic_vi": "Cấu tạo và bề mặt",
+     "source_urls": [
+      "https://spaceplace.nasa.gov/all-about-earth/en/",
+      "https://spaceplace.nasa.gov/all-about-earth/"
+     ]
+    },
+    {
+     "id": "earth-223d68b4",
+     "text": "Một ngày trên Trái Đất kéo dài dưới 24 giờ một chút.",
+     "kind": "bullet",
+     "topic_vi": "Cấu tạo và bề mặt",
+     "source_urls": [
+      "https://spaceplace.nasa.gov/all-about-earth/en/",
+      "https://spaceplace.nasa.gov/all-about-earth/"
+     ]
+    },
+    {
+     "id": "earth-ae75597b",
+     "text": "Một năm trên Trái Đất kéo dài 365,25 ngày. Khoản tăng thêm 0,25 đó có nghĩa là cứ bốn năm một lần chúng ta cần thêm một ngày vào lịch của mình. Chúng ta gọi đó là ngày nhuận (trong năm nhuận).",
+     "kind": "bullet",
+     "topic_vi": "Cấu tạo và bề mặt",
+     "source_urls": [
+      "https://spaceplace.nasa.gov/all-about-earth/en/",
+      "https://spaceplace.nasa.gov/all-about-earth/"
+     ]
+    },
+    {
+     "id": "earth-ea76fa7a",
+     "text": "Trái Đất chỉ có một Mặt Trăng. Đây là hành tinh duy nhất chỉ có một Mặt Trăng.",
+     "kind": "bullet",
+     "topic_vi": "Các hành tinh lân cận của Trái Đất",
+     "source_urls": [
+      "https://spaceplace.nasa.gov/all-about-earth/en/",
+      "https://spaceplace.nasa.gov/all-about-earth/"
+     ]
+    },
+    {
+     "id": "earth-f9cf2189",
+     "text": "Trái Đất có rất nhiều tàu vũ trụ đang theo dõi nó. Vẫn còn rất nhiều điều chúng ta có thể tìm hiểu về hành tinh quê nhà của mình.",
+     "kind": "bullet",
+     "topic_vi": "Các hành tinh lân cận của Trái Đất",
+     "source_urls": [
+      "https://spaceplace.nasa.gov/all-about-earth/en/",
+      "https://spaceplace.nasa.gov/all-about-earth/"
+     ]
+    },
+    {
+     "id": "earth-3e5fac28",
+     "text": "Trái Đất là hành tinh thứ ba tính từ Mặt Trời trong hệ Mặt Trời của chúng ta. Điều đó có nghĩa là Sao Kim và Sao Hỏa là các hành tinh lân cận của Trái Đất.",
+     "kind": "bullet",
+     "topic_vi": "Các hành tinh lân cận của Trái Đất",
+     "source_urls": [
+      "https://spaceplace.nasa.gov/all-about-earth/en/",
+      "https://spaceplace.nasa.gov/all-about-earth/"
+     ]
+    },
+    {
+     "id": "earth-05fea182",
+     "text": "Tất nhiên, chúng ta đã biết về hành tinh của mình từ thời cổ đại. Nhưng chúng ta đã không biết vị trí của mình trong hệ Mặt Trời trong một thời gian dài.",
+     "kind": "bullet",
+     "topic_vi": "Các hành tinh lân cận của Trái Đất",
+     "source_urls": [
+      "https://spaceplace.nasa.gov/all-about-earth/en/",
+      "https://spaceplace.nasa.gov/all-about-earth/"
+     ]
+    },
+    {
+     "id": "earth-ad54be45",
+     "text": "Hành tinh quê hương của chúng ta, Trái Đất là một hành tinh đất đá. Nó có bề mặt vững chắc và năng động với núi, thung lũng, hẻm núi, đồng bằng và nhiều hơn thế nữa. Trái Đất rất đặc biệt vì nó là một hành tinh đại dương. Nước bao phủ 70% bề mặt Trái Đất.",
+     "kind": "paragraph",
+     "topic_vi": null,
+     "source_urls": [
+      "https://spaceplace.nasa.gov/all-about-earth/en/",
+      "https://spaceplace.nasa.gov/all-about-earth/"
+     ]
+    },
+    {
+     "id": "earth-1600ec31",
+     "text": "Bầu khí quyển của chúng ta được tạo thành chủ yếu từ nitơ và có nhiều oxy để chúng ta thở. Bầu khí quyển cũng bảo vệ chúng ta khỏi các thiên thạch bay tới, hầu hết chúng vỡ ra trong bầu khí quyển trước khi chúng có thể tấn công bề mặt dưới dạng thiên thạch.",
+     "kind": "paragraph",
+     "topic_vi": null,
+     "source_urls": [
+      "https://spaceplace.nasa.gov/all-about-earth/en/",
+      "https://spaceplace.nasa.gov/all-about-earth/"
+     ]
+    },
+    {
+     "id": "earth-cc3b9151",
+     "text": "Trái Đất. Nhà của bạn. Sứ mệnh của chúng tôi.",
+     "kind": "paragraph",
+     "topic_vi": "Tìm hiểu thêm",
+     "source_urls": [
+      "https://spaceplace.nasa.gov/all-about-earth/en/",
+      "https://spaceplace.nasa.gov/all-about-earth/"
+     ]
+    }
+   ]
+  },
+  "mars": {
+   "name_vi": "Sao Hỏa",
+   "source_urls": [
+    "https://spaceplace.nasa.gov/all-about-mars/en/",
+    "https://spaceplace.nasa.gov/all-about-mars/"
+   ],
+   "facts": [
+    {
+     "id": "mars-3321e31d",
+     "text": "Sao Hỏa là một hành tinh trên mặt đất. Nó nhỏ và nhiều đá.",
+     "kind": "bullet",
+     "topic_vi": "Cấu tạo và bề mặt",
+     "source_urls": [
+      "https://spaceplace.nasa.gov/all-about-mars/en/",
+      "https://spaceplace.nasa.gov/all-about-mars/"
+     ]
+    },
+    {
+     "id": "mars-b19fffde",
+     "text": "Sao Hỏa có bầu khí quyển mỏng.",
+     "kind": "bullet",
+     "topic_vi": "Cấu tạo và bề mặt",
+     "source_urls": [
+      "https://spaceplace.nasa.gov/all-about-mars/en/",
+      "https://spaceplace.nasa.gov/all-about-mars/"
+     ]
+    },
+    {
+     "id": "mars-12a8ec0b",
+     "text": "Sao Hỏa có bầu khí quyển hoạt động, nhưng bề mặt hành tinh không hoạt động. Núi lửa của nó đã chết.",
+     "kind": "bullet",
+     "topic_vi": "Cấu tạo và bề mặt",
+     "source_urls": [
+      "https://spaceplace.nasa.gov/all-about-mars/en/",
+      "https://spaceplace.nasa.gov/all-about-mars/"
+     ]
+    },
+    {
+     "id": "mars-806b25c6",
+     "text": "Một ngày trên Sao Hỏa kéo dài 24,6 giờ. Nó chỉ dài hơn một ngày một chút trên Trái Đất.",
+     "kind": "bullet",
+     "topic_vi": "Cấu tạo và bề mặt",
+     "source_urls": [
+      "https://spaceplace.nasa.gov/all-about-mars/en/",
+      "https://spaceplace.nasa.gov/all-about-mars/"
+     ]
+    },
+    {
+     "id": "mars-b3bcd490",
+     "text": "Một năm trên Sao Hỏa là 687 ngày trên Trái Đất. Nó dài gần gấp đôi một năm trên Trái Đất.",
+     "kind": "bullet",
+     "topic_vi": "Cấu tạo và bề mặt",
+     "source_urls": [
+      "https://spaceplace.nasa.gov/all-about-mars/en/",
+      "https://spaceplace.nasa.gov/all-about-mars/"
+     ]
+    },
+    {
+     "id": "mars-f4a06846",
+     "text": "Sao Hỏa có hai Mặt Trăng. Tên của họ là Phobos và Deimos.",
+     "kind": "bullet",
+     "topic_vi": "Các hành tinh lân cận của Sao Hỏa",
+     "source_urls": [
+      "https://spaceplace.nasa.gov/all-about-mars/en/",
+      "https://spaceplace.nasa.gov/all-about-mars/"
+     ]
+    },
+    {
+     "id": "mars-3c8fa1c5",
+     "text": "Sao Hỏa là hành tinh thứ tư tính từ Mặt Trời. Điều đó có nghĩa là Trái Đất và Sao Mộc là các hành tinh lân cận của Sao Hỏa.",
+     "kind": "bullet",
+     "topic_vi": "Các hành tinh lân cận của Sao Hỏa",
+     "source_urls": [
+      "https://spaceplace.nasa.gov/all-about-mars/en/",
+      "https://spaceplace.nasa.gov/all-about-mars/"
+     ]
+    },
+    {
+     "id": "mars-6312a285",
+     "text": "Sao Hỏa đã được biết đến từ thời cổ đại vì nó có thể được nhìn thấy mà không cần kính thiên văn tiên tiến.",
+     "kind": "bullet",
+     "topic_vi": "Các hành tinh lân cận của Sao Hỏa",
+     "source_urls": [
+      "https://spaceplace.nasa.gov/all-about-mars/en/",
+      "https://spaceplace.nasa.gov/all-about-mars/"
+     ]
+    },
+    {
+     "id": "mars-2ba0ab34",
+     "text": "Thậm chí còn có một chiếc trực thăng bay trên Sao Hỏa. Nghiêm túc! Máy bay trực thăng Sao Hỏa, Ingenuity, lần đầu tiên đã thử nghiệm thành công chuyến bay được điều khiển bằng động cơ trên một thế giới khác. Nó đã quá giang tới Sao Hỏa trên tàu thám hiểm Kiên trì và làm việc với tàu thám hiểm để khám phá Sao Hỏa. Ingenuity được thiết kế như một bản demo công nghệ dự kiến ​​sẽ bay không quá năm lần trong 30 ngày. Nó kết thúc sứ mệnh vào đầu năm 2024 sau khi hoàn thành 72 chuyến bay chỉ trong vòng chưa đầy ba năm. Cảm ơn sự khéo léo!",
+     "kind": "bullet",
+     "topic_vi": "Các hành tinh lân cận của Sao Hỏa",
+     "source_urls": [
+      "https://spaceplace.nasa.gov/all-about-mars/en/",
+      "https://spaceplace.nasa.gov/all-about-mars/"
+     ]
+    },
+    {
+     "id": "mars-70db6919",
+     "text": "Bầu khí quyển của Sao Hỏa có mây và gió giống như Trái Đất. Đôi khi gió thổi bụi đỏ thành bão bụi. Những cơn bão bụi xoắn ốc – được gọi là quỷ bụi – có thể trông giống như những cơn lốc xoáy. Những cơn bão lớn của Sao Hỏa đôi khi bao phủ toàn bộ hành tinh.",
+     "kind": "paragraph",
+     "topic_vi": null,
+     "source_urls": [
+      "https://spaceplace.nasa.gov/all-about-mars/en/",
+      "https://spaceplace.nasa.gov/all-about-mars/"
+     ]
+    },
+    {
+     "id": "mars-e07e0971",
+     "text": "Sao Hỏa là một thế giới sa mạc lạnh lẽo. Nhiệt độ trung bình trên Sao Hỏa là âm 85 độ F – dưới mức đóng băng. Nó có kích thước bằng một nửa Trái Đất. Sao Hỏa đôi khi được gọi là Hành tinh Đỏ. Nó có màu đỏ vì sắt gỉ trong lòng đất.",
+     "kind": "paragraph",
+     "topic_vi": null,
+     "source_urls": [
+      "https://spaceplace.nasa.gov/all-about-mars/en/",
+      "https://spaceplace.nasa.gov/all-about-mars/"
+     ]
+    },
+    {
+     "id": "mars-8d068c22",
+     "text": "Giống như Trái Đất, Sao Hỏa có các mùa, chỏm băng ở vùng cực, núi lửa, hẻm núi và thời tiết. Nó có bầu không khí rất mỏng được tạo thành chủ yếu từ carbon dioxide, nitơ và argon. Con người sẽ không thể hít thở không khí trên Sao Hỏa.",
+     "kind": "paragraph",
+     "topic_vi": null,
+     "source_urls": [
+      "https://spaceplace.nasa.gov/all-about-mars/en/",
+      "https://spaceplace.nasa.gov/all-about-mars/"
+     ]
+    },
+    {
+     "id": "mars-3cd05cdb",
+     "text": "Có dấu hiệu của lũ lụt cổ xưa trên Sao Hỏa, nhưng hiện nay nước chủ yếu tồn tại trong bụi bẩn băng giá và những đám mây mỏng. Trên một số sườn đồi của Sao Hỏa, có bằng chứng về nước mặn dạng lỏng trong lòng đất.",
+     "kind": "paragraph",
+     "topic_vi": null,
+     "source_urls": [
+      "https://spaceplace.nasa.gov/all-about-mars/en/",
+      "https://spaceplace.nasa.gov/all-about-mars/"
+     ]
+    },
+    {
+     "id": "mars-1e0df9b8",
+     "text": "Các nhà khoa học muốn biết liệu Sao Hỏa có thể có sinh vật sống trong quá khứ hay không. Họ cũng muốn biết liệu Sao Hỏa có thể hỗ trợ sự sống ở hiện tại hay trong tương lai hay không.",
+     "kind": "paragraph",
+     "topic_vi": null,
+     "source_urls": [
+      "https://spaceplace.nasa.gov/all-about-mars/en/",
+      "https://spaceplace.nasa.gov/all-about-mars/"
+     ]
+    },
+    {
+     "id": "mars-2350a5c2",
+     "text": "Hãy kiên trì khám phá!",
+     "kind": "paragraph",
+     "topic_vi": "Tìm hiểu thêm",
+     "source_urls": [
+      "https://spaceplace.nasa.gov/all-about-mars/en/",
+      "https://spaceplace.nasa.gov/all-about-mars/"
+     ]
+    }
+   ]
+  },
+  "jupiter": {
+   "name_vi": "Sao Mộc",
+   "source_urls": [
+    "https://spaceplace.nasa.gov/all-about-jupiter/en/",
+    "https://spaceplace.nasa.gov/all-about-jupiter/"
+   ],
+   "facts": [
+    {
+     "id": "jupiter-db8bf4d3",
+     "text": "Sao Mộc là hành tinh lớn nhất trong hệ Mặt Trời của chúng ta. Nó thực sự nặng hơn gấp đôi so với các hành tinh khác trong hệ Mặt Trời của chúng ta cộng lại.",
+     "kind": "bullet",
+     "topic_vi": "Cấu tạo và bề mặt",
+     "source_urls": [
+      "https://spaceplace.nasa.gov/all-about-jupiter/en/",
+      "https://spaceplace.nasa.gov/all-about-jupiter/"
+     ]
+    },
+    {
+     "id": "jupiter-ad936dde",
+     "text": "Sao Mộc là một hành tinh khí khổng lồ. Nó được làm chủ yếu từ hydro và heli.",
+     "kind": "bullet",
+     "topic_vi": "Cấu tạo và bề mặt",
+     "source_urls": [
+      "https://spaceplace.nasa.gov/all-about-jupiter/en/",
+      "https://spaceplace.nasa.gov/all-about-jupiter/"
+     ]
+    },
+    {
+     "id": "jupiter-6003b21b",
+     "text": "Sao Mộc có bầu khí quyển rất dày.",
+     "kind": "bullet",
+     "topic_vi": "Cấu tạo và bề mặt",
+     "source_urls": [
+      "https://spaceplace.nasa.gov/all-about-jupiter/en/",
+      "https://spaceplace.nasa.gov/all-about-jupiter/"
+     ]
+    },
+    {
+     "id": "jupiter-8d743b9f",
+     "text": "Sao Mộc có các vành đai nhưng rất khó nhìn thấy.",
+     "kind": "bullet",
+     "topic_vi": "Cấu tạo và bề mặt",
+     "source_urls": [
+      "https://spaceplace.nasa.gov/all-about-jupiter/en/",
+      "https://spaceplace.nasa.gov/all-about-jupiter/"
+     ]
+    },
+    {
+     "id": "jupiter-9e29f4a9",
+     "text": "Vết Đỏ Lớn của hành tinh khổng lồ này là một cơn bão có tuổi đời hàng thế kỷ, lớn hơn Trái Đất.",
+     "kind": "bullet",
+     "topic_vi": "Cấu tạo và bề mặt",
+     "source_urls": [
+      "https://spaceplace.nasa.gov/all-about-jupiter/en/",
+      "https://spaceplace.nasa.gov/all-about-jupiter/"
+     ]
+    },
+    {
+     "id": "jupiter-8f74d00a",
+     "text": "Một ngày trên Sao Mộc trôi qua chỉ trong 10 giờ.",
+     "kind": "bullet",
+     "topic_vi": "Thời gian trên Sao Mộc",
+     "source_urls": [
+      "https://spaceplace.nasa.gov/all-about-jupiter/en/",
+      "https://spaceplace.nasa.gov/all-about-jupiter/"
+     ]
+    },
+    {
+     "id": "jupiter-8c566c13",
+     "text": "Một năm trên Sao Mộc bằng 11,8 năm Trái Đất.",
+     "kind": "bullet",
+     "topic_vi": "Thời gian trên Sao Mộc",
+     "source_urls": [
+      "https://spaceplace.nasa.gov/all-about-jupiter/en/",
+      "https://spaceplace.nasa.gov/all-about-jupiter/"
+     ]
+    },
+    {
+     "id": "jupiter-6e0685cf",
+     "text": "Sao Mộc có 115 Mặt Trăng được công nhận chính thức (theo NASA, tháng 8 năm 2026).",
+     "kind": "bullet",
+     "topic_vi": "Các hành tinh lân cận của Sao Mộc",
+     "source_urls": [
+      "https://spaceplace.nasa.gov/all-about-jupiter/en/",
+      "https://spaceplace.nasa.gov/all-about-jupiter/"
+     ]
+    },
+    {
+     "id": "jupiter-f6f14d41",
+     "text": "Sao Mộc là hành tinh thứ năm tính từ Mặt Trời. Điều đó có nghĩa là Sao Hỏa và Sao Thổ là các hành tinh lân cận của Sao Mộc.",
+     "kind": "bullet",
+     "topic_vi": "Các hành tinh lân cận của Sao Mộc",
+     "source_urls": [
+      "https://spaceplace.nasa.gov/all-about-jupiter/en/",
+      "https://spaceplace.nasa.gov/all-about-jupiter/"
+     ]
+    },
+    {
+     "id": "jupiter-9783b754",
+     "text": "Sao Mộc đã được biết đến từ thời xa xưa vì nó có thể dễ dàng được nhìn thấy chỉ bằng mắt thường của chúng ta. Không cần thiết bị đặc biệt.",
+     "kind": "bullet",
+     "topic_vi": "Các hành tinh lân cận của Sao Mộc",
+     "source_urls": [
+      "https://spaceplace.nasa.gov/all-about-jupiter/en/",
+      "https://spaceplace.nasa.gov/all-about-jupiter/"
+     ]
+    },
+    {
+     "id": "jupiter-9bac01f1",
+     "text": "Sao Mộc đã được viếng thăm hoặc đi qua bởi một số tàu vũ trụ, quỹ đạo và tàu thăm dò, chẳng hạn như Pioneer 10 và 11, Voyager 1 và 2, Cassini, New Horizons và Juno.",
+     "kind": "bullet",
+     "topic_vi": "Các hành tinh lân cận của Sao Mộc",
+     "source_urls": [
+      "https://spaceplace.nasa.gov/all-about-jupiter/en/",
+      "https://spaceplace.nasa.gov/all-about-jupiter/"
+     ]
+    },
+    {
+     "id": "jupiter-10834c67",
+     "text": "Sao Mộc có cực quang giống như Trái Đất! Cực quang không chỉ có kích thước khổng lồ mà còn có năng lượng mạnh gấp hàng trăm lần cực quang trên Trái Đất.",
+     "kind": "bullet",
+     "topic_vi": "Các hành tinh lân cận của Sao Mộc",
+     "source_urls": [
+      "https://spaceplace.nasa.gov/all-about-jupiter/en/",
+      "https://spaceplace.nasa.gov/all-about-jupiter/"
+     ]
+    },
+    {
+     "id": "jupiter-d1e02fe2",
+     "text": "Sao Mộc là một hành tinh bão tố có lẽ được biết đến nhiều nhất với Vết Đỏ Lớn. Nơi này thực chất là một cơn bão dữ dội khổng lồ đã hoành hành hơn 300 năm.",
+     "kind": "paragraph",
+     "topic_vi": null,
+     "source_urls": [
+      "https://spaceplace.nasa.gov/all-about-jupiter/en/",
+      "https://spaceplace.nasa.gov/all-about-jupiter/"
+     ]
+    }
+   ]
+  },
+  "saturn": {
+   "name_vi": "Sao Thổ",
+   "source_urls": [
+    "https://spaceplace.nasa.gov/all-about-saturn/en/",
+    "https://spaceplace.nasa.gov/all-about-saturn/"
+   ],
+   "facts": [
+    {
+     "id": "saturn-1c153f95",
+     "text": "Sao Thổ là một khối khí khổng lồ giống như Sao Mộc. Nó được làm chủ yếu từ hydro và heli.",
+     "kind": "bullet",
+     "topic_vi": "Cấu tạo và bề mặt",
+     "source_urls": [
+      "https://spaceplace.nasa.gov/all-about-saturn/en/",
+      "https://spaceplace.nasa.gov/all-about-saturn/"
+     ]
+    },
+    {
+     "id": "saturn-a22c646c",
+     "text": "Sao Thổ có bầu khí quyển dày đặc.",
+     "kind": "bullet",
+     "topic_vi": "Cấu tạo và bề mặt",
+     "source_urls": [
+      "https://spaceplace.nasa.gov/all-about-saturn/en/",
+      "https://spaceplace.nasa.gov/all-about-saturn/"
+     ]
+    },
+    {
+     "id": "saturn-ad64fbf8",
+     "text": "Sao Thổ có một bộ bảy vành đai chính đáng yêu với khoảng cách giữa chúng.",
+     "kind": "bullet",
+     "topic_vi": "Cấu tạo và bề mặt",
+     "source_urls": [
+      "https://spaceplace.nasa.gov/all-about-saturn/en/",
+      "https://spaceplace.nasa.gov/all-about-saturn/"
+     ]
+    },
+    {
+     "id": "saturn-04989929",
+     "text": "Một ngày trên Sao Thổ trôi qua chỉ trong 10,7 giờ.",
+     "kind": "bullet",
+     "topic_vi": "Cấu tạo và bề mặt",
+     "source_urls": [
+      "https://spaceplace.nasa.gov/all-about-saturn/en/",
+      "https://spaceplace.nasa.gov/all-about-saturn/"
+     ]
+    },
+    {
+     "id": "saturn-fa726d6f",
+     "text": "Một năm trên Sao Thổ bằng 29 năm trên Trái Đất.",
+     "kind": "bullet",
+     "topic_vi": "Cấu tạo và bề mặt",
+     "source_urls": [
+      "https://spaceplace.nasa.gov/all-about-saturn/en/",
+      "https://spaceplace.nasa.gov/all-about-saturn/"
+     ]
+    },
+    {
+     "id": "saturn-7f7cb568",
+     "text": "Tính đến tháng 3 năm 2025, Sao Thổ có 274 Mặt Trăng.",
+     "kind": "bullet",
+     "topic_vi": "Các hành tinh lân cận của Sao Thổ",
+     "source_urls": [
+      "https://spaceplace.nasa.gov/all-about-saturn/en/",
+      "https://spaceplace.nasa.gov/all-about-saturn/"
+     ]
+    },
+    {
+     "id": "saturn-601c98ae",
+     "text": "Sao Thổ là hành tinh thứ sáu tính từ Mặt Trời. Điều đó có nghĩa là Sao Mộc và Sao Thiên Vương là các hành tinh lân cận của Sao Thổ.",
+     "kind": "bullet",
+     "topic_vi": "Các hành tinh lân cận của Sao Thổ",
+     "source_urls": [
+      "https://spaceplace.nasa.gov/all-about-saturn/en/",
+      "https://spaceplace.nasa.gov/all-about-saturn/"
+     ]
+    },
+    {
+     "id": "saturn-94485b68",
+     "text": "Sao Thổ đã được biết đến từ thời cổ đại vì nó có thể được nhìn thấy mà không cần kính thiên văn tiên tiến.",
+     "kind": "bullet",
+     "topic_vi": "Các hành tinh lân cận của Sao Thổ",
+     "source_urls": [
+      "https://spaceplace.nasa.gov/all-about-saturn/en/",
+      "https://spaceplace.nasa.gov/all-about-saturn/"
+     ]
+    },
+    {
+     "id": "saturn-e90f1eec",
+     "text": "Bốn tàu vũ trụ robot đã ghé thăm Sao Thổ, bao gồm Pioneer 11, Cassini và Voyager 1 và 2.",
+     "kind": "bullet",
+     "topic_vi": "Các hành tinh lân cận của Sao Thổ",
+     "source_urls": [
+      "https://spaceplace.nasa.gov/all-about-saturn/en/",
+      "https://spaceplace.nasa.gov/all-about-saturn/"
+     ]
+    },
+    {
+     "id": "saturn-4c0127e2",
+     "text": "Sao Thổ không phải là hành tinh duy nhất có vành đai, nhưng nó chắc chắn có những vành đai đẹp nhất. Những vành đai mà chúng ta nhìn thấy được tạo thành từ những nhóm vành đai nhỏ bao quanh Sao Thổ. Chúng được làm từ những khối băng và đá. Giống như Sao Mộc, Sao Thổ chủ yếu là một quả cầu hydro và heli.",
+     "kind": "paragraph",
+     "topic_vi": null,
+     "source_urls": [
+      "https://spaceplace.nasa.gov/all-about-saturn/en/",
+      "https://spaceplace.nasa.gov/all-about-saturn/"
+     ]
+    },
+    {
+     "id": "saturn-e0627898",
+     "text": "Khi Galileo Galilei nhìn thấy Sao Thổ qua kính viễn vọng vào những năm 1600, ông không chắc mình đang nhìn thấy gì. Lúc đầu anh ấy nghĩ mình đang nhìn ba hành tinh, hoặc một hành tinh có tay cầm. Bây giờ chúng ta biết những \"tay cầm\" đó hóa ra là các vành đai của Sao Thổ.",
+     "kind": "paragraph",
+     "topic_vi": null,
+     "source_urls": [
+      "https://spaceplace.nasa.gov/all-about-saturn/en/",
+      "https://spaceplace.nasa.gov/all-about-saturn/"
+     ]
+    }
+   ]
+  },
+  "uranus": {
+   "name_vi": "Sao Thiên Vương",
+   "source_urls": [
+    "https://spaceplace.nasa.gov/all-about-uranus/en/",
+    "https://spaceplace.nasa.gov/all-about-uranus/"
+   ],
+   "facts": [
+    {
+     "id": "uranus-8532817b",
+     "text": "Sao Thiên Vương được bao quanh bởi một bộ 13 vòng.",
+     "kind": "bullet",
+     "topic_vi": "Cấu tạo và bề mặt",
+     "source_urls": [
+      "https://spaceplace.nasa.gov/all-about-uranus/en/",
+      "https://spaceplace.nasa.gov/all-about-uranus/"
+     ]
+    },
+    {
+     "id": "uranus-f6381963",
+     "text": "Sao Thiên Vương là một hành tinh băng khổng lồ (thay vì hành tinh khí khổng lồ). Nó chủ yếu được làm bằng vật liệu băng giá chảy phía trên lõi rắn.",
+     "kind": "bullet",
+     "topic_vi": "Cấu tạo và bề mặt",
+     "source_urls": [
+      "https://spaceplace.nasa.gov/all-about-uranus/en/",
+      "https://spaceplace.nasa.gov/all-about-uranus/"
+     ]
+    },
+    {
+     "id": "uranus-d5262311",
+     "text": "Sao Thiên Vương có bầu khí quyển dày đặc được tạo thành từ metan, hydro và heli.",
+     "kind": "bullet",
+     "topic_vi": "Cấu tạo và bề mặt",
+     "source_urls": [
+      "https://spaceplace.nasa.gov/all-about-uranus/en/",
+      "https://spaceplace.nasa.gov/all-about-uranus/"
+     ]
+    },
+    {
+     "id": "uranus-4b4c8479",
+     "text": "Sao Thiên Vương là hành tinh duy nhất có trục quay gần như nằm ngang.",
+     "kind": "bullet",
+     "topic_vi": "Cấu tạo và bề mặt",
+     "source_urls": [
+      "https://spaceplace.nasa.gov/all-about-uranus/en/",
+      "https://spaceplace.nasa.gov/all-about-uranus/"
+     ]
+    },
+    {
+     "id": "uranus-a17c117d",
+     "text": "Sao Thiên Vương quay theo hướng ngược lại với Trái Đất và hầu hết các hành tinh khác.",
+     "kind": "bullet",
+     "topic_vi": "Cấu tạo và bề mặt",
+     "source_urls": [
+      "https://spaceplace.nasa.gov/all-about-uranus/en/",
+      "https://spaceplace.nasa.gov/all-about-uranus/"
+     ]
+    },
+    {
+     "id": "uranus-7721db80",
+     "text": "Một ngày trên Sao Thiên Vương kéo dài hơn 17 giờ một chút (chính xác là 17 giờ 14 phút).",
+     "kind": "bullet",
+     "topic_vi": "Cấu tạo và bề mặt",
+     "source_urls": [
+      "https://spaceplace.nasa.gov/all-about-uranus/en/",
+      "https://spaceplace.nasa.gov/all-about-uranus/"
+     ]
+    },
+    {
+     "id": "uranus-3d4ff399",
+     "text": "Một năm trên Sao Thiên Vương bằng 84 năm trên Trái Đất. Đó là một thời gian dài để chờ đợi một chiếc bánh sinh nhật.",
+     "kind": "bullet",
+     "topic_vi": "Cấu tạo và bề mặt",
+     "source_urls": [
+      "https://spaceplace.nasa.gov/all-about-uranus/en/",
+      "https://spaceplace.nasa.gov/all-about-uranus/"
+     ]
+    },
+    {
+     "id": "uranus-c81b62a8",
+     "text": "Sao Thiên Vương có 29 Mặt Trăng được công nhận chính thức (theo NASA, tháng 8 năm 2026).",
+     "kind": "bullet",
+     "topic_vi": "Các hành tinh lân cận của Sao Thiên Vương",
+     "source_urls": [
+      "https://spaceplace.nasa.gov/all-about-uranus/en/",
+      "https://spaceplace.nasa.gov/all-about-uranus/"
+     ]
+    },
+    {
+     "id": "uranus-5911e1a5",
+     "text": "Sao Thiên Vương là hành tinh thứ bảy tính từ Mặt Trời. Điều đó có nghĩa là Sao Thổ và Sao Hải Vương là các hành tinh lân cận của Sao Thiên Vương.",
+     "kind": "bullet",
+     "topic_vi": "Các hành tinh lân cận của Sao Thiên Vương",
+     "source_urls": [
+      "https://spaceplace.nasa.gov/all-about-uranus/en/",
+      "https://spaceplace.nasa.gov/all-about-uranus/"
+     ]
+    },
+    {
+     "id": "uranus-0146c3f4",
+     "text": "Sao Thiên Vương được phát hiện vào năm 1781 bởi William Herschel ở Anh.",
+     "kind": "bullet",
+     "topic_vi": "Các hành tinh lân cận của Sao Thiên Vương",
+     "source_urls": [
+      "https://spaceplace.nasa.gov/all-about-uranus/en/",
+      "https://spaceplace.nasa.gov/all-about-uranus/"
+     ]
+    },
+    {
+     "id": "uranus-f8ed764c",
+     "text": "Sao Thiên Vương chỉ được du hành 2 ghé thăm.",
+     "kind": "bullet",
+     "topic_vi": "Các hành tinh lân cận của Sao Thiên Vương",
+     "source_urls": [
+      "https://spaceplace.nasa.gov/all-about-uranus/en/",
+      "https://spaceplace.nasa.gov/all-about-uranus/"
+     ]
+    },
+    {
+     "id": "uranus-1b3dce8d",
+     "text": "Sao Thiên Vương được tạo thành từ nước, khí metan và chất lỏng amoniac phía trên một trung tâm đá nhỏ. Bầu khí quyển của nó được tạo thành từ hydro và heli giống như Sao Mộc và Sao Thổ, nhưng nó cũng có khí mê-tan. Khí mê-tan làm cho Sao Thiên Vương có màu xanh.",
+     "kind": "paragraph",
+     "topic_vi": null,
+     "source_urls": [
+      "https://spaceplace.nasa.gov/all-about-uranus/en/",
+      "https://spaceplace.nasa.gov/all-about-uranus/"
+     ]
+    },
+    {
+     "id": "uranus-09671495",
+     "text": "Sao Thiên Vương cũng có những vành đai mờ nhạt. Các vòng bên trong hẹp và tối. Các vòng bên ngoài có màu sắc rực rỡ và dễ nhìn hơn. Giống như Sao Kim, Sao Thiên Vương quay theo hướng ngược lại như hầu hết các hành tinh khác. Và không giống như bất kỳ hành tinh nào khác, Sao Thiên Vương quay nghiêng, với trục quay gần như nằm ngang.",
+     "kind": "paragraph",
+     "topic_vi": null,
+     "source_urls": [
+      "https://spaceplace.nasa.gov/all-about-uranus/en/",
+      "https://spaceplace.nasa.gov/all-about-uranus/"
+     ]
+    }
+   ]
+  },
+  "neptune": {
+   "name_vi": "Sao Hải Vương",
+   "source_urls": [
+    "https://spaceplace.nasa.gov/all-about-neptune/en/",
+    "https://spaceplace.nasa.gov/all-about-neptune/"
+   ],
+   "facts": [
+    {
+     "id": "neptune-018e1815",
+     "text": "Sao Hải Vương được bao quanh bởi sáu vành đai.",
+     "kind": "bullet",
+     "topic_vi": "Cấu tạo và bề mặt",
+     "source_urls": [
+      "https://spaceplace.nasa.gov/all-about-neptune/en/",
+      "https://spaceplace.nasa.gov/all-about-neptune/"
+     ]
+    },
+    {
+     "id": "neptune-cd1b16ce",
+     "text": "Sao Hải Vương, giống như Sao Thiên Vương, là một hành tinh băng khổng lồ. Nó tương tự như một hành tinh khí khổng lồ. Nó được tạo thành từ một hỗn hợp đặc gồm nước, amoniac và metan chảy qua một lõi rắn có kích thước bằng Trái Đất.",
+     "kind": "bullet",
+     "topic_vi": "Cấu tạo và bề mặt",
+     "source_urls": [
+      "https://spaceplace.nasa.gov/all-about-neptune/en/",
+      "https://spaceplace.nasa.gov/all-about-neptune/"
+     ]
+    },
+    {
+     "id": "neptune-334a3377",
+     "text": "Sao Hải Vương có bầu khí quyển dày và nhiều gió.",
+     "kind": "bullet",
+     "topic_vi": "Cấu tạo và bề mặt",
+     "source_urls": [
+      "https://spaceplace.nasa.gov/all-about-neptune/en/",
+      "https://spaceplace.nasa.gov/all-about-neptune/"
+     ]
+    },
+    {
+     "id": "neptune-fd47d899",
+     "text": "Một ngày trên Sao Hải Vương trôi qua trong 16 giờ.",
+     "kind": "bullet",
+     "topic_vi": "Thời gian trên Sao Hải Vương",
+     "source_urls": [
+      "https://spaceplace.nasa.gov/all-about-neptune/en/",
+      "https://spaceplace.nasa.gov/all-about-neptune/"
+     ]
+    },
+    {
+     "id": "neptune-6ebd6de3",
+     "text": "Sao Hải Vương có một hành trình dài quanh Mặt Trời, phải mất 165 năm Trái Đất mới quay được một vòng. Đó là một năm dài!",
+     "kind": "bullet",
+     "topic_vi": "Thời gian trên Sao Hải Vương",
+     "source_urls": [
+      "https://spaceplace.nasa.gov/all-about-neptune/en/",
+      "https://spaceplace.nasa.gov/all-about-neptune/"
+     ]
+    },
+    {
+     "id": "neptune-ba228348",
+     "text": "Sao Hải Vương có 16 Mặt Trăng.",
+     "kind": "bullet",
+     "topic_vi": "Các hành tinh lân cận của Sao Hải Vương",
+     "source_urls": [
+      "https://spaceplace.nasa.gov/all-about-neptune/en/",
+      "https://spaceplace.nasa.gov/all-about-neptune/"
+     ]
+    },
+    {
+     "id": "neptune-d6254d65",
+     "text": "Sao Hải Vương là hành tinh thứ tám và xa nhất tính từ Mặt Trời. Điều đó có nghĩa là Sao Thiên Vương là hành tinh lân cận duy nhất của Sao Hải Vương.",
+     "kind": "bullet",
+     "topic_vi": "Các hành tinh lân cận của Sao Hải Vương",
+     "source_urls": [
+      "https://spaceplace.nasa.gov/all-about-neptune/en/",
+      "https://spaceplace.nasa.gov/all-about-neptune/"
+     ]
+    },
+    {
+     "id": "neptune-90072bcd",
+     "text": "Sao Hải Vương được phát hiện vào năm 1846 bởi Urbain Le Verrier, John Couch Adams và Johann Galle.",
+     "kind": "bullet",
+     "topic_vi": "Các hành tinh lân cận của Sao Hải Vương",
+     "source_urls": [
+      "https://spaceplace.nasa.gov/all-about-neptune/en/",
+      "https://spaceplace.nasa.gov/all-about-neptune/"
+     ]
+    },
+    {
+     "id": "neptune-1a4530b7",
+     "text": "Chỉ có Voyager 2 đã đến thăm Sao Hải Vương.",
+     "kind": "bullet",
+     "topic_vi": "Các hành tinh lân cận của Sao Hải Vương",
+     "source_urls": [
+      "https://spaceplace.nasa.gov/all-about-neptune/en/",
+      "https://spaceplace.nasa.gov/all-about-neptune/"
+     ]
+    }
+   ]
+  },
+  "pluto": {
+   "name_vi": "Sao Diêm Vương",
+   "source_urls": [
+    "https://spaceplace.nasa.gov/all-about-pluto/en/",
+    "https://spaceplace.nasa.gov/all-about-pluto/"
+   ],
+   "facts": [
+    {
+     "id": "pluto-df742b12",
+     "text": "Sao Diêm Vương thực sự ở gần Mặt Trời hơn Sao Hải Vương trong khoảng 8% quỹ đạo của nó.",
+     "kind": "bullet",
+     "topic_vi": "Câu nào mô tả Sao Diêm Vương chính xác nhất?",
+     "source_urls": [
+      "https://spaceplace.nasa.gov/all-about-pluto/en/",
+      "https://spaceplace.nasa.gov/all-about-pluto/"
+     ]
+    },
+    {
+     "id": "pluto-e107419b",
+     "text": "Sao Diêm Vương chỉ là một trong nhiều vật thể băng giá ở một khu vực xa xôi trong hệ Mặt Trời của chúng ta.",
+     "kind": "bullet",
+     "topic_vi": "Câu nào mô tả Sao Diêm Vương chính xác nhất?",
+     "source_urls": [
+      "https://spaceplace.nasa.gov/all-about-pluto/en/",
+      "https://spaceplace.nasa.gov/all-about-pluto/"
+     ]
+    },
+    {
+     "id": "pluto-d1c9a8fc",
+     "text": "Sao Diêm Vương và vệ tinh lớn Charon của nó bị nghiêng về một phía.",
+     "kind": "bullet",
+     "topic_vi": "Câu nào mô tả Sao Diêm Vương chính xác nhất?",
+     "source_urls": [
+      "https://spaceplace.nasa.gov/all-about-pluto/en/",
+      "https://spaceplace.nasa.gov/all-about-pluto/"
+     ]
+    },
+    {
+     "id": "pluto-d9947aa1",
+     "text": "Sao Diêm Vương ở xa Mặt Trời hơn gần 40 lần so với Trái Đất.",
+     "kind": "bullet",
+     "topic_vi": "Câu nào mô tả Sao Diêm Vương chính xác nhất?",
+     "source_urls": [
+      "https://spaceplace.nasa.gov/all-about-pluto/en/",
+      "https://spaceplace.nasa.gov/all-about-pluto/"
+     ]
+    },
+    {
+     "id": "pluto-dc9a3179",
+     "text": "Sao Diêm Vương chỉ có chiều rộng bằng một nửa nước Mỹ. Charon, một trong năm Mặt Trăng của Sao Diêm Vương, có kích thước bằng một nửa Sao Diêm Vương. Charon là Mặt Trăng lớn nhất so với vật thể mà nó quay quanh (dù là hành tinh hay hành tinh lùn) so với bất kỳ Mặt Trăng nào trong hệ Mặt Trời.",
+     "kind": "bullet",
+     "topic_vi": "Thêm sự thật thú vị về Sao Diêm Vương",
+     "source_urls": [
+      "https://spaceplace.nasa.gov/all-about-pluto/en/",
+      "https://spaceplace.nasa.gov/all-about-pluto/"
+     ]
+    },
+    {
+     "id": "pluto-c4b2fb6b",
+     "text": "Hầu như tất cả các hành tinh trong hệ Mặt Trời của chúng ta đều chuyển động quanh Mặt Trời theo những vòng tròn gần như hoàn hảo. Nhưng Sao Diêm Vương thì không. Nó đi theo một đường hình bầu dục với Mặt Trời không ở gần trung tâm của nó. Hơn nữa, đường đi của nó khá nghiêng so với mặt phẳng đẹp đẽ, trật tự nơi hầu hết các hành tinh quay quanh.",
+     "kind": "bullet",
+     "topic_vi": "Thêm sự thật thú vị về Sao Diêm Vương",
+     "source_urls": [
+      "https://spaceplace.nasa.gov/all-about-pluto/en/",
+      "https://spaceplace.nasa.gov/all-about-pluto/"
+     ]
+    },
+    {
+     "id": "pluto-6a03cb8f",
+     "text": "So với hầu hết các hành tinh khác và Mặt Trăng của chúng, Sao Diêm Vương và Charon nghiêng về một phía. Hành tinh duy nhất quay nghiêng như thế này là Sao Thiên Vương.",
+     "kind": "bullet",
+     "topic_vi": "Thêm sự thật thú vị về Sao Diêm Vương",
+     "source_urls": [
+      "https://spaceplace.nasa.gov/all-about-pluto/en/",
+      "https://spaceplace.nasa.gov/all-about-pluto/"
+     ]
+    },
+    {
+     "id": "pluto-ab50fb8e",
+     "text": "Nếu bạn sống trên Sao Diêm Vương, bạn sẽ phải sống 248 năm Trái Đất để kỷ niệm sinh nhật đầu tiên của mình theo năm Sao Diêm Vương.",
+     "kind": "bullet",
+     "topic_vi": "Thêm sự thật thú vị về Sao Diêm Vương",
+     "source_urls": [
+      "https://spaceplace.nasa.gov/all-about-pluto/en/",
+      "https://spaceplace.nasa.gov/all-about-pluto/"
+     ]
+    },
+    {
+     "id": "pluto-0bca8dcd",
+     "text": "Nếu bạn sống trên Sao Diêm Vương, bạn sẽ chỉ nhìn thấy Charon từ một phía của hành tinh. Quỹ đạo của Charon quanh Sao Diêm Vương mất khoảng 6,5 ngày Trái Đất. Ngày của Sao Diêm Vương (nghĩa là một vòng quay hoàn chỉnh) mất cùng một khoảng thời gian. Điều đó có nghĩa là Charon luôn “lơ lửng” trên cùng một điểm trên bề mặt Sao Diêm Vương, và cùng một phía của Charon luôn hướng về Sao Diêm Vương.",
+     "kind": "bullet",
+     "topic_vi": "Thêm sự thật thú vị về Sao Diêm Vương",
+     "source_urls": [
+      "https://spaceplace.nasa.gov/all-about-pluto/en/",
+      "https://spaceplace.nasa.gov/all-about-pluto/"
+     ]
+    },
+    {
+     "id": "pluto-f105d6db",
+     "text": "Ở khoảng cách hiện tại của Sao Diêm Vương với Mặt Trời, nhiệt độ trên bề mặt của nó là khoảng 400 độ dưới 0 độ F! Nó sẽ càng lạnh hơn khi di chuyển ra xa Mặt Trời. Từ Sao Diêm Vương, Mặt Trời trông giống như một chấm sáng trên bầu trời, là ngôi sao sáng nhất có thể nhìn thấy được. Ánh sáng từ Mặt Trời sáng trên Sao Diêm Vương cũng như ánh sáng từ Mặt Trăng tròn trên Trái Đất.",
+     "kind": "bullet",
+     "topic_vi": "Thêm sự thật thú vị về Sao Diêm Vương",
+     "source_urls": [
+      "https://spaceplace.nasa.gov/all-about-pluto/en/",
+      "https://spaceplace.nasa.gov/all-about-pluto/"
+     ]
+    },
+    {
+     "id": "pluto-52a6e3b4",
+     "text": "Nếu bạn nặng 100 pound trên Trái Đất, bạn sẽ chỉ nặng 7 pound trên Sao Diêm Vương!",
+     "kind": "bullet",
+     "topic_vi": "Thêm sự thật thú vị về Sao Diêm Vương",
+     "source_urls": [
+      "https://spaceplace.nasa.gov/all-about-pluto/en/",
+      "https://spaceplace.nasa.gov/all-about-pluto/"
+     ]
+    },
+    {
+     "id": "pluto-445e3859",
+     "text": "Sao Diêm Vương quay quanh một khu vực xa xôi của hệ Mặt Trời được gọi là Vành đai Kuiper (KY-purr). Ngoài kia có rất nhiều vật thể bằng đá, băng giá. Nhưng chúng ở quá xa Mặt Trời nên thực sự rất khó nhìn thấy, ngay cả với những kính thiên văn mạnh mẽ.",
+     "kind": "bullet",
+     "topic_vi": "Thêm sự thật thú vị về Sao Diêm Vương",
+     "source_urls": [
+      "https://spaceplace.nasa.gov/all-about-pluto/en/",
+      "https://spaceplace.nasa.gov/all-about-pluto/"
+     ]
+    },
+    {
+     "id": "pluto-43f6edc4",
+     "text": "Vào năm 2015, cách đó ba tỷ dặm, Sao Diêm Vương đã gửi “lời nhắn tình yêu” trở lại Trái Đất thông qua tàu vũ trụ New Horizons của NASA.",
+     "kind": "paragraph",
+     "topic_vi": null,
+     "source_urls": [
+      "https://spaceplace.nasa.gov/all-about-pluto/en/",
+      "https://spaceplace.nasa.gov/all-about-pluto/"
+     ]
+    },
+    {
+     "id": "pluto-e058229b",
+     "text": "Điều đầu tiên là… Sao Diêm Vương có phải là một hành tinh không? Năm 2006, Sao Diêm Vương được phân loại lại từ một hành tinh… thành hành tinh lùn. Sao Diêm Vương hiện được phân loại là hành tinh lùn cùng với các vật thể khác trong hệ Mặt Trời tương tự như Sao Diêm Vương: Ceres, Makemake, Haumea và Eris.",
+     "kind": "paragraph",
+     "topic_vi": null,
+     "source_urls": [
+      "https://spaceplace.nasa.gov/all-about-pluto/en/",
+      "https://spaceplace.nasa.gov/all-about-pluto/"
+     ]
+    },
+    {
+     "id": "pluto-87425024",
+     "text": "Sao Diêm Vương là một hành tinh lùn nằm trong Vành đai Kuiper [KI-per]. Đó là một khu vực chứa đầy các vật thể băng giá và các hành tinh lùn khác ở rìa hệ Mặt Trời của chúng ta. Sao Diêm Vương được mệnh danh là “Vua của Vành đai Kuiper” – và nó là vật thể lớn nhất trong khu vực, mặc dù một vật thể khác có kích thước tương tự, gọi là Eris, có khối lượng cao hơn một chút.",
+     "kind": "paragraph",
+     "topic_vi": "Câu nào mô tả Sao Diêm Vương chính xác nhất?",
+     "source_urls": [
+      "https://spaceplace.nasa.gov/all-about-pluto/en/",
+      "https://spaceplace.nasa.gov/all-about-pluto/"
+     ]
+    },
+    {
+     "id": "pluto-e395fffd",
+     "text": "Có một điều chắc chắn. Sao Diêm Vương và vùng lân cận của nó rất đặc biệt. Nếu các nhà khoa học có thể làm sáng tỏ một số bí ẩn của chúng, chúng ta sẽ biết nhiều hơn về cách hệ Mặt Trời của chúng ta hình thành.",
+     "kind": "paragraph",
+     "topic_vi": "Câu nào mô tả Sao Diêm Vương chính xác nhất?",
+     "source_urls": [
+      "https://spaceplace.nasa.gov/all-about-pluto/en/",
+      "https://spaceplace.nasa.gov/all-about-pluto/"
+     ]
+    },
+    {
+     "id": "pluto-f3070ba1",
+     "text": "Cách đây một thời gian, Sao Diêm Vương là hành tinh thứ chín tính từ Mặt Trời. Nó cũng là hành tinh nhỏ nhất.",
+     "kind": "paragraph",
+     "topic_vi": "Nhưng vì sao Sao Diêm Vương không phải là một hành tinh?",
+     "source_urls": [
+      "https://spaceplace.nasa.gov/all-about-pluto/en/",
+      "https://spaceplace.nasa.gov/all-about-pluto/"
+     ]
+    },
+    {
+     "id": "pluto-98fb8c10",
+     "text": "Các nhà thiên văn học đã đặt tên cho bốn vật thể khác trong hệ Mặt Trời có kích thước nhỏ tương đương với Sao Diêm Vương. Chúng là Ceres [SEAR-ees], Makemake (MAH-kee-MAH-kee], Haumea (HOW-may-ah] và Eris (AIR-iss). Eris có thể lớn bằng hoặc thậm chí lớn hơn một chút so với Sao Diêm Vương. Nhưng nhìn chung, những vật thể này, cùng với Sao Diêm Vương, nhỏ hơn nhiều so với các hành tinh “khác”.",
+     "kind": "paragraph",
+     "topic_vi": "Nhưng vì sao Sao Diêm Vương không phải là một hành tinh?",
+     "source_urls": [
+      "https://spaceplace.nasa.gov/all-about-pluto/en/",
+      "https://spaceplace.nasa.gov/all-about-pluto/"
+     ]
+    },
+    {
+     "id": "pluto-a736a225",
+     "text": "Ceres quay quanh vành đai tiểu hành tinh giữa Sao Hỏa và Sao Mộc. Makemake, giống như Sao Diêm Vương, là một phần của Vành đai Kuiper, là khu vực có hàng nghìn tỷ vật thể băng giá quay quanh Sao Hải Vương. Quỹ đạo của Eris thậm chí còn xa hơn nữa.",
+     "kind": "paragraph",
+     "topic_vi": "Nhưng vì sao Sao Diêm Vương không phải là một hành tinh?",
+     "source_urls": [
+      "https://spaceplace.nasa.gov/all-about-pluto/en/",
+      "https://spaceplace.nasa.gov/all-about-pluto/"
+     ]
+    },
+    {
+     "id": "pluto-5682163f",
+     "text": "Các nhà thiên văn học đã xếp những vật thể này vào một họ mới gọi là hành tinh lùn.",
+     "kind": "paragraph",
+     "topic_vi": "Nhưng vì sao Sao Diêm Vương không phải là một hành tinh?",
+     "source_urls": [
+      "https://spaceplace.nasa.gov/all-about-pluto/en/",
+      "https://spaceplace.nasa.gov/all-about-pluto/"
+     ]
+    },
+    {
+     "id": "pluto-f6f7404e",
+     "text": "Cuối cùng chúng tôi đã đến thăm Sao Diêm Vương, Charon và Vành đai Kuiper! Vào ngày 19 tháng 1 năm 2006, NASA đã phóng một tàu vũ trụ robot vào cuộc hành trình dài. Nhiệm vụ này được gọi là New Horizons. New Horizons bay ngang qua Sao Diêm Vương và các Mặt Trăng của nó vào ngày 14 tháng 7 năm 2015 và tiếp tục nghiên cứu các vật thể khác trong Vành đai Kuiper cho đến ngày nay.",
+     "kind": "paragraph",
+     "topic_vi": "Hành trình đến Sao Diêm Vương!",
+     "source_urls": [
+      "https://spaceplace.nasa.gov/all-about-pluto/en/",
+      "https://spaceplace.nasa.gov/all-about-pluto/"
+     ]
+    },
+    {
+     "id": "pluto-29b359a1",
+     "text": "Với New Horizons, chúng ta đang thăm quan và tìm hiểu về các vật thể ở rìa hệ Mặt Trời của chúng ta. Chúng có thể giúp chúng ta hiểu hệ Mặt Trời của chúng ta hình thành như thế nào.",
+     "kind": "paragraph",
+     "topic_vi": "Hành trình đến Sao Diêm Vương!",
+     "source_urls": [
+      "https://spaceplace.nasa.gov/all-about-pluto/en/",
+      "https://spaceplace.nasa.gov/all-about-pluto/"
+     ]
+    }
+   ]
+  },
+  "moon": {
+   "name_vi": "Mặt Trăng",
+   "source_urls": [
+    "https://spaceplace.nasa.gov/all-about-the-moon/en/",
+    "https://spaceplace.nasa.gov/all-about-the-moon/"
+   ],
+   "facts": [
+    {
+     "id": "moon-686b2b94",
+     "text": "Rất có thể khi bạn tưởng tượng về bầu trời đêm, một trong những điều đầu tiên hiện lên trong đầu bạn là Mặt Trăng “phát sáng” trong bóng tối. Mặt Trăng luôn giữ một vị trí đặc biệt trong trí tưởng tượng và trong cuộc sống hàng ngày của chúng ta.",
+     "kind": "paragraph",
+     "topic_vi": null,
+     "source_urls": [
+      "https://spaceplace.nasa.gov/all-about-the-moon/en/",
+      "https://spaceplace.nasa.gov/all-about-the-moon/"
+     ]
+    },
+    {
+     "id": "moon-9b018b96",
+     "text": "Không có gì ngạc nhiên khi Mặt Trăng khiến chúng ta say mê. Mặt Trăng là vệ tinh tự nhiên duy nhất của Trái Đất và là vệ tinh mà chúng ta có thể dễ dàng nhìn thấy hầu hết các đêm.",
+     "kind": "paragraph",
+     "topic_vi": null,
+     "source_urls": [
+      "https://spaceplace.nasa.gov/all-about-the-moon/en/",
+      "https://spaceplace.nasa.gov/all-about-the-moon/"
+     ]
+    },
+    {
+     "id": "moon-56766144",
+     "text": "Mặt Trăng không tỏa sáng bằng ánh sáng của chính nó. Nó chỉ đơn giản phản chiếu ánh sáng đến từ Mặt Trời.",
+     "kind": "paragraph",
+     "topic_vi": "Điều gì làm cho Mặt Trăng phát sáng?",
+     "source_urls": [
+      "https://spaceplace.nasa.gov/all-about-the-moon/en/",
+      "https://spaceplace.nasa.gov/all-about-the-moon/"
+     ]
+    },
+    {
+     "id": "moon-aeedf2ca",
+     "text": "Từ Trái Đất, có thể trông giống như Mặt Trăng đang thay đổi hình dạng mỗi đêm – từ một mảnh nhỏ đến nửa vầng trăng rồi đến trăng tròn và ngược lại. Điều thực sự đang xảy ra là từ vị trí của chúng ta trên Trái Đất, chúng ta nhìn thấy các phần khác nhau của Mặt Trăng được Mặt Trời chiếu sáng khi Mặt Trăng di chuyển trên quỹ đạo của nó.",
+     "kind": "paragraph",
+     "topic_vi": "Tại sao có vẻ như Mặt Trăng đang thay đổi hình dạng?",
+     "source_urls": [
+      "https://spaceplace.nasa.gov/all-about-the-moon/en/",
+      "https://spaceplace.nasa.gov/all-about-the-moon/"
+     ]
+    },
+    {
+     "id": "moon-88ea205c",
+     "text": "Khi Mặt Trăng di chuyển quanh Trái Đất, các phần khác nhau của nó được Mặt Trời chiếu sáng. Những thay đổi về diện mạo của Mặt Trăng từ góc nhìn của chúng ta trên Trái Đất được gọi là các giai đoạn của Mặt Trăng. Đồ họa này hiển thị tất cả tám giai đoạn Mặt Trăng mà chúng ta thấy khi Mặt Trăng tạo thành một quỹ đạo hoàn chỉnh quanh Trái Đất khoảng bốn tuần một lần.",
+     "kind": "paragraph",
+     "topic_vi": "Tại sao có vẻ như Mặt Trăng đang thay đổi hình dạng?",
+     "source_urls": [
+      "https://spaceplace.nasa.gov/all-about-the-moon/en/",
+      "https://spaceplace.nasa.gov/all-about-the-moon/"
+     ]
+    },
+    {
+     "id": "moon-65a22416",
+     "text": "Không. Mặt Trăng quay trên trục của chính nó với tốc độ tương đương với tốc độ nó quay quanh Trái Đất. Điều đó có nghĩa là chúng ta luôn nhìn thấy cùng một phía của Mặt Trăng từ vị trí của chúng ta trên Trái Đất. Phía mà chúng ta không nhìn thấy cũng nhận được nhiều ánh sáng, vì vậy tên chính xác hơn cho phần đó của Mặt Trăng là \"phía xa\".",
+     "kind": "paragraph",
+     "topic_vi": "Thực sự có một “mặt tối” của Mặt Trăng?",
+     "source_urls": [
+      "https://spaceplace.nasa.gov/all-about-the-moon/en/",
+      "https://spaceplace.nasa.gov/all-about-the-moon/"
+     ]
+    },
+    {
+     "id": "moon-ce4494e0",
+     "text": "Chúng ta chỉ nhìn thấy một mặt của Mặt Trăng vì khi nó quay quanh Trái Đất, nó cũng quay trên trục của chính mình với tốc độ tương tự.",
+     "kind": "paragraph",
+     "topic_vi": "Thực sự có một “mặt tối” của Mặt Trăng?",
+     "source_urls": [
+      "https://spaceplace.nasa.gov/all-about-the-moon/en/",
+      "https://spaceplace.nasa.gov/all-about-the-moon/"
+     ]
+    },
+    {
+     "id": "moon-9b2d8c52",
+     "text": "Các nhà khoa học tin rằng Mặt Trăng hình thành sớm trong lịch sử hệ Mặt Trời sau Trái Đất và một vật thể có kích thước bằng Sao Hỏa đã va vào nhau. Vụ va chạm đã gửi các mảnh Trái Đất và vật va chạm vào không gian, bị lực hấp dẫn kéo lại với nhau, tạo ra Mặt Trăng.",
+     "kind": "paragraph",
+     "topic_vi": "Mặt Trăng hình thành như thế nào?",
+     "source_urls": [
+      "https://spaceplace.nasa.gov/all-about-the-moon/en/",
+      "https://spaceplace.nasa.gov/all-about-the-moon/"
+     ]
+    },
+    {
+     "id": "moon-20a58c1f",
+     "text": "Thậm chí hàng nghìn năm trước, con người đã vẽ ra những bức tranh để theo dõi sự thay đổi của Mặt Trăng. Sau này, người ta sử dụng những quan sát về Mặt Trăng để tạo ra lịch.",
+     "kind": "paragraph",
+     "topic_vi": "Chúng ta nghiên cứu Mặt Trăng như thế nào?",
+     "source_urls": [
+      "https://spaceplace.nasa.gov/all-about-the-moon/en/",
+      "https://spaceplace.nasa.gov/all-about-the-moon/"
+     ]
+    },
+    {
+     "id": "moon-ffc3dde8",
+     "text": "Ngày nay, chúng ta nghiên cứu Mặt Trăng bằng kính thiên văn và tàu vũ trụ. Ví dụ, Tàu Quỹ đạo Trinh sát Mặt Trăng của NASA đã bay vòng quanh Mặt Trăng và gửi về các phép đo từ năm 2009.",
+     "kind": "paragraph",
+     "topic_vi": "Chúng ta nghiên cứu Mặt Trăng như thế nào?",
+     "source_urls": [
+      "https://spaceplace.nasa.gov/all-about-the-moon/en/",
+      "https://spaceplace.nasa.gov/all-about-the-moon/"
+     ]
+    },
+    {
+     "id": "moon-85b9698a",
+     "text": "Mặt Trăng là thiên thể duy nhất ngoài Trái Đất mà con người đã đặt chân tới. Vào ngày 20 tháng 7 năm 1969, các phi hành gia NASA Neil Armstrong và Buzz Aldrin là những người đầu tiên đặt chân lên bề mặt bụi bặm của Mặt Trăng. Mười phi hành gia người Mỹ khác theo sau. Họ đã thu thập hàng trăm pound mẫu đất và đá trên Mặt Trăng, tiến hành thí nghiệm và lắp đặt thiết bị để đo đạc tiếp theo.",
+     "kind": "paragraph",
+     "topic_vi": "Chúng ta nghiên cứu Mặt Trăng như thế nào?",
+     "source_urls": [
+      "https://spaceplace.nasa.gov/all-about-the-moon/en/",
+      "https://spaceplace.nasa.gov/all-about-the-moon/"
+     ]
+    },
+    {
+     "id": "moon-750c3b9e",
+     "text": "Phi hành gia Buzz Aldrin đã thiết lập một số thí nghiệm khoa học khi ở trên bề mặt Mặt Trăng trong sứ mệnh lịch sử Apollo 11. Bạn có thể thấy mô-đun Mặt Trăng, “Eagle” ở phía sau.",
+     "kind": "paragraph",
+     "topic_vi": "Chúng ta nghiên cứu Mặt Trăng như thế nào?",
+     "source_urls": [
+      "https://spaceplace.nasa.gov/all-about-the-moon/en/",
+      "https://spaceplace.nasa.gov/all-about-the-moon/"
+     ]
+    },
+    {
+     "id": "moon-c14c794f",
+     "text": "Không có gió hay không khí trên Mặt Trăng giúp “xóa sổ” các miệng hố nên bề mặt bị bao phủ bởi tàn tích của các vụ va chạm cũ và mới.",
+     "kind": "paragraph",
+     "topic_vi": "Chúng ta biết gì về Mặt Trăng?",
+     "source_urls": [
+      "https://spaceplace.nasa.gov/all-about-the-moon/en/",
+      "https://spaceplace.nasa.gov/all-about-the-moon/"
+     ]
+    },
+    {
+     "id": "moon-92cb075c",
+     "text": "Vẫn còn rất nhiều câu hỏi cần trả lời về Mặt Trăng. Và những ngày hoạt động thú vị nhất của Mặt Trăng có thể vẫn còn ở phía trước khi NASA cử con người thực hiện các sứ mệnh tiếp theo tới Mặt Trăng và cuối cùng là tới Sao Hỏa!",
+     "kind": "paragraph",
+     "topic_vi": "Chúng ta biết gì về Mặt Trăng?",
+     "source_urls": [
+      "https://spaceplace.nasa.gov/all-about-the-moon/en/",
+      "https://spaceplace.nasa.gov/all-about-the-moon/"
+     ]
+    }
+   ]
+  },
+  "solar_system": {
+   "name_vi": "Các hành tinh",
+   "source_urls": [
+    "https://spaceplace.nasa.gov/planets/en/"
+   ],
+   "facts": [
+    {
+     "id": "solar_system-96994282",
+     "text": "Hệ Mặt Trời của chúng ta là nhà của tám hành tinh tuyệt vời. Một số hành tinh nhỏ và nhiều đá; các hành tinh khác lại khổng lồ và chủ yếu cấu tạo từ khí. Một số nóng đến mức kim loại có thể nóng chảy trên bề mặt, trong khi những hành tinh khác lại lạnh giá.",
+     "kind": "paragraph",
+     "topic_vi": null,
+     "source_urls": [
+      "https://spaceplace.nasa.gov/planets/en/"
+     ]
+    },
+    {
+     "id": "solar_system-2dbe58ec",
+     "text": "Chúng ta luôn học hỏi những điều mới về các hành tinh lân cận. Chúng ta gửi tàu vũ trụ để chụp ảnh, thu thập thông tin và tìm hiểu thêm về chúng.",
+     "kind": "paragraph",
+     "topic_vi": null,
+     "source_urls": [
+      "https://spaceplace.nasa.gov/planets/en/"
+     ]
+    }
+   ]
+  },
+  "sun": {
+   "name_vi": "Mặt Trời",
+   "source_urls": [
+    "https://spaceplace.nasa.gov/all-about-the-sun/"
+   ],
+   "facts": [
+    {
+     "id": "sun-c31b87d8",
+     "text": "Lực hấp dẫn của Mặt Trời giữ toàn bộ hệ Mặt Trời của chúng ta lại với nhau. Hệ Mặt Trời của chúng ta thậm chí còn được đặt tên theo Mặt Trời (từ tiếng Latin có nghĩa là Mặt Trời là “sol”).",
+     "kind": "bullet",
+     "topic_vi": "Chúng ta không thể sống thiếu Mặt Trời!",
+     "source_urls": [
+      "https://spaceplace.nasa.gov/all-about-the-sun/"
+     ]
+    },
+    {
+     "id": "sun-105a4f72",
+     "text": "Nhiệt từ Mặt Trời làm cho Trái Đất đủ ấm để sinh sống.",
+     "kind": "bullet",
+     "topic_vi": "Chúng ta không thể sống thiếu Mặt Trời!",
+     "source_urls": [
+      "https://spaceplace.nasa.gov/all-about-the-sun/"
+     ]
+    },
+    {
+     "id": "sun-4884d7cd",
+     "text": "Nếu không có ánh sáng từ Mặt Trời, sẽ không có thực vật hay động vật - và do đó, không có thức ăn và chúng ta sẽ không tồn tại.",
+     "kind": "bullet",
+     "topic_vi": "Chúng ta không thể sống thiếu Mặt Trời!",
+     "source_urls": [
+      "https://spaceplace.nasa.gov/all-about-the-sun/"
+     ]
+    },
+    {
+     "id": "sun-d87be1a9",
+     "text": "Mặt Trời trải qua những thăng trầm trong hoạt động giống như những ngọn lửa Mặt Trời. Nó hoạt động mạnh hơn với nhiều vết đen Mặt Trời hơn và sau đó ít hoạt động hơn trong khoảng thời gian 11 năm. Đây được gọi là chu kỳ Mặt Trời.",
+     "kind": "bullet",
+     "topic_vi": "Đã có tàu vũ trụ nào ghé thăm Mặt Trời chưa?",
+     "source_urls": [
+      "https://spaceplace.nasa.gov/all-about-the-sun/"
+     ]
+    },
+    {
+     "id": "sun-81dc4681",
+     "text": "Mặt Trời đang dần sáng hơn kể từ khi nó được sinh ra. Vài tỷ năm trước, Mặt Trời mờ hơn bây giờ một chút.",
+     "kind": "bullet",
+     "topic_vi": "Đã có tàu vũ trụ nào ghé thăm Mặt Trời chưa?",
+     "source_urls": [
+      "https://spaceplace.nasa.gov/all-about-the-sun/"
+     ]
+    },
+    {
+     "id": "sun-7d02b6c6",
+     "text": "Mặt Trời chứa gần như TẤT CẢ vật chất trong hệ Mặt Trời của chúng ta. 99% của nó. Tất cả các hành tinh, tiểu hành tinh và sao chổi cộng lại chỉ chiếm chưa đến 1% tổng số.",
+     "kind": "bullet",
+     "topic_vi": "Đã có tàu vũ trụ nào ghé thăm Mặt Trời chưa?",
+     "source_urls": [
+      "https://spaceplace.nasa.gov/all-about-the-sun/"
+     ]
+    },
+    {
+     "id": "sun-1713edfe",
+     "text": "Mặt Trời ở xa đến mức ánh sáng phải mất khoảng 8 phút 20 giây mới đến được chúng ta – và ánh sáng là thứ nhanh nhất trong vũ trụ.",
+     "kind": "bullet",
+     "topic_vi": "Đã có tàu vũ trụ nào ghé thăm Mặt Trời chưa?",
+     "source_urls": [
+      "https://spaceplace.nasa.gov/all-about-the-sun/"
+     ]
+    },
+    {
+     "id": "sun-dbb40f8c",
+     "text": "Ngôi sao là một quả cầu khí nóng và phát sáng. Khi nhìn lên bầu trời đêm, bạn có thể thấy vô số ngôi sao lấp lánh. Bạn có thể nhìn thấy ngôi sao nào vào ban ngày không? Tất nhiên rồi! Ánh sáng ban ngày đến từ ngôi sao gần chúng ta nhất: Mặt Trời.",
+     "kind": "paragraph",
+     "topic_vi": null,
+     "source_urls": [
+      "https://spaceplace.nasa.gov/all-about-the-sun/"
+     ]
+    },
+    {
+     "id": "sun-6251af71",
+     "text": "Mặt Trời và Trái Đất gần nhau đến mức nào? Gần hơn rất nhiều so với những ngôi sao khác, nhưng vẫn khá xa. Nó cách Trái Đất khoảng 93 triệu dặm. Khoảng cách đó xa hơn 400 lần so với khoảng cách giữa Trái Đất và Mặt Trăng!",
+     "kind": "paragraph",
+     "topic_vi": null,
+     "source_urls": [
+      "https://spaceplace.nasa.gov/all-about-the-sun/"
+     ]
+    },
+    {
+     "id": "sun-badeb883",
+     "text": "Tuy nhiên, thật tốt là Trái Đất không ở quá gần Mặt Trời. Nếu chúng tôi ở quá gần thì sống ở đây sẽ quá nóng. Bề mặt của Mặt Trời rất nóng và bầu khí quyển của nó thậm chí còn nóng hơn. Và lõi của Mặt Trời là phần nóng nhất, ở mức nóng 27 triệu độ F!",
+     "kind": "paragraph",
+     "topic_vi": null,
+     "source_urls": [
+      "https://spaceplace.nasa.gov/all-about-the-sun/"
+     ]
+    },
+    {
+     "id": "sun-005a3ee3",
+     "text": "Mặt Trời của chúng ta rộng hơn Trái Đất khoảng 100 lần nhưng nó chỉ là một ngôi sao có kích thước trung bình. Các nhà thiên văn học đã tìm thấy một số ngôi sao lớn hơn Mặt Trời 100 lần và những ngôi sao khác nhỏ hơn 10 lần.",
+     "kind": "paragraph",
+     "topic_vi": null,
+     "source_urls": [
+      "https://spaceplace.nasa.gov/all-about-the-sun/"
+     ]
+    },
+    {
+     "id": "sun-9574deea",
+     "text": "Mặt Trời cũng đang ở giữa vòng đời của nó. Hiện tại, Mặt Trời của chúng ta đang ở giai đoạn gọi là sao lùn vàng. Nó khoảng 4,5 tỷ năm tuổi. Trong 5 tỷ năm nữa, Mặt Trời sẽ trở thành một ngôi sao to lớn, lạnh lẽo gọi là sao khổng lồ đỏ. Vài tỷ năm sau, nó sẽ trở thành một ngôi sao lùn trắng nhỏ. Nó sẽ co lại có kích thước tương đương với Trái Đất nhưng sẽ nặng hơn 20.000 lần.",
+     "kind": "paragraph",
+     "topic_vi": null,
+     "source_urls": [
+      "https://spaceplace.nasa.gov/all-about-the-sun/"
+     ]
+    },
+    {
+     "id": "sun-0a540045",
+     "text": "Trong hệ Mặt Trời của chúng ta, hành tinh gần Mặt Trời nhất là Sao Thủy. Ngôi sao hàng xóm gần nhất của Mặt Trời của chúng ta được gọi là Proxima Centauri. Nó cách chúng ta khoảng 4 năm ánh sáng.",
+     "kind": "paragraph",
+     "topic_vi": "Các hành tinh lân cận của The Sun",
+     "source_urls": [
+      "https://spaceplace.nasa.gov/all-about-the-sun/"
+     ]
+    },
+    {
+     "id": "sun-d63001b3",
+     "text": "Thêm sự thật thú vị về Mặt Trời!",
+     "kind": "paragraph",
+     "topic_vi": "Đã có tàu vũ trụ nào ghé thăm Mặt Trời chưa?",
+     "source_urls": [
+      "https://spaceplace.nasa.gov/all-about-the-sun/"
+     ]
+    }
+   ]
+  }
+ }
+}

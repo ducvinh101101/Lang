@@ -1,0 +1,74 @@
+﻿[
+    {
+        "name":  "Sao Thủy",
+        "moons":  0,
+        "day_hours":  4222.6,
+        "year_days":  88,
+        "temp_c":  167,
+        "diameter_km":  4879,
+        "distance_mkm":  57.9
+    },
+    {
+        "name":  "Sao Kim",
+        "moons":  0,
+        "day_hours":  2802,
+        "year_days":  224.7,
+        "temp_c":  464,
+        "diameter_km":  12104,
+        "distance_mkm":  108.2
+    },
+    {
+        "name":  "Trái Đất",
+        "moons":  1,
+        "day_hours":  24,
+        "year_days":  365.2,
+        "temp_c":  15,
+        "diameter_km":  12756,
+        "distance_mkm":  149.6
+    },
+    {
+        "name":  "Sao Hỏa",
+        "moons":  2,
+        "day_hours":  24.7,
+        "year_days":  687,
+        "temp_c":  -65,
+        "diameter_km":  6792,
+        "distance_mkm":  228
+    },
+    {
+        "name":  "Sao Mộc",
+        "moons":  95,
+        "day_hours":  9.9,
+        "year_days":  4331,
+        "temp_c":  -110,
+        "diameter_km":  142984,
+        "distance_mkm":  778.5
+    },
+    {
+        "name":  "Sao Thổ",
+        "moons":  274,
+        "day_hours":  10.7,
+        "year_days":  10747,
+        "temp_c":  -140,
+        "diameter_km":  120536,
+        "distance_mkm":  1432
+    },
+    {
+        "name":  "Sao Thiên Vương",
+        "moons":  28,
+        "day_hours":  17.2,
+        "year_days":  30589,
+        "temp_c":  -195,
+        "diameter_km":  51118,
+        "distance_mkm":  2867
+    },
+    {
+        "name":  "Sao Hải Vương",
+        "moons":  16,
+        "day_hours":  16.1,
+        "year_days":  59800,
+        "temp_c":  -200,
+        "diameter_km":  49528,
+        "distance_mkm":  4515
+    }
+]

@@ -1,0 +1,107 @@
+[
+  {
+    "id": "sputnik_story",
+    "title_vi": "Tiếng bíp thay đổi thế giới",
+    "folder": "assets/content/sputnik_story/"
+  },
+  {
+    "id": "apollo11_story",
+    "title_vi": "Bước chân lịch sử Apollo 11",
+    "folder": "assets/content/apollo11_story/"
+  },
+  {
+    "id": "saturn_song",
+    "title_vi": "Tiếng hát ma quái của Sao Thổ",
+    "folder": "assets/content/saturn_song/"
+  },
+  {
+    "id": "apollo13_story",
+    "title_vi": "Trở về từ hư không - Apollo 13",
+    "folder": "assets/content/apollo13_story/"
+  },
+  {
+    "id": "enceladus_game",
+    "title_vi": "Mạch nước ngầm Enceladus",
+    "folder": "assets/content/enceladus_game/"
+  },
+  {
+    "id": "jupiter_lightning_game",
+    "title_vi": "Tiếng sấm cuồng phong Sao Mộc",
+    "folder": "assets/content/jupiter_lightning_game/"
+  },
+  {
+    "id": "interstellar_voyage",
+    "title_vi": "Tiếng vọng không gian liên sao",
+    "folder": "assets/content/interstellar_voyage/"
+  },
+  {
+    "id": "juno_morse_game",
+    "title_vi": "Mật mã từ Sao Mộc - Tàu Juno",
+    "folder": "assets/content/juno_morse_game/"
+  },
+  {
+    "id": "kepler_light_game",
+    "title_vi": "Bản hòa tấu ánh sáng Kepler",
+    "folder": "assets/content/kepler_light_game/"
+  },
+  {
+    "id": "stardust_tempel1_game",
+    "title_vi": "Cơn mưa bụi sao chổi Tempel 1",
+    "folder": "assets/content/stardust_tempel1_game/"
+  },
+  {
+    "id": "sun_story",
+    "title_vi": "Khám phá Sun - Kỳ quan vũ trụ",
+    "folder": "assets/content/sun_story/"
+  },
+  {
+    "id": "mercury_story",
+    "title_vi": "Khám phá Mercury - Kỳ quan vũ trụ",
+    "folder": "assets/content/mercury_story/"
+  },
+  {
+    "id": "venus_story",
+    "title_vi": "Khám phá Venus - Kỳ quan vũ trụ",
+    "folder": "assets/content/venus_story/"
+  },
+  {
+    "id": "earth_story",
+    "title_vi": "Khám phá Earth - Kỳ quan vũ trụ",
+    "folder": "assets/content/earth_story/"
+  },
+  {
+    "id": "moon_story",
+    "title_vi": "Khám phá Moon - Kỳ quan vũ trụ",
+    "folder": "assets/content/moon_story/"
+  },
+  {
+    "id": "mars_story",
+    "title_vi": "Khám phá Mars - Kỳ quan vũ trụ",
+    "folder": "assets/content/mars_story/"
+  },
+  {
+    "id": "jupiter_story",
+    "title_vi": "Khám phá Jupiter - Kỳ quan vũ trụ",
+    "folder": "assets/content/jupiter_story/"
+  },
+  {
+    "id": "saturn_story",
+    "title_vi": "Khám phá Saturn - Kỳ quan vũ trụ",
+    "folder": "assets/content/saturn_story/"
+  },
+  {
+    "id": "uranus_story",
+    "title_vi": "Khám phá Uranus - Kỳ quan vũ trụ",
+    "folder": "assets/content/uranus_story/"
+  },
+  {
+    "id": "neptune_story",
+    "title_vi": "Khám phá Neptune - Kỳ quan vũ trụ",
+    "folder": "assets/content/neptune_story/"
+  },
+  {
+    "id": "pluto_story",
+    "title_vi": "Khám phá Pluto - Kỳ quan vũ trụ",
+    "folder": "assets/content/pluto_story/"
+  }
+]

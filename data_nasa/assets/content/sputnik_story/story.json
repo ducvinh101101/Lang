@@ -1,0 +1,106 @@
+{
+  "id": "sputnik_story",
+  "title_vi": "Tiếng bíp thay đổi thế giới",
+  "title_en": "The Beep That Changed the World",
+  "commands_vi": [
+    "tiếng bíp đầu tiên",
+    "chuyện sputnik"
+  ],
+  "commands_en": [
+    "first beep",
+    "sputnik story"
+  ],
+  "scenes": [
+    {
+      "id": "s1",
+      "next": "s2",
+      "cues": [
+        {
+          "type": "narration",
+          "file": "s1.mp3",
+          "_todo": "Thu âm: Ngày 4 tháng 10 năm 1957, cả thế giới sững sờ khi một âm thanh đơn điệu phát ra từ bầu trời đêm."
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "next": "s3",
+      "cues": [
+        {
+          "type": "narration",
+          "file": "s2.mp3",
+          "_todo": "Thu âm: Đó là tín hiệu bíp-bíp từ Sputnik 1, nhân loại chính thức bước vào kỷ nguyên chinh phục vũ trụ."
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "next": "s4",
+      "cues": [
+        {
+          "type": "haptic",
+          "ms": 200
+        },
+        {
+          "type": "nasa_audio",
+          "file": "nasa/sputnik_beep.mp3",
+          "credit": "NASA"
+        },
+        {
+          "type": "narration",
+          "file": "s3.mp3",
+          "_todo": "Thu âm: Hãy lắng nghe âm thanh lịch sử đã làm rung chuyển nước Mỹ và châm ngòi cho cuộc đua không gian."
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "cues": [
+        {
+          "type": "choice",
+          "prompt": "s4.mp3",
+          "timeout_s": 8,
+          "default": "s5c",
+          "options": {
+            "một": "s5a",
+            "nhỏ như quả bóng": "s5a",
+            "hai": "s5b",
+            "to như xe hơi": "s5b"
+          },
+          "_todo": "Thu âm câu đố: Bạn có biết vệ tinh Sputnik 1 đầu tiên lớn đến mức nào? Một: Nhỏ như quả bóng bãi biển. Hai: To bằng một chiếc xe hơi."
+        }
+      ]
+    },
+    {
+      "id": "s5a",
+      "cues": [
+        {
+          "type": "narration",
+          "file": "s5a.mp3",
+          "_todo": "Thu âm đúng: Chính xác! Sputnik 1 chỉ nặng 83 kg và đường kính chưa đầy 60 cm, nhưng sức ảnh hưởng của nó thay đổi lịch sử nhân loại."
+        }
+      ]
+    },
+    {
+      "id": "s5b",
+      "cues": [
+        {
+          "type": "narration",
+          "file": "s5b.mp3",
+          "_todo": "Thu âm sai: Không lớn vậy đâu. Nó chỉ nhỏ gọn như một quả bóng bãi biển với trọng lượng hơn 80 kg."
+        }
+      ]
+    },
+    {
+      "id": "s5c",
+      "cues": [
+        {
+          "type": "narration",
+          "file": "s5c.mp3",
+          "_todo": "Thu âm hết giờ: Đã hết thời gian. Sputnik 1 có kích thước nhỏ gọn như một quả bóng bãi biển."
+        }
+      ]
+    }
+  ],
+  "_note_tong_quat": "Kịch bản kể chuyện có chiều sâu. File âm thanh để trống chờ thu âm thực tế."
+}

@@ -1,0 +1,83 @@
+{
+  "id": "jupiter_story",
+  "title_vi": "Khám phá Jupiter - Kỳ quan vũ trụ",
+  "title_en": "Exploring Jupiter",
+  "commands_vi": [
+    "chuyện jupiter",
+    "khám phá jupiter"
+  ],
+  "commands_en": [
+    "jupiter story"
+  ],
+  "scenes": [
+    {
+      "id": "s1",
+      "next": "s2",
+      "cues": [
+        {
+          "type": "narration",
+          "file": "s1.mp3",
+          "_todo": "Thu âm mở đầu: Chào mừng bạn đến với Jupiter, một trong những thiên thể kỳ diệu và đầy bí ẩn của hệ mặt trời chúng ta."
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "next": "s3",
+      "cues": [
+        {
+          "type": "narration",
+          "file": "s2.mp3",
+          "_todo": "Thu âm quá trình/đặc điểm: Nơi đây sở hữu những điều kiện vật lý cực đoan và cấu trúc địa chất không nơi nào sánh được."
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "cues": [
+        {
+          "type": "choice",
+          "prompt": "s3.mp3",
+          "timeout_s": 8,
+          "default": "s4c",
+          "options": {
+            "một": "s4a",
+            "hai": "s4b"
+          },
+          "_todo": "Thu âm câu đố đặc trưng về Jupiter. Lựa chọn một hoặc hai."
+        }
+      ]
+    },
+    {
+      "id": "s4a",
+      "cues": [
+        {
+          "type": "narration",
+          "file": "s4a.mp3",
+          "_todo": "Thu âm đáp án đúng."
+        }
+      ]
+    },
+    {
+      "id": "s4b",
+      "cues": [
+        {
+          "type": "narration",
+          "file": "s4b.mp3",
+          "_todo": "Thu âm đáp án sai."
+        }
+      ]
+    },
+    {
+      "id": "s4c",
+      "cues": [
+        {
+          "type": "narration",
+          "file": "s4c.mp3",
+          "_todo": "Thu âm khi hết thời gian."
+        }
+      ]
+    }
+  ],
+  "_note_tong_quat": "Kịch bản kể chuyện có chiều sâu. File âm thanh để trống chờ thu âm thực tế."
+}

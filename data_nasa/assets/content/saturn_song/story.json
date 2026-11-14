@@ -1,0 +1,105 @@
+{
+  "id": "saturn_song",
+  "title_vi": "Tiếng hát ma quái của Sao Thổ",
+  "title_en": "Saturn's Ghostly Song",
+  "commands_vi": [
+    "tiếng hát sao thổ",
+    "chuyện sao thổ"
+  ],
+  "commands_en": [
+    "saturn song"
+  ],
+  "scenes": [
+    {
+      "id": "s1",
+      "next": "s2",
+      "cues": [
+        {
+          "type": "narration",
+          "file": "s1.mp3",
+          "_todo": "Thu âm: Xa xôi ở vành đai ngoài, Sao Thổ hiện lên lộng lẫy với hệ thống vành đai băng đá khổng lồ."
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "next": "s3",
+      "cues": [
+        {
+          "type": "narration",
+          "file": "s2.mp3",
+          "_todo": "Thu âm: Khi tàu thám hiểm Cassini bay qua, nó đã ghi lại những dao động plasma và sóng radio tuyệt đẹp từ cực quang."
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "next": "s4",
+      "cues": [
+        {
+          "type": "haptic",
+          "ms": 300
+        },
+        {
+          "type": "nasa_audio",
+          "file": "nasa/saturn_radio.mp3",
+          "credit": "NASA/JPL"
+        },
+        {
+          "type": "narration",
+          "file": "s3.mp3",
+          "_todo": "Thu âm: Hãy lắng nghe âm thanh ma quái, trầm bổng giống như tiếng vọng từ cõi vĩnh hằng của Sao Thổ."
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "cues": [
+        {
+          "type": "choice",
+          "prompt": "s4.mp3",
+          "timeout_s": 8,
+          "default": "s5c",
+          "options": {
+            "một": "s5a",
+            "mười tiếng": "s5a",
+            "hai": "s5b",
+            "hai mươi tư tiếng": "s5b"
+          },
+          "_todo": "Thu âm câu đố: Một ngày (một vòng tự quay) trên Sao Thổ kéo dài bao lâu? Một: Khoảng 10 tiếng rưỡi. Hai: Đúng 24 tiếng như Trái Đất."
+        }
+      ]
+    },
+    {
+      "id": "s5a",
+      "cues": [
+        {
+          "type": "narration",
+          "file": "s5a.mp3",
+          "_todo": "Thu âm đúng: Chính xác! Dù khổng lồ nhưng Sao Thổ quay cực nhanh, một ngày ở đây chỉ vỏn vẹn hơn 10 tiếng."
+        }
+      ]
+    },
+    {
+      "id": "s5b",
+      "cues": [
+        {
+          "type": "narration",
+          "file": "s5b.mp3",
+          "_todo": "Thu âm sai: Không phải đâu. Do quay với tốc độ chóng mặt, một ngày trên Sao Thổ chỉ chưa đầy 11 tiếng."
+        }
+      ]
+    },
+    {
+      "id": "s5c",
+      "cues": [
+        {
+          "type": "narration",
+          "file": "s5c.mp3",
+          "_todo": "Thu âm hết giờ: Hết thời gian. Sao Thổ quay rất nhanh nên một ngày ở đây chỉ kéo dài hơn 10 tiếng."
+        }
+      ]
+    }
+  ],
+  "_note_tong_quat": "Kịch bản kể chuyện có chiều sâu. File âm thanh để trống chờ thu âm thực tế."
+}

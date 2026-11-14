@@ -1,0 +1,88 @@
+{
+  "id": "apollo13_story",
+  "title_vi": "Trở về từ hư không - Apollo 13",
+  "title_en": "Apollo13 Story",
+  "commands_vi": [
+    "trở về từ hư không - apollo 13",
+    "apollo13 story"
+  ],
+  "commands_en": [
+    "apollo13 story"
+  ],
+  "scenes": [
+    {
+      "id": "s1",
+      "next": "s2",
+      "cues": [
+        {
+          "type": "narration",
+          "file": "s1.mp3",
+          "_todo": "Thu âm dẫn dắt: Sự cố nổ bình oxy và câu nói định mệnh 'Houston, chúng ta gặp rắc rối'."
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "next": "s3",
+      "cues": [
+        {
+          "type": "nasa_audio",
+          "file": "nasa/apollo13.mp3",
+          "credit": "NASA"
+        },
+        {
+          "type": "narration",
+          "file": "s2.mp3",
+          "_todo": "Thu âm: Lắng nghe âm thanh gốc được ghi nhận từ sứ mệnh."
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "cues": [
+        {
+          "type": "choice",
+          "prompt": "s3.mp3",
+          "timeout_s": 8,
+          "default": "s4c",
+          "options": {
+            "một": "s4a",
+            "hai": "s4b"
+          },
+          "_todo": "Thu âm câu đố tương tác kiến thức khoa học."
+        }
+      ]
+    },
+    {
+      "id": "s4a",
+      "cues": [
+        {
+          "type": "narration",
+          "file": "s4a.mp3",
+          "_todo": "Thu âm phản hồi đúng."
+        }
+      ]
+    },
+    {
+      "id": "s4b",
+      "cues": [
+        {
+          "type": "narration",
+          "file": "s4b.mp3",
+          "_todo": "Thu âm phản hồi sai."
+        }
+      ]
+    },
+    {
+      "id": "s4c",
+      "cues": [
+        {
+          "type": "narration",
+          "file": "s4c.mp3",
+          "_todo": "Thu âm khi hết giờ."
+        }
+      ]
+    }
+  ],
+  "_note_tong_quat": "Kịch bản kể chuyện có chiều sâu. File âm thanh để trống chờ thu âm thực tế."
+}
