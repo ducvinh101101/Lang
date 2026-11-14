@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Nền biểu tượng: xanh đêm đậm dần xuống dưới (cùng màu logo chữ L tai nghe) -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle">
+    <gradient android:angle="270" android:startColor="#0F345F" android:endColor="#0E1A32"/>
+</shape>
