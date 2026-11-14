@@ -1,0 +1,224 @@
+{
+  "source": "NASA POWER Monthly API",
+  "start_year": 1977,
+  "end_year": 2026,
+  "as_of": "2026-11-09",
+  "units": {
+    "T2M": "C",
+    "PRECTOTCORR": "mm/day",
+    "WS10M": "m/s",
+    "ALLSKY_SFC_SW_DWN": "MJ/m^2/day"
+  },
+  "spatial_method": "NASA point request at supplied commune representative coordinates; no polygon average",
+  "missing": "null; no imputation. Current/future months excluded.",
+  "admin_source": "https://github.com/open-admin-data/vietnam-administrative-divisions",
+  "admin_sha256": "66ceabf7d42a656c375e37b16f309ce83376fbc3d35f01309811373b916e2771",
+  "admin_license": "CC-BY-4.0",
+  "boundary_vintage": "post-2025; applied to all historical months",
+  "sunny_days": "not available from monthly radiation; not derived",
+  "disasters": "separate event dataset, not inferred from climate",
+  "locations": 3321,
+  "provinces": [
+    [
+      "01",
+      "Hà Nội",
+      126
+    ],
+    [
+      "04",
+      "Cao Bằng",
+      56
+    ],
+    [
+      "08",
+      "Tuyên Quang",
+      124
+    ],
+    [
+      "11",
+      "Điện Biên",
+      45
+    ],
+    [
+      "12",
+      "Lai Châu",
+      38
+    ],
+    [
+      "14",
+      "Sơn La",
+      75
+    ],
+    [
+      "15",
+      "Lào Cai",
+      99
+    ],
+    [
+      "19",
+      "Thái Nguyên",
+      92
+    ],
+    [
+      "20",
+      "Lạng Sơn",
+      65
+    ],
+    [
+      "22",
+      "Quảng Ninh",
+      54
+    ],
+    [
+      "24",
+      "Bắc Ninh",
+      99
+    ],
+    [
+      "25",
+      "Phú Thọ",
+      148
+    ],
+    [
+      "31",
+      "Hải Phòng",
+      114
+    ],
+    [
+      "33",
+      "Hưng Yên",
+      104
+    ],
+    [
+      "37",
+      "Ninh Bình",
+      129
+    ],
+    [
+      "38",
+      "Thanh Hóa",
+      166
+    ],
+    [
+      "40",
+      "Nghệ An",
+      130
+    ],
+    [
+      "42",
+      "Hà Tĩnh",
+      69
+    ],
+    [
+      "44",
+      "Quảng Trị",
+      78
+    ],
+    [
+      "46",
+      "Huế",
+      40
+    ],
+    [
+      "48",
+      "Đà Nẵng",
+      94
+    ],
+    [
+      "51",
+      "Quảng Ngãi",
+      96
+    ],
+    [
+      "52",
+      "Gia Lai",
+      135
+    ],
+    [
+      "56",
+      "Khánh Hòa",
+      65
+    ],
+    [
+      "66",
+      "Đắk Lắk",
+      102
+    ],
+    [
+      "68",
+      "Lâm Đồng",
+      124
+    ],
+    [
+      "75",
+      "Đồng Nai",
+      95
+    ],
+    [
+      "79",
+      "Hồ Chí Minh",
+      168
+    ],
+    [
+      "80",
+      "Tây Ninh",
+      96
+    ],
+    [
+      "82",
+      "Đồng Tháp",
+      102
+    ],
+    [
+      "86",
+      "Vĩnh Long",
+      124
+    ],
+    [
+      "91",
+      "An Giang",
+      102
+    ],
+    [
+      "92",
+      "Cần Thơ",
+      103
+    ],
+    [
+      "96",
+      "Cà Mau",
+      64
+    ]
+  ],
+  "unique_request_coordinates": 3256,
+  "unique_series": 282,
+  "logical_monthly_rows": 1992600,
+  "coverage": {
+    "temperature_c": {
+      "first_month": "1981-01",
+      "last_month": "2026-09",
+      "non_null_series_months": 154818
+    },
+    "precipitation_mm_day": {
+      "first_month": "1981-01",
+      "last_month": "2026-09",
+      "non_null_series_months": 154818
+    },
+    "wind_speed_m_s": {
+      "first_month": "1981-01",
+      "last_month": "2026-09",
+      "non_null_series_months": 154818
+    },
+    "solar_mj_m2_day": {
+      "first_month": "1984-01",
+      "last_month": "2026-07",
+      "non_null_series_months": 144102
+    }
+  },
+  "json_bytes": 8289593,
+  "national_locations": 3321,
+  "estimated_national_json_bytes": 8289593,
+  "estimate_note": "Linear per-commune extrapolation; actual spatial deduplication differs by region.",
+  "national_offline_budget_bytes": 262144000,
+  "fits_national_budget_estimate": true
+}

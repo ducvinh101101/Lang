@@ -1,0 +1,17 @@
+file,nguon,link,ngay_tai,ghi_cong
+a_climate/provinces/ha_noi.json,POWER Monthly T2M and PRECTOTCORR,https://power.larc.nasa.gov/,2026-11-09T17:53:17.408360+00:00,NASA Langley Research Center (LaRC) POWER Project
+a_climate/provinces/lao_cai.json,POWER Monthly T2M and PRECTOTCORR,https://power.larc.nasa.gov/,2026-11-09T17:53:20.986838+00:00,NASA Langley Research Center (LaRC) POWER Project
+a_climate/provinces/hue.json,POWER Monthly T2M and PRECTOTCORR,https://power.larc.nasa.gov/,2026-11-09T17:53:22.445480+00:00,NASA Langley Research Center (LaRC) POWER Project
+a_climate/provinces/da_nang.json,POWER Monthly T2M and PRECTOTCORR,https://power.larc.nasa.gov/,2026-11-09T17:53:24.466815+00:00,NASA Langley Research Center (LaRC) POWER Project
+a_climate/provinces/tp_hcm.json,POWER Monthly T2M and PRECTOTCORR,https://power.larc.nasa.gov/,2026-11-09T17:53:26.001742+00:00,NASA Langley Research Center (LaRC) POWER Project
+a_climate/provinces/can_tho.json,POWER Monthly T2M and PRECTOTCORR,https://power.larc.nasa.gov/,2026-11-09T17:53:27.439227+00:00,NASA Langley Research Center (LaRC) POWER Project
+c_disasters/events.json,Danh mục thiên tai Việt Nam từ các nguồn đã đối chiếu,https://dmc.gov.vn/chi-tiet-thien-tai/con-bao-so-3---yagi-dis1975.html?lang=vi-VN,2026-11-10,"DMC; DesInventar Việt Nam; Rosvold và Buhaug, GDIS, CC BY 4.0; NASA GLC; URL từng bản ghi."
+c_disasters/events_nasa.json,Thiên tai có hồ sơ hoặc quan sát NASA,https://eonet.gsfc.nasa.gov/,2026-11-10,"DMC; DesInventar Việt Nam; Rosvold và Buhaug, GDIS, CC BY 4.0; NASA GLC; URL từng bản ghi."
+c_disasters/annual_summary.json,"Số hồ sơ theo năm, loại và nguồn",https://dmc.gov.vn/chi-tiet-thien-tai/con-bao-so-3---yagi-dis1975.html?lang=vi-VN,2026-11-10,"DMC; DesInventar Việt Nam; Rosvold và Buhaug, GDIS, CC BY 4.0; NASA GLC; URL từng bản ghi."
+c_disasters/province_summary.json,"Hồ sơ theo địa phương, loại và nguồn",https://dmc.gov.vn/chi-tiet-thien-tai/con-bao-so-3---yagi-dis1975.html?lang=vi-VN,2026-11-10,"DMC; DesInventar Việt Nam; Rosvold và Buhaug, GDIS, CC BY 4.0; NASA GLC; URL từng bản ghi."
+c_disasters/yagi/province_impact.json,Ảnh hưởng Yagi tại ba địa phương,https://dmc.gov.vn/chi-tiet-thien-tai/con-bao-so-3---yagi-dis1975.html?lang=vi-VN,2026-11-10,DMC và báo cáo nhanh Hà Nội qua VOV
+c_disasters/yagi/eonet_track.json,NASA EONET – Super Typhoon Yagi,https://eonet.gsfc.nasa.gov/api/v3/events/EONET_10740,2026-11-10,"NASA EONET, dữ liệu đường bão từ JTWC"
+c_disasters/yagi/weather_daily.json,POWER Daily + GPM IMERG Final Daily V07B,https://gdex.ucar.edu/datasets/d734000/,2026-11-09T18:05:16.557887+00:00,"NASA GPM_3IMERGDF V07, doi:10.5067/GPM/IMERGDF/DAY/07; NASA LaRC POWER"
+c_disasters/yagi/rain_grid.json,NASA GPM IMERG Final Daily V07B,https://gdex.ucar.edu/datasets/d734000/,2026-11-09T18:05:15.610288+00:00,"NASA GPM_3IMERGDF V07, doi:10.5067/GPM/IMERGDF/DAY/07"
+b_heat_days/heat_days.json,POWER Daily T2M_MAX,https://power.larc.nasa.gov/,2026-11-09T17:53:42.310683+00:00,NASA Langley Research Center (LaRC) POWER Project
+d_global_temp/global_temp.json,GISTEMP v4 Global Land-Ocean Temperature Index,https://data.giss.nasa.gov/gistemp/tabledata_v4/GLB.Ts+dSST.csv,2026-11-09T18:01:25.880216+00:00,"NASA Goddard Institute for Space Studies, GISTEMP v4"

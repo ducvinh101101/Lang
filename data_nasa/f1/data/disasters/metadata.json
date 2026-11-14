@@ -1,0 +1,10 @@
+{
+  "source_url": "https://data.nasa.gov/docs/legacy/Global_Landslide_Catalog_Export/Global_Landslide_Catalog_Export_rows.csv",
+  "source_sha256": "2c4898899dd4f373c4320e121c5b655ebb5394d431fa42e57ec4828d07d48b04",
+  "processed_at": "2026-11-09T13:59:00.090314+00:00",
+  "event_count": 116,
+  "first_event": "2007-05-07",
+  "last_event": "2016-10-18",
+  "limitation": "NASA GLC one-time legacy export, incomplete event reporting; landslides only. No report does not mean no disaster. Original historical admin labels preserved; not assigned to current wards.",
+  "update_source": "https://gpm.nasa.gov/applications/landslides/coolr"
+}

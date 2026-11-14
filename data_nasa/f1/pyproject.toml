@@ -1,0 +1,17 @@
+[project]
+name = "f1"
+version = "0.1.0"
+description = "Monthly NASA POWER climate archive for Vietnam"
+readme = "README.md"
+authors = [
+    { name = "Songjag", email = "elysiabot301127@gmail.com" }
+]
+requires-python = ">=3.10"
+dependencies = []
+
+[project.scripts]
+f1 = "f1.__main__:main"
+
+[build-system]
+requires = ["uv_build>=0.12.15,<0.13.0"]
+build-backend = "uv_build"

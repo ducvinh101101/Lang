@@ -1,0 +1,65 @@
+{
+  "source": "NASA POWER Monthly API",
+  "start_year": 1977,
+  "end_year": 2026,
+  "as_of": "2026-11-09",
+  "units": {
+    "T2M": "C",
+    "PRECTOTCORR": "mm/day",
+    "WS10M": "m/s",
+    "ALLSKY_SFC_SW_DWN": "MJ/m^2/day"
+  },
+  "spatial_method": "NASA point request at supplied commune representative coordinates; no polygon average",
+  "missing": "null; no imputation. Current/future months excluded.",
+  "admin_source": "https://github.com/open-admin-data/vietnam-administrative-divisions",
+  "admin_sha256": "66ceabf7d42a656c375e37b16f309ce83376fbc3d35f01309811373b916e2771",
+  "admin_license": "CC-BY-4.0",
+  "boundary_vintage": "post-2025; applied to all historical months",
+  "sunny_days": "not available from monthly radiation; not derived",
+  "disasters": "separate event dataset, not inferred from climate",
+  "locations": 225,
+  "provinces": [
+    [
+      "01",
+      "Hà Nội",
+      126
+    ],
+    [
+      "24",
+      "Bắc Ninh",
+      99
+    ]
+  ],
+  "unique_request_coordinates": 225,
+  "unique_series": 10,
+  "logical_monthly_rows": 135000,
+  "coverage": {
+    "temperature_c": {
+      "first_month": "1981-01",
+      "last_month": "2026-09",
+      "non_null_series_months": 5490
+    },
+    "precipitation_mm_day": {
+      "first_month": "1981-01",
+      "last_month": "2026-09",
+      "non_null_series_months": 5490
+    },
+    "wind_speed_m_s": {
+      "first_month": "1981-01",
+      "last_month": "2026-09",
+      "non_null_series_months": 5490
+    },
+    "solar_mj_m2_day": {
+      "first_month": "1984-01",
+      "last_month": "2026-07",
+      "non_null_series_months": 5110
+    }
+  },
+  "json_bytes": 347081,
+  "national_locations": 3321,
+  "estimated_national_json_bytes": 5122916,
+  "estimate_note": "Linear per-commune extrapolation; actual spatial deduplication differs by region.",
+  "national_offline_budget_bytes": 262144000,
+  "fits_national_budget_estimate": true,
+  "measurement_note": "Size of serialized sample JSON; sample data not retained because it is included in the national file."
+}

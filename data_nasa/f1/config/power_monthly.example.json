@@ -1,0 +1,10 @@
+{
+  "start_month": "2026-08",
+  "end_month": "2026-12",
+  "as_of": "2026-11-10",
+  "metrics": ["T2M", "PRECTOTCORR", "WS10M"],
+  "locations": [
+    {"id": "ha_noi", "latitude": 21.03, "longitude": 105.85},
+    {"id": "tokyo", "latitude": 35.68, "longitude": 139.69}
+  ]
+}

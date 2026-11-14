@@ -1,0 +1,2 @@
+ward_code,ward_name,province_code,province_name,latitude,longitude,series_id,source_url,fetched_at,time_standard
+tokyo,tokyo,,,35.68,139.69,3efe5da6e9a93a8fbff61c463b5e12c961a9302cf5854ab272eaabcd00217615,https://power.larc.nasa.gov/api/temporal/monthly/point?parameters=T2M%2CPRECTOTCORR%2CWS10M%2CALLSKY_SFC_SW_DWN&community=AG&latitude=35.68&longitude=139.69&start=1981&end=2026&format=JSON,2026-11-09T18:12:00.583670+00:00,LST

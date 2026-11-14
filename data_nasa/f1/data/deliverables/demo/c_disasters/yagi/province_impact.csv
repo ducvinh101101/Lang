@@ -1,0 +1,4 @@
+event_id,province,impact_status,local_impact_date,wind_force,gust_force,reported_rain_mm,rain_site,detail,source_url,local_report_url
+dmc-1975,Hà Nội,confirmed,2024-09-07,6,10,244,Thượng Cát,Gió và mưa do bão được ghi nhận tại Hà Nội.,https://dmc.gov.vn/chi-tiet-thien-tai/con-bao-so-3---yagi-dis1975.html?lang=vi-VN,https://vov.gov.vn/thiet-hai-ban-dau-do-bao-so-3-gay-ra-o-ha-noi-hai-phong-mobiledtnew-1021513?keyDevice=true
+dmc-1975,Lâm Đồng,not_confirmed_in_sources,,,,,,Chưa có số đo hoặc thiệt hại quy cho Yagi trong các nguồn đã đối chiếu.,https://dmc.gov.vn/chi-tiet-thien-tai/con-bao-so-3---yagi-dis1975.html?lang=vi-VN,
+dmc-1975,Đà Nẵng,not_confirmed_in_sources,,,,,,Chưa có số đo hoặc thiệt hại quy cho Yagi trong các nguồn đã đối chiếu.,https://dmc.gov.vn/chi-tiet-thien-tai/con-bao-so-3---yagi-dis1975.html?lang=vi-VN,

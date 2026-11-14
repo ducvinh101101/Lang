@@ -1,0 +1,73 @@
+[
+  {
+    "event_id": "dmc-1975",
+    "name": "Yagi",
+    "event_code": "Bão số 3 (2024)",
+    "hazard_type": "typhoon",
+    "start_date": "2024-09-02",
+    "date_basis": "source_event_start",
+    "main_affected_area": "Bắc Bộ và Thanh Hóa, đổ bộ Quảng Ninh – Hải Phòng",
+    "provinces": "Hà Nội; Quảng Ninh; Hải Phòng; Thanh Hóa",
+    "metric_name": "peak_sustained_wind_force",
+    "metric_value": 16,
+    "metric_unit": "cấp gió",
+    "source_url": "https://dmc.gov.vn/chi-tiet-thien-tai/con-bao-so-3---yagi-dis1975.html?lang=vi-VN"
+  },
+  {
+    "event_id": "dmc-14377-lang-nu",
+    "name": "Lũ quét Làng Nủ",
+    "hazard_type": "flash_flood",
+    "start_date": "2024-09-10",
+    "main_affected_area": "Thôn Làng Nủ, xã Phúc Khánh, huyện Bảo Yên, Lào Cai (địa danh năm 2024)",
+    "provinces": "Lào Cai",
+    "related_event_id": "dmc-1975",
+    "source_url": "https://dmc.gov.vn/bai-viet/nam-2024---vuot-len-thien-tai-bat-thuong-cd14377-32.html?lang=vi-VN"
+  },
+  {
+    "event_id": "dmc-1771",
+    "name": "Lũ tại Lâm Đồng",
+    "hazard_type": "flood",
+    "start_date": "2021-07-08",
+    "main_affected_area": "Huyện Lâm Hà và Đức Trọng, Lâm Đồng (địa danh năm 2021)",
+    "provinces": "Lâm Đồng",
+    "metric_name": "observed_water_level",
+    "metric_value": 833.01,
+    "metric_unit": "m tại trạm Thanh Bình",
+    "source_url": "https://dmc.gov.vn/chi-tiet-thien-tai-dtc/lu-tai-lam-dong-dis1771.html?lang=vi-VN"
+  },
+  {
+    "event_id": "dmc-4559",
+    "name": "Bão số 11 (2013)",
+    "event_code": "Bão số 11 (2013)",
+    "hazard_type": "typhoon",
+    "start_date": "2013-10-15",
+    "date_basis": "vietnam_landfall",
+    "main_affected_area": "Đà Nẵng và phía bắc tỉnh Quảng Nam (địa danh năm 2013)",
+    "provinces": "Đà Nẵng; Quảng Nam",
+    "source_url": "https://dmc.gov.vn/bai-viet/hinh-anh-thiet-hai-ban-dau-do-bao-so-11-o-da-nang-cd4559-32.html?lang=vi-VN"
+  },
+  {
+    "event_id": "igp-3169",
+    "hazard_type": "earthquake",
+    "start_date": "2024-07-28",
+    "main_affected_area": "Tâm chấn tại huyện Kon Plông, Kon Tum (địa danh năm 2024)",
+    "provinces": "Kon Tum",
+    "metric_name": "earthquake_magnitude",
+    "metric_value": 3.3,
+    "metric_unit": "magnitude, thang cụ thể không nêu",
+    "source_url": "https://www.igp-vast.vn/index.php/vi/tin-dong-dat/item/3169-the-earthquake-information-and-tsunami-warning-institute-of-geophysics-igp-earthquake-report"
+  },
+  {
+    "event_id": "hoang-lien-20240219",
+    "name": "Cháy rừng Vườn quốc gia Hoàng Liên",
+    "hazard_type": "wildfire",
+    "start_date": "2024-02-19",
+    "date_basis": "first_detected",
+    "main_affected_area": "Tiểu khu 286, Tả Van, Sa Pa, Lào Cai (địa danh năm 2024)",
+    "provinces": "Lào Cai",
+    "metric_name": "preliminary_burned_area",
+    "metric_value": 30,
+    "metric_unit": "ha (ước tính sơ bộ)",
+    "source_url": "https://uongbi.gov.vn/chay-vuon-quoc-gia-hoang-lien-gay-nguy-hai-cho-he-sinh-thai-the-nao-p13n75565.html"
+  }
+]
