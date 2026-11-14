@@ -1,0 +1,12 @@
+elev_glob.bin — lưới độ cao / độ sâu toàn cầu cho quả địa cầu nổi khối và chế độ chạm địa hình.
+
+Định dạng: 720 cột × 360 hàng số nguyên 16 bit có dấu (little-endian), đơn vị mét.
+  Hàng 0 = vĩ độ 89,75° Bắc, mỗi hàng xuống 0,5°; cột 0 = kinh độ 179,75° Tây, mỗi cột sang đông 0,5°.
+  Số âm = dưới mặt biển (có cả đáy đại dương).
+
+Nguồn: ETOPO5 / ETOPO 20 phút cung (NOAA National Centers for Environmental Information — phạm vi công cộng),
+bản lưới 20' kèm trong thư viện matplotlib/basemap (doc/examples/etopo20data.gz). Lấy trung bình 3 × 3 điểm mỗi ô 0,5°.
+Tạo lại: python tool/mkelev.py <thư mục có etopo20data.gz, etopo20lats.gz, etopo20lons.gz>
+
+Khi phóng to hoặc hỏi độ cao một điểm, app tải thêm ô độ cao chi tiết "Terrarium" (Mapzen / Tilezen, AWS Open Data:
+https://registry.opendata.aws/terrain-tiles/ — nguồn SRTM, GMTED, ETOPO1, NED…; dùng tự do, ghi nguồn).
