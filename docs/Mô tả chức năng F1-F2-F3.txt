@@ -1,0 +1,29 @@
+Chức năng 1: Lịch sử thời tiết và thiên tai
+Đầu vào: Người dùng nhập lệnh muốn biết lịch sử thời tiết / thiên tai tại <vị trí> trong vòng <khoảng thời gian>
+Thực hiện:
+- Truy xuất dữ liệu lịch sử theo tháng và tạo thành các bản ghi tổng hợp theo tháng (khoảng thời gian <= 3 năm) hoặc theo năm (khoảng thời gian > 3 năm)
+- Từ bản ghi có thời gian bắt đầu sớm nhất tiến tiếp đến hết:
+    - Với thời tiết: Phát âm thanh của các thông số thời tiết (nhiệt độ: âm thanh gió lạnh hay nắng rát, lượng mưa: tiếng mưa to - nhỏ theo mức độ), phối âm hài hoà, ưu tiên loại hình chiếm chủ đạo trong tháng
+    - Với thiên tai: Phát lần lượt các dạng thiên tai có trong bản ghi, theo thứ tự từ thiên tai có mức độ nhỏ đến thiên tai có mức độ lớn
+    - Đồ hoạ hiển thị sẽ tương ứng với âm thanh đang phát: Phủ sáng hơn nếu trời nắng nóng, có hiệu ứng mưa đơn giản nếu lượng mưa lớn, gió xoáy hay màn hình rung khi bão hoặc động đất,...
+    - Có thanh timeline đi dần từ bản ghi đầu đến bản ghi cuối
+    - Khi người dùng chạm màn hình lúc đang phát, giải thích về các giá trị của bản ghi.
+
+Chức năng 2: Cải thiện các nội dung trong Khám phá vũ trụ
+Thực hiện: Sử dụng dữ liệu của F2 làm nền tảng sự thật và đưa ra câu trả lời cho người dùng.
+Gợi ý: Khẩu lệnh "sự thật thú vị về <hành tinh>" lấy một bản ghi sự thật ngẫu nhiên của hành tinh đó để đọc; Các nội dung của các minigame hiện có có thể sử dụng các thông tin được thêm từ F2 làm nguồn,...
+
+Chức năng 3: Cải thiện chức năng khám phá địa lý bằng tay
+Thực hiện: Sử dụng các dữ liệu thu thập từ F3 cùng dữ liệu online khác có thể lấy thông qua phương thức của F3 để tăng cường trải nghiệm tương tác:
+- Tương tác khi di chuyển tay trên màn hình:
+    - Thiết bị rung theo độ dốc của địa hình
+    - Tiếng sáo cao hơn khi độ cao mặt đất cao hơn
+    - Tiếng sóng nước khi di tay lên mặt nước
+    - Tiếng xe cộ khi di tay qua vùng dân cư
+- Chức năng mới: Quét mặt cắt địa hình
+    - Đầu vào: Người dùng muốn nghe âm thanh địa hình
+    - Thực hiện:
+        - Lấy bản đồ độ cao của khu vực, bắt đầu thực hiện quét
+        - Hình ảnh hoá mặt cắt độ cao khi di chuyển lát quét theo hướng Bắc - Nam, rồi Tây - Đông
+        - Trong quá trình hình ảnh hoá, phát ra tiếng sáo tương ứng với độ cao trung bình của lát cắt
+        - Độ dài mỗi lần quét không quá 8 giây
