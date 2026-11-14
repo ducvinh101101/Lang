@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <!-- Flutter thay $FLUTTER_BASE_HREF khi build (deploy ở gốc tên miền: "/") -->
+  <base href="$FLUTTER_BASE_HREF">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="description" content="Lắng — quả địa cầu biết nói: khám phá thời tiết, lịch sử khí hậu và thiên tai NASA bằng tiếng đàn bầu, rê tay trên bản đồ địa hình thật với tiếng sáo và rung độ dốc, du hành vũ trụ với âm thanh thật của NASA. Dành cho người khiếm thị.">
+  <meta name="theme-color" content="#0B151A">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="Lắng">
+  <link rel="apple-touch-icon" href="icons/Icon-192.png">
+  <link rel="icon" type="image/png" href="favicon.png">
+  <link rel="manifest" href="manifest.json">
+  <!-- mở sẵn kết nối tới máy chủ CanvasKit và các dịch vụ dữ liệu → câu trả lời đầu tiên nhanh hơn -->
+  <link rel="preconnect" href="https://www.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,400;0,500;0,600;0,700;0,800;1,600&display=swap">
+  <title>Lắng · Quả địa cầu biết nói</title>
+  <style>
+    :root { color-scheme: dark; }
+    /* điện thoại: rê tay trên bản đồ không kéo trang / không "vuốt để tải lại"; không chớp xanh khi chạm */
+    html, body { overscroll-behavior: none; -webkit-tap-highlight-color: transparent; }
+    html, body {
+      margin: 0;
+      height: 100%;
+      background: #04080c radial-gradient(circle at 50% 36%, rgba(226, 96, 63, 0.16) 0%, rgba(18, 30, 42, 0.5) 45%, #04080c 90%);
+      color: #F1E5CC;
+      font-family: "Be Vietnam Pro", system-ui, -apple-system, sans-serif;
+    }
+    #start {
+      cursor: pointer;
+      position: fixed;
+      inset: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: safe center;
+      gap: 22px;
+      padding: 24px;
+      box-sizing: border-box;
+      text-align: center;
+      z-index: 10;
+      overflow-y: auto;
+    }
+    /* điện thoại xoay ngang (thấp): thu nhỏ để thấy đủ nút và lời hướng dẫn, không bị cắt mất phần trên */
+    @media (max-height: 520px) {
+      #start { gap: 10px; padding: 12px 24px; }
+      html #start .logo-wrap img { width: 56px; height: 56px; border-radius: 16px; }
+      html #start p { font-size: 15px; line-height: 1.4; }
+      #start #go { min-height: 56px; padding: 10px 28px; }
+    }
+    .logo-wrap {
+      position: relative;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 4px;
+    }
+    .logo-glow {
+      position: absolute;
+      inset: -14px;
+      border-radius: 50%;
+      background: radial-gradient(circle, rgba(226,96,63,0.4) 0%, rgba(228,187,99,0.18) 50%, transparent 72%);
+      filter: blur(14px);
+      animation: pulse-glow 3.2s ease-in-out infinite alternate;
+      pointer-events: none;
+    }
+    @keyframes pulse-glow {
+      from { transform: scale(0.92); opacity: 0.6; }
+      to { transform: scale(1.18); opacity: 1; }
+    }
+    #start img {
+      position: relative;
+      width: 116px;
+      height: 116px;
+      border-radius: 28px;
+      box-shadow: 0 16px 36px rgba(0,0,0,0.65), 0 0 0 1.5px rgba(228,187,99,0.3);
+    }
+    #start h1 {
+      margin: 0;
+      font-size: clamp(38px, 7vw, 56px);
+      font-weight: 800;
+      letter-spacing: -0.6px;
+      line-height: 1.1;
+      background: linear-gradient(135deg, #ffffff 40%, #e4bb63 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      filter: drop-shadow(0 2px 14px rgba(0,0,0,0.5));
+    }
+    #start h1 span { color: #E2603F; font-style: italic; }
+    #start p {
+      margin: 0;
+      max-width: 36em;
+      font-size: 18px;
+      line-height: 1.55;
+      color: #dfd3be;
+      text-wrap: balance;
+    }
+    #go {
+      min-width: 280px;
+      min-height: 72px;
+      padding: 16px 36px;
+      border-radius: 24px;
+      border: 1.5px solid rgba(228, 187, 99, 0.7);
+      background: linear-gradient(135deg, #e2603f 0%, #c44020 100%);
+      color: #ffffff;
+      font-family: inherit;
+      font-size: 22px;
+      font-weight: 700;
+      letter-spacing: 0.3px;
+      line-height: 1.2;
+      cursor: pointer;
+      box-shadow: 0 12px 32px rgba(226, 96, 63, 0.45), 0 0 0 1px rgba(255, 255, 255, 0.22) inset;
+      transition: transform 0.2s cubic-bezier(0.2, 0.8, 0.2, 1), box-shadow 0.2s ease, filter 0.2s ease;
+    }
+    #go:hover {
+      transform: translateY(-2px);
+      filter: brightness(1.08);
+      box-shadow: 0 16px 42px rgba(226, 96, 63, 0.6), 0 0 0 1px rgba(255, 255, 255, 0.35) inset;
+    }
+    #go:active {
+      transform: translateY(1px);
+    }
+    #go:focus-visible { outline: 4px solid #E4BB63; outline-offset: 4px; }
+    #go[aria-busy="true"] { opacity: .75; cursor: progress; }
+    #sr { min-width: 260px; min-height: 56px; padding: 12px 24px; border-radius: 16px; border: 2px solid #C3B49B;
+      background: transparent; color: #F1E5CC; font-family: inherit; font-size: 18px; font-weight: 600; line-height: 1.2; cursor: pointer; }
+    #sr:focus-visible { outline: 4px solid #E4BB63; outline-offset: 4px; }
+    #start p.small { font-size: 15px; color: #C3B49B; }
+    #status {
+      min-height: 1.6em;
+      font-size: 15px;
+      color: #C3B49B;
+      padding: 8px 20px;
+      border-radius: 999px;
+      background: rgba(13, 21, 27, 0.65);
+      border: 1px solid rgba(228, 187, 99, 0.2);
+      backdrop-filter: blur(10px);
+      max-width: 90%;
+    }
+  </style>
+</head>
+<body>
+  <!--
+    Màn "Bắt đầu": trình duyệt chỉ cho phát âm thanh và giọng đọc SAU lần chạm/bấm phím đầu tiên.
+    App Flutter tải ngầm trong lúc chờ; bấm nút (hoặc Enter / Space) là chạy ngay, có tiếng luôn.
+  -->
+  <main id="start">
+    <div class="logo-wrap">
+      <div class="logo-glow" aria-hidden="true"></div>
+      <img src="icons/Icon-192.png" alt="Biểu tượng Lắng">
+    </div>
+    <h1>Lắng</h1>
+    <p>Quả địa cầu biết nói: nói tên một nơi bất kỳ để nghe thời tiết, lịch sử khí hậu và thiên tai NASA bằng tiếng đàn bầu; rê tay trên bản đồ địa hình thật, nghe tiếng sáo theo độ cao; khám phá Hệ Mặt Trời và âm thanh thật của NASA. Không cần bấm nút — app luôn lắng nghe. Hãy cho phép dùng micro.</p>
+    <button id="go" type="button" autofocus aria-describedby="status">Chạm bất kỳ đâu để bắt đầu</button>
+    <div id="status" role="status" aria-live="polite">Chạm vào bất kỳ chỗ nào trên màn hình, hoặc nhấn phím bất kỳ. Trình duyệt chỉ cho phát tiếng và dùng micro sau một lần chạm.</div>
+    <noscript><p>Cần bật JavaScript để dùng Lắng.</p></noscript>
+  </main>
+  <!-- Thư viện âm thanh flutter_soloud (bản web, WebAssembly) — phải nạp trước app -->
+  <script src="assets/packages/flutter_soloud/web/libflutter_soloud_plugin.js" defer></script>
+  <script src="assets/packages/flutter_soloud/web/init_module.dart.js" defer></script>
+  <script src="flutter_bootstrap.js" async></script>
+  <!-- Vercel Web Analytics (đếm lượt truy cập độc lập; bật trong Vercel → Analytics, chưa bật thì bỏ qua) -->
+  <script defer src="/_vercel/insights/script.js"></script>
+</body>
+</html>

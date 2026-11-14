@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Không có trang này · Lắng</title>
+  <style>
+    html, body { margin: 0; height: 100%; background: #0B151A; color: #F1E5CC;
+      font-family: "Be Vietnam Pro", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+    main { min-height: 100%; display: flex; flex-direction: column; align-items: center; justify-content: center;
+      gap: 16px; padding: 24px; box-sizing: border-box; text-align: center; }
+    h1 { margin: 0; font-size: 32px; }
+    p { margin: 0; font-size: 18px; color: #D9CDB4; max-width: 30em; line-height: 1.5; }
+    a { display: inline-block; padding: 14px 28px; border-radius: 16px; border: 2px solid #E4BB63; background: #E2603F;
+      color: #160C08; font-weight: 700; font-size: 20px; text-decoration: none; }
+    a:focus-visible { outline: 4px solid #E4BB63; outline-offset: 4px; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Không có trang này</h1>
+    <p>Đường dẫn này không có trong Lắng. Bấm nút dưới để về quả địa cầu biết nói.</p>
+    <a href="/" autofocus>Về trang chính</a>
+  </main>
+  <script>
+    // người khiếm thị: đọc to vì sao và tự về trang chính sau vài giây
+    try {
+      const u = new SpeechSynthesisUtterance('Không có trang này. Đang đưa bạn về trang chính của Lắng.');
+      u.lang = 'vi-VN';
+      speechSynthesis.speak(u);
+    } catch (_) {}
+    setTimeout(() => { location.href = '/'; }, 6000);
+  </script>
+</body>
+</html>

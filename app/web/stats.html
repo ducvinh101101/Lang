@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0B151A">
+  <title>Lắng · Thống kê lượt dùng</title>
+  <link rel="icon" type="image/png" href="favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #0B151A; --bg2: #081014; --card: #121E24; --line: #24343C;
+      --ink: #F1E5CC; --ink2: #C3B49B; --ink3: #8C7C66;
+      --accent: #E2603F; --gold: #E4BB63; --sea: #4F8FB8; --leaf: #7FB77E;
+    }
+    * { box-sizing: border-box; }
+    html { background: var(--bg2); }
+    body { min-height: 100vh; }
+    html, body { margin: 0; background-image: linear-gradient(180deg, var(--bg), var(--bg2)); background-color: var(--bg2); color: var(--ink);
+      font-family: "Be Vietnam Pro", system-ui, sans-serif; }
+    main { max-width: 1180px; margin: 0 auto; padding: 32px 20px 48px; }
+    header { display: flex; flex-wrap: wrap; align-items: center; gap: 16px 24px; margin-bottom: 28px; }
+    header img { width: 64px; height: 64px; border-radius: 16px; }
+    h1 { margin: 0; font-size: clamp(28px, 4vw, 40px); font-weight: 700; letter-spacing: .3px; }
+    h1 span { color: var(--accent); font-style: italic; }
+    .sub { color: var(--ink2); margin: 4px 0 0; font-size: 16px; }
+    .live { margin-left: auto; display: flex; align-items: center; gap: 8px; color: var(--ink2); font-size: 14px; }
+    .dot { width: 10px; height: 10px; border-radius: 50%; background: var(--leaf); box-shadow: 0 0 0 4px rgba(127,183,126,.18); }
+    .hero { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 16px; margin-bottom: 16px; }
+    .kpi { background: var(--card); border: 1px solid var(--line); border-radius: 20px; padding: 20px 22px; }
+    .kpi .v { font-size: clamp(40px, 6vw, 64px); font-weight: 700; line-height: 1.05; font-variant-numeric: tabular-nums; }
+    .kpi .l { color: var(--ink2); font-size: 16px; margin-top: 6px; }
+    .kpi.main .v { color: var(--gold); }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); gap: 12px; margin-bottom: 16px; }
+    .small { background: var(--card); border: 1px solid var(--line); border-radius: 16px; padding: 14px 16px; }
+    .small .v { font-size: 30px; font-weight: 700; font-variant-numeric: tabular-nums; }
+    .small .l { color: var(--ink2); font-size: 14px; margin-top: 2px; }
+    .panels { display: grid; grid-template-columns: 2fr 1fr; gap: 16px; }
+    @media (max-width: 860px) { .panels { grid-template-columns: 1fr; } .live { margin-left: 0; } }
+    @media (max-width: 520px) {
+      main { padding: 20px 14px 36px; }
+      .grid { grid-template-columns: 1fr 1fr; }
+      .hero { grid-template-columns: 1fr 1fr; }
+      .hero .kpi.main { grid-column: 1 / -1; }
+      .kpi { padding: 16px; } .kpi .l { font-size: 14px; }
+      .small .v { font-size: 26px; } .small .l { font-size: 13px; }
+      .bars .row { grid-template-columns: 96px 1fr 44px; font-size: 14px; }
+    }
+    .panel { background: var(--card); border: 1px solid var(--line); border-radius: 20px; padding: 18px 20px; }
+    .panel h2 { margin: 0 0 12px; font-size: 18px; font-weight: 600; }
+    .legend { display: flex; gap: 16px; color: var(--ink2); font-size: 13px; margin-bottom: 8px; }
+    .legend i { display: inline-block; width: 12px; height: 12px; border-radius: 3px; margin-right: 6px; vertical-align: -1px; }
+    svg { width: 100%; height: auto; display: block; }
+    .bars .row { display: grid; grid-template-columns: 120px 1fr 56px; align-items: center; gap: 10px; margin: 8px 0; font-size: 15px; }
+    .bars .track { height: 12px; border-radius: 6px; background: #1A2A31; overflow: hidden; }
+    .bars .fill { height: 100%; border-radius: 6px; }
+    .bars .n { text-align: right; color: var(--ink2); font-variant-numeric: tabular-nums; }
+    footer { margin-top: 24px; color: var(--ink3); font-size: 13px; line-height: 1.6; }
+    footer a { color: var(--ink2); }
+    .note { background: #1C1611; border: 1px solid #3A3029; color: var(--ink2); border-radius: 16px; padding: 16px 18px; line-height: 1.6; }
+    .note code { color: var(--gold); }
+    .sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }
+  </style>
+</head>
+<body>
+<main>
+  <header>
+    <img src="icons/Icon-192.png" alt="">
+    <div>
+      <h1>Lắng <span>·</span> lượt trải nghiệm</h1>
+      <p class="sub">Nghe bản đồ khí hậu Việt Nam bằng âm thanh — cho người khiếm thị và bạn nhỏ. Số liệu ẩn danh, cập nhật trực tiếp.</p>
+    </div>
+    <div class="live" aria-hidden="true"><span class="dot"></span><span id="updated">Đang tải…</span></div>
+  </header>
+
+  <div id="summary" class="sr" aria-live="polite"></div>
+  <div id="content"></div>
+
+  <footer>
+    Số liệu được app Lắng (bản web và bản cài trên máy) tự gửi về khi có người dùng: chỉ là số đếm, kèm một mã ngẫu nhiên
+    của máy để đếm số người khác nhau. Không có giọng nói, câu hỏi, vị trí hay thông tin cá nhân. Người dùng tắt được trong Cài đặt.
+    <br><a href="/">Mở Lắng</a>
+  </footer>
+</main>
+<script>
+(function () {
+  const fmt = (n) => (n || 0).toLocaleString('vi-VN');
+  const el = (h) => { const t = document.createElement('template'); t.innerHTML = h.trim(); return t.content.firstChild; };
+  const PLAT = { web: 'Trình duyệt (web)', windows: 'Windows', android: 'Android', ios: 'iPhone / iPad', macos: 'macOS', linux: 'Linux', other: 'Khác' };
+  const MODE = { blind: 'Khiếm thị', kid: 'Bạn nhỏ', standard: 'Thông thường' };
+
+  function chart(daily) {
+    const W = 760, H = 260, L = 44, R = 12, T = 12, B = 34;
+    const max = Math.max(4, ...daily.map((d) => Math.max(d.open || 0, d.users || 0)));
+    const step = Math.pow(10, Math.floor(Math.log10(max)));
+    const top = Math.ceil(max / step) * step;
+    const n = daily.length, bw = (W - L - R) / n;
+    const y = (v) => T + (H - T - B) * (1 - v / top);
+    let g = '';
+    for (let k = 0; k <= 4; k++) {
+      const v = (top / 4) * k, yy = y(v);
+      g += `<line x1="${L}" x2="${W - R}" y1="${yy}" y2="${yy}" stroke="#24343C"/>`;
+      g += `<text x="${L - 8}" y="${yy + 4}" text-anchor="end" font-size="11" fill="#8C7C66">${fmt(Math.round(v))}</text>`;
+    }
+    daily.forEach((d, i) => {
+      const x = L + i * bw;
+      const o = d.open || 0, u = d.users || 0;
+      g += `<rect x="${x + bw * 0.12}" y="${y(o)}" width="${bw * 0.76}" height="${H - B - y(o)}" rx="3" fill="#E4BB63"><title>${d.day}: ${fmt(o)} lượt mở, ${fmt(u)} người</title></rect>`;
+      if (i % 5 === 4 || i === n - 1) {
+        const [, m, dd] = d.day.split('-');
+        g += `<text x="${x + bw / 2}" y="${H - 12}" text-anchor="middle" font-size="11" fill="#8C7C66">${+dd}/${+m}</text>`;
+      }
+    });
+    // đường số người
+    const pts = daily.map((d, i) => `${L + i * bw + bw / 2},${y(d.users || 0)}`).join(' ');
+    g += `<polyline points="${pts}" fill="none" stroke="#E2603F" stroke-width="2.5" stroke-linejoin="round"/>`;
+    daily.forEach((d, i) => { g += `<circle cx="${L + i * bw + bw / 2}" cy="${y(d.users || 0)}" r="3" fill="#E2603F"/>`; });
+    return `<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="Biểu đồ 30 ngày: cột vàng là lượt mở app, đường đỏ là số người dùng mỗi ngày">${g}</svg>`;
+  }
+
+  function bars(obj, names, colors) {
+    const entries = Object.entries(obj || {}).sort((a, b) => b[1] - a[1]);
+    const total = entries.reduce((s, [, v]) => s + v, 0) || 1;
+    if (!entries.length) return '<p class="sub">Chưa có số liệu.</p>';
+    return '<div class="bars">' + entries.map(([k, v], i) =>
+      `<div class="row"><span>${names[k] || k}</span><div class="track"><div class="fill" style="width:${(v / total * 100).toFixed(1)}%;background:${colors[i % colors.length]}"></div></div><span class="n">${Math.round(v / total * 100)}%</span></div>`
+    ).join('') + '</div>';
+  }
+
+  function render(d) {
+    const c = document.getElementById('content');
+    if (!d.ready) {
+      c.innerHTML = `<div class="note"><b>Chưa bật bộ đếm.</b> Trên Vercel: mở dự án → <b>Storage</b> → <b>Upstash Redis</b> (miễn phí) →
+        <b>Connect to project</b>, rồi deploy lại. Vercel tự thêm <code>KV_REST_API_URL</code> và <code>KV_REST_API_TOKEN</code>.</div>`;
+      document.getElementById('updated').textContent = 'Chưa có máy chủ đếm';
+      return;
+    }
+    const t = d.total || {}, L = d.labels || {};
+    const since = d.since ? d.since.split('-').reverse().join('/') : '';
+    c.innerHTML = '';
+    c.append(el(`<section class="hero">
+      <div class="kpi main"><div class="v">${fmt(t.open)}</div><div class="l">${L.open}${since ? ' · từ ' + since : ''}</div></div>
+      <div class="kpi"><div class="v">${fmt(d.users)}</div><div class="l">Người dùng (thiết bị) khác nhau</div></div>
+      <div class="kpi"><div class="v">${fmt(t.blind)}</div><div class="l">${L.blind}</div></div>
+    </section>`));
+    const keys = ['kid', 'map', 'today', 'voice', 'ai', 'weather', 'lesson', 'game', 'challenge'];
+    c.append(el(`<section class="grid">${keys.map((k) => `<div class="small"><div class="v">${fmt(t[k])}</div><div class="l">${L[k]}</div></div>`).join('')}</section>`));
+    c.append(el(`<section class="panels">
+      <div class="panel"><h2>30 ngày gần nhất</h2>
+        <div class="legend"><span><i style="background:#E4BB63"></i>Lượt mở app</span><span><i style="background:#E2603F"></i>Người dùng mỗi ngày</span></div>
+        ${chart(d.daily || [])}</div>
+      <div class="panel"><h2>Dùng trên</h2>${bars(d.platform, PLAT, ['#4F8FB8', '#E4BB63', '#7FB77E', '#E2603F', '#C3B49B'])}
+        <h2 style="margin-top:18px">Chế độ</h2>${bars(d.mode, MODE, ['#E2603F', '#E4BB63', '#4F8FB8'])}</div>
+    </section>`));
+    const u = new Date(d.updated);
+    document.getElementById('updated').textContent = 'Cập nhật ' + u.toLocaleTimeString('vi-VN', { hour: '2-digit', minute: '2-digit' });
+    document.getElementById('summary').textContent =
+      `Lắng: ${fmt(t.open)} lượt mở app, ${fmt(d.users)} người dùng khác nhau, ${fmt(t.blind)} lượt dùng chế độ khiếm thị, ` +
+      `${fmt(t.kid)} lượt bạn nhỏ, ${fmt(t.voice)} câu lệnh giọng nói, ${fmt(t.lesson)} bài học hoàn thành.`;
+  }
+
+  async function load() {
+    try {
+      const r = await fetch('/api/stats', { cache: 'no-store' });
+      render(await r.json());
+    } catch (e) {
+      document.getElementById('updated').textContent = 'Chưa tải được số liệu';
+    }
+  }
+  load();
+  setInterval(load, 60000);
+})();
+</script>
+</body>
+</html>
