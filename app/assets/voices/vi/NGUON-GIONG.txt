@@ -1,0 +1,7 @@
+Giọng đọc tiếng Việt đóng gói trong app (chạy offline, không cần mạng, không cần cài giọng Windows):
+- Mô hình: Piper "vi_VN-vais1000-medium" (VITS), bản đóng gói của dự án sherpa-onnx (k2-fsa), Apache-2.0.
+  https://github.com/k2-fsa/sherpa-onnx/releases/tag/tts-models
+- Dữ liệu huấn luyện: VAIS-1000 Vietnamese speech synthesis corpus, giấy phép CC BY 4.0.
+  https://ieee-dataport.org/documents/vais-1000-vietnamese-speech-synthesis-corpus
+- espeak-ng-data (chỉ phần tiếng Việt), GPL-3.0: https://github.com/espeak-ng/espeak-ng
+model.onnx được chia 3 phần (model.onnx.part0..2) để vừa giới hạn đồng bộ tệp; app tự ghép lại khi chạy lần đầu.
