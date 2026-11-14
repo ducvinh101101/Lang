@@ -1,0 +1,8 @@
+vn_dvhc.json — danh bạ đơn vị hành chính Việt Nam (từ 1/7/2025) cho app tìm xã, phường khi hỏi thời tiết / địa lý.
+  p: 34 tỉnh, thành [mã, tên, tên tiếng Anh, vĩ độ, kinh độ]
+  w: 3.321 xã, phường, đặc khu [mã, loại, tên, chỉ số tỉnh, vĩ độ, kinh độ trụ sở UBND]
+  d: 691 huyện, quận, thị xã, thành phố CŨ [tên, tỉnh cũ]
+  o: 10.035 xã, phường, thị trấn CŨ [tên, chỉ số huyện cũ, mã xã mới chứa phần lớn diện tích]
+Nguồn: atlas34 (https://github.com/gooduselabs/atlas34, MIT) — dữ liệu gốc từ thanglequoc/vietnamese-provinces-database
+v5.2.0 (MIT, hình học theo sapnhap.bando.com.vn) và vietnamadminunits 1.0.4 (MIT). Dữ liệu không chính thức: đối chiếu
+với nghị quyết sáp nhập khi dùng cho việc quan trọng.
