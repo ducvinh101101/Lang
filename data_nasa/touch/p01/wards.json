@@ -1,0 +1,2144 @@
+[
+ {
+  "id": 1,
+  "code": "00004",
+  "name_vi": "Ba Đình",
+  "full_name_vi": "Phường Ba Đình",
+  "cells": 12,
+  "elev_mean_m": 17,
+  "share_ge_500m": 0.0,
+  "elev_max_m": 18,
+  "elev_max_at": {
+   "lat": 21.0417,
+   "lon": 105.8409
+  },
+  "pop_density_median": 38253,
+  "slope_mean_deg": 0.2,
+  "water_share": 0.141
+ },
+ {
+  "id": 2,
+  "code": "00008",
+  "name_vi": "Ngọc Hà",
+  "full_name_vi": "Phường Ngọc Hà",
+  "cells": 12,
+  "elev_mean_m": 14,
+  "share_ge_500m": 0.0,
+  "elev_max_m": 15,
+  "elev_max_at": {
+   "lat": 21.0351,
+   "lon": 105.8279
+  },
+  "pop_density_median": 36154,
+  "slope_mean_deg": 0.1,
+  "water_share": 0.029
+ },
+ {
+  "id": 3,
+  "code": "00025",
+  "name_vi": "Giảng Võ",
+  "full_name_vi": "Phường Giảng Võ",
+  "cells": 18,
+  "elev_mean_m": 13,
+  "share_ge_500m": 0.0,
+  "elev_max_m": 14,
+  "elev_max_at": {
+   "lat": 21.0319,
+   "lon": 105.8083
+  },
+  "pop_density_median": 36154,
+  "slope_mean_deg": 0.0,
+  "water_share": 0.008
+ },
+ {
+  "id": 4,
+  "code": "00070",
+  "name_vi": "Hoàn Kiếm",
+  "full_name_vi": "Phường Hoàn Kiếm",
+  "cells": 11,
+  "elev_mean_m": 18,
+  "share_ge_500m": 0.0,
+  "elev_max_m": 19,
+  "elev_max_at": {
+   "lat": 21.0319,
+   "lon": 105.8507
+  },
+  "pop_density_median": 38253,
+  "slope_mean_deg": 0.2,
+  "water_share": 0.151
+ },
+ {
+  "id": 5,
+  "code": "00082",
+  "name_vi": "Cửa Nam",
+  "full_name_vi": "Phường Cửa Nam",
+  "cells": 12,
+  "elev_mean_m": 18,
+  "share_ge_500m": 0.0,
+  "elev_max_m": 19,
+  "elev_max_at": {
+   "lat": 21.0254,
+   "lon": 105.8507
+  },
+  "pop_density_median": 38253,
+  "slope_mean_deg": 0.2,
+  "water_share": 0.151
+ },
+ {
+  "id": 6,
+  "code": "00091",
+  "name_vi": "Phú Thượng",
+  "full_name_vi": "Phường Phú Thượng",
+  "cells": 45,
+  "elev_mean_m": 10,
+  "share_ge_500m": 0.0,
+  "elev_max_m": 12,
+  "elev_max_at": {
+   "lat": 21.0905,
+   "lon": 105.7888
+  },
+  "pop_density_median": 4183,
+  "slope_mean_deg": 0.1,
+  "water_share": 0.237
+ },
+ {
+  "id": 7,
+  "code": "00097",
+  "name_vi": "Hồng Hà",
+  "full_name_vi": "Phường Hồng Hà",
+  "cells": 106,
+  "elev_mean_m": 10,
+  "share_ge_500m": 0.0,
+  "elev_max_m": 19,
+  "elev_max_at": {
+   "lat": 21.0319,
+   "lon": 105.8572
+  },
+  "pop_density_median": 8477,
+  "slope_mean_deg": 0.2,
+  "water_share": 0.264
+ },
+ {
+  "id": 8,
+  "code": "00103",
+  "name_vi": "Tây Hồ",
+  "full_name_vi": "Phường Tây Hồ",
+  "cells": 99,
+  "elev_mean_m": 11,
+  "share_ge_500m": 0.0,
+  "elev_max_m": 18,
+  "elev_max_at": {
+   "lat": 21.0417,
+   "lon": 105.8344
+  },
+  "pop_density_median": 12222,
+  "slope_mean_deg": 0.1,
+  "water_share": 0.25
+ },
+ {
+  "id": 9,
+  "code": "00118",
+  "name_vi": "Bồ Đề",
+  "full_name_vi": "Phường Bồ Đề",
+  "cells": 93,
+  "elev_mean_m": 10,
+  "share_ge_500m": 0.0,
+  "elev_max_m": 12,
+  "elev_max_at": {
+   "lat": 21.0645,
+   "lon": 105.8605
+  },
+  "pop_density_median": 8477,
+  "slope_mean_deg": 0.1,
+  "water_share": 0.21
+ },
+ {
+  "id": 10,
+  "code": "00127",
+  "name_vi": "Việt Hưng",
+  "full_name_vi": "Phường Việt Hưng",
+  "cells": 90,
+  "elev_mean_m": 10,
+  "share_ge_500m": 0.0,
+  "elev_max_m": 12,
+  "elev_max_at": {
+   "lat": 21.0742,
+   "lon": 105.8865
+  },
+  "pop_density_median": 5220,
+  "slope_mean_deg": 0.1,
+  "water_share": 0.057
+ },
+ {
+  "id": 11,
+  "code": "00136",
+  "name_vi": "Phúc Lợi",
+  "full_name_vi": "Phường Phúc Lợi",
+  "cells": 77,
+  "elev_mean_m": 8,
+  "share_ge_500m": 0.0,
+  "elev_max_m": 10,
+  "elev_max_at": {
+   "lat": 21.0482,
+   "lon": 105.9256
+  },
+  "pop_density_median": 3513,
+  "slope_mean_deg": 0.1,
+  "water_share": 0.05
+ },
+ {
+  "id": 12,
+  "code": "00145",
+  "name_vi": "Long Biên",
+  "full_name_vi": "Phường Long Biên",
+  "cells": 164,
+  "elev_mean_m": 9,
+  "share_ge_500m": 0.0,
+  "elev_max_m": 11,
+  "elev_max_at": {
+   "lat": 21.0319,
+   "lon": 105.88
+  },
+  "pop_density_median": 5795,
+  "slope_mean_deg": 0.1,
+  "water_share": 0.056
+ },
+ {
+  "id": 13,
+  "code": "00160",
+  "name_vi": "Nghĩa Đô",
+  "full_name_vi": "Phường Nghĩa Đô",
+  "cells": 25,
+  "elev_mean_m": 12,
+  "share_ge_500m": 0.0,
+  "elev_max_m": 14,
+  "elev_max_at": {
+   "lat": 21.0319,
+   "lon": 105.8051
+  },
+  "pop_density_median": 12222,
+  "slope_mean_deg": 0.1,
+  "water_share": 0.108
+ },
+ {
+  "id": 14,
+  "code": "00166",
+  "name_vi": "Cầu Giấy",
+  "full_name_vi": "Phường Cầu Giấy",
+  "cells": 30,
+  "elev_mean_m": 10,
+  "share_ge_500m": 0.0,
+  "elev_max_m": 12,
+  "elev_max_at": {
+   "lat": 21.0417,
+   "lon": 105.7855
+  },
+  "pop_density_median": 10625,
+  "slope_mean_deg": 0.1,
+  "water_share": 0.003
+ },
+ {
+  "id": 15,
+  "code": "00175",
+  "name_vi": "Yên Hoà",
+  "full_name_vi": "Phường Yên Hoà",
+  "cells": 24,
+  "elev_mean_m": 10,
+  "share_ge_500m": 0.0,
+  "elev_max_m": 11,
+  "elev_max_at": {
+   "lat": 21.0254,
+   "lon": 105.792
+  },
+  "pop_density_median": 36154,
+  "slope_mean_deg": 0.1,
+  "water_share": 0.006
+ },
+ {
+  "id": 16,
+  "code": "00190",
+  "name_vi": "Ô Chợ Dừa",
+  "full_name_vi": "Phường Ô Chợ Dừa",
+  "cells": 13,
+  "elev_mean_m": 13,
+  "share_ge_500m": 0.0,
+  "elev_max_m": 14,
+  "elev_max_at": {
+   "lat": 21.0319,
+   "lon": 105.8279
+  },
+  "pop_density_median": 36154,
+  "slope_mean_deg": 0.1,
+  "water_share": 0.008
+ },
+ {
+  "id": 17,
+  "code": "00199",
+  "name_vi": "Láng",
+  "full_name_vi": "Phường Láng",
+  "cells": 25,
+  "elev_mean_m": 13,
+  "share_ge_500m": 0.0,
+  "elev_max_m": 14,
+  "elev_max_at": {
+   "lat": 21.0319,
+   "lon": 105.8018
+  },
+  "pop_density_median": 36154,
+  "slope_mean_deg": 0.1,
+  "water_share": 0.008
+ },
+ {
+  "id": 18,
+  "code": "00226",
+  "name_vi": "Văn Miếu - Quốc Tử Giám",
+  "full_name_vi": "Phường Văn Miếu - Quốc Tử Giám",
+  "cells": 15,
+  "elev_mean_m": 15,
+  "share_ge_500m": 0.0,
+  "elev_max_m": 16,
+  "elev_max_at": {
+   "lat": 21.0319,
+   "lon": 105.8344
+  },
+  "pop_density_median": 38253,
+  "slope_mean_deg": 0.1,
+  "water_share": 0.132
+ },
+ {
+  "id": 19,
+  "code": "00229",
+  "name_vi": "Kim Liên",
+  "full_name_vi": "Phường Kim Liên",
+  "cells": 13,
+  "elev_mean_m": 13,
+  "share_ge_500m": 0.0,
+  "elev_max_m": 13,
+  "elev_max_at": {
+   "lat": 21.0123,
+   "lon": 105.8344
+  },
+  "pop_density_median": 38253,
+  "slope_mean_deg": 0.0,
+  "water_share": 0.096
+ },
+ {
+  "id": 20,
+  "code": "00235",
+  "name_vi": "Đống Đa",
+  "full_name_vi": "Phường Đống Đa",
+  "cells": 23,
+  "elev_mean_m": 13,
+  "share_ge_500m": 0.0,
+  "elev_max_m": 14,
+  "elev_max_at": {
+   "lat": 21.0188,
+   "lon": 105.8279
+  },
+  "pop_density_median": 36154,
+  "slope_mean_deg": 0.1,
+  "water_share": 0.014
+ },
+ {
+  "id": 21,
+  "code": "00256",
+  "name_vi": "Hai Bà Trưng",
+  "full_name_vi": "Phường Hai Bà Trưng",
+  "cells": 25,
+  "elev_mean_m": 15,
+  "share_ge_500m": 0.0,
+  "elev_max_m": 19,
+  "elev_max_at": {
+   "lat": 21.0188,
+   "lon": 105.8507
+  },
+  "pop_density_median": 38253,
+  "slope_mean_deg": 0.2,
+  "water_share": 0.151
+ },
+ {
+  "id": 22,
+  "code": "00283",
+  "name_vi": "Vĩnh Tuy",
+  "full_name_vi": "Phường Vĩnh Tuy",
+  "cells": 15,
+  "elev_mean_m": 11,
+  "share_ge_500m": 0.0,
+  "elev_max_m": 16,
+  "elev_max_at": {
+   "lat": 21.0091,
+   "lon": 105.8637
+  },
+  "pop_density_median": 38253,
+  "slope_mean_deg": 0.2,
+  "water_share": 0.08
+ },
+ {
+  "id": 23,
+  "code": "00292",
+  "name_vi": "Bạch Mai",
+  "full_name_vi": "Phường Bạch Mai",
+  "cells": 27,
+  "elev_mean_m": 13,
+  "share_ge_500m": 0.0,
+  "elev_max_m": 16,
+  "elev_max_at": {
+   "lat": 21.0091,
+   "lon": 105.8605
+  },
+  "pop_density_median": 38253,
+  "slope_mean_deg": 0.1,
+  "water_share": 0.117
+ },
+ {
+  "id": 24,
+  "code": "00301",
+  "name_vi": "Vĩnh Hưng",
+  "full_name_vi": "Phường Vĩnh Hưng",
+  "cells": 27,
+  "elev_mean_m": 8,
+  "share_ge_500m": 0.0,
+  "elev_max_m": 10,
+  "elev_max_at": {
+   "lat": 20.9993,
+   "lon": 105.8735
+  },
+  "pop_density_median": 8846,
+  "slope_mean_deg": 0.1,
+  "water_share": 0.108
+ },
+ {
+  "id": 25,
+  "code": "00316",
+  "name_vi": "Định Công",
+  "full_name_vi": "Phường Định Công",
+  "cells": 25,
+  "elev_mean_m": 8,
+  "share_ge_500m": 0.0,
+  "elev_max_m": 10,
+  "elev_max_at": {
+   "lat": 20.983,
+   "lon": 105.8214
+  },
+  "pop_density_median": 15097,
+  "slope_mean_deg": 0.1,
+  "water_share": 0.0
+ },
+ {
+  "id": 26,
+  "code": "00322",
+  "name_vi": "Tương Mai",
+  "full_name_vi": "Phường Tương Mai",
+  "cells": 32,
+  "elev_mean_m": 11,
+  "share_ge_500m": 0.0,
+  "elev_max_m": 13,
+  "elev_max_at": {
+   "lat": 20.996,
+   "lon": 105.8442
+  },
+  "pop_density_median": 16489,
+  "slope_mean_deg": 0.1,
+  "water_share": 0.0
+ },
+ {
+  "id": 27,
+  "code": "00328",
+  "name_vi": "Lĩnh Nam",
+  "full_name_vi": "Phường Lĩnh Nam",
+  "cells": 84,
+  "elev_mean_m": 9,
+  "share_ge_500m": 0.0,
+  "elev_max_m": 11,
+  "elev_max_at": {
+   "lat": 21.0025,
+   "lon": 105.8735
+  },
+  "pop_density_median": 8846,
+  "slope_mean_deg": 0.1,
+  "water_share": 0.132
+ },
+ {
+  "id": 28,
+  "code": "00331",
+  "name_vi": "Hoàng Mai",
+  "full_name_vi": "Phường Hoàng Mai",
+  "cells": 74,
+  "elev_mean_m": 8,
+  "share_ge_500m": 0.0,
+  "elev_max_m": 10,
+  "elev_max_at": {
+   "lat": 20.983,
+   "lon": 105.8442
+  },
+  "pop_density_median": 16489,
+  "slope_mean_deg": 0.1,
+  "water_share": 0.029
+ },
+ {
+  "id": 29,
+  "code": "00337",
+  "name_vi": "Hoàng Liệt",
+  "full_name_vi": "Phường Hoàng Liệt",
+  "cells": 25,
+  "elev_mean_m": 8,
+  "share_ge_500m": 0.0,
+  "elev_max_m": 9,
+  "elev_max_at": {
+   "lat": 20.97,
+   "lon": 105.8279
+  },
+  "pop_density_median": 15097,
+  "slope_mean_deg": 0.0,
+  "water_share": 0.0
+ },
+ {
+  "id": 30,
+  "code": "00340",
+  "name_vi": "Yên Sở",
+  "full_name_vi": "Phường Yên Sở",
+  "cells": 49,
+  "elev_mean_m": 7,
+  "share_ge_500m": 0.0,
+  "elev_max_m": 9,
+  "elev_max_at": {
+   "lat": 20.9667,
+   "lon": 105.8442
+  },
+  "pop_density_median": 16489,
+  "slope_mean_deg": 0.1,
+  "water_share": 0.005
+ },
+ {
+  "id": 31,
+  "code": "00352",
+  "name_vi": "Phương Liệt",
+  "full_name_vi": "Phường Phương Liệt",
+  "cells": 35,
+  "elev_mean_m": 11,
+  "share_ge_500m": 0.0,
+  "elev_max_m": 14,
+  "elev_max_at": {
+   "lat": 21.0025,
+   "lon": 105.8246
+  },
+  "pop_density_median": 16489,
+  "slope_mean_deg": 0.1,
+  "water_share": 0.0
+ },
+ {
+  "id": 32,
+  "code": "00364",
+  "name_vi": "Khương Đình",
+  "full_name_vi": "Phường Khương Đình",
+  "cells": 25,
+  "elev_mean_m": 11,
+  "share_ge_500m": 0.0,
+  "elev_max_m": 14,
+  "elev_max_at": {
+   "lat": 21.0025,
+   "lon": 105.8214
+  },
+  "pop_density_median": 15097,
+  "slope_mean_deg": 0.1,
+  "water_share": 0.0
+ },
+ {
+  "id": 33,
+  "code": "00367",
+  "name_vi": "Thanh Xuân",
+  "full_name_vi": "Phường Thanh Xuân",
+  "cells": 32,
+  "elev_mean_m": 12,
+  "share_ge_500m": 0.0,
+  "elev_max_m": 14,
+  "elev_max_at": {
+   "lat": 21.0091,
+   "lon": 105.8083
+  },
+  "pop_density_median": 36154,
+  "slope_mean_deg": 0.1,
+  "water_share": 0.004
+ },
+ {
+  "id": 34,
+  "code": "00376",
+  "name_vi": "Sóc Sơn",
+  "full_name_vi": "Xã Sóc Sơn",
+  "cells": 476,
+  "elev_mean_m": 18,
+  "share_ge_500m": 0.0,
+  "elev_max_m": 143,
+  "elev_max_at": {
+   "lat": 21.2958,
+   "lon": 105.8279
+  },
+  "pop_density_median": 1204,
+  "slope_mean_deg": 0.4,
+  "water_share": 0.002
+ },
+ {
+  "id": 35,
+  "code": "00382",
+  "name_vi": "Kim Anh",
+  "full_name_vi": "Xã Kim Anh",
+  "cells": 430,
+  "elev_mean_m": 47,
+  "share_ge_500m": 0.0,
+  "elev_max_m": 329,
+  "elev_max_at": {
+   "lat": 21.3154,
+   "lon": 105.7855
+  },
+  "pop_density_median": 1057,
+  "slope_mean_deg": 1.5,
+  "water_share": 0.003
+ },
+ {
+  "id": 36,
+  "code": "00385",
+  "name_vi": "Trung Giã",
+  "full_name_vi": "Xã Trung Giã",
+  "cells": 694,
+  "elev_mean_m": 40,
+  "share_ge_500m": 0.0,
+  "elev_max_m": 329,
+  "elev_max_at": {
+   "lat": 21.3154,
+   "lon": 105.7888
+  },
+  "pop_density_median": 1187,
+  "slope_mean_deg": 1.4,
+  "water_share": 0.001
+ },
+ {
+  "id": 37,
+  "code": "00430",
+  "name_vi": "Đa Phúc",
+  "full_name_vi": "Xã Đa Phúc",
+  "cells": 520,
+  "elev_mean_m": 8,
+  "share_ge_500m": 0.0,
+  "elev_max_m": 14,
+  "elev_max_at": {
+   "lat": 21.2339,
+   "lon": 105.8605
+  },
+  "pop_density_median": 1202,
+  "slope_mean_deg": 0.1,
+  "water_share": 0.0
+ },
+ {
+  "id": 38,
+  "code": "00433",
+  "name_vi": "Nội Bài",
+  "full_name_vi": "Xã Nội Bài",
+  "cells": 450,
+  "elev_mean_m": 19,
+  "share_ge_500m": 0.0,
+  "elev_max_m": 177,
+  "elev_max_at": {
+   "lat": 21.2893,
+   "lon": 105.8181
+  },
+  "pop_density_median": 1204,
+  "slope_mean_deg": 0.4,
+  "water_share": 0.009
+ },
+ {
+  "id": 39,
+  "code": "00454",
+  "name_vi": "Đông Anh",
+  "full_name_vi": "Xã Đông Anh",
+  "cells": 377,
+  "elev_mean_m": 10,
+  "share_ge_500m": 0.0,
+  "elev_max_m": 15,
+  "elev_max_at": {
+   "lat": 21.1394,
+   "lon": 105.867
+  },
+  "pop_density_median": 2419,
+  "slope_mean_deg": 0.1,
+  "water_share": 0.042
+ },
+ {
+  "id": 40,
+  "code": "00466",
+  "name_vi": "Phúc Thịnh",
+  "full_name_vi": "Xã Phúc Thịnh",
+  "cells": 336,
+  "elev_mean_m": 12,
+  "share_ge_500m": 0.0,
+  "elev_max_m": 16,
+  "elev_max_at": {
+   "lat": 21.1818,
+   "lon": 105.8442
+  },
+  "pop_density_median": 2200,
+  "slope_mean_deg": 0.1,
+  "water_share": 0.017
+ },
+ {
+  "id": 41,
+  "code": "00475",
+  "name_vi": "Thư Lâm",
+  "full_name_vi": "Xã Thư Lâm",
+  "cells": 421,
+  "elev_mean_m": 9,
+  "share_ge_500m": 0.0,
+  "elev_max_m": 17,
+  "elev_max_at": {
+   "lat": 21.172,
+   "lon": 105.8507
+  },
+  "pop_density_median": 2370,
+  "slope_mean_deg": 0.1,
+  "water_share": 0.0
+ },
+ {
+  "id": 42,
+  "code": "00493",
+  "name_vi": "Thiên Lộc",
+  "full_name_vi": "Xã Thiên Lộc",
+  "cells": 208,
+  "elev_mean_m": 10,
+  "share_ge_500m": 0.0,
+  "elev_max_m": 12,
+  "elev_max_at": {
+   "lat": 21.1231,
+   "lon": 105.7399
+  },
+  "pop_density_median": 2419,
+  "slope_mean_deg": 0.1,
+  "water_share": 0.084
+ },
+ {
+  "id": 43,
+  "code": "00508",
+  "name_vi": "Vĩnh Thanh",
+  "full_name_vi": "Xã Vĩnh Thanh",
+  "cells": 212,
+  "elev_mean_m": 9,
+  "share_ge_500m": 0.0,
+  "elev_max_m": 12,
+  "elev_max_at": {
+   "lat": 21.1068,
+   "lon": 105.8279
+  },
+  "pop_density_median": 4183,
+  "slope_mean_deg": 0.1,
+  "water_share": 0.165
+ },
+ {
+  "id": 44,
+  "code": "00541",
+  "name_vi": "Phù Đổng",
+  "full_name_vi": "Xã Phù Đổng",
+  "cells": 371,
+  "elev_mean_m": 8,
+  "share_ge_500m": 0.0,
+  "elev_max_m": 12,
+  "elev_max_at": {
+   "lat": 21.0905,
+   "lon": 105.9191
+  },
+  "pop_density_median": 2580,
+  "slope_mean_deg": 0.1,
+  "water_share": 0.048
+ },
+ {
+  "id": 45,
+  "code": "00562",
+  "name_vi": "Thuận An",
+  "full_name_vi": "Xã Thuận An",
+  "cells": 276,
+  "elev_mean_m": 7,
+  "share_ge_500m": 0.0,
+  "elev_max_m": 10,
+  "elev_max_at": {
+   "lat": 21.0645,
+   "lon": 106.0006
+  },
+  "pop_density_median": 2716,
+  "slope_mean_deg": 0.1,
+  "water_share": 0.032
+ },
+ {
+  "id": 46,
+  "code": "00565",
+  "name_vi": "Gia Lâm",
+  "full_name_vi": "Xã Gia Lâm",
+  "cells": 230,
+  "elev_mean_m": 6,
+  "share_ge_500m": 0.0,
+  "elev_max_m": 9,
+  "elev_max_at": {
+   "lat": 21.0058,
+   "lon": 105.968
+  },
+  "pop_density_median": 2716,
+  "slope_mean_deg": 0.1,
+  "water_share": 0.017
+ },
+ {
+  "id": 47,
+  "code": "00577",
+  "name_vi": "Bát Tràng",
+  "full_name_vi": "Xã Bát Tràng",
+  "cells": 210,
+  "elev_mean_m": 8,
+  "share_ge_500m": 0.0,
+  "elev_max_m": 13,
+  "elev_max_at": {
+   "lat": 20.9732,
+   "lon": 105.9094
+  },
+  "pop_density_median": 3657,
+  "slope_mean_deg": 0.1,
+  "water_share": 0.099
+ },
+ {
+  "id": 48,
+  "code": "00592",
+  "name_vi": "Từ Liêm",
+  "full_name_vi": "Phường Từ Liêm",
+  "cells": 71,
+  "elev_mean_m": 9,
+  "share_ge_500m": 0.0,
+  "elev_max_m": 11,
+  "elev_max_at": {
+   "lat": 21.0351,
+   "lon": 105.7758
+  },
+  "pop_density_median": 10625,
+  "slope_mean_deg": 0.0,
+  "water_share": 0.0
+ },
+ {
+  "id": 49,
+  "code": "00598",
+  "name_vi": "Thượng Cát",
+  "full_name_vi": "Phường Thượng Cát",
+  "cells": 110,
+  "elev_mean_m": 9,
+  "share_ge_500m": 0.0,
+  "elev_max_m": 11,
+  "elev_max_at": {
+   "lat": 21.1003,
+   "lon": 105.7595
+  },
+  "pop_density_median": 3739,
+  "slope_mean_deg": 0.1,
+  "water_share": 0.115
+ },
+ {
+  "id": 50,
+  "code": "00602",
+  "name_vi": "Đông Ngạc",
+  "full_name_vi": "Phường Đông Ngạc",
+  "cells": 72,
+  "elev_mean_m": 10,
+  "share_ge_500m": 0.0,
+  "elev_max_m": 12,
+  "elev_max_at": {
+   "lat": 21.0905,
+   "lon": 105.7758
+  },
+  "pop_density_median": 8191,
+  "slope_mean_deg": 0.1,
+  "water_share": 0.062
+ },
+ {
+  "id": 51,
+  "code": "00611",
+  "name_vi": "Xuân Đỉnh",
+  "full_name_vi": "Phường Xuân Đỉnh",
+  "cells": 61,
+  "elev_mean_m": 9,
+  "share_ge_500m": 0.0,
+  "elev_max_m": 11,
+  "elev_max_at": {
+   "lat": 21.0775,
+   "lon": 105.7855
+  },
+  "pop_density_median": 12222,
+  "slope_mean_deg": 0.1,
+  "water_share": 0.186
+ },
+ {
+  "id": 52,
+  "code": "00613",
+  "name_vi": "Tây Tựu",
+  "full_name_vi": "Phường Tây Tựu",
+  "cells": 58,
+  "elev_mean_m": 8,
+  "share_ge_500m": 0.0,
+  "elev_max_m": 10,
+  "elev_max_at": {
+   "lat": 21.0579,
+   "lon": 105.7432
+  },
+  "pop_density_median": 5170,
+  "slope_mean_deg": 0.0,
+  "water_share": 0.0
+ },
+ {
+  "id": 53,
+  "code": "00619",
+  "name_vi": "Phú Diễn",
+  "full_name_vi": "Phường Phú Diễn",
+  "cells": 66,
+  "elev_mean_m": 9,
+  "share_ge_500m": 0.0,
+  "elev_max_m": 11,
+  "elev_max_at": {
+   "lat": 21.0417,
+   "lon": 105.7758
+  },
+  "pop_density_median": 8191,
+  "slope_mean_deg": 0.1,
+  "water_share": 0.0
+ },
+ {
+  "id": 54,
+  "code": "00622",
+  "name_vi": "Xuân Phương",
+  "full_name_vi": "Phường Xuân Phương",
+  "cells": 87,
+  "elev_mean_m": 8,
+  "share_ge_500m": 0.0,
+  "elev_max_m": 10,
+  "elev_max_at": {
+   "lat": 21.0417,
+   "lon": 105.7367
+  },
+  "pop_density_median": 5170,
+  "slope_mean_deg": 0.0,
+  "water_share": 0.0
+ },
+ {
+  "id": 55,
+  "code": "00634",
+  "name_vi": "Tây Mỗ",
+  "full_name_vi": "Phường Tây Mỗ",
+  "cells": 39,
+  "elev_mean_m": 9,
+  "share_ge_500m": 0.0,
+  "elev_max_m": 11,
+  "elev_max_at": {
+   "lat": 20.9993,
+   "lon": 105.7529
+  },
+  "pop_density_median": 4296,
+  "slope_mean_deg": 0.1,
+  "water_share": 0.0
+ },
+ {
+  "id": 56,
+  "code": "00637",
+  "name_vi": "Đại Mỗ",
+  "full_name_vi": "Phường Đại Mỗ",
+  "cells": 64,
+  "elev_mean_m": 9,
+  "share_ge_500m": 0.0,
+  "elev_max_m": 13,
+  "elev_max_at": {
+   "lat": 20.9895,
+   "lon": 105.792
+  },
+  "pop_density_median": 7727,
+  "slope_mean_deg": 0.1,
+  "water_share": 0.0
+ },
+ {
+  "id": 57,
+  "code": "00640",
+  "name_vi": "Thanh Trì",
+  "full_name_vi": "Xã Thanh Trì",
+  "cells": 82,
+  "elev_mean_m": 8,
+  "share_ge_500m": 0.0,
+  "elev_max_m": 10,
+  "elev_max_at": {
+   "lat": 20.9537,
+   "lon": 105.8768
+  },
+  "pop_density_median": 4874,
+  "slope_mean_deg": 0.1,
+  "water_share": 0.04
+ },
+ {
+  "id": 58,
+  "code": "00643",
+  "name_vi": "Thanh Liệt",
+  "full_name_vi": "Phường Thanh Liệt",
+  "cells": 56,
+  "elev_mean_m": 9,
+  "share_ge_500m": 0.0,
+  "elev_max_m": 13,
+  "elev_max_at": {
+   "lat": 20.9895,
+   "lon": 105.7986
+  },
+  "pop_density_median": 15097,
+  "slope_mean_deg": 0.1,
+  "water_share": 0.0
+ },
+ {
+  "id": 59,
+  "code": "00664",
+  "name_vi": "Đại Thanh",
+  "full_name_vi": "Xã Đại Thanh",
+  "cells": 145,
+  "elev_mean_m": 6,
+  "share_ge_500m": 0.0,
+  "elev_max_m": 9,
+  "elev_max_at": {
+   "lat": 20.9537,
+   "lon": 105.8344
+  },
+  "pop_density_median": 4360,
+  "slope_mean_deg": 0.1,
+  "water_share": 0.0
+ },
+ {
+  "id": 60,
+  "code": "00679",
+  "name_vi": "Ngọc Hồi",
+  "full_name_vi": "Xã Ngọc Hồi",
+  "cells": 103,
+  "elev_mean_m": 6,
+  "share_ge_500m": 0.0,
+  "elev_max_m": 8,
+  "elev_max_at": {
+   "lat": 20.9243,
+   "lon": 105.8507
+  },
+  "pop_density_median": 2785,
+  "slope_mean_deg": 0.1,
+  "water_share": 0.0
+ },
+ {
+  "id": 61,
+  "code": "00685",
+  "name_vi": "Nam Phù",
+  "full_name_vi": "Xã Nam Phù",
+  "cells": 118,
+  "elev_mean_m": 8,
+  "share_ge_500m": 0.0,
+  "elev_max_m": 11,
+  "elev_max_at": {
+   "lat": 20.9243,
+   "lon": 105.8931
+  },
+  "pop_density_median": 3657,
+  "slope_mean_deg": 0.1,
+  "water_share": 0.111
+ },
+ {
+  "id": 62,
+  "code": "04930",
+  "name_vi": "Yên Xuân",
+  "full_name_vi": "Xã Yên Xuân",
+  "cells": 564,
+  "elev_mean_m": 157,
+  "share_ge_500m": 0.05,
+  "elev_max_m": 879,
+  "elev_max_at": {
+   "lat": 20.9569,
+   "lon": 105.4434
+  },
+  "pop_density_median": 326,
+  "slope_mean_deg": 5.0,
+  "water_share": 0.001
+ },
+ {
+  "id": 63,
+  "code": "08974",
+  "name_vi": "Quang Minh",
+  "full_name_vi": "Xã Quang Minh",
+  "cells": 267,
+  "elev_mean_m": 11,
+  "share_ge_500m": 0.0,
+  "elev_max_m": 13,
+  "elev_max_at": {
+   "lat": 21.2144,
+   "lon": 105.7399
+  },
+  "pop_density_median": 1832,
+  "slope_mean_deg": 0.1,
+  "water_share": 0.0
+ },
+ {
+  "id": 64,
+  "code": "08980",
+  "name_vi": "Yên Lãng",
+  "full_name_vi": "Xã Yên Lãng",
+  "cells": 342,
+  "elev_mean_m": 11,
+  "share_ge_500m": 0.0,
+  "elev_max_m": 16,
+  "elev_max_at": {
+   "lat": 21.1655,
+   "lon": 105.6584
+  },
+  "pop_density_median": 1832,
+  "slope_mean_deg": 0.1,
+  "water_share": 0.143
+ },
+ {
+  "id": 65,
+  "code": "08995",
+  "name_vi": "Tiến Thắng",
+  "full_name_vi": "Xã Tiến Thắng",
+  "cells": 357,
+  "elev_mean_m": 10,
+  "share_ge_500m": 0.0,
+  "elev_max_m": 17,
+  "elev_max_at": {
+   "lat": 21.2144,
+   "lon": 105.7008
+  },
+  "pop_density_median": 1340,
+  "slope_mean_deg": 0.1,
+  "water_share": 0.003
+ },
+ {
+  "id": 66,
+  "code": "09022",
+  "name_vi": "Mê Linh",
+  "full_name_vi": "Xã Mê Linh",
+  "cells": 322,
+  "elev_mean_m": 11,
+  "share_ge_500m": 0.0,
+  "elev_max_m": 14,
+  "elev_max_at": {
+   "lat": 21.1655,
+   "lon": 105.6976
+  },
+  "pop_density_median": 1948,
+  "slope_mean_deg": 0.1,
+  "water_share": 0.046
+ },
+ {
+  "id": 67,
+  "code": "09552",
+  "name_vi": "Kiến Hưng",
+  "full_name_vi": "Phường Kiến Hưng",
+  "cells": 42,
+  "elev_mean_m": 7,
+  "share_ge_500m": 0.0,
+  "elev_max_m": 9,
+  "elev_max_at": {
+   "lat": 20.9602,
+   "lon": 105.766
+  },
+  "pop_density_median": 6479,
+  "slope_mean_deg": 0.1,
+  "water_share": 0.0
+ },
+ {
+  "id": 68,
+  "code": "09556",
+  "name_vi": "Hà Đông",
+  "full_name_vi": "Phường Hà Đông",
+  "cells": 92,
+  "elev_mean_m": 10,
+  "share_ge_500m": 0.0,
+  "elev_max_m": 13,
+  "elev_max_at": {
+   "lat": 20.9863,
+   "lon": 105.792
+  },
+  "pop_density_median": 7727,
+  "slope_mean_deg": 0.1,
+  "water_share": 0.0
+ },
+ {
+  "id": 69,
+  "code": "09562",
+  "name_vi": "Yên Nghĩa",
+  "full_name_vi": "Phường Yên Nghĩa",
+  "cells": 78,
+  "elev_mean_m": 9,
+  "share_ge_500m": 0.0,
+  "elev_max_m": 11,
+  "elev_max_at": {
+   "lat": 20.9569,
+   "lon": 105.7301
+  },
+  "pop_density_median": 4099,
+  "slope_mean_deg": 0.1,
+  "water_share": 0.0
+ },
+ {
+  "id": 70,
+  "code": "09568",
+  "name_vi": "Phú Lương",
+  "full_name_vi": "Phường Phú Lương",
+  "cells": 75,
+  "elev_mean_m": 7,
+  "share_ge_500m": 0.0,
+  "elev_max_m": 9,
+  "elev_max_at": {
+   "lat": 20.9504,
+   "lon": 105.7497
+  },
+  "pop_density_median": 6479,
+  "slope_mean_deg": 0.1,
+  "water_share": 0.0
+ },
+ {
+  "id": 71,
+  "code": "09574",
+  "name_vi": "Sơn Tây",
+  "full_name_vi": "Phường Sơn Tây",
+  "cells": 164,
+  "elev_mean_m": 14,
+  "share_ge_500m": 0.0,
+  "elev_max_m": 21,
+  "elev_max_at": {
+   "lat": 21.1394,
+   "lon": 105.4662
+  },
+  "pop_density_median": 1487,
+  "slope_mean_deg": 0.2,
+  "water_share": 0.1
+ },
+ {
+  "id": 72,
+  "code": "09604",
+  "name_vi": "Tùng Thiện",
+  "full_name_vi": "Phường Tùng Thiện",
+  "cells": 236,
+  "elev_mean_m": 22,
+  "share_ge_500m": 0.0,
+  "elev_max_m": 35,
+  "elev_max_at": {
+   "lat": 21.1166,
+   "lon": 105.4336
+  },
+  "pop_density_median": 1232,
+  "slope_mean_deg": 0.3,
+  "water_share": 0.029
+ },
+ {
+  "id": 73,
+  "code": "09616",
+  "name_vi": "Đoài Phương",
+  "full_name_vi": "Xã Đoài Phương",
+  "cells": 429,
+  "elev_mean_m": 21,
+  "share_ge_500m": 0.0,
+  "elev_max_m": 37,
+  "elev_max_at": {
+   "lat": 21.0742,
+   "lon": 105.4434
+  },
+  "pop_density_median": 1512,
+  "slope_mean_deg": 0.3,
+  "water_share": 0.105
+ },
+ {
+  "id": 74,
+  "code": "09619",
+  "name_vi": "Quảng Oai",
+  "full_name_vi": "Xã Quảng Oai",
+  "cells": 372,
+  "elev_mean_m": 16,
+  "share_ge_500m": 0.0,
+  "elev_max_m": 34,
+  "elev_max_at": {
+   "lat": 21.1557,
+   "lon": 105.401
+  },
+  "pop_density_median": 837,
+  "slope_mean_deg": 0.2,
+  "water_share": 0.084
+ },
+ {
+  "id": 75,
+  "code": "09634",
+  "name_vi": "Cổ Đô",
+  "full_name_vi": "Xã Cổ Đô",
+  "cells": 440,
+  "elev_mean_m": 13,
+  "share_ge_500m": 0.0,
+  "elev_max_m": 22,
+  "elev_max_at": {
+   "lat": 21.2567,
+   "lon": 105.3587
+  },
+  "pop_density_median": 837,
+  "slope_mean_deg": 0.1,
+  "water_share": 0.191
+ },
+ {
+  "id": 76,
+  "code": "09661",
+  "name_vi": "Minh Châu",
+  "full_name_vi": "Xã Minh Châu",
+  "cells": 100,
+  "elev_mean_m": 13,
+  "share_ge_500m": 0.0,
+  "elev_max_m": 16,
+  "elev_max_at": {
+   "lat": 21.2144,
+   "lon": 105.4532
+  },
+  "pop_density_median": 881,
+  "slope_mean_deg": 0.1,
+  "water_share": 0.176
+ },
+ {
+  "id": 77,
+  "code": "09664",
+  "name_vi": "Vật Lại",
+  "full_name_vi": "Xã Vật Lại",
+  "cells": 461,
+  "elev_mean_m": 17,
+  "share_ge_500m": 0.0,
+  "elev_max_m": 40,
+  "elev_max_at": {
+   "lat": 21.1981,
+   "lon": 105.3717
+  },
+  "pop_density_median": 837,
+  "slope_mean_deg": 0.2,
+  "water_share": 0.109
+ },
+ {
+  "id": 78,
+  "code": "09676",
+  "name_vi": "Bất Bạt",
+  "full_name_vi": "Xã Bất Bạt",
+  "cells": 464,
+  "elev_mean_m": 23,
+  "share_ge_500m": 0.0,
+  "elev_max_m": 83,
+  "elev_max_at": {
+   "lat": 21.1264,
+   "lon": 105.3196
+  },
+  "pop_density_median": 753,
+  "slope_mean_deg": 0.4,
+  "water_share": 0.122
+ },
+ {
+  "id": 79,
+  "code": "09694",
+  "name_vi": "Suối Hai",
+  "full_name_vi": "Xã Suối Hai",
+  "cells": 448,
+  "elev_mean_m": 45,
+  "share_ge_500m": 0.0,
+  "elev_max_m": 332,
+  "elev_max_at": {
+   "lat": 21.0905,
+   "lon": 105.3815
+  },
+  "pop_density_median": 837,
+  "slope_mean_deg": 0.9,
+  "water_share": 0.085
+ },
+ {
+  "id": 80,
+  "code": "09700",
+  "name_vi": "Ba Vì",
+  "full_name_vi": "Xã Ba Vì",
+  "cells": 717,
+  "elev_mean_m": 221,
+  "share_ge_500m": 0.14,
+  "elev_max_m": 1018,
+  "elev_max_at": {
+   "lat": 21.0645,
+   "lon": 105.3587
+  },
+  "pop_density_median": 768,
+  "slope_mean_deg": 7.1,
+  "water_share": 0.064
+ },
+ {
+  "id": 81,
+  "code": "09706",
+  "name_vi": "Yên Bài",
+  "full_name_vi": "Xã Yên Bài",
+  "cells": 621,
+  "elev_mean_m": 109,
+  "share_ge_500m": 0.02,
+  "elev_max_m": 550,
+  "elev_max_at": {
+   "lat": 21.0221,
+   "lon": 105.388
+  },
+  "pop_density_median": 837,
+  "slope_mean_deg": 3.3,
+  "water_share": 0.023
+ },
+ {
+  "id": 82,
+  "code": "09715",
+  "name_vi": "Phúc Thọ",
+  "full_name_vi": "Xã Phúc Thọ",
+  "cells": 283,
+  "elev_mean_m": 11,
+  "share_ge_500m": 0.0,
+  "elev_max_m": 14,
+  "elev_max_at": {
+   "lat": 21.1231,
+   "lon": 105.5053
+  },
+  "pop_density_median": 1831,
+  "slope_mean_deg": 0.1,
+  "water_share": 0.022
+ },
+ {
+  "id": 83,
+  "code": "09739",
+  "name_vi": "Phúc Lộc",
+  "full_name_vi": "Xã Phúc Lộc",
+  "cells": 375,
+  "elev_mean_m": 12,
+  "share_ge_500m": 0.0,
+  "elev_max_m": 16,
+  "elev_max_at": {
+   "lat": 21.159,
+   "lon": 105.5444
+  },
+  "pop_density_median": 1794,
+  "slope_mean_deg": 0.1,
+  "water_share": 0.164
+ },
+ {
+  "id": 84,
+  "code": "09772",
+  "name_vi": "Hát Môn",
+  "full_name_vi": "Xã Hát Môn",
+  "cells": 277,
+  "elev_mean_m": 12,
+  "share_ge_500m": 0.0,
+  "elev_max_m": 15,
+  "elev_max_at": {
+   "lat": 21.1361,
+   "lon": 105.6096
+  },
+  "pop_density_median": 1921,
+  "slope_mean_deg": 0.1,
+  "water_share": 0.023
+ },
+ {
+  "id": 85,
+  "code": "09784",
+  "name_vi": "Đan Phượng",
+  "full_name_vi": "Xã Đan Phượng",
+  "cells": 100,
+  "elev_mean_m": 12,
+  "share_ge_500m": 0.0,
+  "elev_max_m": 14,
+  "elev_max_at": {
+   "lat": 21.0905,
+   "lon": 105.6519
+  },
+  "pop_density_median": 2491,
+  "slope_mean_deg": 0.1,
+  "water_share": 0.005
+ },
+ {
+  "id": 86,
+  "code": "09787",
+  "name_vi": "Liên Minh",
+  "full_name_vi": "Xã Liên Minh",
+  "cells": 240,
+  "elev_mean_m": 12,
+  "share_ge_500m": 0.0,
+  "elev_max_m": 15,
+  "elev_max_at": {
+   "lat": 21.1394,
+   "lon": 105.6259
+  },
+  "pop_density_median": 2484,
+  "slope_mean_deg": 0.1,
+  "water_share": 0.136
+ },
+ {
+  "id": 87,
+  "code": "09817",
+  "name_vi": "Ô Diên",
+  "full_name_vi": "Xã Ô Diên",
+  "cells": 282,
+  "elev_mean_m": 10,
+  "share_ge_500m": 0.0,
+  "elev_max_m": 14,
+  "elev_max_at": {
+   "lat": 21.1394,
+   "lon": 105.7106
+  },
+  "pop_density_median": 2710,
+  "slope_mean_deg": 0.1,
+  "water_share": 0.123
+ },
+ {
+  "id": 88,
+  "code": "09832",
+  "name_vi": "Hoài Đức",
+  "full_name_vi": "Xã Hoài Đức",
+  "cells": 137,
+  "elev_mean_m": 9,
+  "share_ge_500m": 0.0,
+  "elev_max_m": 11,
+  "elev_max_at": {
+   "lat": 21.0645,
+   "lon": 105.7008
+  },
+  "pop_density_median": 2729,
+  "slope_mean_deg": 0.0,
+  "water_share": 0.0
+ },
+ {
+  "id": 89,
+  "code": "09856",
+  "name_vi": "Dương Hoà",
+  "full_name_vi": "Xã Dương Hoà",
+  "cells": 142,
+  "elev_mean_m": 11,
+  "share_ge_500m": 0.0,
+  "elev_max_m": 13,
+  "elev_max_at": {
+   "lat": 21.0742,
+   "lon": 105.665
+  },
+  "pop_density_median": 2642,
+  "slope_mean_deg": 0.1,
+  "water_share": 0.003
+ },
+ {
+  "id": 90,
+  "code": "09871",
+  "name_vi": "Sơn Đồng",
+  "full_name_vi": "Xã Sơn Đồng",
+  "cells": 193,
+  "elev_mean_m": 9,
+  "share_ge_500m": 0.0,
+  "elev_max_m": 13,
+  "elev_max_at": {
+   "lat": 21.0058,
+   "lon": 105.6682
+  },
+  "pop_density_median": 2729,
+  "slope_mean_deg": 0.1,
+  "water_share": 0.0
+ },
+ {
+  "id": 91,
+  "code": "09877",
+  "name_vi": "An Khánh",
+  "full_name_vi": "Xã An Khánh",
+  "cells": 221,
+  "elev_mean_m": 10,
+  "share_ge_500m": 0.0,
+  "elev_max_m": 13,
+  "elev_max_at": {
+   "lat": 21.0025,
+   "lon": 105.6682
+  },
+  "pop_density_median": 3218,
+  "slope_mean_deg": 0.1,
+  "water_share": 0.0
+ },
+ {
+  "id": 92,
+  "code": "09886",
+  "name_vi": "Dương Nội",
+  "full_name_vi": "Phường Dương Nội",
+  "cells": 93,
+  "elev_mean_m": 9,
+  "share_ge_500m": 0.0,
+  "elev_max_m": 11,
+  "elev_max_at": {
+   "lat": 20.9928,
+   "lon": 105.7529
+  },
+  "pop_density_median": 3218,
+  "slope_mean_deg": 0.0,
+  "water_share": 0.0
+ },
+ {
+  "id": 93,
+  "code": "09895",
+  "name_vi": "Quốc Oai",
+  "full_name_vi": "Xã Quốc Oai",
+  "cells": 183,
+  "elev_mean_m": 11,
+  "share_ge_500m": 0.0,
+  "elev_max_m": 15,
+  "elev_max_at": {
+   "lat": 21.0221,
+   "lon": 105.6422
+  },
+  "pop_density_median": 1649,
+  "slope_mean_deg": 0.1,
+  "water_share": 0.0
+ },
+ {
+  "id": 94,
+  "code": "09910",
+  "name_vi": "Kiều Phú",
+  "full_name_vi": "Xã Kiều Phú",
+  "cells": 248,
+  "elev_mean_m": 8,
+  "share_ge_500m": 0.0,
+  "elev_max_m": 10,
+  "elev_max_at": {
+   "lat": 20.9895,
+   "lon": 105.6259
+  },
+  "pop_density_median": 1539,
+  "slope_mean_deg": 0.1,
+  "water_share": 0.0
+ },
+ {
+  "id": 95,
+  "code": "09931",
+  "name_vi": "Hưng Đạo",
+  "full_name_vi": "Xã Hưng Đạo",
+  "cells": 215,
+  "elev_mean_m": 10,
+  "share_ge_500m": 0.0,
+  "elev_max_m": 26,
+  "elev_max_at": {
+   "lat": 20.983,
+   "lon": 105.6682
+  },
+  "pop_density_median": 1594,
+  "slope_mean_deg": 0.2,
+  "water_share": 0.0
+ },
+ {
+  "id": 96,
+  "code": "09952",
+  "name_vi": "Phú Cát",
+  "full_name_vi": "Xã Phú Cát",
+  "cells": 447,
+  "elev_mean_m": 49,
+  "share_ge_500m": 0.0,
+  "elev_max_m": 428,
+  "elev_max_at": {
+   "lat": 20.9243,
+   "lon": 105.5086
+  },
+  "pop_density_median": 1237,
+  "slope_mean_deg": 1.5,
+  "water_share": 0.001
+ },
+ {
+  "id": 97,
+  "code": "09955",
+  "name_vi": "Thạch Thất",
+  "full_name_vi": "Xã Thạch Thất",
+  "cells": 257,
+  "elev_mean_m": 11,
+  "share_ge_500m": 0.0,
+  "elev_max_m": 13,
+  "elev_max_at": {
+   "lat": 21.0905,
+   "lon": 105.5249
+  },
+  "pop_density_median": 1705,
+  "slope_mean_deg": 0.1,
+  "water_share": 0.001
+ },
+ {
+  "id": 98,
+  "code": "09982",
+  "name_vi": "Hạ Bằng",
+  "full_name_vi": "Xã Hạ Bằng",
+  "cells": 276,
+  "elev_mean_m": 11,
+  "share_ge_500m": 0.0,
+  "elev_max_m": 18,
+  "elev_max_at": {
+   "lat": 21.0319,
+   "lon": 105.5216
+  },
+  "pop_density_median": 1699,
+  "slope_mean_deg": 0.1,
+  "water_share": 0.012
+ },
+ {
+  "id": 99,
+  "code": "09988",
+  "name_vi": "Hoà Lạc",
+  "full_name_vi": "Xã Hoà Lạc",
+  "cells": 406,
+  "elev_mean_m": 25,
+  "share_ge_500m": 0.0,
+  "elev_max_m": 56,
+  "elev_max_at": {
+   "lat": 20.9993,
+   "lon": 105.4825
+  },
+  "pop_density_median": 1512,
+  "slope_mean_deg": 0.3,
+  "water_share": 0.019
+ },
+ {
+  "id": 100,
+  "code": "10003",
+  "name_vi": "Tây Phương",
+  "full_name_vi": "Xã Tây Phương",
+  "cells": 311,
+  "elev_mean_m": 9,
+  "share_ge_500m": 0.0,
+  "elev_max_m": 17,
+  "elev_max_at": {
+   "lat": 21.0221,
+   "lon": 105.5868
+  },
+  "pop_density_median": 1678,
+  "slope_mean_deg": 0.1,
+  "water_share": 0.001
+ },
+ {
+  "id": 101,
+  "code": "10015",
+  "name_vi": "Chương Mỹ",
+  "full_name_vi": "Phường Chương Mỹ",
+  "cells": 315,
+  "elev_mean_m": 11,
+  "share_ge_500m": 0.0,
+  "elev_max_m": 24,
+  "elev_max_at": {
+   "lat": 20.9406,
+   "lon": 105.6845
+  },
+  "pop_density_median": 1598,
+  "slope_mean_deg": 0.2,
+  "water_share": 0.001
+ },
+ {
+  "id": 102,
+  "code": "10030",
+  "name_vi": "Phú Nghĩa",
+  "full_name_vi": "Xã Phú Nghĩa",
+  "cells": 338,
+  "elev_mean_m": 9,
+  "share_ge_500m": 0.0,
+  "elev_max_m": 13,
+  "elev_max_at": {
+   "lat": 20.9243,
+   "lon": 105.6259
+  },
+  "pop_density_median": 1587,
+  "slope_mean_deg": 0.1,
+  "water_share": 0.0
+ },
+ {
+  "id": 103,
+  "code": "10045",
+  "name_vi": "Xuân Mai",
+  "full_name_vi": "Xã Xuân Mai",
+  "cells": 467,
+  "elev_mean_m": 66,
+  "share_ge_500m": 0.03,
+  "elev_max_m": 670,
+  "elev_max_at": {
+   "lat": 20.807,
+   "lon": 105.5509
+  },
+  "pop_density_median": 1496,
+  "slope_mean_deg": 1.6,
+  "water_share": 0.011
+ },
+ {
+  "id": 104,
+  "code": "10072",
+  "name_vi": "Quảng Bị",
+  "full_name_vi": "Xã Quảng Bị",
+  "cells": 279,
+  "elev_mean_m": 8,
+  "share_ge_500m": 0.0,
+  "elev_max_m": 13,
+  "elev_max_at": {
+   "lat": 20.8918,
+   "lon": 105.7301
+  },
+  "pop_density_median": 1598,
+  "slope_mean_deg": 0.0,
+  "water_share": 0.001
+ },
+ {
+  "id": 105,
+  "code": "10081",
+  "name_vi": "Trần Phú",
+  "full_name_vi": "Xã Trần Phú",
+  "cells": 398,
+  "elev_mean_m": 14,
+  "share_ge_500m": 0.0,
+  "elev_max_m": 83,
+  "elev_max_at": {
+   "lat": 20.7907,
+   "lon": 105.6422
+  },
+  "pop_density_median": 1581,
+  "slope_mean_deg": 0.3,
+  "water_share": 0.023
+ },
+ {
+  "id": 106,
+  "code": "10096",
+  "name_vi": "Hoà Phú",
+  "full_name_vi": "Xã Hoà Phú",
+  "cells": 226,
+  "elev_mean_m": 8,
+  "share_ge_500m": 0.0,
+  "elev_max_m": 15,
+  "elev_max_at": {
+   "lat": 20.8201,
+   "lon": 105.6617
+  },
+  "pop_density_median": 1503,
+  "slope_mean_deg": 0.1,
+  "water_share": 0.001
+ },
+ {
+  "id": 107,
+  "code": "10114",
+  "name_vi": "Thanh Oai",
+  "full_name_vi": "Xã Thanh Oai",
+  "cells": 210,
+  "elev_mean_m": 7,
+  "share_ge_500m": 0.0,
+  "elev_max_m": 10,
+  "elev_max_at": {
+   "lat": 20.8722,
+   "lon": 105.7269
+  },
+  "pop_density_median": 1641,
+  "slope_mean_deg": 0.1,
+  "water_share": 0.0
+ },
+ {
+  "id": 108,
+  "code": "10126",
+  "name_vi": "Bình Minh",
+  "full_name_vi": "Xã Bình Minh",
+  "cells": 275,
+  "elev_mean_m": 7,
+  "share_ge_500m": 0.0,
+  "elev_max_m": 13,
+  "elev_max_at": {
+   "lat": 20.8983,
+   "lon": 105.7269
+  },
+  "pop_density_median": 1646,
+  "slope_mean_deg": 0.1,
+  "water_share": 0.007
+ },
+ {
+  "id": 109,
+  "code": "10144",
+  "name_vi": "Tam Hưng",
+  "full_name_vi": "Xã Tam Hưng",
+  "cells": 250,
+  "elev_mean_m": 5,
+  "share_ge_500m": 0.0,
+  "elev_max_m": 7,
+  "elev_max_at": {
+   "lat": 20.8885,
+   "lon": 105.7758
+  },
+  "pop_density_median": 1808,
+  "slope_mean_deg": 0.0,
+  "water_share": 0.003
+ },
+ {
+  "id": 110,
+  "code": "10180",
+  "name_vi": "Dân Hoà",
+  "full_name_vi": "Xã Dân Hoà",
+  "cells": 299,
+  "elev_mean_m": 5,
+  "share_ge_500m": 0.0,
+  "elev_max_m": 9,
+  "elev_max_at": {
+   "lat": 20.8201,
+   "lon": 105.7529
+  },
+  "pop_density_median": 1617,
+  "slope_mean_deg": 0.1,
+  "water_share": 0.0
+ },
+ {
+  "id": 111,
+  "code": "10183",
+  "name_vi": "Thường Tín",
+  "full_name_vi": "Xã Thường Tín",
+  "cells": 236,
+  "elev_mean_m": 6,
+  "share_ge_500m": 0.0,
+  "elev_max_m": 7,
+  "elev_max_at": {
+   "lat": 20.8983,
+   "lon": 105.8344
+  },
+  "pop_density_median": 2442,
+  "slope_mean_deg": 0.0,
+  "water_share": 0.0
+ },
+ {
+  "id": 112,
+  "code": "10210",
+  "name_vi": "Hồng Vân",
+  "full_name_vi": "Xã Hồng Vân",
+  "cells": 212,
+  "elev_mean_m": 6,
+  "share_ge_500m": 0.0,
+  "elev_max_m": 9,
+  "elev_max_at": {
+   "lat": 20.8722,
+   "lon": 105.9191
+  },
+  "pop_density_median": 2358,
+  "slope_mean_deg": 0.0,
+  "water_share": 0.069
+ },
+ {
+  "id": 113,
+  "code": "10231",
+  "name_vi": "Thượng Phúc",
+  "full_name_vi": "Xã Thượng Phúc",
+  "cells": 247,
+  "elev_mean_m": 5,
+  "share_ge_500m": 0.0,
+  "elev_max_m": 7,
+  "elev_max_at": {
+   "lat": 20.8233,
+   "lon": 105.8605
+  },
+  "pop_density_median": 2071,
+  "slope_mean_deg": 0.0,
+  "water_share": 0.002
+ },
+ {
+  "id": 114,
+  "code": "10237",
+  "name_vi": "Chương Dương",
+  "full_name_vi": "Xã Chương Dương",
+  "cells": 262,
+  "elev_mean_m": 6,
+  "share_ge_500m": 0.0,
+  "elev_max_m": 10,
+  "elev_max_at": {
+   "lat": 20.8657,
+   "lon": 105.9191
+  },
+  "pop_density_median": 2187,
+  "slope_mean_deg": 0.1,
+  "water_share": 0.049
+ },
+ {
+  "id": 115,
+  "code": "10273",
+  "name_vi": "Phú Xuyên",
+  "full_name_vi": "Xã Phú Xuyên",
+  "cells": 478,
+  "elev_mean_m": 6,
+  "share_ge_500m": 0.0,
+  "elev_max_m": 10,
+  "elev_max_at": {
+   "lat": 20.7745,
+   "lon": 105.9517
+  },
+  "pop_density_median": 1432,
+  "slope_mean_deg": 0.1,
+  "water_share": 0.046
+ },
+ {
+  "id": 116,
+  "code": "10279",
+  "name_vi": "Phượng Dực",
+  "full_name_vi": "Xã Phượng Dực",
+  "cells": 367,
+  "elev_mean_m": 5,
+  "share_ge_500m": 0.0,
+  "elev_max_m": 6,
+  "elev_max_at": {
+   "lat": 20.8005,
+   "lon": 105.8605
+  },
+  "pop_density_median": 1406,
+  "slope_mean_deg": 0.0,
+  "water_share": 0.0
+ },
+ {
+  "id": 117,
+  "code": "10330",
+  "name_vi": "Chuyên Mỹ",
+  "full_name_vi": "Xã Chuyên Mỹ",
+  "cells": 270,
+  "elev_mean_m": 5,
+  "share_ge_500m": 0.0,
+  "elev_max_m": 6,
+  "elev_max_at": {
+   "lat": 20.7614,
+   "lon": 105.867
+  },
+  "pop_density_median": 1338,
+  "slope_mean_deg": 0.0,
+  "water_share": 0.0
+ },
+ {
+  "id": 118,
+  "code": "10342",
+  "name_vi": "Đại Xuyên",
+  "full_name_vi": "Xã Đại Xuyên",
+  "cells": 493,
+  "elev_mean_m": 5,
+  "share_ge_500m": 0.0,
+  "elev_max_m": 7,
+  "elev_max_at": {
+   "lat": 20.7419,
+   "lon": 105.968
+  },
+  "pop_density_median": 1292,
+  "slope_mean_deg": 0.0,
+  "water_share": 0.031
+ },
+ {
+  "id": 119,
+  "code": "10354",
+  "name_vi": "Vân Đình",
+  "full_name_vi": "Xã Vân Đình",
+  "cells": 273,
+  "elev_mean_m": 6,
+  "share_ge_500m": 0.0,
+  "elev_max_m": 9,
+  "elev_max_at": {
+   "lat": 20.7321,
+   "lon": 105.7692
+  },
+  "pop_density_median": 1208,
+  "slope_mean_deg": 0.0,
+  "water_share": 0.001
+ },
+ {
+  "id": 120,
+  "code": "10369",
+  "name_vi": "Ứng Thiên",
+  "full_name_vi": "Xã Ứng Thiên",
+  "cells": 358,
+  "elev_mean_m": 6,
+  "share_ge_500m": 0.0,
+  "elev_max_m": 9,
+  "elev_max_at": {
+   "lat": 20.807,
+   "lon": 105.7106
+  },
+  "pop_density_median": 1286,
+  "slope_mean_deg": 0.1,
+  "water_share": 0.0
+ },
+ {
+  "id": 121,
+  "code": "10402",
+  "name_vi": "Ứng Hoà",
+  "full_name_vi": "Xã Ứng Hoà",
+  "cells": 609,
+  "elev_mean_m": 6,
+  "share_ge_500m": 0.0,
+  "elev_max_m": 7,
+  "elev_max_at": {
+   "lat": 20.7158,
+   "lon": 105.8344
+  },
+  "pop_density_median": 1259,
+  "slope_mean_deg": 0.0,
+  "water_share": 0.0
+ },
+ {
+  "id": 122,
+  "code": "10417",
+  "name_vi": "Hoà Xá",
+  "full_name_vi": "Xã Hoà Xá",
+  "cells": 328,
+  "elev_mean_m": 6,
+  "share_ge_500m": 0.0,
+  "elev_max_m": 16,
+  "elev_max_at": {
+   "lat": 20.6246,
+   "lon": 105.8083
+  },
+  "pop_density_median": 1208,
+  "slope_mean_deg": 0.1,
+  "water_share": 0.0
+ },
+ {
+  "id": 123,
+  "code": "10441",
+  "name_vi": "Mỹ Đức",
+  "full_name_vi": "Xã Mỹ Đức",
+  "cells": 416,
+  "elev_mean_m": 17,
+  "share_ge_500m": 0.0,
+  "elev_max_m": 142,
+  "elev_max_at": {
+   "lat": 20.6246,
+   "lon": 105.7171
+  },
+  "pop_density_median": 762,
+  "slope_mean_deg": 0.7,
+  "water_share": 0.001
+ },
+ {
+  "id": 124,
+  "code": "10459",
+  "name_vi": "Phúc Sơn",
+  "full_name_vi": "Xã Phúc Sơn",
+  "cells": 438,
+  "elev_mean_m": 22,
+  "share_ge_500m": 0.0,
+  "elev_max_m": 156,
+  "elev_max_at": {
+   "lat": 20.7484,
+   "lon": 105.6584
+  },
+  "pop_density_median": 984,
+  "slope_mean_deg": 0.9,
+  "water_share": 0.025
+ },
+ {
+  "id": 125,
+  "code": "10465",
+  "name_vi": "Hồng Sơn",
+  "full_name_vi": "Xã Hồng Sơn",
+  "cells": 537,
+  "elev_mean_m": 18,
+  "share_ge_500m": 0.0,
+  "elev_max_m": 132,
+  "elev_max_at": {
+   "lat": 20.7223,
+   "lon": 105.6617
+  },
+  "pop_density_median": 988,
+  "slope_mean_deg": 0.6,
+  "water_share": 0.024
+ },
+ {
+  "id": 126,
+  "code": "10489",
+  "name_vi": "Hương Sơn",
+  "full_name_vi": "Xã Hương Sơn",
+  "cells": 648,
+  "elev_mean_m": 44,
+  "share_ge_500m": 0.0,
+  "elev_max_m": 245,
+  "elev_max_at": {
+   "lat": 20.6083,
+   "lon": 105.7334
+  },
+  "pop_density_median": 981,
+  "slope_mean_deg": 1.7,
+  "water_share": 0.0
+ }
+]

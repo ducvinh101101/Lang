@@ -1,0 +1,421 @@
+{
+ "schema_version": "1.0",
+ "feature": "F3 - di tay đọc vùng",
+ "generated_from": "raw/manifest.json",
+ "levels": [
+  {
+   "id": "vn",
+   "label_vi": "Cả nước",
+   "grid_json": "touch/vn/grid.json",
+   "regions": 34
+  },
+  {
+   "id": "p01",
+   "label_vi": "Hà Nội",
+   "grid_json": "touch/p01/grid.json",
+   "regions": 126,
+   "offshore": 0
+  },
+  {
+   "id": "p02",
+   "label_vi": "Cao Bằng",
+   "grid_json": "touch/p02/grid.json",
+   "regions": 56,
+   "offshore": 0
+  },
+  {
+   "id": "p03",
+   "label_vi": "Tuyên Quang",
+   "grid_json": "touch/p03/grid.json",
+   "regions": 124,
+   "offshore": 0
+  },
+  {
+   "id": "p04",
+   "label_vi": "Điện Biên",
+   "grid_json": "touch/p04/grid.json",
+   "regions": 45,
+   "offshore": 0
+  },
+  {
+   "id": "p05",
+   "label_vi": "Lai Châu",
+   "grid_json": "touch/p05/grid.json",
+   "regions": 38,
+   "offshore": 0
+  },
+  {
+   "id": "p06",
+   "label_vi": "Sơn La",
+   "grid_json": "touch/p06/grid.json",
+   "regions": 75,
+   "offshore": 0
+  },
+  {
+   "id": "p07",
+   "label_vi": "Lào Cai",
+   "grid_json": "touch/p07/grid.json",
+   "regions": 99,
+   "offshore": 0
+  },
+  {
+   "id": "p08",
+   "label_vi": "Thái Nguyên",
+   "grid_json": "touch/p08/grid.json",
+   "regions": 92,
+   "offshore": 0
+  },
+  {
+   "id": "p09",
+   "label_vi": "Lạng Sơn",
+   "grid_json": "touch/p09/grid.json",
+   "regions": 65,
+   "offshore": 0
+  },
+  {
+   "id": "p10",
+   "label_vi": "Quảng Ninh",
+   "grid_json": "touch/p10/grid.json",
+   "regions": 54,
+   "offshore": 0
+  },
+  {
+   "id": "p11",
+   "label_vi": "Bắc Ninh",
+   "grid_json": "touch/p11/grid.json",
+   "regions": 99,
+   "offshore": 0
+  },
+  {
+   "id": "p12",
+   "label_vi": "Phú Thọ",
+   "grid_json": "touch/p12/grid.json",
+   "regions": 148,
+   "offshore": 0
+  },
+  {
+   "id": "p13",
+   "label_vi": "Hải Phòng",
+   "grid_json": "touch/p13/grid.json",
+   "regions": 114,
+   "offshore": 0
+  },
+  {
+   "id": "p14",
+   "label_vi": "Hưng Yên",
+   "grid_json": "touch/p14/grid.json",
+   "regions": 104,
+   "offshore": 0
+  },
+  {
+   "id": "p15",
+   "label_vi": "Ninh Bình",
+   "grid_json": "touch/p15/grid.json",
+   "regions": 129,
+   "offshore": 0
+  },
+  {
+   "id": "p16",
+   "label_vi": "Thanh Hoá",
+   "grid_json": "touch/p16/grid.json",
+   "regions": 166,
+   "offshore": 0
+  },
+  {
+   "id": "p17",
+   "label_vi": "Nghệ An",
+   "grid_json": "touch/p17/grid.json",
+   "regions": 130,
+   "offshore": 0
+  },
+  {
+   "id": "p18",
+   "label_vi": "Hà Tĩnh",
+   "grid_json": "touch/p18/grid.json",
+   "regions": 69,
+   "offshore": 0
+  },
+  {
+   "id": "p19",
+   "label_vi": "Quảng Trị",
+   "grid_json": "touch/p19/grid.json",
+   "regions": 78,
+   "offshore": 0
+  },
+  {
+   "id": "p20",
+   "label_vi": "Huế",
+   "grid_json": "touch/p20/grid.json",
+   "regions": 40,
+   "offshore": 0
+  },
+  {
+   "id": "p21",
+   "label_vi": "Đà Nẵng",
+   "grid_json": "touch/p21/grid.json",
+   "regions": 94,
+   "offshore": 1
+  },
+  {
+   "id": "p22",
+   "label_vi": "Quảng Ngãi",
+   "grid_json": "touch/p22/grid.json",
+   "regions": 96,
+   "offshore": 0
+  },
+  {
+   "id": "p23",
+   "label_vi": "Gia Lai",
+   "grid_json": "touch/p23/grid.json",
+   "regions": 135,
+   "offshore": 0
+  },
+  {
+   "id": "p24",
+   "label_vi": "Khánh Hoà",
+   "grid_json": "touch/p24/grid.json",
+   "regions": 65,
+   "offshore": 1
+  },
+  {
+   "id": "p25",
+   "label_vi": "Đắk Lắk",
+   "grid_json": "touch/p25/grid.json",
+   "regions": 102,
+   "offshore": 0
+  },
+  {
+   "id": "p26",
+   "label_vi": "Lâm Đồng",
+   "grid_json": "touch/p26/grid.json",
+   "regions": 124,
+   "offshore": 0
+  },
+  {
+   "id": "p27",
+   "label_vi": "Đồng Nai",
+   "grid_json": "touch/p27/grid.json",
+   "regions": 95,
+   "offshore": 0
+  },
+  {
+   "id": "p28",
+   "label_vi": "Hồ Chí Minh",
+   "grid_json": "touch/p28/grid.json",
+   "regions": 168,
+   "offshore": 0
+  },
+  {
+   "id": "p29",
+   "label_vi": "Tây Ninh",
+   "grid_json": "touch/p29/grid.json",
+   "regions": 96,
+   "offshore": 0
+  },
+  {
+   "id": "p30",
+   "label_vi": "Đồng Tháp",
+   "grid_json": "touch/p30/grid.json",
+   "regions": 102,
+   "offshore": 0
+  },
+  {
+   "id": "p31",
+   "label_vi": "Vĩnh Long",
+   "grid_json": "touch/p31/grid.json",
+   "regions": 124,
+   "offshore": 0
+  },
+  {
+   "id": "p32",
+   "label_vi": "An Giang",
+   "grid_json": "touch/p32/grid.json",
+   "regions": 102,
+   "offshore": 0
+  },
+  {
+   "id": "p33",
+   "label_vi": "Cần Thơ",
+   "grid_json": "touch/p33/grid.json",
+   "regions": 103,
+   "offshore": 0
+  },
+  {
+   "id": "p34",
+   "label_vi": "Cà Mau",
+   "grid_json": "touch/p34/grid.json",
+   "regions": 64,
+   "offshore": 0
+  }
+ ],
+ "data_cards": {
+  "ids": {
+   "dataset": "Ranh giới 34 tỉnh, 3.321 xã — vietnamese-provinces-database v5.2.0",
+   "provider": "thanglequoc/vietnamese-provinces-database (MIT)",
+   "url": "https://github.com/thanglequoc/vietnamese-provinces-database/releases/tag/v5.2.0",
+   "accessed": "2026-11-10",
+   "spatial": "vector, tô lên lưới app",
+   "temporal": "đơn vị hành chính từ 1/7/2025",
+   "processing": "Tô mỗi vùng lên lưới; vùng nhỏ hơn một ô vẫn giữ ô chứa tâm; đặc khu ngoài khơi đặt ở dải quần đảo.",
+   "limitation_vi": "Ranh giới chỉ để biết ngón tay đang ở đâu, không phải dữ liệu NASA, không có giá trị pháp lý.",
+   "citation": "thanglequoc. vietnamese-provinces-database, v5.2.0. GitHub. https://github.com/thanglequoc/vietnamese-provinces-database/releases/tag/v5.2.0"
+  },
+  "elev": {
+   "dataset": "NASA SRTMGL30 v002 (Shuttle Radar Topography Mission Global 30 arc second)",
+   "provider": "NASA JPL; phân phối bởi NASA LP DAAC",
+   "url": "https://www.earthdata.nasa.gov/data/catalog/lpcloud-srtmgl30-002",
+   "accessed": "2026-11-10",
+   "spatial": "30 giây cung (~1 km)",
+   "temporal": "dữ liệu chụp tháng 2/2000",
+   "processing": "Trung bình mọi điểm 1 km trong mỗi ô lưới app; ô có dưới 50% điểm đất coi là biển; 12,5 m mỗi bậc.",
+   "limitation_vi": "Độ cao là trung bình cả ô, thấp hơn đỉnh núi thật; ở bản đồ cả nước mỗi ô rộng khoảng 5 km.",
+   "citation": "NASA JPL (2013). NASA Shuttle Radar Topography Mission Global 30 arc second. NASA EOSDIS Land Processes DAAC. https://doi.org/10.5067/MEaSUREs/SRTM/SRTMGL30.002"
+  },
+  "slope": {
+   "dataset": "Độ dốc tính từ NASA SRTMGL30 v002",
+   "provider": "NASA JPL; phân phối bởi NASA LP DAAC",
+   "url": "https://www.earthdata.nasa.gov/data/catalog/lpcloud-srtmgl30-002",
+   "accessed": "2026-11-10",
+   "spatial": "30 giây cung (~1 km)",
+   "temporal": "dữ liệu chụp tháng 2/2000",
+   "processing": "Độ dốc từng điểm 1 km bằng sai phân trung tâm (khoảng cách theo kinh độ nhân cos vĩ độ), rồi lấy trung bình trong mỗi ô lưới app; 0,25 độ mỗi bậc.",
+   "limitation_vi": "Độ dốc trung bình của cả ô, nhỏ hơn vách núi thật; ô sát biển thiếu một phía nên kém tin cậy hơn.",
+   "citation": "NASA JPL (2013). NASA Shuttle Radar Topography Mission Global 30 arc second. NASA EOSDIS Land Processes DAAC. https://doi.org/10.5067/MEaSUREs/SRTM/SRTMGL30.002"
+  },
+  "water": {
+   "dataset": "NASA SEDAC GPWv4 Land and Water Area, Revision 11 (diện tích mặt nước)",
+   "provider": "CIESIN, Columbia University; NASA SEDAC",
+   "url": "https://doi.org/10.7927/H4Z60M4Z",
+   "accessed": "2026-11-10",
+   "spatial": "2,5 phút cung (~5 km)",
+   "temporal": "mặt nước nội địa dùng cho GPWv4 (bản 2018)",
+   "processing": "Tỉ lệ mặt nước = diện tích nước / diện tích điểm ảnh theo vĩ độ, trung bình trong mỗi ô app.",
+   "limitation_vi": "Chỉ có sông, hồ đủ lớn so với ô 5 km; sông nhỏ không hiện ra. Biển không thuộc lớp này.",
+   "citation": "Center for International Earth Science Information Network (CIESIN), Columbia University (2018). Gridded Population of the World, Version 4 (GPWv4): Land and Water Area, Revision 11. Palisades, NY: NASA SEDAC. https://doi.org/10.7927/H4Z60M4Z"
+  },
+  "pop": {
+   "dataset": "NASA SEDAC GPWv4 Population Density, Revision 11, năm 2020",
+   "provider": "CIESIN, Columbia University; NASA SEDAC",
+   "url": "https://doi.org/10.7927/H49C6VHW",
+   "accessed": "2026-11-10",
+   "spatial": "2,5 phút cung (~5 km)",
+   "temporal": "ước tính năm 2020",
+   "processing": "Trung bình mật độ trong mỗi ô lưới app; mã hoá thang logarit.",
+   "limitation_vi": "Số ước tính năm 2020, chia đều theo đơn vị hành chính cũ, không phải số điều tra từng xã.",
+   "citation": "Center for International Earth Science Information Network (CIESIN), Columbia University (2018). Gridded Population of the World, Version 4 (GPWv4): Population Density, Revision 11. Palisades, NY: NASA SEDAC. https://doi.org/10.7927/H49C6VHW"
+  }
+ },
+ "sources": {
+  "boundaries": {
+   "source": "GitHub thanglequoc/vietnamese-provinces-database",
+   "release": "v5.2.0",
+   "release_date": "2026-09-21T16:26:19Z",
+   "release_url": "https://github.com/thanglequoc/vietnamese-provinces-database/releases/tag/v5.2.0",
+   "license": "MIT",
+   "url": "https://raw.githubusercontent.com/thanglequoc/vietnamese-provinces-database/v5.2.0/json/vn_provinces_wards_geojson.zip",
+   "counts": {
+    "provinces": 34,
+    "wards": 3321
+   },
+   "downloaded_at": "2026-11-10T17:26:03+00:00",
+   "files": [
+    {
+     "name": "vn_provinces_wards_geojson.zip",
+     "sha256": "3e44d87ec775fea9159b2d8625add8d81aa7ea1dc8fe0d89b772b34d488353ee",
+     "bytes": 49943442
+    }
+   ]
+  },
+  "srtm": {
+   "source": "NASA SRTMGL30 v002, LP DAAC",
+   "short_name": "SRTMGL30",
+   "version": "002",
+   "url": "https://www.earthdata.nasa.gov/data/catalog/lpcloud-srtmgl30-002",
+   "links": [
+    "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/SRTMGL30.002/e100n40.SRTMGL30.dem/e100n40.SRTMGL30.dem.zip"
+   ],
+   "doi": "10.5067/MEaSUREs/SRTM/SRTMGL30.002",
+   "downloaded_at": "2026-11-10T17:36:46+00:00",
+   "files": [
+    {
+     "name": "e100n40.SRTMGL30.dem.zip",
+     "sha256": "bac2d2ac2fa777bf1732cbc10a54da91299accd1e03bc69598d1838d622c3de1",
+     "bytes": 14655891
+    }
+   ]
+  },
+  "gpw": {
+   "source": "NASA SEDAC GPWv4 Population Density rev11",
+   "year": 2020,
+   "resolution": "2.5 arc-minute",
+   "url": "https://doi.org/10.7927/H49C6VHW",
+   "links": [
+    "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/gpw-v4/gpw-v4-population-density-rev11/gpw-v4-population-density-rev11_2020_2pt5_min_tif.zip"
+   ],
+   "doi": "10.7927/H49C6VHW",
+   "downloaded_at": "2026-11-10T17:37:02+00:00",
+   "files": [
+    {
+     "name": "gpw-v4-population-density-rev11_2020_2pt5_min_tif.zip",
+     "sha256": "705a0546c2d7fbc54dfba13f8e9db5c145139d6c3c81a89c3e469dc984ca5fa6",
+     "bytes": 22299118
+    }
+   ]
+  },
+  "water": {
+   "source": "NASA SEDAC GPWv4 Land and Water Area rev11 (water area)",
+   "resolution": "2.5 arc-minute",
+   "url": "https://doi.org/10.7927/H4Z60M4Z",
+   "links": [
+    "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/gpw-v4/gpw-v4-land-water-area-rev11/gpw-v4-land-water-area-rev11_waterareakm_2pt5_min_tif.zip"
+   ],
+   "doi": "10.7927/H4Z60M4Z",
+   "downloaded_at": "2026-11-10T17:37:17+00:00",
+   "files": [
+    {
+     "name": "gpw-v4-land-water-area-rev11_waterareakm_2pt5_min_tif.zip",
+     "sha256": "5d8f39bdadd3845e2a8362df74b3f8a9b9664c4cd31828278bbfb9d71136796a",
+     "bytes": 11472639
+    }
+   ]
+  }
+ },
+ "exports": {
+  "cells_vn_csv": "exports/cells_vn.csv"
+ },
+ "qc": {
+  "provinces": 34,
+  "wards": 3321,
+  "offshore_units": [
+   "Hoàng Sa",
+   "Trường Sa"
+  ],
+  "highest_cell_vn": {
+   "elev_mean_m": 2412,
+   "lat": 22.625,
+   "lon": 102.825
+  },
+  "elevation_bands_pct": {
+   "0-200": 42.8,
+   "200-500": 22.4,
+   "500-1000": 24.8,
+   "1000-2000": 9.8,
+   "2000-10000": 0.3
+  },
+  "share_land_ge_200m_pct": 57.2,
+  "pop_layer": true,
+  "water_layer": true,
+  "slope_land_mean_deg": 4.1,
+  "water_cells_ge_threshold": 22,
+  "steepest_cell_vn": {
+   "slope_deg": 20.3,
+   "lat": 22.575,
+   "lon": 103.475
+  },
+  "assets_mb": 5.3,
+  "warnings": [
+   "ô cao nhất ở (22.62, 102.83), không thuộc vùng Hoàng Liên Sơn",
+   "touch/ nặng 5.30 MB, vượt 3.0 MB"
+  ]
+ }
+}

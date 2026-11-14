@@ -1,0 +1,2297 @@
+[
+ {
+  "id": 1,
+  "code": "21553",
+  "name_vi": "Quy Nhơn Bắc",
+  "full_name_vi": "Phường Quy Nhơn Bắc",
+  "cells": 20,
+  "elev_mean_m": 14,
+  "share_ge_500m": 0.0,
+  "elev_max_m": 79,
+  "elev_max_at": {
+   "lat": 13.7852,
+   "lon": 109.1691
+  },
+  "pop_density_median": 1302,
+  "slope_mean_deg": 1.6,
+  "water_share": 0.027
+ },
+ {
+  "id": 2,
+  "code": "21583",
+  "name_vi": "Quy Nhơn",
+  "full_name_vi": "Phường Quy Nhơn",
+  "cells": 24,
+  "elev_mean_m": 11,
+  "share_ge_500m": 0.0,
+  "elev_max_m": 91,
+  "elev_max_at": {
+   "lat": 13.7776,
+   "lon": 109.2605
+  },
+  "pop_density_median": 1467,
+  "slope_mean_deg": 1.4,
+  "water_share": 0.219
+ },
+ {
+  "id": 3,
+  "code": "21589",
+  "name_vi": "Quy Nhơn Tây",
+  "full_name_vi": "Phường Quy Nhơn Tây",
+  "cells": 164,
+  "elev_mean_m": 212,
+  "share_ge_500m": 0.1,
+  "elev_max_m": 679,
+  "elev_max_at": {
+   "lat": 13.6405,
+   "lon": 109.1539
+  },
+  "pop_density_median": 856,
+  "slope_mean_deg": 6.4,
+  "water_share": 0.006
+ },
+ {
+  "id": 4,
+  "code": "21592",
+  "name_vi": "Quy Nhơn Nam",
+  "full_name_vi": "Phường Quy Nhơn Nam",
+  "cells": 82,
+  "elev_mean_m": 190,
+  "share_ge_500m": 0.03,
+  "elev_max_m": 557,
+  "elev_max_at": {
+   "lat": 13.6862,
+   "lon": 109.2072
+  },
+  "pop_density_median": 1467,
+  "slope_mean_deg": 7.4,
+  "water_share": 0.079
+ },
+ {
+  "id": 5,
+  "code": "21601",
+  "name_vi": "Quy Nhơn Đông",
+  "full_name_vi": "Phường Quy Nhơn Đông",
+  "cells": 142,
+  "elev_mean_m": 46,
+  "share_ge_500m": 0.0,
+  "elev_max_m": 228,
+  "elev_max_at": {
+   "lat": 13.8462,
+   "lon": 109.2834
+  },
+  "pop_density_median": 1467,
+  "slope_mean_deg": 2.0,
+  "water_share": 0.157
+ },
+ {
+  "id": 6,
+  "code": "21607",
+  "name_vi": "Nhơn Châu",
+  "full_name_vi": "Xã Nhơn Châu",
+  "cells": 17,
+  "elev_mean_m": 24,
+  "share_ge_500m": 0.0,
+  "elev_max_m": 71,
+  "elev_max_at": {
+   "lat": 13.6176,
+   "lon": 109.3443
+  },
+  "pop_density_median": 1467,
+  "slope_mean_deg": 0.8,
+  "water_share": 0.202
+ },
+ {
+  "id": 7,
+  "code": "21609",
+  "name_vi": "An Lão",
+  "full_name_vi": "Xã An Lão",
+  "cells": 133,
+  "elev_mean_m": 250,
+  "share_ge_500m": 0.05,
+  "elev_max_m": 563,
+  "elev_max_at": {
+   "lat": 14.6079,
+   "lon": 108.9406
+  },
+  "pop_density_median": 39,
+  "slope_mean_deg": 5.5,
+  "water_share": 0.001
+ },
+ {
+  "id": 8,
+  "code": "21616",
+  "name_vi": "An Vinh",
+  "full_name_vi": "Xã An Vinh",
+  "cells": 298,
+  "elev_mean_m": 383,
+  "share_ge_500m": 0.29,
+  "elev_max_m": 874,
+  "elev_max_at": {
+   "lat": 14.5622,
+   "lon": 108.8263
+  },
+  "pop_density_median": 35,
+  "slope_mean_deg": 7.8,
+  "water_share": 0.0
+ },
+ {
+  "id": 9,
+  "code": "21622",
+  "name_vi": "An Toàn",
+  "full_name_vi": "Xã An Toàn",
+  "cells": 383,
+  "elev_mean_m": 806,
+  "share_ge_500m": 0.98,
+  "elev_max_m": 1071,
+  "elev_max_at": {
+   "lat": 14.5851,
+   "lon": 108.712
+  },
+  "pop_density_median": 36,
+  "slope_mean_deg": 3.9,
+  "water_share": 0.0
+ },
+ {
+  "id": 10,
+  "code": "21628",
+  "name_vi": "An Hoà",
+  "full_name_vi": "Xã An Hoà",
+  "cells": 167,
+  "elev_mean_m": 438,
+  "share_ge_500m": 0.42,
+  "elev_max_m": 947,
+  "elev_max_at": {
+   "lat": 14.547,
+   "lon": 108.8187
+  },
+  "pop_density_median": 35,
+  "slope_mean_deg": 7.7,
+  "water_share": 0.005
+ },
+ {
+  "id": 11,
+  "code": "21637",
+  "name_vi": "Tam Quan",
+  "full_name_vi": "Phường Tam Quan",
+  "cells": 20,
+  "elev_mean_m": 146,
+  "share_ge_500m": 0.15,
+  "elev_max_m": 621,
+  "elev_max_at": {
+   "lat": 14.6155,
+   "lon": 108.9482
+  },
+  "pop_density_median": 506,
+  "slope_mean_deg": 1.9,
+  "water_share": 0.009
+ },
+ {
+  "id": 12,
+  "code": "21640",
+  "name_vi": "Bồng Sơn",
+  "full_name_vi": "Phường Bồng Sơn",
+  "cells": 83,
+  "elev_mean_m": 70,
+  "share_ge_500m": 0.0,
+  "elev_max_m": 336,
+  "elev_max_at": {
+   "lat": 14.3794,
+   "lon": 109.0701
+  },
+  "pop_density_median": 503,
+  "slope_mean_deg": 3.2,
+  "water_share": 0.028
+ },
+ {
+  "id": 13,
+  "code": "21655",
+  "name_vi": "Hoài Nhơn Bắc",
+  "full_name_vi": "Phường Hoài Nhơn Bắc",
+  "cells": 159,
+  "elev_mean_m": 182,
+  "share_ge_500m": 0.14,
+  "elev_max_m": 685,
+  "elev_max_at": {
+   "lat": 14.6384,
+   "lon": 108.9558
+  },
+  "pop_density_median": 490,
+  "slope_mean_deg": 3.9,
+  "water_share": 0.021
+ },
+ {
+  "id": 14,
+  "code": "21661",
+  "name_vi": "Hoài Nhơn Tây",
+  "full_name_vi": "Phường Hoài Nhơn Tây",
+  "cells": 111,
+  "elev_mean_m": 192,
+  "share_ge_500m": 0.11,
+  "elev_max_m": 618,
+  "elev_max_at": {
+   "lat": 14.6003,
+   "lon": 108.9482
+  },
+  "pop_density_median": 506,
+  "slope_mean_deg": 4.7,
+  "water_share": 0.01
+ },
+ {
+  "id": 15,
+  "code": "21664",
+  "name_vi": "Hoài Nhơn",
+  "full_name_vi": "Phường Hoài Nhơn",
+  "cells": 63,
+  "elev_mean_m": 14,
+  "share_ge_500m": 0.0,
+  "elev_max_m": 52,
+  "elev_max_at": {
+   "lat": 14.5165,
+   "lon": 109.0091
+  },
+  "pop_density_median": 506,
+  "slope_mean_deg": 0.7,
+  "water_share": 0.053
+ },
+ {
+  "id": 16,
+  "code": "21670",
+  "name_vi": "Hoài Nhơn Đông",
+  "full_name_vi": "Phường Hoài Nhơn Đông",
+  "cells": 103,
+  "elev_mean_m": 71,
+  "share_ge_500m": 0.0,
+  "elev_max_m": 469,
+  "elev_max_at": {
+   "lat": 14.4099,
+   "lon": 109.0853
+  },
+  "pop_density_median": 506,
+  "slope_mean_deg": 3.6,
+  "water_share": 0.101
+ },
+ {
+  "id": 17,
+  "code": "21673",
+  "name_vi": "Hoài Nhơn Nam",
+  "full_name_vi": "Phường Hoài Nhơn Nam",
+  "cells": 72,
+  "elev_mean_m": 40,
+  "share_ge_500m": 0.0,
+  "elev_max_m": 257,
+  "elev_max_at": {
+   "lat": 14.486,
+   "lon": 108.9863
+  },
+  "pop_density_median": 506,
+  "slope_mean_deg": 1.7,
+  "water_share": 0.031
+ },
+ {
+  "id": 18,
+  "code": "21688",
+  "name_vi": "Hoài Ân",
+  "full_name_vi": "Xã Hoài Ân",
+  "cells": 137,
+  "elev_mean_m": 110,
+  "share_ge_500m": 0.01,
+  "elev_max_m": 516,
+  "elev_max_at": {
+   "lat": 14.2575,
+   "lon": 108.9787
+  },
+  "pop_density_median": 115,
+  "slope_mean_deg": 4.1,
+  "water_share": 0.016
+ },
+ {
+  "id": 19,
+  "code": "21697",
+  "name_vi": "Ân Hảo",
+  "full_name_vi": "Xã Ân Hảo",
+  "cells": 150,
+  "elev_mean_m": 211,
+  "share_ge_500m": 0.1,
+  "elev_max_m": 693,
+  "elev_max_at": {
+   "lat": 14.486,
+   "lon": 108.8872
+  },
+  "pop_density_median": 137,
+  "slope_mean_deg": 6.0,
+  "water_share": 0.031
+ },
+ {
+  "id": 20,
+  "code": "21703",
+  "name_vi": "Vạn Đức",
+  "full_name_vi": "Xã Vạn Đức",
+  "cells": 178,
+  "elev_mean_m": 216,
+  "share_ge_500m": 0.13,
+  "elev_max_m": 719,
+  "elev_max_at": {
+   "lat": 14.4632,
+   "lon": 108.8644
+  },
+  "pop_density_median": 115,
+  "slope_mean_deg": 3.8,
+  "water_share": 0.022
+ },
+ {
+  "id": 21,
+  "code": "21715",
+  "name_vi": "Ân Tường",
+  "full_name_vi": "Xã Ân Tường",
+  "cells": 348,
+  "elev_mean_m": 349,
+  "share_ge_500m": 0.24,
+  "elev_max_m": 908,
+  "elev_max_at": {
+   "lat": 14.4479,
+   "lon": 108.7806
+  },
+  "pop_density_median": 115,
+  "slope_mean_deg": 4.5,
+  "water_share": 0.004
+ },
+ {
+  "id": 22,
+  "code": "21727",
+  "name_vi": "Kim Sơn",
+  "full_name_vi": "Xã Kim Sơn",
+  "cells": 284,
+  "elev_mean_m": 236,
+  "share_ge_500m": 0.11,
+  "elev_max_m": 698,
+  "elev_max_at": {
+   "lat": 14.1661,
+   "lon": 108.8492
+  },
+  "pop_density_median": 115,
+  "slope_mean_deg": 5.7,
+  "water_share": 0.002
+ },
+ {
+  "id": 23,
+  "code": "21730",
+  "name_vi": "Phù Mỹ",
+  "full_name_vi": "Xã Phù Mỹ",
+  "cells": 54,
+  "elev_mean_m": 54,
+  "share_ge_500m": 0.0,
+  "elev_max_m": 251,
+  "elev_max_at": {
+   "lat": 14.2042,
+   "lon": 109.0929
+  },
+  "pop_density_median": 327,
+  "slope_mean_deg": 1.8,
+  "water_share": 0.001
+ },
+ {
+  "id": 24,
+  "code": "21733",
+  "name_vi": "Bình Dương",
+  "full_name_vi": "Xã Bình Dương",
+  "cells": 67,
+  "elev_mean_m": 34,
+  "share_ge_500m": 0.0,
+  "elev_max_m": 254,
+  "elev_max_at": {
+   "lat": 14.2575,
+   "lon": 109.1234
+  },
+  "pop_density_median": 327,
+  "slope_mean_deg": 2.2,
+  "water_share": 0.1
+ },
+ {
+  "id": 25,
+  "code": "21739",
+  "name_vi": "Phù Mỹ Bắc",
+  "full_name_vi": "Xã Phù Mỹ Bắc",
+  "cells": 172,
+  "elev_mean_m": 88,
+  "share_ge_500m": 0.0,
+  "elev_max_m": 447,
+  "elev_max_at": {
+   "lat": 14.3718,
+   "lon": 109.0777
+  },
+  "pop_density_median": 327,
+  "slope_mean_deg": 3.6,
+  "water_share": 0.045
+ },
+ {
+  "id": 26,
+  "code": "21751",
+  "name_vi": "Phù Mỹ Đông",
+  "full_name_vi": "Xã Phù Mỹ Đông",
+  "cells": 150,
+  "elev_mean_m": 76,
+  "share_ge_500m": 0.0,
+  "elev_max_m": 389,
+  "elev_max_at": {
+   "lat": 14.2499,
+   "lon": 109.1234
+  },
+  "pop_density_median": 327,
+  "slope_mean_deg": 3.1,
+  "water_share": 0.139
+ },
+ {
+  "id": 27,
+  "code": "21757",
+  "name_vi": "Phù Mỹ Tây",
+  "full_name_vi": "Xã Phù Mỹ Tây",
+  "cells": 159,
+  "elev_mean_m": 120,
+  "share_ge_500m": 0.03,
+  "elev_max_m": 641,
+  "elev_max_at": {
+   "lat": 14.2347,
+   "lon": 108.9787
+  },
+  "pop_density_median": 327,
+  "slope_mean_deg": 3.5,
+  "water_share": 0.022
+ },
+ {
+  "id": 28,
+  "code": "21769",
+  "name_vi": "An Lương",
+  "full_name_vi": "Xã An Lương",
+  "cells": 105,
+  "elev_mean_m": 30,
+  "share_ge_500m": 0.0,
+  "elev_max_m": 298,
+  "elev_max_at": {
+   "lat": 14.1966,
+   "lon": 109.131
+  },
+  "pop_density_median": 327,
+  "slope_mean_deg": 1.7,
+  "water_share": 0.135
+ },
+ {
+  "id": 29,
+  "code": "21775",
+  "name_vi": "Phù Mỹ Nam",
+  "full_name_vi": "Xã Phù Mỹ Nam",
+  "cells": 119,
+  "elev_mean_m": 44,
+  "share_ge_500m": 0.0,
+  "elev_max_m": 446,
+  "elev_max_at": {
+   "lat": 14.1661,
+   "lon": 108.9939
+  },
+  "pop_density_median": 326,
+  "slope_mean_deg": 1.5,
+  "water_share": 0.004
+ },
+ {
+  "id": 30,
+  "code": "21786",
+  "name_vi": "Vĩnh Thạnh",
+  "full_name_vi": "Xã Vĩnh Thạnh",
+  "cells": 197,
+  "elev_mean_m": 492,
+  "share_ge_500m": 0.55,
+  "elev_max_m": 769,
+  "elev_max_at": {
+   "lat": 14.1737,
+   "lon": 108.7273
+  },
+  "pop_density_median": 41,
+  "slope_mean_deg": 5.9,
+  "water_share": 0.0
+ },
+ {
+  "id": 31,
+  "code": "21787",
+  "name_vi": "Vĩnh Sơn",
+  "full_name_vi": "Xã Vĩnh Sơn",
+  "cells": 486,
+  "elev_mean_m": 564,
+  "share_ge_500m": 0.65,
+  "elev_max_m": 905,
+  "elev_max_at": {
+   "lat": 14.4403,
+   "lon": 108.6206
+  },
+  "pop_density_median": 41,
+  "slope_mean_deg": 6.2,
+  "water_share": 0.007
+ },
+ {
+  "id": 32,
+  "code": "21796",
+  "name_vi": "Vĩnh Thịnh",
+  "full_name_vi": "Xã Vĩnh Thịnh",
+  "cells": 201,
+  "elev_mean_m": 337,
+  "share_ge_500m": 0.3,
+  "elev_max_m": 812,
+  "elev_max_at": {
+   "lat": 14.1661,
+   "lon": 108.8339
+  },
+  "pop_density_median": 41,
+  "slope_mean_deg": 6.2,
+  "water_share": 0.003
+ },
+ {
+  "id": 33,
+  "code": "21805",
+  "name_vi": "Vĩnh Quang",
+  "full_name_vi": "Xã Vĩnh Quang",
+  "cells": 124,
+  "elev_mean_m": 203,
+  "share_ge_500m": 0.06,
+  "elev_max_m": 570,
+  "elev_max_at": {
+   "lat": 14.0747,
+   "lon": 108.8492
+  },
+  "pop_density_median": 58,
+  "slope_mean_deg": 6.4,
+  "water_share": 0.006
+ },
+ {
+  "id": 34,
+  "code": "21808",
+  "name_vi": "Tây Sơn",
+  "full_name_vi": "Xã Tây Sơn",
+  "cells": 100,
+  "elev_mean_m": 93,
+  "share_ge_500m": 0.0,
+  "elev_max_m": 442,
+  "elev_max_at": {
+   "lat": 13.8462,
+   "lon": 108.9558
+  },
+  "pop_density_median": 182,
+  "slope_mean_deg": 3.3,
+  "water_share": 0.058
+ },
+ {
+  "id": 35,
+  "code": "21817",
+  "name_vi": "Bình Hiệp",
+  "full_name_vi": "Xã Bình Hiệp",
+  "cells": 197,
+  "elev_mean_m": 184,
+  "share_ge_500m": 0.13,
+  "elev_max_m": 789,
+  "elev_max_at": {
+   "lat": 14.1204,
+   "lon": 108.8644
+  },
+  "pop_density_median": 179,
+  "slope_mean_deg": 3.4,
+  "water_share": 0.027
+ },
+ {
+  "id": 36,
+  "code": "21820",
+  "name_vi": "Bình Khê",
+  "full_name_vi": "Xã Bình Khê",
+  "cells": 201,
+  "elev_mean_m": 150,
+  "share_ge_500m": 0.01,
+  "elev_max_m": 617,
+  "elev_max_at": {
+   "lat": 13.9147,
+   "lon": 108.7882
+  },
+  "pop_density_median": 179,
+  "slope_mean_deg": 4.4,
+  "water_share": 0.016
+ },
+ {
+  "id": 37,
+  "code": "21829",
+  "name_vi": "Bình An",
+  "full_name_vi": "Xã Bình An",
+  "cells": 142,
+  "elev_mean_m": 84,
+  "share_ge_500m": 0.01,
+  "elev_max_m": 500,
+  "elev_max_at": {
+   "lat": 13.9985,
+   "lon": 108.872
+  },
+  "pop_density_median": 179,
+  "slope_mean_deg": 2.0,
+  "water_share": 0.027
+ },
+ {
+  "id": 38,
+  "code": "21835",
+  "name_vi": "Bình Phú",
+  "full_name_vi": "Xã Bình Phú",
+  "cells": 295,
+  "elev_mean_m": 321,
+  "share_ge_500m": 0.32,
+  "elev_max_m": 895,
+  "elev_max_at": {
+   "lat": 13.8995,
+   "lon": 108.7654
+  },
+  "pop_density_median": 179,
+  "slope_mean_deg": 5.7,
+  "water_share": 0.012
+ },
+ {
+  "id": 39,
+  "code": "21853",
+  "name_vi": "Phù Cát",
+  "full_name_vi": "Xã Phù Cát",
+  "cells": 98,
+  "elev_mean_m": 70,
+  "share_ge_500m": 0.01,
+  "elev_max_m": 505,
+  "elev_max_at": {
+   "lat": 14.0366,
+   "lon": 109.1234
+  },
+  "pop_density_median": 285,
+  "slope_mean_deg": 2.4,
+  "water_share": 0.009
+ },
+ {
+  "id": 40,
+  "code": "21859",
+  "name_vi": "Đề Gi",
+  "full_name_vi": "Xã Đề Gi",
+  "cells": 141,
+  "elev_mean_m": 109,
+  "share_ge_500m": 0.03,
+  "elev_max_m": 557,
+  "elev_max_at": {
+   "lat": 14.0823,
+   "lon": 109.1386
+  },
+  "pop_density_median": 285,
+  "slope_mean_deg": 4.0,
+  "water_share": 0.06
+ },
+ {
+  "id": 41,
+  "code": "21868",
+  "name_vi": "Hội Sơn",
+  "full_name_vi": "Xã Hội Sơn",
+  "cells": 293,
+  "elev_mean_m": 248,
+  "share_ge_500m": 0.15,
+  "elev_max_m": 757,
+  "elev_max_at": {
+   "lat": 14.128,
+   "lon": 108.8949
+  },
+  "pop_density_median": 285,
+  "slope_mean_deg": 4.9,
+  "water_share": 0.021
+ },
+ {
+  "id": 42,
+  "code": "21871",
+  "name_vi": "Hoà Hội",
+  "full_name_vi": "Xã Hoà Hội",
+  "cells": 166,
+  "elev_mean_m": 53,
+  "share_ge_500m": 0.0,
+  "elev_max_m": 409,
+  "elev_max_at": {
+   "lat": 14.0595,
+   "lon": 109.0929
+  },
+  "pop_density_median": 285,
+  "slope_mean_deg": 1.1,
+  "water_share": 0.002
+ },
+ {
+  "id": 43,
+  "code": "21880",
+  "name_vi": "Cát Tiến",
+  "full_name_vi": "Xã Cát Tiến",
+  "cells": 155,
+  "elev_mean_m": 147,
+  "share_ge_500m": 0.06,
+  "elev_max_m": 789,
+  "elev_max_at": {
+   "lat": 14.0518,
+   "lon": 109.1234
+  },
+  "pop_density_median": 285,
+  "slope_mean_deg": 6.1,
+  "water_share": 0.045
+ },
+ {
+  "id": 44,
+  "code": "21892",
+  "name_vi": "Xuân An",
+  "full_name_vi": "Xã Xuân An",
+  "cells": 89,
+  "elev_mean_m": 136,
+  "share_ge_500m": 0.0,
+  "elev_max_m": 495,
+  "elev_max_at": {
+   "lat": 14.0061,
+   "lon": 109.1386
+  },
+  "pop_density_median": 285,
+  "slope_mean_deg": 3.1,
+  "water_share": 0.002
+ },
+ {
+  "id": 45,
+  "code": "21901",
+  "name_vi": "Ngô Mây",
+  "full_name_vi": "Xã Ngô Mây",
+  "cells": 111,
+  "elev_mean_m": 167,
+  "share_ge_500m": 0.04,
+  "elev_max_m": 563,
+  "elev_max_at": {
+   "lat": 14.0214,
+   "lon": 109.2072
+  },
+  "pop_density_median": 285,
+  "slope_mean_deg": 5.6,
+  "water_share": 0.023
+ },
+ {
+  "id": 46,
+  "code": "21907",
+  "name_vi": "Bình Định",
+  "full_name_vi": "Phường Bình Định",
+  "cells": 17,
+  "elev_mean_m": 15,
+  "share_ge_500m": 0.0,
+  "elev_max_m": 19,
+  "elev_max_at": {
+   "lat": 13.8843,
+   "lon": 109.0091
+  },
+  "pop_density_median": 642,
+  "slope_mean_deg": 0.1,
+  "water_share": 0.07
+ },
+ {
+  "id": 47,
+  "code": "21910",
+  "name_vi": "An Nhơn",
+  "full_name_vi": "Phường An Nhơn",
+  "cells": 54,
+  "elev_mean_m": 17,
+  "share_ge_500m": 0.0,
+  "elev_max_m": 50,
+  "elev_max_at": {
+   "lat": 13.9604,
+   "lon": 109.0167
+  },
+  "pop_density_median": 637,
+  "slope_mean_deg": 0.2,
+  "water_share": 0.023
+ },
+ {
+  "id": 48,
+  "code": "21925",
+  "name_vi": "An Nhơn Bắc",
+  "full_name_vi": "Phường An Nhơn Bắc",
+  "cells": 54,
+  "elev_mean_m": 13,
+  "share_ge_500m": 0.0,
+  "elev_max_m": 89,
+  "elev_max_at": {
+   "lat": 13.9452,
+   "lon": 109.1158
+  },
+  "pop_density_median": 637,
+  "slope_mean_deg": 0.4,
+  "water_share": 0.002
+ },
+ {
+  "id": 49,
+  "code": "21934",
+  "name_vi": "An Nhơn Đông",
+  "full_name_vi": "Phường An Nhơn Đông",
+  "cells": 33,
+  "elev_mean_m": 10,
+  "share_ge_500m": 0.0,
+  "elev_max_m": 12,
+  "elev_max_at": {
+   "lat": 13.9223,
+   "lon": 109.0929
+  },
+  "pop_density_median": 758,
+  "slope_mean_deg": 0.1,
+  "water_share": 0.016
+ },
+ {
+  "id": 50,
+  "code": "21940",
+  "name_vi": "An Nhơn Tây",
+  "full_name_vi": "Xã An Nhơn Tây",
+  "cells": 100,
+  "elev_mean_m": 87,
+  "share_ge_500m": 0.0,
+  "elev_max_m": 428,
+  "elev_max_at": {
+   "lat": 13.8309,
+   "lon": 108.9863
+  },
+  "pop_density_median": 652,
+  "slope_mean_deg": 3.3,
+  "water_share": 0.046
+ },
+ {
+  "id": 51,
+  "code": "21943",
+  "name_vi": "An Nhơn Nam",
+  "full_name_vi": "Phường An Nhơn Nam",
+  "cells": 90,
+  "elev_mean_m": 76,
+  "share_ge_500m": 0.02,
+  "elev_max_m": 516,
+  "elev_max_at": {
+   "lat": 13.8081,
+   "lon": 109.0472
+  },
+  "pop_density_median": 758,
+  "slope_mean_deg": 2.8,
+  "water_share": 0.012
+ },
+ {
+  "id": 52,
+  "code": "21952",
+  "name_vi": "Tuy Phước",
+  "full_name_vi": "Xã Tuy Phước",
+  "cells": 73,
+  "elev_mean_m": 7,
+  "share_ge_500m": 0.0,
+  "elev_max_m": 124,
+  "elev_max_at": {
+   "lat": 13.8538,
+   "lon": 109.1234
+  },
+  "pop_density_median": 806,
+  "slope_mean_deg": 0.5,
+  "water_share": 0.054
+ },
+ {
+  "id": 53,
+  "code": "21964",
+  "name_vi": "Tuy Phước Bắc",
+  "full_name_vi": "Xã Tuy Phước Bắc",
+  "cells": 60,
+  "elev_mean_m": 8,
+  "share_ge_500m": 0.0,
+  "elev_max_m": 57,
+  "elev_max_at": {
+   "lat": 13.8538,
+   "lon": 109.1767
+  },
+  "pop_density_median": 684,
+  "slope_mean_deg": 0.3,
+  "water_share": 0.017
+ },
+ {
+  "id": 54,
+  "code": "21970",
+  "name_vi": "Tuy Phước Đông",
+  "full_name_vi": "Xã Tuy Phước Đông",
+  "cells": 123,
+  "elev_mean_m": 6,
+  "share_ge_500m": 0.0,
+  "elev_max_m": 82,
+  "elev_max_at": {
+   "lat": 13.8614,
+   "lon": 109.1767
+  },
+  "pop_density_median": 669,
+  "slope_mean_deg": 0.3,
+  "water_share": 0.046
+ },
+ {
+  "id": 55,
+  "code": "21985",
+  "name_vi": "Tuy Phước Tây",
+  "full_name_vi": "Xã Tuy Phước Tây",
+  "cells": 117,
+  "elev_mean_m": 74,
+  "share_ge_500m": 0.0,
+  "elev_max_m": 371,
+  "elev_max_at": {
+   "lat": 13.8233,
+   "lon": 109.0701
+  },
+  "pop_density_median": 676,
+  "slope_mean_deg": 2.7,
+  "water_share": 0.026
+ },
+ {
+  "id": 56,
+  "code": "21994",
+  "name_vi": "Vân Canh",
+  "full_name_vi": "Xã Vân Canh",
+  "cells": 281,
+  "elev_mean_m": 282,
+  "share_ge_500m": 0.12,
+  "elev_max_m": 785,
+  "elev_max_at": {
+   "lat": 13.5872,
+   "lon": 109.1158
+  },
+  "pop_density_median": 31,
+  "slope_mean_deg": 6.1,
+  "water_share": 0.0
+ },
+ {
+  "id": 57,
+  "code": "21997",
+  "name_vi": "Canh Liên",
+  "full_name_vi": "Xã Canh Liên",
+  "cells": 484,
+  "elev_mean_m": 568,
+  "share_ge_500m": 0.6,
+  "elev_max_m": 1026,
+  "elev_max_at": {
+   "lat": 13.7395,
+   "lon": 108.8415
+  },
+  "pop_density_median": 31,
+  "slope_mean_deg": 5.4,
+  "water_share": 0.0
+ },
+ {
+  "id": 58,
+  "code": "22006",
+  "name_vi": "Canh Vinh",
+  "full_name_vi": "Xã Canh Vinh",
+  "cells": 441,
+  "elev_mean_m": 199,
+  "share_ge_500m": 0.05,
+  "elev_max_m": 871,
+  "elev_max_at": {
+   "lat": 13.6862,
+   "lon": 108.971
+  },
+  "pop_density_median": 31,
+  "slope_mean_deg": 5.2,
+  "water_share": 0.019
+ },
+ {
+  "id": 59,
+  "code": "23563",
+  "name_vi": "Diên Hồng",
+  "full_name_vi": "Phường Diên Hồng",
+  "cells": 19,
+  "elev_mean_m": 759,
+  "share_ge_500m": 1.0,
+  "elev_max_m": 804,
+  "elev_max_at": {
+   "lat": 13.9604,
+   "lon": 107.9808
+  },
+  "pop_density_median": 1091,
+  "slope_mean_deg": 1.2,
+  "water_share": 0.0
+ },
+ {
+  "id": 60,
+  "code": "23575",
+  "name_vi": "Pleiku",
+  "full_name_vi": "Phường Pleiku",
+  "cells": 19,
+  "elev_mean_m": 739,
+  "share_ge_500m": 1.0,
+  "elev_max_m": 775,
+  "elev_max_at": {
+   "lat": 13.9833,
+   "lon": 107.996
+  },
+  "pop_density_median": 1091,
+  "slope_mean_deg": 0.8,
+  "water_share": 0.001
+ },
+ {
+  "id": 61,
+  "code": "23584",
+  "name_vi": "Thống Nhất",
+  "full_name_vi": "Phường Thống Nhất",
+  "cells": 20,
+  "elev_mean_m": 754,
+  "share_ge_500m": 1.0,
+  "elev_max_m": 781,
+  "elev_max_at": {
+   "lat": 14.0214,
+   "lon": 107.996
+  },
+  "pop_density_median": 847,
+  "slope_mean_deg": 0.8,
+  "water_share": 0.01
+ },
+ {
+  "id": 62,
+  "code": "23586",
+  "name_vi": "Hội Phú",
+  "full_name_vi": "Phường Hội Phú",
+  "cells": 43,
+  "elev_mean_m": 768,
+  "share_ge_500m": 1.0,
+  "elev_max_m": 828,
+  "elev_max_at": {
+   "lat": 13.9071,
+   "lon": 108.0189
+  },
+  "pop_density_median": 1091,
+  "slope_mean_deg": 1.0,
+  "water_share": 0.0
+ },
+ {
+  "id": 63,
+  "code": "23590",
+  "name_vi": "Biển Hồ",
+  "full_name_vi": "Xã Biển Hồ",
+  "cells": 218,
+  "elev_mean_m": 793,
+  "share_ge_500m": 1.0,
+  "elev_max_m": 1317,
+  "elev_max_at": {
+   "lat": 14.1356,
+   "lon": 108.0265
+  },
+  "pop_density_median": 182,
+  "slope_mean_deg": 2.8,
+  "water_share": 0.037
+ },
+ {
+  "id": 64,
+  "code": "23602",
+  "name_vi": "An Phú",
+  "full_name_vi": "Phường An Phú",
+  "cells": 45,
+  "elev_mean_m": 719,
+  "share_ge_500m": 1.0,
+  "elev_max_m": 743,
+  "elev_max_at": {
+   "lat": 13.968,
+   "lon": 108.0341
+  },
+  "pop_density_median": 1078,
+  "slope_mean_deg": 0.5,
+  "water_share": 0.0
+ },
+ {
+  "id": 65,
+  "code": "23611",
+  "name_vi": "Gào",
+  "full_name_vi": "Xã Gào",
+  "cells": 227,
+  "elev_mean_m": 662,
+  "share_ge_500m": 0.97,
+  "elev_max_m": 846,
+  "elev_max_at": {
+   "lat": 13.8995,
+   "lon": 108.0112
+  },
+  "pop_density_median": 593,
+  "slope_mean_deg": 1.4,
+  "water_share": 0.001
+ },
+ {
+  "id": 66,
+  "code": "23614",
+  "name_vi": "An Bình",
+  "full_name_vi": "Phường An Bình",
+  "cells": 71,
+  "elev_mean_m": 445,
+  "share_ge_500m": 0.07,
+  "elev_max_m": 584,
+  "elev_max_at": {
+   "lat": 13.9833,
+   "lon": 108.6206
+  },
+  "pop_density_median": 102,
+  "slope_mean_deg": 1.2,
+  "water_share": 0.0
+ },
+ {
+  "id": 67,
+  "code": "23617",
+  "name_vi": "An Khê",
+  "full_name_vi": "Phường An Khê",
+  "cells": 72,
+  "elev_mean_m": 436,
+  "share_ge_500m": 0.04,
+  "elev_max_m": 523,
+  "elev_max_at": {
+   "lat": 13.9833,
+   "lon": 108.6359
+  },
+  "pop_density_median": 356,
+  "slope_mean_deg": 0.7,
+  "water_share": 0.0
+ },
+ {
+  "id": 68,
+  "code": "23629",
+  "name_vi": "Cửu An",
+  "full_name_vi": "Xã Cửu An",
+  "cells": 212,
+  "elev_mean_m": 466,
+  "share_ge_500m": 0.18,
+  "elev_max_m": 696,
+  "elev_max_at": {
+   "lat": 13.9985,
+   "lon": 108.7654
+  },
+  "pop_density_median": 423,
+  "slope_mean_deg": 1.7,
+  "water_share": 0.0
+ },
+ {
+  "id": 69,
+  "code": "23638",
+  "name_vi": "Kbang",
+  "full_name_vi": "Xã Kbang",
+  "cells": 362,
+  "elev_mean_m": 650,
+  "share_ge_500m": 0.91,
+  "elev_max_m": 1174,
+  "elev_max_at": {
+   "lat": 14.128,
+   "lon": 108.4683
+  },
+  "pop_density_median": 45,
+  "slope_mean_deg": 3.2,
+  "water_share": 0.0
+ },
+ {
+  "id": 70,
+  "code": "23644",
+  "name_vi": "Đak Rong",
+  "full_name_vi": "Xã Đak Rong",
+  "cells": 728,
+  "elev_mean_m": 1119,
+  "share_ge_500m": 1.0,
+  "elev_max_m": 1595,
+  "elev_max_at": {
+   "lat": 14.3413,
+   "lon": 108.3769
+  },
+  "pop_density_median": 45,
+  "slope_mean_deg": 3.5,
+  "water_share": 0.0
+ },
+ {
+  "id": 71,
+  "code": "23647",
+  "name_vi": "Sơn Lang",
+  "full_name_vi": "Xã Sơn Lang",
+  "cells": 719,
+  "elev_mean_m": 868,
+  "share_ge_500m": 1.0,
+  "elev_max_m": 1093,
+  "elev_max_at": {
+   "lat": 14.5013,
+   "lon": 108.5064
+  },
+  "pop_density_median": 45,
+  "slope_mean_deg": 2.0,
+  "water_share": 0.013
+ },
+ {
+  "id": 72,
+  "code": "23650",
+  "name_vi": "Krong",
+  "full_name_vi": "Xã Krong",
+  "cells": 487,
+  "elev_mean_m": 975,
+  "share_ge_500m": 1.0,
+  "elev_max_m": 1690,
+  "elev_max_at": {
+   "lat": 14.3184,
+   "lon": 108.3921
+  },
+  "pop_density_median": 45,
+  "slope_mean_deg": 6.1,
+  "water_share": 0.0
+ },
+ {
+  "id": 73,
+  "code": "23668",
+  "name_vi": "Tơ Tung",
+  "full_name_vi": "Xã Tơ Tung",
+  "cells": 182,
+  "elev_mean_m": 689,
+  "share_ge_500m": 0.93,
+  "elev_max_m": 1126,
+  "elev_max_at": {
+   "lat": 14.1128,
+   "lon": 108.4759
+  },
+  "pop_density_median": 45,
+  "slope_mean_deg": 4.7,
+  "water_share": 0.0
+ },
+ {
+  "id": 74,
+  "code": "23674",
+  "name_vi": "Kông Bơ La",
+  "full_name_vi": "Xã Kông Bơ La",
+  "cells": 245,
+  "elev_mean_m": 518,
+  "share_ge_500m": 0.49,
+  "elev_max_m": 692,
+  "elev_max_at": {
+   "lat": 14.1737,
+   "lon": 108.674
+  },
+  "pop_density_median": 45,
+  "slope_mean_deg": 1.6,
+  "water_share": 0.0
+ },
+ {
+  "id": 75,
+  "code": "23677",
+  "name_vi": "Đak Đoa",
+  "full_name_vi": "Xã Đak Đoa",
+  "cells": 97,
+  "elev_mean_m": 727,
+  "share_ge_500m": 1.0,
+  "elev_max_m": 766,
+  "elev_max_at": {
+   "lat": 14.0138,
+   "lon": 108.095
+  },
+  "pop_density_median": 135,
+  "slope_mean_deg": 1.0,
+  "water_share": 0.0
+ },
+ {
+  "id": 76,
+  "code": "23683",
+  "name_vi": "Đak Sơmei",
+  "full_name_vi": "Xã Đak Sơmei",
+  "cells": 453,
+  "elev_mean_m": 904,
+  "share_ge_500m": 1.0,
+  "elev_max_m": 1478,
+  "elev_max_at": {
+   "lat": 14.2499,
+   "lon": 108.3236
+  },
+  "pop_density_median": 135,
+  "slope_mean_deg": 3.9,
+  "water_share": 0.0
+ },
+ {
+  "id": 77,
+  "code": "23701",
+  "name_vi": "Kon Gang",
+  "full_name_vi": "Xã Kon Gang",
+  "cells": 220,
+  "elev_mean_m": 715,
+  "share_ge_500m": 1.0,
+  "elev_max_m": 1131,
+  "elev_max_at": {
+   "lat": 14.1356,
+   "lon": 108.0874
+  },
+  "pop_density_median": 135,
+  "slope_mean_deg": 1.9,
+  "water_share": 0.0
+ },
+ {
+  "id": 78,
+  "code": "23710",
+  "name_vi": "Ia Băng",
+  "full_name_vi": "Xã Ia Băng",
+  "cells": 180,
+  "elev_mean_m": 742,
+  "share_ge_500m": 1.0,
+  "elev_max_m": 880,
+  "elev_max_at": {
+   "lat": 13.8843,
+   "lon": 108.0189
+  },
+  "pop_density_median": 135,
+  "slope_mean_deg": 1.0,
+  "water_share": 0.003
+ },
+ {
+  "id": 79,
+  "code": "23714",
+  "name_vi": "KDang",
+  "full_name_vi": "Xã KDang",
+  "cells": 240,
+  "elev_mean_m": 713,
+  "share_ge_500m": 1.0,
+  "elev_max_m": 870,
+  "elev_max_at": {
+   "lat": 14.0747,
+   "lon": 108.1788
+  },
+  "pop_density_median": 135,
+  "slope_mean_deg": 1.6,
+  "water_share": 0.0
+ },
+ {
+  "id": 80,
+  "code": "23722",
+  "name_vi": "Chư Păh",
+  "full_name_vi": "Xã Chư Păh",
+  "cells": 136,
+  "elev_mean_m": 808,
+  "share_ge_500m": 1.0,
+  "elev_max_m": 1301,
+  "elev_max_at": {
+   "lat": 14.1432,
+   "lon": 108.0265
+  },
+  "pop_density_median": 95,
+  "slope_mean_deg": 3.7,
+  "water_share": 0.001
+ },
+ {
+  "id": 81,
+  "code": "23728",
+  "name_vi": "Ia Khươl",
+  "full_name_vi": "Xã Ia Khươl",
+  "cells": 595,
+  "elev_mean_m": 747,
+  "share_ge_500m": 1.0,
+  "elev_max_m": 1274,
+  "elev_max_at": {
+   "lat": 14.1737,
+   "lon": 108.0417
+  },
+  "pop_density_median": 95,
+  "slope_mean_deg": 4.1,
+  "water_share": 0.0
+ },
+ {
+  "id": 82,
+  "code": "23734",
+  "name_vi": "Ia Ly",
+  "full_name_vi": "Xã Ia Ly",
+  "cells": 299,
+  "elev_mean_m": 647,
+  "share_ge_500m": 0.75,
+  "elev_max_m": 1348,
+  "elev_max_at": {
+   "lat": 14.1737,
+   "lon": 107.7294
+  },
+  "pop_density_median": 95,
+  "slope_mean_deg": 5.7,
+  "water_share": 0.064
+ },
+ {
+  "id": 83,
+  "code": "23749",
+  "name_vi": "Ia Phí",
+  "full_name_vi": "Xã Ia Phí",
+  "cells": 341,
+  "elev_mean_m": 705,
+  "share_ge_500m": 1.0,
+  "elev_max_m": 1183,
+  "elev_max_at": {
+   "lat": 14.1432,
+   "lon": 107.7751
+  },
+  "pop_density_median": 95,
+  "slope_mean_deg": 2.4,
+  "water_share": 0.03
+ },
+ {
+  "id": 84,
+  "code": "23764",
+  "name_vi": "Ia Grai",
+  "full_name_vi": "Xã Ia Grai",
+  "cells": 326,
+  "elev_mean_m": 599,
+  "share_ge_500m": 0.79,
+  "elev_max_m": 971,
+  "elev_max_at": {
+   "lat": 14.0823,
+   "lon": 107.7675
+  },
+  "pop_density_median": 45,
+  "slope_mean_deg": 3.9,
+  "water_share": 0.001
+ },
+ {
+  "id": 85,
+  "code": "23767",
+  "name_vi": "Ia Hrung",
+  "full_name_vi": "Xã Ia Hrung",
+  "cells": 295,
+  "elev_mean_m": 690,
+  "share_ge_500m": 1.0,
+  "elev_max_m": 791,
+  "elev_max_at": {
+   "lat": 13.968,
+   "lon": 107.9808
+  },
+  "pop_density_median": 48,
+  "slope_mean_deg": 1.0,
+  "water_share": 0.006
+ },
+ {
+  "id": 86,
+  "code": "23776",
+  "name_vi": "Ia Krái",
+  "full_name_vi": "Xã Ia Krái",
+  "cells": 473,
+  "elev_mean_m": 428,
+  "share_ge_500m": 0.23,
+  "elev_max_m": 1112,
+  "elev_max_at": {
+   "lat": 14.1204,
+   "lon": 107.737
+  },
+  "pop_density_median": 45,
+  "slope_mean_deg": 3.2,
+  "water_share": 0.009
+ },
+ {
+  "id": 87,
+  "code": "23782",
+  "name_vi": "Ia O",
+  "full_name_vi": "Xã Ia O",
+  "cells": 207,
+  "elev_mean_m": 234,
+  "share_ge_500m": 0.0,
+  "elev_max_m": 303,
+  "elev_max_at": {
+   "lat": 13.9376,
+   "lon": 107.6075
+  },
+  "pop_density_median": 45,
+  "slope_mean_deg": 0.9,
+  "water_share": 0.013
+ },
+ {
+  "id": 88,
+  "code": "23788",
+  "name_vi": "Ia Chia",
+  "full_name_vi": "Xã Ia Chia",
+  "cells": 251,
+  "elev_mean_m": 324,
+  "share_ge_500m": 0.04,
+  "elev_max_m": 561,
+  "elev_max_at": {
+   "lat": 13.8766,
+   "lon": 107.5847
+  },
+  "pop_density_median": 45,
+  "slope_mean_deg": 2.1,
+  "water_share": 0.006
+ },
+ {
+  "id": 89,
+  "code": "23794",
+  "name_vi": "Mang Yang",
+  "full_name_vi": "Xã Mang Yang",
+  "cells": 252,
+  "elev_mean_m": 775,
+  "share_ge_500m": 1.0,
+  "elev_max_m": 1204,
+  "elev_max_at": {
+   "lat": 14.1432,
+   "lon": 108.2474
+  },
+  "pop_density_median": 85,
+  "slope_mean_deg": 2.1,
+  "water_share": 0.0
+ },
+ {
+  "id": 90,
+  "code": "23798",
+  "name_vi": "Ayun",
+  "full_name_vi": "Xã Ayun",
+  "cells": 310,
+  "elev_mean_m": 909,
+  "share_ge_500m": 1.0,
+  "elev_max_m": 1487,
+  "elev_max_at": {
+   "lat": 14.227,
+   "lon": 108.3388
+  },
+  "pop_density_median": 64,
+  "slope_mean_deg": 4.0,
+  "water_share": 0.0
+ },
+ {
+  "id": 91,
+  "code": "23799",
+  "name_vi": "Hra",
+  "full_name_vi": "Xã Hra",
+  "cells": 344,
+  "elev_mean_m": 918,
+  "share_ge_500m": 1.0,
+  "elev_max_m": 1460,
+  "elev_max_at": {
+   "lat": 14.1661,
+   "lon": 108.3997
+  },
+  "pop_density_median": 64,
+  "slope_mean_deg": 4.5,
+  "water_share": 0.0
+ },
+ {
+  "id": 92,
+  "code": "23812",
+  "name_vi": "Lơ Pang",
+  "full_name_vi": "Xã Lơ Pang",
+  "cells": 460,
+  "elev_mean_m": 747,
+  "share_ge_500m": 0.93,
+  "elev_max_m": 1412,
+  "elev_max_at": {
+   "lat": 13.9452,
+   "lon": 108.3236
+  },
+  "pop_density_median": 64,
+  "slope_mean_deg": 4.4,
+  "water_share": 0.0
+ },
+ {
+  "id": 93,
+  "code": "23818",
+  "name_vi": "Kon Chiêng",
+  "full_name_vi": "Xã Kon Chiêng",
+  "cells": 377,
+  "elev_mean_m": 506,
+  "share_ge_500m": 0.51,
+  "elev_max_m": 1071,
+  "elev_max_at": {
+   "lat": 13.8386,
+   "lon": 108.3616
+  },
+  "pop_density_median": 64,
+  "slope_mean_deg": 3.3,
+  "water_share": 0.002
+ },
+ {
+  "id": 94,
+  "code": "23824",
+  "name_vi": "Kông Chro",
+  "full_name_vi": "Xã Kông Chro",
+  "cells": 236,
+  "elev_mean_m": 311,
+  "share_ge_500m": 0.0,
+  "elev_max_m": 465,
+  "elev_max_at": {
+   "lat": 13.6557,
+   "lon": 108.4683
+  },
+  "pop_density_median": 40,
+  "slope_mean_deg": 2.3,
+  "water_share": 0.0
+ },
+ {
+  "id": 95,
+  "code": "23830",
+  "name_vi": "Chư Krey",
+  "full_name_vi": "Xã Chư Krey",
+  "cells": 274,
+  "elev_mean_m": 547,
+  "share_ge_500m": 0.46,
+  "elev_max_m": 1300,
+  "elev_max_at": {
+   "lat": 13.9528,
+   "lon": 108.3921
+  },
+  "pop_density_median": 40,
+  "slope_mean_deg": 4.2,
+  "water_share": 0.0
+ },
+ {
+  "id": 96,
+  "code": "23833",
+  "name_vi": "Ya Ma",
+  "full_name_vi": "Xã Ya Ma",
+  "cells": 239,
+  "elev_mean_m": 425,
+  "share_ge_500m": 0.15,
+  "elev_max_m": 839,
+  "elev_max_at": {
+   "lat": 13.8233,
+   "lon": 108.6511
+  },
+  "pop_density_median": 40,
+  "slope_mean_deg": 3.1,
+  "water_share": 0.0
+ },
+ {
+  "id": 97,
+  "code": "23839",
+  "name_vi": "SRó",
+  "full_name_vi": "Xã SRó",
+  "cells": 473,
+  "elev_mean_m": 464,
+  "share_ge_500m": 0.37,
+  "elev_max_m": 1127,
+  "elev_max_at": {
+   "lat": 13.61,
+   "lon": 108.674
+  },
+  "pop_density_median": 40,
+  "slope_mean_deg": 4.0,
+  "water_share": 0.0
+ },
+ {
+  "id": 98,
+  "code": "23842",
+  "name_vi": "Đăk Song",
+  "full_name_vi": "Xã Đăk Song",
+  "cells": 512,
+  "elev_mean_m": 623,
+  "share_ge_500m": 0.73,
+  "elev_max_m": 1179,
+  "elev_max_at": {
+   "lat": 13.6024,
+   "lon": 108.6892
+  },
+  "pop_density_median": 40,
+  "slope_mean_deg": 6.1,
+  "water_share": 0.0
+ },
+ {
+  "id": 99,
+  "code": "23851",
+  "name_vi": "Chơ Long",
+  "full_name_vi": "Xã Chơ Long",
+  "cells": 312,
+  "elev_mean_m": 436,
+  "share_ge_500m": 0.13,
+  "elev_max_m": 1045,
+  "elev_max_at": {
+   "lat": 13.8386,
+   "lon": 108.3693
+  },
+  "pop_density_median": 40,
+  "slope_mean_deg": 2.6,
+  "water_share": 0.0
+ },
+ {
+  "id": 100,
+  "code": "23857",
+  "name_vi": "Đức Cơ",
+  "full_name_vi": "Xã Đức Cơ",
+  "cells": 138,
+  "elev_mean_m": 331,
+  "share_ge_500m": 0.0,
+  "elev_max_m": 443,
+  "elev_max_at": {
+   "lat": 13.8005,
+   "lon": 107.6761
+  },
+  "pop_density_median": 116,
+  "slope_mean_deg": 1.2,
+  "water_share": 0.0
+ },
+ {
+  "id": 101,
+  "code": "23866",
+  "name_vi": "Ia Krêl",
+  "full_name_vi": "Xã Ia Krêl",
+  "cells": 208,
+  "elev_mean_m": 424,
+  "share_ge_500m": 0.05,
+  "elev_max_m": 729,
+  "elev_max_at": {
+   "lat": 13.869,
+   "lon": 107.8208
+  },
+  "pop_density_median": 116,
+  "slope_mean_deg": 1.4,
+  "water_share": 0.0
+ },
+ {
+  "id": 102,
+  "code": "23869",
+  "name_vi": "Ia Dơk",
+  "full_name_vi": "Xã Ia Dơk",
+  "cells": 169,
+  "elev_mean_m": 416,
+  "share_ge_500m": 0.01,
+  "elev_max_m": 514,
+  "elev_max_at": {
+   "lat": 13.8462,
+   "lon": 107.638
+  },
+  "pop_density_median": 115,
+  "slope_mean_deg": 1.3,
+  "water_share": 0.003
+ },
+ {
+  "id": 103,
+  "code": "23872",
+  "name_vi": "Ia Dom",
+  "full_name_vi": "Xã Ia Dom",
+  "cells": 223,
+  "elev_mean_m": 256,
+  "share_ge_500m": 0.02,
+  "elev_max_m": 650,
+  "elev_max_at": {
+   "lat": 13.8538,
+   "lon": 107.5542
+  },
+  "pop_density_median": 116,
+  "slope_mean_deg": 1.9,
+  "water_share": 0.006
+ },
+ {
+  "id": 104,
+  "code": "23881",
+  "name_vi": "Ia Pnôn",
+  "full_name_vi": "Xã Ia Pnôn",
+  "cells": 151,
+  "elev_mean_m": 267,
+  "share_ge_500m": 0.0,
+  "elev_max_m": 415,
+  "elev_max_at": {
+   "lat": 13.7928,
+   "lon": 107.6456
+  },
+  "pop_density_median": 116,
+  "slope_mean_deg": 0.9,
+  "water_share": 0.001
+ },
+ {
+  "id": 105,
+  "code": "23884",
+  "name_vi": "Ia Nan",
+  "full_name_vi": "Xã Ia Nan",
+  "cells": 171,
+  "elev_mean_m": 263,
+  "share_ge_500m": 0.0,
+  "elev_max_m": 389,
+  "elev_max_at": {
+   "lat": 13.7928,
+   "lon": 107.638
+  },
+  "pop_density_median": 116,
+  "slope_mean_deg": 1.0,
+  "water_share": 0.0
+ },
+ {
+  "id": 106,
+  "code": "23887",
+  "name_vi": "Chư Prông",
+  "full_name_vi": "Xã Chư Prông",
+  "cells": 147,
+  "elev_mean_m": 526,
+  "share_ge_500m": 0.58,
+  "elev_max_m": 692,
+  "elev_max_at": {
+   "lat": 13.8157,
+   "lon": 107.9732
+  },
+  "pop_density_median": 78,
+  "slope_mean_deg": 1.4,
+  "water_share": 0.004
+ },
+ {
+  "id": 107,
+  "code": "23896",
+  "name_vi": "Bàu Cạn",
+  "full_name_vi": "Xã Bàu Cạn",
+  "cells": 199,
+  "elev_mean_m": 594,
+  "share_ge_500m": 0.95,
+  "elev_max_m": 735,
+  "elev_max_at": {
+   "lat": 13.8614,
+   "lon": 107.9732
+  },
+  "pop_density_median": 78,
+  "slope_mean_deg": 1.4,
+  "water_share": 0.007
+ },
+ {
+  "id": 108,
+  "code": "23908",
+  "name_vi": "Ia Tôr",
+  "full_name_vi": "Xã Ia Tôr",
+  "cells": 141,
+  "elev_mean_m": 611,
+  "share_ge_500m": 0.88,
+  "elev_max_m": 908,
+  "elev_max_at": {
+   "lat": 13.8843,
+   "lon": 108.0112
+  },
+  "pop_density_median": 78,
+  "slope_mean_deg": 1.4,
+  "water_share": 0.002
+ },
+ {
+  "id": 109,
+  "code": "23911",
+  "name_vi": "Ia Boòng",
+  "full_name_vi": "Xã Ia Boòng",
+  "cells": 277,
+  "elev_mean_m": 369,
+  "share_ge_500m": 0.04,
+  "elev_max_m": 561,
+  "elev_max_at": {
+   "lat": 13.7167,
+   "lon": 107.9351
+  },
+  "pop_density_median": 78,
+  "slope_mean_deg": 1.5,
+  "water_share": 0.0
+ },
+ {
+  "id": 110,
+  "code": "23917",
+  "name_vi": "Ia Púch",
+  "full_name_vi": "Xã Ia Púch",
+  "cells": 402,
+  "elev_mean_m": 242,
+  "share_ge_500m": 0.0,
+  "elev_max_m": 527,
+  "elev_max_at": {
+   "lat": 13.5796,
+   "lon": 107.6608
+  },
+  "pop_density_median": 78,
+  "slope_mean_deg": 1.3,
+  "water_share": 0.0
+ },
+ {
+  "id": 111,
+  "code": "23926",
+  "name_vi": "Ia Pia",
+  "full_name_vi": "Xã Ia Pia",
+  "cells": 326,
+  "elev_mean_m": 328,
+  "share_ge_500m": 0.03,
+  "elev_max_m": 537,
+  "elev_max_at": {
+   "lat": 13.61,
+   "lon": 107.9655
+  },
+  "pop_density_median": 78,
+  "slope_mean_deg": 1.2,
+  "water_share": 0.0
+ },
+ {
+  "id": 112,
+  "code": "23935",
+  "name_vi": "Ia Lâu",
+  "full_name_vi": "Xã Ia Lâu",
+  "cells": 301,
+  "elev_mean_m": 222,
+  "share_ge_500m": 0.01,
+  "elev_max_m": 585,
+  "elev_max_at": {
+   "lat": 13.3967,
+   "lon": 107.8817
+  },
+  "pop_density_median": 78,
+  "slope_mean_deg": 1.3,
+  "water_share": 0.0
+ },
+ {
+  "id": 113,
+  "code": "23938",
+  "name_vi": "Ia Mơ",
+  "full_name_vi": "Xã Ia Mơ",
+  "cells": 706,
+  "elev_mean_m": 217,
+  "share_ge_500m": 0.02,
+  "elev_max_m": 626,
+  "elev_max_at": {
+   "lat": 13.5719,
+   "lon": 107.6608
+  },
+  "pop_density_median": 78,
+  "slope_mean_deg": 1.1,
+  "water_share": 0.0
+ },
+ {
+  "id": 114,
+  "code": "23941",
+  "name_vi": "Chư Sê",
+  "full_name_vi": "Xã Chư Sê",
+  "cells": 149,
+  "elev_mean_m": 529,
+  "share_ge_500m": 0.65,
+  "elev_max_m": 689,
+  "elev_max_at": {
+   "lat": 13.7776,
+   "lon": 108.0112
+  },
+  "pop_density_median": 166,
+  "slope_mean_deg": 1.2,
+  "water_share": 0.006
+ },
+ {
+  "id": 115,
+  "code": "23942",
+  "name_vi": "Chư Pưh",
+  "full_name_vi": "Xã Chư Pưh",
+  "cells": 214,
+  "elev_mean_m": 356,
+  "share_ge_500m": 0.02,
+  "elev_max_m": 618,
+  "elev_max_at": {
+   "lat": 13.4958,
+   "lon": 108.1484
+  },
+  "pop_density_median": 166,
+  "slope_mean_deg": 2.1,
+  "water_share": 0.0
+ },
+ {
+  "id": 116,
+  "code": "23947",
+  "name_vi": "Bờ Ngoong",
+  "full_name_vi": "Xã Bờ Ngoong",
+  "cells": 285,
+  "elev_mean_m": 646,
+  "share_ge_500m": 0.92,
+  "elev_max_m": 764,
+  "elev_max_at": {
+   "lat": 13.8614,
+   "lon": 108.0112
+  },
+  "pop_density_median": 163,
+  "slope_mean_deg": 1.7,
+  "water_share": 0.0
+ },
+ {
+  "id": 117,
+  "code": "23954",
+  "name_vi": "Al Bá",
+  "full_name_vi": "Xã Al Bá",
+  "cells": 177,
+  "elev_mean_m": 400,
+  "share_ge_500m": 0.19,
+  "elev_max_m": 598,
+  "elev_max_at": {
+   "lat": 13.77,
+   "lon": 108.1179
+  },
+  "pop_density_median": 166,
+  "slope_mean_deg": 2.7,
+  "water_share": 0.008
+ },
+ {
+  "id": 118,
+  "code": "23971",
+  "name_vi": "Ia Hrú",
+  "full_name_vi": "Xã Ia Hrú",
+  "cells": 367,
+  "elev_mean_m": 315,
+  "share_ge_500m": 0.0,
+  "elev_max_m": 464,
+  "elev_max_at": {
+   "lat": 13.7091,
+   "lon": 108.255
+  },
+  "pop_density_median": 166,
+  "slope_mean_deg": 1.7,
+  "water_share": 0.083
+ },
+ {
+  "id": 119,
+  "code": "23977",
+  "name_vi": "Ia Ko",
+  "full_name_vi": "Xã Ia Ko",
+  "cells": 347,
+  "elev_mean_m": 383,
+  "share_ge_500m": 0.11,
+  "elev_max_m": 652,
+  "elev_max_at": {
+   "lat": 13.61,
+   "lon": 107.9732
+  },
+  "pop_density_median": 166,
+  "slope_mean_deg": 1.8,
+  "water_share": 0.0
+ },
+ {
+  "id": 120,
+  "code": "23986",
+  "name_vi": "Ia Le",
+  "full_name_vi": "Xã Ia Le",
+  "cells": 512,
+  "elev_mean_m": 296,
+  "share_ge_500m": 0.03,
+  "elev_max_m": 712,
+  "elev_max_at": {
+   "lat": 13.4958,
+   "lon": 107.9732
+  },
+  "pop_density_median": 166,
+  "slope_mean_deg": 1.6,
+  "water_share": 0.0
+ },
+ {
+  "id": 121,
+  "code": "23995",
+  "name_vi": "Đak Pơ",
+  "full_name_vi": "Xã Đak Pơ",
+  "cells": 376,
+  "elev_mean_m": 553,
+  "share_ge_500m": 0.44,
+  "elev_max_m": 1228,
+  "elev_max_at": {
+   "lat": 14.0671,
+   "lon": 108.4454
+  },
+  "pop_density_median": 96,
+  "slope_mean_deg": 3.4,
+  "water_share": 0.0
+ },
+ {
+  "id": 122,
+  "code": "24007",
+  "name_vi": "Ya Hội",
+  "full_name_vi": "Xã Ya Hội",
+  "cells": 370,
+  "elev_mean_m": 550,
+  "share_ge_500m": 0.55,
+  "elev_max_m": 909,
+  "elev_max_at": {
+   "lat": 13.869,
+   "lon": 108.7425
+  },
+  "pop_density_median": 102,
+  "slope_mean_deg": 4.1,
+  "water_share": 0.0
+ },
+ {
+  "id": 123,
+  "code": "24013",
+  "name_vi": "Pờ Tó",
+  "full_name_vi": "Xã Pờ Tó",
+  "cells": 247,
+  "elev_mean_m": 242,
+  "share_ge_500m": 0.01,
+  "elev_max_m": 595,
+  "elev_max_at": {
+   "lat": 13.6633,
+   "lon": 108.4683
+  },
+  "pop_density_median": 77,
+  "slope_mean_deg": 1.7,
+  "water_share": 0.0
+ },
+ {
+  "id": 124,
+  "code": "24022",
+  "name_vi": "Ia Pa",
+  "full_name_vi": "Xã Ia Pa",
+  "cells": 124,
+  "elev_mean_m": 195,
+  "share_ge_500m": 0.0,
+  "elev_max_m": 386,
+  "elev_max_at": {
+   "lat": 13.6176,
+   "lon": 108.4683
+  },
+  "pop_density_median": 77,
+  "slope_mean_deg": 1.0,
+  "water_share": 0.008
+ },
+ {
+  "id": 125,
+  "code": "24028",
+  "name_vi": "Ia Tul",
+  "full_name_vi": "Xã Ia Tul",
+  "cells": 859,
+  "elev_mean_m": 461,
+  "share_ge_500m": 0.38,
+  "elev_max_m": 1171,
+  "elev_max_at": {
+   "lat": 13.5643,
+   "lon": 108.6968
+  },
+  "pop_density_median": 77,
+  "slope_mean_deg": 4.1,
+  "water_share": 0.008
+ },
+ {
+  "id": 126,
+  "code": "24043",
+  "name_vi": "Phú Thiện",
+  "full_name_vi": "Xã Phú Thiện",
+  "cells": 378,
+  "elev_mean_m": 269,
+  "share_ge_500m": 0.04,
+  "elev_max_m": 602,
+  "elev_max_at": {
+   "lat": 13.4501,
+   "lon": 108.2017
+  },
+  "pop_density_median": 191,
+  "slope_mean_deg": 1.6,
+  "water_share": 0.0
+ },
+ {
+  "id": 127,
+  "code": "24044",
+  "name_vi": "Ayun Pa",
+  "full_name_vi": "Phường Ayun Pa",
+  "cells": 24,
+  "elev_mean_m": 160,
+  "share_ge_500m": 0.0,
+  "elev_max_m": 173,
+  "elev_max_at": {
+   "lat": 13.412,
+   "lon": 108.4226
+  },
+  "pop_density_median": 138,
+  "slope_mean_deg": 0.2,
+  "water_share": 0.024
+ },
+ {
+  "id": 128,
+  "code": "24049",
+  "name_vi": "Chư A Thai",
+  "full_name_vi": "Xã Chư A Thai",
+  "cells": 233,
+  "elev_mean_m": 221,
+  "share_ge_500m": 0.0,
+  "elev_max_m": 357,
+  "elev_max_at": {
+   "lat": 13.5719,
+   "lon": 108.2321
+  },
+  "pop_density_median": 190,
+  "slope_mean_deg": 1.5,
+  "water_share": 0.034
+ },
+ {
+  "id": 129,
+  "code": "24061",
+  "name_vi": "Ia Hiao",
+  "full_name_vi": "Xã Ia Hiao",
+  "cells": 175,
+  "elev_mean_m": 274,
+  "share_ge_500m": 0.01,
+  "elev_max_m": 614,
+  "elev_max_at": {
+   "lat": 13.4348,
+   "lon": 108.3236
+  },
+  "pop_density_median": 190,
+  "slope_mean_deg": 2.0,
+  "water_share": 0.0
+ },
+ {
+  "id": 130,
+  "code": "24065",
+  "name_vi": "Ia Rbol",
+  "full_name_vi": "Xã Ia Rbol",
+  "cells": 244,
+  "elev_mean_m": 390,
+  "share_ge_500m": 0.19,
+  "elev_max_m": 835,
+  "elev_max_at": {
+   "lat": 13.3129,
+   "lon": 108.3693
+  },
+  "pop_density_median": 164,
+  "slope_mean_deg": 3.7,
+  "water_share": 0.001
+ },
+ {
+  "id": 131,
+  "code": "24073",
+  "name_vi": "Ia Sao",
+  "full_name_vi": "Xã Ia Sao",
+  "cells": 175,
+  "elev_mean_m": 355,
+  "share_ge_500m": 0.22,
+  "elev_max_m": 1055,
+  "elev_max_at": {
+   "lat": 13.2368,
+   "lon": 108.4454
+  },
+  "pop_density_median": 161,
+  "slope_mean_deg": 4.0,
+  "water_share": 0.014
+ },
+ {
+  "id": 132,
+  "code": "24076",
+  "name_vi": "Phú Túc",
+  "full_name_vi": "Xã Phú Túc",
+  "cells": 516,
+  "elev_mean_m": 305,
+  "share_ge_500m": 0.1,
+  "elev_max_m": 1130,
+  "elev_max_at": {
+   "lat": 13.3358,
+   "lon": 108.8263
+  },
+  "pop_density_median": 61,
+  "slope_mean_deg": 3.9,
+  "water_share": 0.005
+ },
+ {
+  "id": 133,
+  "code": "24100",
+  "name_vi": "Ia Dreh",
+  "full_name_vi": "Xã Ia Dreh",
+  "cells": 584,
+  "elev_mean_m": 329,
+  "share_ge_500m": 0.15,
+  "elev_max_m": 1098,
+  "elev_max_at": {
+   "lat": 13.054,
+   "lon": 108.514
+  },
+  "pop_density_median": 61,
+  "slope_mean_deg": 3.2,
+  "water_share": 0.008
+ },
+ {
+  "id": 134,
+  "code": "24109",
+  "name_vi": "Uar",
+  "full_name_vi": "Xã Uar",
+  "cells": 614,
+  "elev_mean_m": 391,
+  "share_ge_500m": 0.23,
+  "elev_max_m": 1128,
+  "elev_max_at": {
+   "lat": 13.2215,
+   "lon": 108.4531
+  },
+  "pop_density_median": 61,
+  "slope_mean_deg": 4.0,
+  "water_share": 0.009
+ },
+ {
+  "id": 135,
+  "code": "24112",
+  "name_vi": "Ia Rsai",
+  "full_name_vi": "Xã Ia Rsai",
+  "cells": 767,
+  "elev_mean_m": 362,
+  "share_ge_500m": 0.23,
+  "elev_max_m": 1131,
+  "elev_max_at": {
+   "lat": 13.3967,
+   "lon": 108.7882
+  },
+  "pop_density_median": 61,
+  "slope_mean_deg": 4.2,
+  "water_share": 0.012
+ }
+]

@@ -1,0 +1,132 @@
+{
+ "schema_version": "1.0",
+ "level": "p24",
+ "grid": {
+  "lon0": 108.539144,
+  "lat_top": 12.881467,
+  "step": 0.00619892,
+  "cols": 153,
+  "rows": 256,
+  "crs": "EPSG:4326",
+  "projection_note_vi": "Lưới kinh/vĩ độ đều (equirectangular). Bản đồ nền phải vẽ theo đúng lưới này, không dùng Mercator."
+ },
+ "ids": {
+  "file": "ids.png",
+  "url": "touch/p24/ids.png",
+  "encoding": "R*256+G; 0 = ngoài mọi vùng",
+  "names": "wards.json"
+ },
+ "basemap": {
+  "file": "basemap.png",
+  "url": "touch/p24/basemap.png",
+  "scale": 4
+ },
+ "layers": [
+  {
+   "name": "elev",
+   "label_vi": "độ cao",
+   "file": "elev.png",
+   "scale": 12.5,
+   "offset": 0,
+   "log": false,
+   "unit": "m",
+   "nodata_byte": 255,
+   "nodata_meaning_vi": "biển",
+   "url": "touch/p24/elev.png"
+  },
+  {
+   "name": "slope",
+   "label_vi": "độ dốc",
+   "file": "slope.png",
+   "scale": 0.25,
+   "offset": 0,
+   "log": false,
+   "unit": "độ",
+   "nodata_byte": 255,
+   "nodata_meaning_vi": "biển",
+   "url": "touch/p24/slope.png"
+  },
+  {
+   "name": "water",
+   "label_vi": "mặt nước",
+   "file": "water.png",
+   "scale": 0.004,
+   "offset": 0,
+   "log": false,
+   "unit": "tỉ lệ 0–1",
+   "nodata_byte": 255,
+   "nodata_meaning_vi": "biển hoặc không có số liệu",
+   "url": "touch/p24/water.png",
+   "on_threshold": 0.5
+  },
+  {
+   "name": "pop",
+   "label_vi": "mật độ dân số",
+   "file": "pop.png",
+   "scale": 0.025,
+   "offset": 0,
+   "log": true,
+   "unit": "người/km2",
+   "nodata_byte": 255,
+   "nodata_meaning_vi": "không có số liệu",
+   "url": "touch/p24/pop.png"
+  }
+ ],
+ "data_cards": {
+  "ids": {
+   "dataset": "Ranh giới 34 tỉnh, 3.321 xã — vietnamese-provinces-database v5.2.0",
+   "provider": "thanglequoc/vietnamese-provinces-database (MIT)",
+   "url": "https://github.com/thanglequoc/vietnamese-provinces-database/releases/tag/v5.2.0",
+   "accessed": "2026-11-10",
+   "spatial": "vector, tô lên lưới app",
+   "temporal": "đơn vị hành chính từ 1/7/2025",
+   "processing": "Tô mỗi vùng lên lưới; vùng nhỏ hơn một ô vẫn giữ ô chứa tâm; đặc khu ngoài khơi đặt ở dải quần đảo.",
+   "limitation_vi": "Ranh giới chỉ để biết ngón tay đang ở đâu, không phải dữ liệu NASA, không có giá trị pháp lý.",
+   "citation": "thanglequoc. vietnamese-provinces-database, v5.2.0. GitHub. https://github.com/thanglequoc/vietnamese-provinces-database/releases/tag/v5.2.0"
+  },
+  "elev": {
+   "dataset": "NASA SRTMGL30 v002 (Shuttle Radar Topography Mission Global 30 arc second)",
+   "provider": "NASA JPL; phân phối bởi NASA LP DAAC",
+   "url": "https://www.earthdata.nasa.gov/data/catalog/lpcloud-srtmgl30-002",
+   "accessed": "2026-11-10",
+   "spatial": "30 giây cung (~1 km)",
+   "temporal": "dữ liệu chụp tháng 2/2000",
+   "processing": "Trung bình mọi điểm 1 km trong mỗi ô lưới app; ô có dưới 50% điểm đất coi là biển; 12,5 m mỗi bậc.",
+   "limitation_vi": "Độ cao là trung bình cả ô, thấp hơn đỉnh núi thật; ở bản đồ cả nước mỗi ô rộng khoảng 5 km.",
+   "citation": "NASA JPL (2013). NASA Shuttle Radar Topography Mission Global 30 arc second. NASA EOSDIS Land Processes DAAC. https://doi.org/10.5067/MEaSUREs/SRTM/SRTMGL30.002"
+  },
+  "slope": {
+   "dataset": "Độ dốc tính từ NASA SRTMGL30 v002",
+   "provider": "NASA JPL; phân phối bởi NASA LP DAAC",
+   "url": "https://www.earthdata.nasa.gov/data/catalog/lpcloud-srtmgl30-002",
+   "accessed": "2026-11-10",
+   "spatial": "30 giây cung (~1 km)",
+   "temporal": "dữ liệu chụp tháng 2/2000",
+   "processing": "Độ dốc từng điểm 1 km bằng sai phân trung tâm (khoảng cách theo kinh độ nhân cos vĩ độ), rồi lấy trung bình trong mỗi ô lưới app; 0,25 độ mỗi bậc.",
+   "limitation_vi": "Độ dốc trung bình của cả ô, nhỏ hơn vách núi thật; ô sát biển thiếu một phía nên kém tin cậy hơn.",
+   "citation": "NASA JPL (2013). NASA Shuttle Radar Topography Mission Global 30 arc second. NASA EOSDIS Land Processes DAAC. https://doi.org/10.5067/MEaSUREs/SRTM/SRTMGL30.002"
+  },
+  "water": {
+   "dataset": "NASA SEDAC GPWv4 Land and Water Area, Revision 11 (diện tích mặt nước)",
+   "provider": "CIESIN, Columbia University; NASA SEDAC",
+   "url": "https://doi.org/10.7927/H4Z60M4Z",
+   "accessed": "2026-11-10",
+   "spatial": "2,5 phút cung (~5 km)",
+   "temporal": "mặt nước nội địa dùng cho GPWv4 (bản 2018)",
+   "processing": "Tỉ lệ mặt nước = diện tích nước / diện tích điểm ảnh theo vĩ độ, trung bình trong mỗi ô app.",
+   "limitation_vi": "Chỉ có sông, hồ đủ lớn so với ô 5 km; sông nhỏ không hiện ra. Biển không thuộc lớp này.",
+   "citation": "Center for International Earth Science Information Network (CIESIN), Columbia University (2018). Gridded Population of the World, Version 4 (GPWv4): Land and Water Area, Revision 11. Palisades, NY: NASA SEDAC. https://doi.org/10.7927/H4Z60M4Z"
+  },
+  "pop": {
+   "dataset": "NASA SEDAC GPWv4 Population Density, Revision 11, năm 2020",
+   "provider": "CIESIN, Columbia University; NASA SEDAC",
+   "url": "https://doi.org/10.7927/H49C6VHW",
+   "accessed": "2026-11-10",
+   "spatial": "2,5 phút cung (~5 km)",
+   "temporal": "ước tính năm 2020",
+   "processing": "Trung bình mật độ trong mỗi ô lưới app; mã hoá thang logarit.",
+   "limitation_vi": "Số ước tính năm 2020, chia đều theo đơn vị hành chính cũ, không phải số điều tra từng xã.",
+   "citation": "Center for International Earth Science Information Network (CIESIN), Columbia University (2018). Gridded Population of the World, Version 4 (GPWv4): Population Density, Revision 11. Palisades, NY: NASA SEDAC. https://doi.org/10.7927/H49C6VHW"
+  }
+ }
+}
