@@ -75,7 +75,7 @@ export async function POST(request) {
   }
 
   const url = new URL(request.url);
-  const model = url.searchParams.get('model') || process.env.GEMINI_MODEL || 'gemma-4-26b-a4b-it';
+  const model = url.searchParams.get('model') || process.env.GEMINI_MODEL || 'gemini-3.5-flash-lite';
   if (!MODEL_OK.test(model)) return Response.json({ error: 'model không hợp lệ' }, { status: 400 });
 
   const body = await request.text();

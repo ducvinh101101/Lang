@@ -2719,6 +2719,9 @@ class _GlobePageState extends State<GlobePage> with TickerProviderStateMixin {
 
   bool get _holdAllowed => _local == null && !_terrainTouch && _eic == null && _scan == null;
 
+  /// Đang khám phá bằng tay (bản đồ chạm, chạm địa hình, quét lát cắt): ngón tay dùng để rê / kéo bản đồ.
+  bool get _touchExploring => _local != null || _terrainTouch || _scan != null;
+
   void _holdDown(PointerDownEvent e) {
     _pointers++;
     _holdTimer?.cancel();
@@ -3612,8 +3615,12 @@ class _GlobePageState extends State<GlobePage> with TickerProviderStateMixin {
       all = await _eonet.open();
     } catch (_) {
       s.earcon('err');
-      await s.speaker.say('Chưa lấy được dữ liệu thiên tai của NASA. Kiểm tra mạng rồi thử lại.',
-          'Could not get NASA hazard data. Check the connection.');
+      // mất mạng: vẫn kể được thiên tai đã xảy ra từ danh mục NASA có sẵn trong app
+      final loc = c.aspect == 'world' ? null : (c.target.isEmpty ? await _hereFor(c.raw) : await _resolve(c.target));
+      final past = loc == null ? ('', '') : await _pastDisasters(loc);
+      if (loc != null && past.$1.isNotEmpty) await _goTo(loc);
+      await s.speaker.say('Chưa lấy được tin thiên tai đang diễn ra của NASA. ${past.$1.isEmpty ? 'Kiểm tra mạng rồi thử lại.' : past.$1}',
+          'Could not get live NASA hazard data. ${past.$2.isEmpty ? 'Check the connection.' : past.$2}');
       return;
     }
     if (mounted) setState(() => _events = all);
@@ -3647,9 +3654,11 @@ class _GlobePageState extends State<GlobePage> with TickerProviderStateMixin {
     await _goTo(loc);
     final near = await _eonet.near(loc.lat, loc.lon, km: 1000);
     if (near.isEmpty) {
+      // không có sự kiện ĐANG diễn ra → kể luôn thiên tai ĐÃ xảy ra quanh đó (danh mục NASA đóng gói sẵn)
+      final past = await _pastDisasters(loc);
       await s.speaker.say(
-          'Theo NASA EONET, hiện không có bão, lũ, cháy rừng hay núi lửa nào đang được theo dõi trong vòng 1000 ki-lô-mét quanh ${loc.vi}.',
-          'NASA EONET shows no tracked storms, floods, wildfires or volcanoes within 1000 km of ${loc.en}.');
+          'Theo NASA EONET, hiện không có bão, lũ, cháy rừng hay núi lửa nào đang được theo dõi trong vòng 1000 ki-lô-mét quanh ${loc.vi}. ${past.$1}',
+          'NASA EONET shows no tracked storms, floods, wildfires or volcanoes within 1000 km of ${loc.en}. ${past.$2}');
       return;
     }
     if (near.first.$2 <= 500) {
@@ -3666,6 +3675,31 @@ class _GlobePageState extends State<GlobePage> with TickerProviderStateMixin {
             '${[for (final e in near.take(4)) eventSentence(e.$1, e.$2, loc.lat, loc.lon)].join(' ')}',
         'NASA is tracking ${near.length} natural events near ${loc.en}. '
             '${[for (final e in near.take(4)) eventSentenceEn(e.$1, e.$2, loc.lat, loc.lon)].join(' ')}');
+  }
+
+  /// Thiên tai ĐÃ xảy ra quanh một nơi, từ danh mục NASA đóng gói sẵn (vn_disasters_nasa.json: GDIS, GLC, EONET…).
+  /// Trả về ('', '') nếu không có bản ghi nào (ví dụ nơi ở nước ngoài).
+  Future<(String, String)> _pastDisasters(_Loc loc) async {
+    final evs = vnCatalogEvents(await HazardHistoryService.vnCatalog(), loc.lat, loc.lon, DateTime(1900),
+        DateTime.now().add(const Duration(days: 1)));
+    if (evs.isEmpty) return ('', '');
+    final counts = <HazardKind, int>{};
+    var first = evs.first.date.year;
+    for (final e in evs) {
+      counts[e.kind] = (counts[e.kind] ?? 0) + 1;
+      if (e.date.year < first) first = e.date.year;
+    }
+    final order = counts.entries.toList()..sort((a, b) => b.value.compareTo(a.value));
+    final recent = ([...evs]..sort((a, b) => b.date.compareTo(a.date))).take(2).toList();
+    final vi = 'Trong hồ sơ thiên tai của NASA từ năm $first, vùng quanh ${loc.vi} từng có '
+        '${[for (final e in order) '${e.value} vụ ${hazardNameVi(e.key)}'].join(', ')}. '
+        'Gần đây nhất: ${[for (final e in recent) e.yearOnly ? e.titleVi : '${e.titleVi}, tháng ${e.date.month} năm ${e.date.year}'].join('; ')}. '
+        'Muốn nghe phát lại bằng âm thanh, nói: lịch sử thiên tai ${loc.vi}.';
+    final en = 'In NASA disaster records since $first, the area around ${loc.en} has had '
+        '${[for (final e in order) '${hazardNameEn(e.key)}: ${e.value}'].join(', ')}. '
+        'Most recent: ${[for (final e in recent) e.yearOnly ? e.titleEn : '${e.titleEn}, ${e.date.month}/${e.date.year}'].join('; ')}. '
+        'To replay it as sound, say: disaster history ${loc.en}.';
+    return (vi, en);
   }
 
   // ======================= Bản tin =======================
@@ -4729,7 +4763,8 @@ class _GlobePageState extends State<GlobePage> with TickerProviderStateMixin {
           _holdUp(e.pointer);
           final sw = _sw2.up(e.pointer, e.timeStamp.inMilliseconds);
           if (sw != null) {
-            unawaited(_onSwipe2(sw));
+            // đang RÊ TAY / quét địa hình: hai ngón là để kéo, phóng bản đồ → không coi là vuốt thoát / đổi phần
+            if (!_touchExploring) unawaited(_onSwipe2(sw));
           } else if (_zg.up(e.pointer, e.timeStamp.inMilliseconds)) {
             unawaited(_goHome(byGesture: true));
           }

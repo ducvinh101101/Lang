@@ -285,9 +285,10 @@ class AppState extends ChangeNotifier {
       nvidiaAsr.endpoint = _prefs.getString('nvidiaEndpoint') ?? NvidiaAsr.nvidiaLocalEndpoint;
     }
     listener.nvidiaAsr = nvidiaAsr;
-    // Đổi mặc định cũ (gemini-flash-latest, hạn mức ít) sang Gemma 4 — người dùng vẫn chọn lại được trong Cài đặt
+    // Đổi các mặc định cũ (Gemini Flash, Gemma 4, bí danh Flash-Lite) sang mặc định mới — người dùng vẫn chọn lại được trong Cài đặt
     final savedModel = _prefs.getString('geminiModel');
-    ai.model = savedModel == null || savedModel == 'gemini-flash-latest' ? GeminiAssistant.defaultModel : savedModel;
+    const oldDefaults = {'gemini-flash-latest', 'gemma-4-26b-a4b-it', 'gemini-flash-lite-latest', 'gemini-2.5-flash-lite'};
+    ai.model = savedModel == null || oldDefaults.contains(savedModel) ? GeminiAssistant.defaultModel : savedModel;
     // Bản web (Vercel): dùng trợ lý AI qua máy chủ nếu chủ trang đã cài khoá GEMINI_API_KEY (khoá không lộ ra trình duyệt)
     // App cài trên máy (bản build từ CI không mang khoá): chưa có khoá riêng → cũng dùng trợ lý AI qua máy chủ của app
     if (kIsWeb) {

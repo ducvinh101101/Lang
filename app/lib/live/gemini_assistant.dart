@@ -32,14 +32,14 @@ typedef AgentToolHandler = Future<Map<String, Object?>> Function(String name, Ma
 
 class GeminiAssistant {
   String apiKey = '';
-  /// Mặc định Gemma 4 (26B, kiểu MoE: chỉ ~4B tham số chạy mỗi lượt → nhanh), hạn mức miễn phí rộng hơn Gemini Flash.
-  static const defaultModel = 'gemma-4-26b-a4b-it';
+  /// Mặc định Gemini 3.5 Flash-Lite: trả lời khoảng 1 giây (Gemini 2.5 Flash-Lite Google đã ngừng cấp cho khoá mới).
+  static const defaultModel = 'gemini-3.5-flash-lite';
 
   /// Các model gợi ý trong Cài đặt: (tên, mô tả tiếng Việt, mô tả tiếng Anh).
   static const presets = <(String, String, String)>[
-    ('gemma-4-26b-a4b-it', 'Gemma 4 26B — nhanh, dùng được nhiều (khuyên dùng)', 'Gemma 4 26B — fast, generous quota (recommended)'),
+    ('gemini-3.5-flash-lite', 'Gemini 3.5 Flash-Lite — rất nhanh (khuyên dùng)', 'Gemini 3.5 Flash-Lite — very fast (recommended)'),
+    ('gemma-4-26b-a4b-it', 'Gemma 4 26B — nhanh, dùng được nhiều', 'Gemma 4 26B — fast, generous quota'),
     ('gemma-4-31b-it', 'Gemma 4 31B — trả lời kỹ hơn, chậm hơn một chút', 'Gemma 4 31B — more thorough, a bit slower'),
-    ('gemini-flash-lite-latest', 'Gemini Flash-Lite — rất nhanh', 'Gemini Flash-Lite — very fast'),
     ('gemini-flash-latest', 'Gemini Flash — thông minh hơn, hạn mức ít hơn', 'Gemini Flash — smarter, smaller quota'),
   ];
 
@@ -60,7 +60,7 @@ class GeminiAssistant {
       m.trim().startsWith('gemini-2.5') ? {'thinkingBudget': 0} : {'thinkingLevel': 'minimal'};
 
   /// Model dự phòng khi model chính bị lỗi phía Google (500 "Internal error" — Gemma 4 thỉnh thoảng bị, thử lại là được).
-  static const fallbackModel = 'gemini-flash-lite-latest';
+  static const fallbackModel = 'gemma-4-26b-a4b-it';
 
   bool get enabled => apiKey.trim().isNotEmpty || proxy != null;
 
