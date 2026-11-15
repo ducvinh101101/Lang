@@ -1,7 +1,7 @@
 # Lắng – Hear and Touch NASA Earth Data
 
 > **NASA Space Apps Challenge 2026 · Challenge 14: The Earth Information Jukebox** · Team Lắng (Hanoi, Vietnam)
-> Web app: **https://sense-app-two.vercel.app** · Vietnamese README: [README.vi.md](README.vi.md)
+> Web app: **lang-app-woad.vercel.app** · Vietnamese README: [README.vi.md](README.vi.md)
 
 *Lắng* is Vietnamese for "listen closely". Lắng is a talking globe that lets **blind and low-vision people, older adults and children** hear and touch NASA Earth data **without seeing or reading**. You speak a question; a short tone confirms it; the answer comes back as music on Vietnamese folk instruments, followed by the real numbers read aloud.
 
